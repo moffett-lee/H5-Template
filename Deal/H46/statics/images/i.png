@@ -1,0 +1,357 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="GBK">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="keywords" content="精彩视频看KU6 UGC">
+<meta name="description" content="酷6网手机站">
+<title>手机酷6网</title>
+<link href="../css/mob.css@15" rel="stylesheet" type="text/css"> 
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/pngku6logo57.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/ku6logo72.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/ku6logo114.png">
+<script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script> 
+<script type="text/javascript" src="../js/mobile.js@15" ></script>
+<script type="text/javascript" src="../js/cookie.js@15" ></script>
+<script type="text/javascript">
+//统计代码
+function logjs(value){
+	if(window.sdoLogger){
+		sdoLogger.authId = '624eeba8a615b068';
+		sdoLogger.clickLog('adtype='+value); 
+	}  
+}
+
+//安卓、UC浏览器显示，添加到桌面按钮
+if(/Android/i.test(navigator.userAgent)){
+	if(/UCBrowser/i.test(navigator.userAgent)){
+		//UC添加监听事件 
+		if (window.addEventListener) {
+			// 接受信息
+			window.addEventListener("message",messageHandle,false);
+		} else if (window.attachEvent) {
+			// 接受信息，兼顾IE8之流
+			window.attachEvent('onmessage', messageHandle);
+		} 	
+	}
+} 
+
+var messageHandle = function(e) { 
+	if(e.data.type==1){ 
+		$('#tcly').addClass('hid');
+	}else if(e.data.message=='cancle'){ 
+		$('#tcly').addClass('hid');
+	}else if ( e.data.message == 'already exist'){  
+		$('#tcly').addClass('hid');
+	}else {
+		$("#bd-3").removeClass('hid');
+	} 
+}; 
+
+</script>
+</head>
+<style type="text/css">  
+.tcc{height:170px; width:300px; position:fixed; z-index:11555; box-shadow:1px 1px 2px 1px rgba(0,0,0,0.4); top:3em; background:#fff; left: 50%; margin-left: -150px; border-radius:5px; overflow:hidden;} 
+</style>
+
+<body>
+<header class="cr hd_box hd_box_float" id="hd_y">
+
+    <aside class="top_bar">
+        <a href="../../index.php@m=search"></a>
+		<a href="../../index.php@m=member&c=index&a=login_snda"></a>
+		<div class="p_r" onclick="show_menu();$('#close_btn').addClass('hid');" id="show_more">
+        	<a href="javascript:;"></a>
+            <div class="prompt" id="close_btn" >
+                <span class="close_btn"></span>
+                更多频道点击这里
+            </div>
+        </div>
+    </aside>
+	<div class="logo"><a href="../../default.htm"><img src="logo.png" width="70" height="31"></a></div>
+
+  <!--main_nav-->
+    <div class="main_nav hid" id="menu">
+    	<nav class="cr mnav">    	
+		<a href="../../list-101000-1.html">资讯</a>
+			<a href="../../list-108000-1.html">搞笑</a>
+			<a href="../../list-103000-1.html">娱乐</a>
+						<a href="../../list-109000-1.html">游戏</a>
+			<a href="../../list-102000-1.html">体育</a>
+				<a href="../../list-111000-1.html">教育</a>
+			<a href="../../list-134000-1.html">军事</a>
+				<a href="../../list-110000-1.html">动漫</a>
+																		<a href="../../list-107000-1.html">美女</a>
+																																				<a href="../../daren.html">精选达人</a>
+			<a href="../../topic.html">精彩主题</a>
+		<a href="../../list-190001-1.html"></a>
+   
+        </nav>	
+    </div>
+    <!--end-->
+</header>
+<style type="text/css">
+/* Swipe 2 required styles */
+.swipe {color:#14ADE5; overflow: hidden;}
+.swipe-wrap {overflow: hidden; position: relative; width:100%;}
+.swipe-wrap > div {float:left; position:relative;}
+.swipe-wrap > div img{width:100%; max-width:100%;}
+/* END required styles */
+
+.tcc{height:170px; width:300px; position:fixed; z-index:11555; box-shadow:1px 1px 2px 1px rgba(0,0,0,0.4); bottom:12em; background:#fff; left: 50%; margin-left: -150px; border-radius:5px; overflow:hidden;}
+
+</style>
+<script type="text/javascript" src="../js/swipe.js"></script>
+<script type="text/javascript">
+var num = 1+1;
+//首页滚动加载js
+var now_num = 1;
+var screen_width = screen.width;
+$(document).ready(function () {
+	$("#wrapper_list img").each(function(i){
+		if(screen_width>700) {
+			this.src = $(this).attr("imsrc").replace(/\/([\d]).jpg/g,'../../10$1.jpg');
+		} else {
+		  this.src = $(this).attr("imsrc");
+		}
+	 });
+})
+</script>
+
+<section id="mySwipe" class="swipe p48">
+  <div class="swipe-wrap">
+<div><a href="../../zt/mycar/@from=m.index" onmousedown="logjs('ys_video')"><img src="../../uploadfile/poster/mycar2.jpg" /></a></div> 
+ 
+ 
+<div><a href="../../show/Ek_cSXeJthSk6GDT5j_1gA...html" onmousedown="logjs('pos_1')"><span>多亮6年奋斗路 遗憾未与那英“走到最后”（下）</span><img src="../../../vi2.ku6img.com/data1/p8/cms/2013/11/19/pic_1384851434020.jpg" /></a></div>
+
+ 
+<div><a href="../../show/wTrP0akyPTxHViJnkCX6sA...html" onmousedown="logjs('pos_2')"><span>《读人》梁晓雪：不装文艺男青年</span><img src="../../../vi0.ku6img.com/data1/p10/cms/2013/11/27/pic_1385544461964.jpg" /></a></div>
+
+ 
+<div><a href="../../show/s1tIMnCdlJMZ5gIrncxjRQ...html" onmousedown="logjs('pos_3')"><span>白冰入主“男人戏” 妩媚小唯变身女汉子</span><img src="../../../vi0.ku6img.com/data1/p9/cms/2013/11/25/pic_1385348460011.jpg" /></a></div>
+
+	
+  </div>
+</section>
+
+<script type="text/javascript">
+var elem = document.getElementById('mySwipe');
+window.mySwipe = Swipe(elem, {
+   startSlide: 0,
+   auto: 3000,
+   speed: 400,
+   continuous: true,
+   disableScroll: false,
+   stopPropagation: false,
+   callback: function(pos) {
+      for (var i=0; i<4; i++) {
+        $('#f'+i).removeClass('ac');
+	  }
+       $('#f'+pos).addClass('ac');
+    },
+   transitionEnd: function(index, element) {}
+});
+</script>
+<section class="slider">
+	<div class="sid_box" id="wrapper">
+        <div class="sid_bar" id="indicator">
+        	<span class="ac" id="f0"></span>
+			<span id="f1"></span>
+			<span id="f2"></span>
+			<span id="f3"></span>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section class="imglist" >
+<div id="wrapper_list">
+
+<ul class="lstimg" id="thelist_list">
+ 
+	<li>
+        	<div class="lstc6">
+            	<ul class="lir2"> 
+												<li><a href="../../show/hB5ktsYek6wA1BqNpKP_IA...html"><span>《全民奥斯卡》1024期预告片</span><img src="img/img266x167_p.png" imsrc="http://vi1.ku6img.com/data1/p6/ku6video/2013/10/24/9/1387883800808_82994205_82994205/105.jpg" /></a></li>	
+																<li><a href="../../show/8UCEkM0BwXCR2k2qYqKKlw...html"><span>视频：中美日三国四艘航母齐聚南</span><img src="img/img266x167_p.png" imsrc="http://vi0.ku6img.com/data1/p8/ku6video/2013/11/30/2/1391065578609_87969568_87969568/101.jpg" /></a></li>	
+																																																																																																																																																																																																																																																																																																 
+                </ul>
+            </div>
+            <div class="lstc4">
+            	<ul class="lir3">
+																												<li><a href="../../show/HpXY4Cn57Va-KSQecjzgVw...html"><span>教授谈人大招生黑幕：100万上人</span><img src="img/img174x109_p.png" imsrc="http://vi1.ku6img.com/data1/p11/ku6video/2013/11/29/16/1391033826851_87905794_87905794/7.jpg" /></a></li>	
+																<li><a href="../../show/3ffh5FdYGvXlQFzlok_qag...html"><span>湖南新化一镇长违规办宴 一周后</span><img src="img/img174x109_p.png" imsrc="http://vi1.ku6img.com/data2/p5/ku6video/2013/11/29/23/1391056373813_87946813_87946813/3.jpg" /></a></li>	
+																<li><a href="../../show/_zUsQ2jxCMuBs9ObIWuM0Q...html"><span>&ldquo;亚洲第一&rdquo;风雨廊桥 居民只有</span><img src="img/img174x109_p.png" imsrc="http://vi1.ku6img.com/data1/p11/ku6video/2013/11/29/23/1391055234380_87948897_87948897/4.jpg" /></a></li>	
+																																																																																																																																																																																																																																																																								 
+                </ul>
+            </div>
+        </li>
+        <li>
+            <div class="lstc4">
+            	<ul class="lir3">
+				
+																																																			<li><a href="../../show/P1sHkTnkM7j9FibcT75LTA...html"><span>813不要散，勇敢获真爱</span><img src="img/img174x109_p.png" imsrc="http://vi0.ku6img.com/data2/p1/ku6video/2013/8/21/7/1382327473378_74226642_74226642/7.jpg" /></a></li>
+						
+															<li><a href="../../show/AJwAWYpwFkI1sNLDl72PXg...html"><span>阚清子（预热）</span><img src="img/img174x109_p.png" imsrc="http://vi0.ku6img.com/data2/p5/ku6video/2013/8/19/19/1382196076015_73978885_73978885/4.jpg" /></a></li>
+						
+															<li><a href="../../show/RQRqLLoV1XZBGIM34gcwug...html"><span>辽宁舰首次靠泊三亚某军港</span><img src="img/img174x109_p.png" imsrc="http://vi1.ku6img.com/data1/p6/ku6video/2013/11/30/9/1391094608625_88010060_88010060/5.jpg" /></a></li>
+						
+																																																																																																																																																																																																																																																  
+                </ul>
+            </div>
+            <div class="lstc6">
+            	<ul class="lir2">
+																																																																												<li><a href="../../show/4-oOAKr3jIoYQWdiKQchPg...html"><span>王力宏晒温馨全家福 曝其与娇妻</span><img src="img/img266x167_p.png" imsrc="http://vi0.ku6img.com/data2/p5/ku6video/2013/11/30/9/1391094308301_88009965_88009965/101.jpg" /></a></li>
+																<li><a href="../../show/-KzWuX6dPbnHvIMx0g-nxg...html"><span>小伙制止小偷行窃 被偷女生拒绝</span><img src="img/img266x167_p.png" imsrc="http://vi0.ku6img.com/data1/p12/ku6video/2013/11/30/6/1391084975603_87993864_87993864/102.jpg" /></a></li>
+																																																																																																																																																																																																																																  
+                </ul>
+            </div>
+        </li>
+		
+		
+        <li>
+        	<div class="lstc6">
+            	<ul class="lir2">
+																																																																																												<li><a href="../../show/HqEwGJtWGgxm882TyEzqcQ...html"><span>男子丢掉存储价值5600万元比特币</span><img src="img/img266x167_p.png" imsrc="http://vi0.ku6img.com/data1/p8/ku6video/2013/11/30/6/1391084500791_87993217_87993217/108.jpg" /></a></li>
+																<li><a href="../../show/C8AA1Kt9A_4W50jOsccdmw...html"><span>中国魅力 20131129</span><img src="img/img266x167_p.png" imsrc="http://vi1.ku6img.com/data1/p8/ku6video/2013/11/30/2/1391070718353_87974028_87974028/107.jpg" /></a></li>
+																																																																																																																																																																																																																 
+                </ul>
+            </div>
+            <div class="lstc4">
+            	<ul class="lir3">
+																																																																																																												<li><a href="../../show/-n09vvCQCuruhyRUyw-PLw...html"><span>无锡官方称张艺谋已接受调查：将</span><img src="img/img174x109_p.png" imsrc="http://vi0.ku6img.com/data2/p11/ku6video/2013/11/30/1/1391065039518_87964272_87964272/8.jpg" /></a></li>
+																<li><a href="../../show/R19mxQW3_4bUaFUJs6Ovpg...html"><span>43岁女主播下海拍成人片 称出于</span><img src="img/img174x109_p.png" imsrc="http://vi0.ku6img.com/data1/p10/ku6video/2013/11/30/0/1391063149804_87959519_87959519/3.jpg" /></a></li>
+																<li><a href="../../show/j7mN1NnSemB4iMLwt0Rjpw...html"><span>解密&ldquo;外围女&rdquo;陪睡陪吸毒 年赚</span><img src="img/img174x109_p.png" imsrc="http://vi0.ku6img.com/data1/p7/ku6video/2013/11/30/0/1391062661504_87958335_87958335/5.jpg" /></a></li>
+																																																																																																																																																																																								                </ul>
+            </div>
+        </li> 
+        <li>
+        	<div class="lstc4">
+            	<ul class="lir3">
+																																																																																																																																				<li><a href="../../show/WhH8Rk_mwuovWr_N_Dd_KA...html"><span>中国魅力 20131129 大片考核</span><img src="img/img174x109_p.png" imsrc="http://vi0.ku6img.com/data2/p1/ku6video/2013/11/30/0/1391061341140_87955539_87955539/102.jpg" /></a></li>
+																<li><a href="../../show/UbjGVIzYEGUbCq-JUwAroA...html"><span>中国魅力 20131129 高空蹦极</span><img src="img/img174x109_p.png" imsrc="http://vi1.ku6img.com/data2/p1/ku6video/2013/11/30/0/1391061318150_87955480_87955480/101.jpg" /></a></li>
+																<li><a href="../../show/o8BdrMvecnsCf5cErj29nw...html"><span>中国魅力 20131129 拍摄大片</span><img src="img/img174x109_p.png" imsrc="http://vi1.ku6img.com/data1/p8/ku6video/2013/11/30/0/1391061249880_87955345_87955345/107.jpg" /></a></li>
+																																																																																																																																																																 
+                </ul>
+            </div>
+            <div class="lstc6">
+            	<ul class="lir2">
+																																																																																																																																																												<li><a href="../../show/GspXl9QE6UKk705pPEDFgg...html"><span>韩乐队 FTISLAND 四辑主打曲《</span><img src="img/img266x167_p.png" imsrc="http://vi0.ku6img.com/data1/p5/ku6video/2012/9/18/23/1353157671342_31286797_31286797/105.jpg" /></a></li>
+																<li><a href="../../show/83_mipCRrZDHpPReAd-KMg...html"><span>俊男俏女 郑容和 携手 JUNIE</span><img src="img/img266x167_p.png" imsrc="http://vi0.ku6img.com/data1/p3/ku6video/2012/7/3/0/1344515624539_26150104_26150104/103.jpg" /></a></li>
+																																																																																																																																																                </ul>
+            </div>
+        </li>   
+	   
+    </ul> 
+
+
+</div>
+</section>
+<!--ad_app-->
+	<!--
+    <section class="ad_app bdt" id="bd-top">
+		<a href="http://a.ku6.com/bdr?a=118&t=aHR0cDovL20ua3U2LmNvbS96dC96cS8="><img src="/zt/zq/statics/images/zq_ico.png" width="41" height="41" class="adlogo"></a>
+		<div class="qnr">
+			<h5><a href="http://a.ku6.com/bdr?a=118&t=aHR0cDovL20ua3U2LmNvbS96dC96cS8=">酷6中秋有礼！</a>
+			<p><a href="http://a.ku6.com/bdr?a=118&t=aHR0cDovL20ua3U2LmNvbS96dC96cS8=">你在酷6传视频，酷6为你表孝心</a></p>
+		</div>
+		<a href="javascript:;" class="adclose_btn" onclick="close_bd('app')"></a>
+    </section>
+	-->
+	<section class="ad_app bdt adbgimg hid" id="bd-top">
+		<div class="qnr"><a href="../../../a.ku6.com/bdr@a=118&t=aHR0cDovL20ua3U2LmNvbS96dC96cS8="></a></div>
+		<a href="javascript:;" class="adclose_btn" onclick="close_bd('app')"></a>
+    </section>
+	  <section class="cr ad_app" id="bd-2">
+        <img src="statics/images/ku6app.jpg" width="41" height="41" class="adlogo">
+        <div class="lnr"><header>酷6手机客户端</header><p>搞笑美女一网打尽</p></div>
+        <a href="javascript:;" class="adclose_btn" onclick="close_bd('bd-2')"></a>
+        <div class="stl_btn"><a href="#" id="in_bd_2" onmousedown="logjs('appsoft')" target="_blank">立刻安装</a></div>
+    </section>
+<!--end-->
+<section class="cr b_bar">
+	<a href="#top" class="t_btn"></a>
+	<div class="page_btn ahs" id="pages"><a class="ababab">上一页</a><span><select onchange="javascript:window.location.href=this.value"> <option value="../../index.html" selected>1/14</option> <option value="../../index-2.html" >2/14</option> <option value="../../index-3.html" >3/14</option> <option value="../../index-4.html" >4/14</option> <option value="../../index-5.html" >5/14</option> <option value="../../index-6.html" >6/14</option> <option value="../../index-7.html" >7/14</option> <option value="../../index-8.html" >8/14</option> <option value="../../index-9.html" >9/14</option> <option value="../../index-10.html" >10/14</option> <option value="../../index-11.html" >11/14</option> <option value="../../index-12.html" >12/14</option> <option value="../../index-13.html" >13/14</option> <option value="../../index-14.html" >14/14</option></select></span><a href="../../index-2.html">下一页</a></div> </section>
+ <div class="cpgrt">
+ <div><a href="../../list-190003-1.html">关于酷6</a>-<a href="../../index.php@m=formguide&c=index&a=show&formid=12">问题反馈</a>-<a href="../../../www.ku6.com/@mobile">电脑版</a></div>
+ <span>CopyRight &copy; 2006-2013 酷6网</span>
+ </div>
+
+ <!--bottom_btn start-->
+  <!--
+ <div class="an_btns">
+	<div class="t_pan" id="ts_pan">
+		<ul>
+			<li><a href="#">分享给好友</a></li>
+			<li><a href="#">搜索此信息</a></li>
+		</ul>
+	</div>
+	<div class="bz_btn" id="an_btn"></div>
+ </div>
+ -->
+ <!--end-->
+ <!--tip start-->
+ <!--
+ <div class="t_tit">添加到书签<br />访问空间更方便~</div>
+  -->
+ <!--end-->
+ 
+<section class="cr ad_app hid" id="bd-3">
+	<img src="statics/images/ku6app.jpg" width="41" height="41" class="adlogo">
+	<div class="lnr"><header>添加酷6手机网到UC</header><p>搞笑美女时评一网打尽</p></div>
+	<a href="javascript:;" class="adclose_btn" onclick="close_bd('bd-3')"></a>
+	<div class="stl_btn"><a href="#" id="in_bd_2" onmousedown="show_uc_add()" target="_blank">立刻添加</a></div>
+</section>
+	
+	
+<div id="tcly" class="tcc hid">
+<iframe src="../../../app.uc.cn/appstore/AppCenter/frame@uc_param_str=nieidnutssvebipfcp&api_ver=2.0&id=2003" width="100%" height="170">
+   添加到UC桌面
+</iframe> 
+</div> 
+
+<script type="text/javascript">
+
+$('#an_btn').click(function(){
+	$('#ts_pan').toggle();
+});
+
+$(function(){ 
+	var hidtips = getcookie('hidtips');
+	if(hidtips==1){
+		$('#close_btn').addClass('hid');
+	}
+});
+
+var hidappdown = getcookie('hidappdown'); 
+if(hidappdown!=1) {
+	var m_app_arr = ['bd-top','bd-2'];
+	var m_appid = getRand(m_app_arr, 1);
+	if(/Android/i.test(navigator.userAgent)){
+		var andriod_version = ua.match(/Android ([\d.]+)/i);
+		andriod_version = parseFloat(andriod_version[1]);
+		if(andriod_version < 4.1) $('.ad_app').css({"position":"relative","margin-top":"0.6em"});
+		
+		$("#in_bd_2").attr('href', '../../api.php@op=mobile_statics&sid=1&placeid=3&url=http_253A_252F_252Fa.ku6.com_252Fbdr%3Fa%3D95%26t%3DaHR0cDovL20ua3U2LmNvbS93YXBpbmZvMi4wL3ZlcnNpb24vQW5kcm9pZC9BUGhvS3U2L0FQaG9LdTZfS3U2LUluZGV4QmFubmVyLmFwaw%3D%3D');
+	} else if(/iPhone/i.test(navigator.userAgent)) {
+		$("#in_bd_2").attr('href', '../../api.php@op=mobile_statics&sid=1&placeid=3&url=http_253A_252F_252Fa.ku6.com_252Fbdr%3Fa%3D42%26t%3DaHR0cDovL2l0dW5lcy5hcHBsZS5jb20vZ2IvYXBwL2t1NnNoaS1waW4tcmUtZGlhbi1zaGktcGluL2lkNjEyODgyNTA0P2xzPTEmbXQ9OA%3D%3D');
+	} else {
+		$('#bd-2').addClass('hid');
+		m_appid = 'bd-2';
+	}
+	$('#'+m_appid).addClass('hid');
+	if(/UCBrowser/i.test(navigator.userAgent)) $('.ad_app').css({"position":"relative","margin-top":"0.6em"});
+} else {
+	$('#bd-top').addClass('hid');
+	$('#bd-2').addClass('hid');
+}
+ 
+</script>
+<!--statics-->
+<script type="text/javascript" src="../../../ipic.staticsdo.com/external/official_install_beacon.js"></script>
+</body>
+</html>

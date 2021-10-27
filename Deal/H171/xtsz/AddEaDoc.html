@@ -1,0 +1,249 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http//www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http//www.w3.org/1999/xhtml">
+<head>
+    <title>无标题页</title>
+    <link rel="stylesheet" type="text/css" href="../css/index.css" />
+    <script language="javascript" type="text/javascript">
+    function change(obj)
+    {
+    var str=obj.value;
+    if(str=="1")
+    {
+    document.getElementById("leave").style.display="block";
+    document.getElementById("money").style.display="none";
+    }
+    else if(str=="2")
+    {
+    document.getElementById("leave").style.display="none";
+    document.getElementById("money").style.display="block";
+    }
+    else
+    {
+    document.getElementById("leave").style.display="none";
+    document.getElementById("money").style.display="none";
+    }
+    }
+    </script>
+</head>
+<body class="mian_bj">
+    <div class="mian_top_01">
+        <div class="mian_top_r">
+        </div>
+        <div class="mian_top_l">
+        </div>
+        <div class="mian_top_c">
+              <ul>
+           <li><a href="Branch.html"><p>部门管理</p></a></li>
+      <li><a href="EaDoc.html"><p>审批文档流程管理</p></a></li>
+      <li><a href="Role.html"><p>角色管理</p></a></li>
+      <li><a href="Power.html"><p>权限管理</p></a></li>
+       <li><a href="XTCS.html"><p>系统参数设置</p></a></li>
+          <li><a href="NormalManage.htm"><p>常规功能管理</p></a></li>
+                   <li><a href="CustomManage.htm"><p>自定义功能管理</p></a></li>
+       
+    </ul>
+        </div>
+        <div class="mian_b">
+            <table width="100%" border="0" cellpadding="0" cellspacing="0" class="mian_b_bg_xz">
+                <tr>
+                    <td width="5%" class="mian_b_bg_lm">
+                        &nbsp;
+                    </td>
+                    <td colspan="3" class="mian_b_bg_lm">
+                        创建审批流程
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        &nbsp;
+                    </td>
+                    <td width="8%" valign="top">
+                        审批流程名称：
+                    </td>
+                    <td width="55%">
+                        <input type="text" class="input_01" name="textfield" id="textfield" />
+                    </td>
+                    <td width="32%">
+                        &nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        &nbsp;
+                    </td>
+                    <td valign="top">
+                        申请人角色：
+                    </td>
+                    <td>
+                        <table width="100%" border="0" cellpadding="0" cellspacing="0" class="mian_b_bg_xz">
+                            <tr>
+                                <td width="80%">
+                                    <input id="Checkbox1" type="checkbox" />全部
+                                </td>
+                                <td>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <input id="Checkbox8" type="checkbox" />超级管理员<input id="Checkbox9" type="checkbox" />管理员<input
+                                        id="Checkbox10" type="checkbox" />财务部<input id="Checkbox11" type="checkbox" />商务部<input
+                                            id="Checkbox12" type="checkbox" />软装部
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>
+                        &nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        &nbsp;
+                    </td>
+                    <td valign="top">
+                        审批层次：
+                    </td>
+                    <td>
+                        <select id="selectone" style="width: 125px">
+                            <option value="1">第一层</option>
+                            <option value="1">第二层</option>
+                            <option value="1">第三层</option>
+                        </select>
+                    </td>
+                    <td>
+                        &nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        &nbsp;
+                    </td>
+                    <td valign="top">
+                        第一级审批角色：
+                    </td>
+                    <td>
+                        <select id="select1" style="width: 125px">
+                            <option value="1">管理员</option>
+                            <option value="1">财务部</option>
+                            <option value="1">商务部</option>
+                        </select>
+                        &nbsp;&nbsp;
+                        <input id="Radio1" type="radio" name="rdone" />或<input id="Radio2" type="radio" name="rdone" />且
+                    </td>
+                    <td>
+                        &nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        &nbsp;
+                    </td>
+                    <td valign="top">
+                    </td>
+                    <td>
+                        <table width="100%" border="0" cellpadding="0" cellspacing="0" class="mian_b_bg_xz">
+                            <tr>
+                                <td width="80%">
+                                    <input id="Checkbox13" type="checkbox" />全部
+                                </td>
+                                <td>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <input id="Checkbox2" type="checkbox" />超级管理员<input id="Checkbox3" type="checkbox" />管理员<input
+                                        id="Checkbox4" type="checkbox" />财务部<input id="Checkbox5" type="checkbox" />商务部<input
+                                            id="Checkbox6" type="checkbox" />软装部
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>
+                        &nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        &nbsp;
+                    </td>
+                    <td valign="top">
+                        添加于：
+                    </td>
+                    <td>
+                        <select id="select2" style="width: 125px">
+                            <option value="0">人事管理</option>
+                            <option value="1">行政管理</option>
+                        </select>
+                    </td>
+                    <td>
+                        &nbsp;
+                    </td>
+                </tr>
+                    <tr>
+                    <td>
+                        &nbsp;
+                    </td>
+                    <td valign="top">
+                        是否特殊：
+                    </td>
+                    <td>
+                        <select id="select3" style="width: 125px" onchange="change(this);">
+                            <option value="0">一般</option>
+                            <option value="1">请假</option>
+                            <option value="2">报销</option>
+                        </select>
+                    </td>
+                    <td>
+                        &nbsp;
+                    </td>
+                </tr>
+                <tr id="leave" style="display:none;">
+                <td></td>
+                <td>请假：</td>
+                <td><input type="text" class="input_03" name="textfield" id="text1" />-<input type="text" class="input_03" name="textfield" id="text2" />天</td>
+                <td></td>
+                </tr>
+                <tr id="money" style="display:none;">
+                <td></td>
+                <td>金额：</td>
+                <td><input type="text" class="input_03" name="textfield" id="text3" />-<input type="text" class="input_03" name="textfield" id="text4" />元</td>
+                <td></td>
+                </tr>
+                
+                
+                <tr>
+                    <td>
+                        &nbsp;
+                    </td>
+                    <td width="15%" valign="top">
+                        备注：
+                    </td>
+                    <td width="55%">
+                        <img src="../images/123.png" />
+                    </td>
+                    <td width="30%">
+                        &nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        &nbsp;
+                    </td>
+                    <td>
+                        &nbsp;
+                    </td>
+                    <td>
+                        <div align="center">
+                            <a href="EaDoc.html">
+                                <img src="../images/bnt_03.gif" style="margin-right: 10px;" width="80" height="22" /></a><a
+                                    href="EaDoc.html"><img src="../images/bnt_05.gif" alt="" width="80" height="22" /></a></div>
+                    </td>
+                    <td>
+                        &nbsp;
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

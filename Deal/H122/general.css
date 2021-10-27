@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+/* Created by Pam Atkins, February 2011 for distribution via http//freehtml5templates.com*/
+
+body {
+	font-family: Georgia,"Times New Roman",Times,serif;
+	font-size: 14px;
+   	background-color: #F3F3F3;
+}
+.outerwrapper {
+
+    background-image: url(images/stainedpaper.png);
+	width: 966px;
+	margin: 0 auto;
+    -moz-box-shadow: 0 0 3px 3px #888;
+    -webkit-box-shadow: 0 0 3px 3px #888;
+    box-shadow: 0 0 3px 3px #888;
+  margin-top: 10px;
+}
+/* ** ** Common Classes ** ** */
+.left  { float:left}
+.right { float:right}
+.clear { clear:both; display:block; overflow:hidden; visibility:hidden; width:0px; height:0px;}
+.hide  { display:none}
+a 	{color:#eee;}
+a:hover, a:focus { text-decoration:underline;}
+a:active, a:visited {color:#ccc; }
+/* ** ** Header Styles ** ** */
+h1, h2, h3, h4 {margin:0 0 0.2em;}
+/* ** ** ul li's ** ** */
+ul li
+{
+	margin-left:25px;
+}
+
+/* ** ** paragraph styling ** ** */
+p {margin:0 0 1.52em;}
+p img.left {float:left;margin:1.52em 1.52em 1.52em 0;padding:0;}
+p img.right {float:right;margin:1.52em 0 1.52em 1.52em;}
+
+.clear {
+	height: 20px;
+}
+
+/* layout styling*/
+.col {
+	margin-left:10px; margin-right:10px;
+	display: inline;
+	overflow: hidden;
+	float: left;
+	position: relative;
+}
+.row{
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.row .row {
+	margin: 0 -10px;
+	width: auto;
+	display: inline-block;
+}
+.col_4 {	width:220px; }
+
+.col_8 {	width:460px; }
+
+.col_16{	width:940px; }
+
+/* header styling */
+header .row {
+	text-align: center;
+}	
+header .row h1 {
+	text-transform: uppercase;
+	font-size: 66px;
+	padding-top: 5px;
+	line-height:1.05em;
+}
+header .row h2 {
+	text-transform: uppercase;
+	font-size: 20px;
+}
+ .subhead {
+  border-bottom: #333 double;
+}
+
+.subhead *{
+	font-weight: bold;
+}
+
+/* nav */
+nav {
+	border-bottom: double #333;  line-height: 200%;
+}
+nav li
+{
+display: inline;
+list-style-type: none;
+padding-right: 20px;
+text-transform: uppercase;
+}
+nav li a:link, nav li a:visited  {
+  text-decoration: none; color: #444444;
+  font-weight:bold;
+}
+
+nav li a:hover {
+  color: #000;  text-decoration: none;  font-weight:bold;
+}
+
+nav li a:active {
+  background-color: #222222; color: #DDDDDD;
+}
+
+
+/* ** ** forms ** ** */
+form fieldset legend {
+  font-size:1.4em; padding:0 5px;}
+
+form label {
+  display:block; height:20px; font-size:1.2em;}
+
+.subhead input {
+ 
+  width: 200px;
+  background: #DDD;
+}
+
+/* ** ** footer ** ** */
+
+footer {
+  border-top: double #333; line-height: 200%; text-align: center;
+}

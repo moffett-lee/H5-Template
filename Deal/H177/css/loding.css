@@ -1,0 +1,29 @@
+﻿@charset "utf-8";
+body {
+	margin: 0px;
+	padding: 0px;
+	background-image: url(../images/yingg.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 22px;
+	color: #393a31;
+	background-color: #DBC190;
+}
+a
+{
+	text-decoration:none;
+	}
+.wirte {
+	color: #FFFFFF;
+}
+.blod {
+	font-weight: bold;
+}
+.fourteen {
+	font-size: 14px;
+}
+.yd_zi {
+	color: #f5e7cf;
+}

@@ -1,0 +1,560 @@
+@charset "utf-8";
+/* 
+	@名称: base
+	@功能: 重设浏览器默认样式
+	@维护人:见天
+*/
+
+/* 防止用户自定义背景颜色对网页的影响，添加让用户可以自定义字体 */
+html{
+	color:#000;background:#fff;
+	-webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+/* 内外边距通常让各个浏览器样式的表现位置不同 */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+	margin:0;padding:0;
+}
+
+/* 重设 HTML5 标签, IE 需要在 js 中 createElement(TAG) */
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+/* HTML5 媒体文件跟 img 保持一致 */
+audio,canvas,video {
+    display: inline-block;
+}
+
+/* 要注意表单元素并不继承父级 font 的问题 */
+body,button,input,select,textarea{
+	font:14px/1.8 Arial,\5FAE\8F6F\96C5\9ED1,\82F9\679C\4E3D\4E2D\9ED1;
+}
+input,select,textarea{
+	font-size:100%;
+}
+button {cursor:pointer;}
+/* 去掉各Table  cell 的边距并让其边重合 */
+table{
+	border-collapse:collapse;border-spacing:0;
+}
+
+/* IE bug fixed: th 不继承 text-align*/
+th{
+	text-align:inherit;
+}
+
+/* 去除默认边框 */
+fieldset,img{
+	border:0;
+}
+
+/* ie6 7 8(q) bug 显示为行内表现 */
+iframe{
+	display:block;
+}
+
+/* 去掉 firefox 下此元素的边框 */
+abbr,acronym{
+	border:0;font-variant:normal;
+}
+
+/* 一致的 del 样式 */
+del {
+	text-decoration:line-through;
+}
+
+address,caption,cite,code,dfn,em,th,var {
+	font-style:normal;
+	font-weight:500;
+}
+
+/* 去掉列表前的标识, li 会继承 */
+ol,ul {
+	list-style:none;
+}
+
+/* 对齐是排版最重要的因素, 别让什么都居中 */
+caption,th {
+	text-align:left;
+}
+
+/* 来自yahoo, 让标题都自定义, 适应多个系统应用 */
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:500;
+}
+
+q:before,q:after {
+	content:'';
+}
+
+/* 统一上标和下标 */
+sub, sup {
+    font-size: 75%; line-height: 0; position: relative; vertical-align: baseline;
+}
+sup {top: -0.5em;}
+sub {bottom: -0.25em;}
+
+
+/* 链接颜色 */
+a {color:#000;}
+a:hover {color:#000;}
+
+/* 默认不显示下划线，保持页面简洁 */
+ins,a {
+	text-decoration:none;
+}
+
+/* 清理浮动 */
+.fn-clear:after {
+	visibility:hidden;
+	display:block;
+	font-size:0;
+	content:" ";
+	clear:both;
+	height:0;
+}
+
+/* 隐藏, 通常用来与 JS 配合 */
+body .fn-hide {display:none;}
+
+/* 设置内联, 减少浮动带来的bug */
+.fn-left,.fn-right {display:inline;}
+.fn-left {float:left;}
+.fn-right {float:right;}
+
+/* css3 background 动画补间 */
+.tr-box *,.tr-box {
+-webkit-transition: all 0.1s linear;
+-moz-transition: all 0.1s linear;
+-o-transition: all 0.1s linear;
+transition: all 0.1s linear;
+}
+.tr-bg *,.tr-bg {
+-webkit-transition: background 0.1s linear,box-shadow 0.3s linear,border 0.2s linear;
+-moz-transition: background 0.1s linear,box-shadow 0.3s linear,border 0.2s linear;
+-o-transition: background 0.1s linear,box-shadow 0.3s linear,border 0.2s linear;
+transition: background 0.1s linear,box-shadow 0.3s linear,border 0.2s linear;
+}
+.tr-bg03 *,.tr-bg03 {
+-webkit-transition: background 0.3s linear,box-shadow 0.5s linear,border 0.2s linear;
+-moz-transition: background 0.3s linear,box-shadow 0.5s linear,border 0.2s linear;
+-o-transition: background 0.3s linear,box-shadow 0.5s linear,border 0.2s linear;
+transition: background 0.3s linear,box-shadow 0.5s linear,border 0.2s linear;
+}
+
+.tr-top *,.tr-top {
+-webkit-transition: opacity 0.3s linear,top 0.3s linear;
+-moz-transition: opacity 0.3s linear,top 0.3s linear;
+-o-transition: opacity 0.3s linear,top 0.3s linear;
+transition: opacity 0.3s linear,top 0.3s linear;
+}
+.input-txt {border: 1px solid #ccc;box-shadow: inset 1px 1px 1px #ccc,0 0 6px transparent;border-radius:1px;}
+.input-txt:focus {border: 1px solid #55b6f6;box-shadow:0 0 8px #55b6f6;}
+.textarea-txt {padding:5px;box-shadow:2px 2px 2px #f0f0f0 inset,0 0 1px #ccc;background:#fff;border:1px solid #ccc;overflow-x:hidden;overflow-y:auto;border-radius:3px;width:100%;}
+.textarea-txt:focus {box-shadow:0 0 3px #42a9ec;border:1px solid #09c;}
+.button-txt {vertical-align:middle;overflow:hidden;padding:0;text-indent:-9999px;display:block;background:url(../image/icon_list.png) no-repeat -100px 0;border:none;}
+
+
+
+/* 项目追加通用 */
+html {height:100%;background-color:#eee;}
+html body {vertical-align:baseline;}
+/* 
+	@名称: top-wrap,top,nav
+	@功能: 浮动条
+	@维护人:见天
+*/
+.top-wrap {width:100%;top:0;z-index:999;}
+.top {height:38px;background-color:#2f5780;color:#fff;box-shadow:0 1px 8px rgba(167, 167, 167, 0.9);position:relative;z-index:2;}
+.top .fn-left,.top .fn-right{position:relative;z-index:9;}
+.top .fn-left {margin-left:10px;}
+.top .fn-right {margin-right:10px;}
+.logo {line-height:32px;}
+#logo {position:relative;z-index:6;font-size:20px;cursor:pointer;background:url(../images/hxlogo.png) no-repeat center 7px;background-size: 55px;text-indent:-9999px;display:inline-block;width:80px;}
+
+.menu-list {z-index:5;background-color:#fff;
+box-shadow:inset 1px -1px 3px #ccc;
+text-align:center;width:100%;height:0;overflow:hidden;top:-20px;opacity:0;display:none;}
+.menu-list a {font-size:18px;border-top:1px solid #ccc;display:block;color:#036;line-height:60px;text-shadow:1px 1px 1px #fff;
+	background-color: #f5f5f5;
+	background-image: -moz-linear-gradient(top,#f8f8f8,#e6e6e6);
+	background-image: -webkit-gradient(linear,0 0,0 100%,from(#f8f8f8),to(#e6e6e6));
+	background-image: -webkit-linear-gradient(top,#f8f8f8,#e6e6e6);
+	background-image: -o-linear-gradient(top,#f8f8f8,#e6e6e6);
+	background-image: linear-gradient(to bottom,#f8f8f8,#e6e6e6);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f8f8f8',endColorstr='#ffe6e6e6',GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+.menu-list a:hover {
+	background-color: #fafafa;
+	background-image: -moz-linear-gradient(top,#fafafa,#f1f1f1);
+	background-image: -webkit-gradient(linear,0 0,0 100%,from(#fafafa),to(#f1f1f1));
+	background-image: -webkit-linear-gradient(top,#fafafa,#f1f1f1);
+	background-image: -o-linear-gradient(top,#fafafa,#f1f1f1);
+	background-image: linear-gradient(to bottom,#fafafa,#f1f1f1);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa',endColorstr='#f1f1f1',GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+.logo .menu-list {left:0;}
+
+#optionsb {display:block;cursor:pointer;width:80px;height: 24px;padding-top:8px;z-index:6;position:relative;overflow:hidden;}
+#optionsb.active {
+	background-color:#ddd;
+	border-radius:0 0 5px 5px;
+}
+.option-sb .menu-list {right:0;line-height:35px;}
+#optionsb .opinionsb-set {display:block;width:22px;height:22px;background:url(../images/options.png) no-repeat center 0;background-size:20px;margin:0 auto;text-indent:-9999px;}
+#optionsb .user-img {width:22px;height:22px;box-shadow:0 0 3px #ccc;border:1px solid #eee;display:block;margin:0 auto;}
+
+#imgType {cursor:pointer;width:50px;height:32px;line-height:40px;display:inline-block;text-align:center;overflow:hidden;
+width:20px;height:20px;margin-top:12px;	
+text-indent:-9999px;
+background:url(../images/ico_bg.png) no-repeat;
+background-size:50px;
+}
+#imgType.active {background-position:-20px 0;}
+
+
+/* 
+	@名称: nav
+	@功能: 浮动条内栏目
+	@维护人:见天
+*/
+.nav {height:35px;line-height:35px;background-color:#ddd;width:100%;border-bottom:1px solid #ccc;overflow:hidden;}
+.nav a {width:33%;float:left;text-align:center;color:#666;display:inline-block;position:relative;}
+.nav a:nth-child(2){border-left:1px solid #ccc;border-right:1px solid #ccc;}
+.nav a:before {content:'';display:block;width:0;height:0;position:absolute;bottom:1px;right:1px;
+border:5px solid transparent;
+border-right-color:#ccc;
+border-bottom-color:#ccc;
+}
+.nav a.active{
+color:#2f5780;
+}
+.nav a.active:before {
+border-right-color:#2f5780;
+border-bottom-color:#2f5780;
+}
+
+/* 
+	@名称: ul-list
+	@功能: 列表通用
+	@维护人:见天
+*/
+.ul-list li {overflow:hidden;}
+.ul-list li {border-top: 1px solid #f7f7f7;border-bottom: 1px solid #ccc;padding:5px 0;line-height:1.6;}
+.ul-list p {text-align:right;clear:both;}
+.ul-list li b {width:100%;display:block;font-size:18px;line-height:1.2;margin:5px 0;font-weight:normal;}
+.ul-list li span {float:left;margin:5px 5px 0 0;position:relative;overflow:hidden;}
+.ul-list li span img {box-shadow:0 0 1px #ccc;}
+.ul-list li u ,
+.ul-list li time ,
+.ul-list li i {text-decoration:none;font-style:normal;margin:0 5px;}
+
+/* 
+	@名称: focus-list
+	@功能: 看点列表
+	@维护人:见天
+*/
+
+.focus-list li span {height:80px;}
+.focus-list li span img {border-radius:5px;}
+.focus-list li span:before{content:'';display:block;position:absolute;z-index:9;width:0;height:0;left:-1px;top:-2px;
+border:5px solid #eee;
+border-right-color:#fcfcfc;
+border-bottom-color:#fcfcfc;
+}
+.focus-list li:hover span:before {border-width:8px;}
+
+/* 
+	@名称: read-list
+	@功能: 读点列表
+	@维护人:见天
+*/
+.books-list {}
+.books-list li b {line-height:1.6;}
+.books-list li span {height:152px;}
+.books-list li span img {width:100px;}
+.books-list li span:before{content:'';display:block;position:absolute;z-index:9;width:0;height:0;right:-1px;bottom:0;
+border:5px solid #eee;
+border-left-color:#fcfcfc;
+border-top-color:#fcfcfc;
+}
+.books-list li:hover span:before {border-width:8px;}
+
+/* 
+	@名称: opinions-list
+	@功能: 观点列表
+	@维护人:见天
+*/
+.opinions-list .a-img {float:left;}
+.opinions-list .a-img img {margin: 5px 10px 0 0;width:35px;height:35px;box-shadow: 0 1px 3px #ccc;border-radius:5px;}
+.opinions-list li {padding:10px 0;}
+.opinions-list li b {margin: 10px 0;}
+.opinions-list li .pl {margin:0 5px;}
+.opinions-top {margin-bottom:10px;}
+.opinions-ctt {border:1px solid #ccc;border-radius:2px;padding:10px;position:relative;}
+.opinions-ctt:before,.opinions-ctt:after {content:"";display:block;border:8px solid transparent;position:absolute;width:0;height:0;left:9px;}
+.opinions-ctt:before {border-bottom:10px solid #ccc;top:-18px;}
+.opinions-ctt:after {border-bottom: 10px solid #eee;top: -16px;}
+
+
+
+/* 
+	@名称: idx-books-box
+	@功能: 首页读点区块
+	@维护人:见天
+*/
+.idx-books-box {margin:10px 0;border-radius:5px;padding:10px;border:1px solid #ccc;box-shadow:0 0 2px #f7f7f7;}
+.idx-books-box h2 a {border-bottom:1px solid #ccc;font-size:24px;text-align:center;display:block;background-color:#ccc;}
+.idx-books-box li {border-bottom:none;}
+
+/* 
+	@名称: idx-opinions-box
+	@功能: 首页观点区块
+	@维护人:见天
+*/
+.idx-opinions-box {margin:10px 0;border-radius:5px;padding:10px;border:1px solid #ccc;box-shadow:0 0 2px #f7f7f7;}
+.idx-opinions-box h2 a {border-bottom:1px solid #ccc;font-size:24px;text-align:center;display:block;background-color:#ccc;}
+.idx-opinions-box li {border-bottom:none;}
+
+/* 
+	@名称: wrap
+	@功能: 布局
+	@维护人:见天
+*/
+.wrap {margin:0 10px;}
+/* 
+	@名称: pages
+	@功能: 翻页
+	@维护人:见天
+*/
+.idx-pages,.pages {overflow:hidden;padding:10px 0;}
+.idx-pages a,
+.pages span {display:block;height:40px;line-height:40px;text-align:center;background-color:#2f5780;color:#fff;font-size:24px;letter-spacing:0.8px;}
+.idx-pages a {}
+.pages span {width:50%;display:inline-block;float:left}
+.pages .no-pg {background-color:#bbb;color:#eee;height:39px;overflow:hidden;margin-top:1px;}
+.pages a {display:block;border:1px solid #eee;color:#fff;}
+
+/* 
+	@名称: login_area
+	@功能: 登录注册，提示
+	@维护人:见天
+*/
+.a-reg {height:35px;line-height:35px;color:#fff;padding:0 10px;}
+.a-reg:hover {color:#fff;}
+.lgn-reg-box input {width:100%;padding:12px 6px 10px;margin-bottom: 10px;font-size: 14px;height:20px;line-height: 20px;display: inline-block;font-weight:normal;border:1px solid #bbb;border-right-color:#ddd;border-bottom-color:#ddd;
+box-shadow:inset 1px 1px 2px #ccc;}
+.lgn-reg-box input[type=submit] {width: auto;padding: 6px 14px;cursor: pointer;height: 35px;
+background-color:#2f5780;color:#fff;border-radius:3px;box-shadow:0 0 3px #ccc;}
+.lgn-reg-box form p {margin-right:14px;}
+#box_point {text-align:center;}
+#box_point h2 {color:#f00;font-size:24px;padding:10px;}
+#box_point p {padding:20px;}
+#box_point a {border:1px solid #88a7c8;border-right:1px solid #5d83aa;border-bottom:1px solid #5d83aa;box-shadow:1px 1px 3px #aaa;padding:10px;border-radius:0 0 2px 2px;background-color:#036;color:#fff;}
+/* 
+	@名称: footer
+	@功能: 底部信息
+	@维护人:见天
+*/
+.footer {text-align:center;font-size:16px;color:#999;padding:20px 0 30px;position:relative;}
+.footer i {font-style:normal;}
+.footer i,.footer a {margin:0 10px;}
+#go_top {position:absolute;right:10px;bottom:40px;width:38px;height:39px;display:block;background:url(../images/gotop.png) no-repeat;cursor:pointer;}
+
+/* 
+	@名称: neirong
+	@功能: 内容页
+	@维护人:见天
+*/
+.neirong h1 {font-size:24px;margin:5px 0;line-height:1.4;}
+.neirong h2 {font-size:18px;margin:15px 0 0;line-height:1.4;}
+.neirong .other {margin-left:-10px;color:#aaa;margin-bottom:5px;}
+.neirong .other u,
+.neirong .other time,
+.neirong .other i {margin:0 10px;font-style:normal;text-decoration:none;}
+.neirong .other a {color:#aaa;}
+.neirong-box,.nr-box {font-size:16px;line-height:1.6;width:auto;overflow:hidden;}
+.neirong-box a {color:#006CD8;margin:0 2px;}
+.neirong-box .p-img {text-align:center;}
+.neirong-box img {max-width:95%;}
+
+/* 
+	@名称: nr-share
+	@功能: 分享
+	@维护人:见天
+*/
+.nr-share {text-align:center;padding:20px 0;}
+.nr-share span {
+width:20px;height:20px;background:url(../images/ico_bg.png) no-repeat;background-size:50px;
+display:inline-block;margin:0 15px 30px;cursor:pointer;position:relative;}
+.nr-share span i,
+#pl_btn a {font-style:normal;font-size:12px;color:#666;position:absolute;top:25px;left:-10px;width:40px;text-align:center;display:block;}
+#favorite {background-position:0 -20px;}
+#favorite.action {background-position:-20px -20px;}
+#like {background-position:0 -40px;}
+#like.action {background-position:-20px -40px;}
+#no_like {background-position:0 -60px;}
+#no_like.action {background-position:-20px -60px;}
+#share_btn {background-position:0 -80px;}
+#share_btn.action {background-position:-20px -80px;}
+#pl_btn {background-position:0 -240px;}
+#pl_btn.action {background-position:-20px -240px;}
+#pl_btn i {top:-38px;left:20px;color:#fff;padding:0 4px;background-color:#f90;font-size:10px;border-radius:3px;box-shadow:1px 1px 3px #ccc;width:auto;}
+
+#share_box {border:1px solid #ddd;box-shadow:0 0 3px #fff;padding:10px 10px 0;margin-top:10px;opacity:0;width:0;height:0;overflow:hidden;background-color:#fefefe;}
+
+.share-box {text-align:center;}
+.share-box i {width:30px;height:30px;background:url(../images/ico_bg.png) no-repeat;background-size:75px;display:inline-block;overflow:hidden;margin:0 2px;cursor:pointer;}
+.share-box .hxs_tsina {background-position:0 -150px;}
+.share-box .hxs_qzone {background-position:0 -180px;}
+.share-box .hxs_renren {background-position:0 -210px;}
+.share-box .hxs_kaixin001 {background-position:0 -240px;}
+.share-box .hxs_linkedin {background-position:0 -270px;}
+.share-box .hxs_t163 {background-position:0 -300px;}
+.share-box .hxs_tqq {background-position:0 -330px;}
+
+/* 
+	@名称: pl-wrap
+	@功能: 评论
+	@维护人:见天
+*/
+.textarea-box {margin:10px 22px 10px 0;}
+.textarea-box textarea {width:100%;height:80px;padding:10px;border:1px solid #999;border-right-color:#ccc;border-bottom-color:#ccc;border-radius:3px;box-shadow:0 0 3px #ccc;}
+.pl-wrap form p {}
+.pl-wrap form input {width: auto;padding: 6px 14px;cursor: pointer;height: 35px;
+background-color:#2f5780;color:#fff;border-radius:3px;
+font-size: 14px;line-height: 20px;display: inline-block;font-weight: normal;
+border: 1px solid #bbb;border-right-color: #ddd;border-bottom-color: #ddd;
+box-shadow:0 0 3px #ccc;
+}
+.pl-h2 {font-size:16px;line-height:40px;color:#f90;}
+.pl-list {margin:20px 0;border-top:1px solid #ccc;border-bottom:1px solid #f7f7f7;}
+
+.pl-box {padding:15px 0;border-top:1px solid #f7f7f7;border-bottom:1px solid #ccc;}
+.pl-box-top {overflow:hidden;}
+.pl-box .a-img {float:left;margin-right:5px;}
+.pl-box .a-img img {width:40px;height:40px;border-radius:10px;border:1px solid #ccc;padding:1px;box-shadow:0 0 3px #ccc;}
+.pl-box-btn {text-align:right;margin-top:10px;}
+.pl-box-btn i,
+.pl-box-btn a {margin-left:10px;font-size:12px;background:url(../images/ico_bg.png) no-repeat;background-size:40px;padding-left:20px;font-style:normal;cursor:pointer;}
+.pl-box-btn i:nth-child(1) {background-position:0 -208px;}
+.pl-box-btn i:nth-child(2) {background-position:0 -224px;}
+.pl-box-btn a {background-position:0 -240px;}
+
+/* 
+	@名称: otherauthor
+	@功能: 作者介绍
+	@维护人:见天
+*/
+.otherauthor {border:1px solid #ccc;padding:5px 0;border-radius:5px;margin-top:10px;box-shadow:0 0 3px #ccc;background-color:#f7f7f7;}
+.otherauthor h2 {width:100%;text-align:center;font-size:18px;color: #0072c6;}
+.otherauthor .author-detail {overflow:hidden;padding:10px;}
+.otherauthor .author-detail b {color:#0072c6;}
+.otherauthor .a-img {float:left;margin-right:10px;}
+.otherauthor .a-img img {width:60px;height:60px;border-radius:10px;border:1px solid #ccc;padding:1px;box-shadow:0 0 3px #ccc;}
+.otherauthor .ortitle {border-top:1px solid #ccc;padding:10px;}
+.otherauthor .ortitle h3 {font-weight: bold;margin-bottom:5px;}
+.otherauthor .ortitle h3 em {color:#0072c6;margin-right:5px;}
+.otherauthor .ortitle ul {padding-left:20px;list-style:disc;}
+
+/* 
+	@名称: otherauthor
+	@功能: 相关阅读
+	@维护人:见天
+	@时间:2013年7月6号
+*/
+.related-reading h2 {text-align:left;text-indent:30px;}
+/* 
+	@名称: set_box
+	@功能: 个人设置
+	@维护人:见天
+*/
+#set_box {padding-top:20px;}
+#set_box p b {margin:0 5px 0 0;}
+
+/* 
+	@名称: box_contact
+	@功能: 联系我们
+	@维护人:见天
+*/
+#box_contact h2 {font-size:24px;text-align:center;}
+#box_contact p {margin:10px 0;}
+
+/* 
+	@名称: msg_point
+	@功能: 消息提示框
+	@维护人:见天
+*/
+#msg_point {position:fixed;top:50%;overflow:hidden;padding:10px;border:1px solid #ccc;box-shadow:0 0 3px #ccc;left:50%;margin-top:-30px;margin-left:-60px;background-color:#fff;text-align:center;width:100px;height:40px;line-height:40px;font-size:18px;display:none;}
+
+
+/* 
+	@名称: tags-list
+	@功能: 标签列表
+	@维护人:见天
+*/
+.tags-list {}
+.tags-list li {padding:15px 0;}
+.tags-list .a-img,
+.tags-nr .a-img {width:120px;height:120px;box-shadow:1px 1px 1px #ccc;border-radius:2px;float:left;margin:5px 10px 0 0;}
+.tags-list a b {margin:10px 0 15px;}
+.tags-list a p {color:#aaa;text-shadow:1px 1px 1px #fff;text-align:left;clear:right;margin:5px 0;}
+.tags-list a .p-t {color:#666;}
+.dingyue .i-red {color:#f60;}
+
+.tags-nr-top {overflow:hidden;padding:20px 0;border-bottom:1px solid #ccc;}
+.tags-nr-top .a-img {margin-top:10px;}
+.tags-nr-top h2 {font-size:24px;margin-left:130px;}
+.tags-nr-top h2 .s {margin-right:20px;}
+.tags-nr-top h2 .more-tags {font-size:14px;background-color:#08c;padding:4px 8px;color:#fff;border-radius:2px;box-shadow:1px 1px 1px #ccc;display:inline-block;margin-bottom:10px;}
+.tags-nr-top .tags-summary {color:#999;text-shadow:1px 1px 1px #fff;margin-left:130px;}
+.tags-nr-top .tags-summary .more {color:#08c;}
+
+.tags-nr-list {overflow:hidden;}
+.tags-nr-list li {padding:10px 0;}
+.tags-nr-list .a-img {width:50px;height:50px;margin-top:8px;}
+.tags-nr-list li b {line-height:1.6;}
+.tags-nr-list p {color:#666;text-align:left;clear:right;margin-left:60px;line-height:26px;}
+.tags-nr-list p .more {color:#08c;}
+.tags-nr-list .p-btm {text-align:right;color:#aaa;text-shadow:1px 1px 1px #fff;}
+.tags-nr-list .p-btm a {color:#aaa;}
+
+.related-tag h2 {text-align:left;text-indent: 30px;}
+.related-tag .ortitle ul {padding:5px 0 0;margin-left:-5px;}
+.related-tag li {list-style:none;display:inline-block;margin:0 0 5px 10px;overflow:hidden;line-height:40px;}
+.related-tag li a {padding:8px 15px;background:#08c;color:#fff;}
+.related-tag .ortitle {}
+
+.tag-mingpian {padding:20px 10px;}
+.tag-mingpian .p-img {text-align:center;}
+.tag-mingpian .a-img {float:none;margin:0 auto;}
+.tag-mingpian h2 {font-size:24px;text-align:center;}
+.tag-mingpian .tags-summary {line-height:26px;padding:10px 0;}
+/* 
+	@名称: media
+	@功能: 响应布局
+	@维护人:见天
+*/
+@media (max-width:800px) {
+
+}
+@media (max-width:480px) {
+
+}
+@media (max-width:320px) {
+.neirong-box img {max-width:300px;}
+}
+@media (max-width:240px) {
+.neirong-box img {max-width:220px;}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+}
+
+@media only screen and (min-device-width:600px) and (max-device-width: 800px) {
+}

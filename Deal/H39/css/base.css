@@ -1,0 +1,120 @@
+@charset "utf-8";
+html {
+	background-color: #ffffff;
+	font-size: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	max-width:1200px;margin:0 auto;
+}
+body,form,p,select,div,h1,h2,h3,h4,ul,li,em,var,lable{
+	margin: 0;
+	padding: 0;
+}
+body {
+	color: #555555;
+	font-family:"Microsoft YaHei", sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	background-color: #FFF;
+}
+
+html,body {
+	min-height: 100%;
+}
+
+
+h1,h2,h3,h4,i{
+	font-style: normal;
+	font-weight: normal;
+}
+a {
+	outline: 0 !important;
+}
+
+a:hover {
+	text-decoration: none;
+}
+h1 {
+	font-size: 2em;
+}
+
+b,strong { 
+	font-weight: bold; 
+}
+
+blockquote {
+	margin: 0;
+}
+
+ul,ol,li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+em,var{
+	font-style: normal;
+}
+
+img {
+	border: 0;
+	-ms-interpolation-mode: bicubic;
+}
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner {
+	padding:0;
+	border:0;
+}
+input {
+    _vertical-align: text-bottom;
+}
+input[type="checkbox"] {
+    vertical-align: bottom;
+    *vertical-align: baseline;
+}
+
+input[type="radio"] {
+    vertical-align: text-bottom;/
+}
+
+button,input[type="button"], input[type="reset"], input[type="submit"] {
+	border: 0;
+	cursor: pointer;
+	-webkit-appearance: button;
+	*overflow: visible;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-ms-box-sizing: content-box;
+	box-sizing: content-box;
+	padding: 0;
+	margin: 0;
+}
+input{
+	border: 1px solid #88a5bb;
+	padding: 7px 5px;
+	color: #555555;
+}
+table{
+	border-collapse: collapse;
+}
+
+textarea {
+	resize: none;
+}
+
+
+select {
+    background-color: transparent;
+}
+input:focus,
+textarea:focus {
+	outline: none;
+}
+
+a {
+	text-decoration: none;
+	color:#425C9E;
+}
+.clearfix:after {content: "";display: block;height: 0;clear: both;}
+.clearfix {zoom: 1;}
+.hidden{display:none;}

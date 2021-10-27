@@ -1,0 +1,51 @@
+.twitter-team a, .facebook-team a, .dribbble-team a, .skype-team a {
+    background-image: url("../img/social_icons/social-sprite-team-blue.png");
+}
+
+/* ----------------------------------------------------------------
+    Colors
+-----------------------------------------------------------------*/
+
+
+.nav-collapse_ .nav > li.sfHover > a, .nav-collapse_ .nav > li.sfHover > a:hover, .nav-collapse_ .nav > li > a:hover, .nav-collapse_ .nav > li.active > a, .nav-collapse_ .nav > li.active > a:hover    {
+    color: orange;
+}
+
+/* ----------------------------------------------------------------
+    Background Colors
+-----------------------------------------------------------------*/
+
+.portfolio-overlay-content h2 {
+    background: none repeat scroll 0 0 rgba(255, 126, 0, 0.8);
+}
+
+
+.toggle-button, .header-social-icon li .icon:hover, .nav-collapse_ .nav ul li a:hover, .header-social-icon li .icon:hover, .tp-caption.big_colorbg, .post-holder-sm .date .month, .video-page a:hover, .link-page a:hover, .zoom-effect a:hover, .img-slidecontrol li a.next, .img-slidecontrol li a.prev {
+    background-color: orange !important;
+}
+
+
+.carousel__formats .es-nav span:hover {
+    background-color: orangered !important;
+}
+
+
+
+/* ----------------------------------------------------------------
+    Border Colors
+-----------------------------------------------------------------*/
+
+
+.home-page .header-block, .nav-collapse_ .nav ul, .nav-collapse_ .nav ul li ul, .our-clients li:hover { border-color: orange; }
+
+.post-holder-sm .date .month { border-color: orangered;  }
+
+
+/* ----------------------------------------------------------------
+    Selection Colors
+-----------------------------------------------------------------*/
+
+
+::selection,
+::-moz-selection,
+::-webkit-selection { background-color: orange; }

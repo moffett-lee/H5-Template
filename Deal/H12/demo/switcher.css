@@ -1,0 +1,132 @@
+.switcher {
+    display: block;
+    position: fixed;
+    width: 225px;
+    background-color: #333;
+    left: 0;
+    top: 50px;
+    z-index: 220;
+    color: #000000;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.12);
+    border-bottom: 3px solid rgba(0,0,0,0.4);
+}
+
+.switcher strong { color: inherit; }
+
+.switcher-head {
+    position: relative;
+    background-color: #303030;
+    height: 40px;
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFF;
+}
+
+.switcher-head span { margin-left: 15px; }
+
+.switcher-body {
+    position: relative;
+    padding: 15px;
+}
+
+.switcher-trigger {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: auto;
+    right: -40px;
+    width: 40px !important;
+    height: 40px !important;
+	line-height: 40px !important;
+    font-size: 24px;
+    text-align: center;
+    background-color: #303030;
+    border-radius: 0 4px 4px 0;
+    -moz-border-radius: 0 4px 4px 0;
+    -webkit-border-radius: 0 4px 4px 0;
+}
+
+.switcher select, .switcher input[type="text"] {
+    background: none repeat scroll 0 0 #444444;
+    border-color: rgba(0, 0, 0, 0.6);
+    color: #FFFFFF;
+}
+
+.switcher .line {
+    border: 1px dotted #111111;
+    margin: 20px 0;
+}
+
+.switcher-body p { margin-bottom: 5px; }
+
+.switcher-body small {
+    font-size: 11px;
+    line-height: 12px;
+    font-style: normal;
+    font-family: 'Droid Serif', serif;
+    color: #000;
+}
+
+.switcher ul.switcher-op-selectors { margin: 0 -5px -5px 0; }
+
+ul.switcher-op-selectors li {
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin: 0 5px 5px 0;
+    border: 2px solid rgba(0,0,0,0.8);
+    cursor: pointer;
+}
+
+ul.switcher-op-selectors li img {
+    display: block;
+    width: 16px;
+    height: 16px;
+}
+
+.switcher-op-footerc { margin: 0 -5px 0 0; }
+
+.switcher-op-footerc a {
+    display: block;
+    float: left;
+    background-color: #555;
+    line-height: 32px;
+    width: 91px;
+    text-align: center;
+    margin: 0 5px 0 0;
+    color: #AAA;
+    border: 2px solid rgba(0,0,0,0.3);
+}
+
+.switcher-op-footerc a.swfooter-active {
+    background-color: #333;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.stretched #kwicks-slider { margin-left: -30px; }
+
+.stretched #slider .kwicks .kwick-panel { width: 204px; }
+
+#color-changer-box a {
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    float: left;
+    height: 16px;
+    margin: 0 4px 5px 0;
+    width: 16px;
+}
+
+@media only screen and (max-width: 979px) {
+
+.switcher-op-layout { display: none; }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+.switcher { display: none; }
+
+}
+

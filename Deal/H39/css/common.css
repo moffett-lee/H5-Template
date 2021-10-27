@@ -1,0 +1,81 @@
+@charset "utf-8";
+.head{
+	padding: 16px 3px;
+	border-bottom: 1px solid #c0c0c0;
+	text-align:right;
+	position:relative;
+	overflow:hidden;
+}
+.head2{
+	padding: 16px 3px;
+	text-align:right;
+	position:relative;
+	overflow:hidden;
+}
+.head2 .logo
+{
+    display:block;
+    height:26px;
+	float: left;
+	width: 50%;
+	background:url(http//images1.aoyou.cc/wap/icon/logo.png) 0 0 no-repeat;
+	background-size:contain;
+}
+.head2 .co_name{
+	color: #fe8710;
+	font-size:12px;
+	width:12em;
+	display:inline-block;
+	margin-top:10px;
+}
+.head_bg
+{
+    padding: 16px 3px;
+	text-align:right;
+	position:relative;
+	overflow:hidden;
+	background:-webkit-linear-gradient(#85ceff,#ffffff);background-image: -moz-linear-gradient(top, #85ceff,#ffffff);}
+.head .logo,.head_bg .logo
+{
+    display:block;
+    height:26px;
+	float: left;
+	width: 50%;
+	background:url(http//images1.aoyou.cc/wap/icon/logo.png) 0 0 no-repeat;
+	background-size:contain;
+}
+.head_bg .co_name{
+	color: #fe8710;
+	font-size:12px;
+	width:12em;
+	display:inline-block;
+	margin-top:10px;
+}
+.footer_bg{background-image: -moz-linear-gradient(top, #ffffff,#85ceff);
+        background:-webkit-linear-gradient(#ffffff,#85ceff);padding-bottom:8px;
+	
+}
+#footer ul,
+#footer i{
+	display: block;
+	width:310px;
+	margin: 0 auto;
+	text-align: center;
+	
+}
+#footer ul li{
+	display: inline;
+	line-height: 40px;
+	margin-right:4px;
+}
+#footer ul li a{
+	color: #6893f4;  
+}
+#footer ul li a:hover {
+	color: #ff6600;
+	text-decoration: none;
+}
+@media screen and (max-width:260px)
+{
+    #footer{font-size:0.7em;} 
+	}

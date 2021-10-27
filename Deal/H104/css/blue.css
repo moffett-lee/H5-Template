@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* Text color */
+.colr																		{color:#005eb5 !important;}
+.txthover:hover																{color:#005eb5 !important;}
+.backcolr																	{background-color:#005eb5 !important;}
+.backcolrhover:hover														{background-color:#005eb5 !important;}
+.backcolrdark																{background-color:#005eb5 !important; background-image:url(../images/black.png);}
+.bordercolr																	{border-color:#005eb5 !important;}
+.bordercolrover:hover														{border-color:#005eb5 !important;}
+/* Navigation */
+.ddsmoothmenu ul li ul li ul li a:hover										{background-color:#005eb5 !important;}
+.ddsmoothmenu ul li a:hover, 
+.ddsmoothmenu ul li.current-menu-item a, .ddsmoothmenu ul li a.selected 	{background-color:#005eb5;}
+
+#header .search a.btn:hover, #header .search:hover a.btn					{background-color:#005eb5;}
+
+.wp-calendar ul.dates li:hover												{background:#005eb5;}
+
+.post:hover .post-head a													{color:#005eb5;}
+.post:hover .p-date															{background-color:#005eb5;}
+.pagination ul li a:hover, .pagination ul li a.active						{color:#005eb5;}
+
+.tab-section .tab_menu_container a											{color:#005eb5;}
+.tags-box a:hover															{background-color:#005eb5;}
+.widget_categories ul li a:hover											{color:#005eb5;}
+
+#bread-crumb ul li a:hover													{color:#005eb5;}
+
+.single-event:hover .event-box .event-conts h4 a							{color:#005eb5;}
+.single-event:hover .event-date												{background-color:#005eb5;}
+.fc-event-skin																{background-color:#005eb5;}
+.fc-header 																	{background-color:#005eb5;}
+
+.sermons-post:hover .post-head a											{color:#005eb5;}
+.sermons-post:hover .p-date													{background-color:#005eb5;}

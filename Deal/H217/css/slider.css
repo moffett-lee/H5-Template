@@ -1,0 +1,19 @@
+/*--------- slider ---------*/
+#slide { position:relative; overflow:hidden; width:1024px; margin:0 auto; z-index:2; padding-top:3px;}
+
+.slider { width:1024px; height:521px; margin:0 auto; position:relative; z-index:2; }
+.items { display:none;}
+
+.pagination { position:absolute; top:466px; left:283px; display:inline-block; z-index:10; padding:0px 0px 0px 113px; width:344px;  background:url(../images/pagination-bg.png) 0 24px no-repeat;}
+.pagination li {float:left;	}
+.pagination a { display:block; width:47px; height:40px; padding:10px 0 0 0; text-align:center; background:url(../images/pagination.png) right 0 no-repeat; font:24px/30px "Times New Roman", Times, serif; font-style:italic; color:#686868;  }
+.pagination a strong {display:inline-block; font-weight:normal; font-size:18px; line-height:24px; margin-top:-1px;} 
+.pagination li.current a, .pagination li:hover a { background-position: 0 0;  color:#bf96c7;}
+
+.prev {display:none;}
+.prev:hover {background-position:0 bottom;}
+.next {display:none;}
+.next:hover {background-position:0 0;}
+
+.banner{display:none;}
+

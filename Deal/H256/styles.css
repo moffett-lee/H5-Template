@@ -1,0 +1,509 @@
+﻿/* Distributed by http//freehtml5templates.com */
+
+/*** The All So Important RESET! ***/
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, ol, ul, li, form, label, legend, caption, aside, details, figcaption, figure, footer,header, hgroup, menu, nav, section, summary {
+   margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+a img {border: none}
+
+aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {display: block}
+
+/************************ Basics ************************/
+html {
+	width: 100%;
+	height: 100%;
+}
+
+ body {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	background-color: #fff;
+	background-image: url(images/stucco.png);
+	color: #191919;
+	margin: 0 0 1px; height: 100%; 
+	line-height: 1.5;
+}
+
+body: before {
+   content: "";
+   position: fixed;
+   top: -10px;
+   left: 0;
+   width: 100%;
+   height: 10px;
+   -webkit-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+   -moz-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+   box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+   z-index: 100;
+}
+
+p {
+	margin-bottom: 7px;
+}
+
+@font-face {
+   font-family: 'BoycottRegular';
+   src: url('BOYCOTT_-webfont.eot');
+   src: url('BOYCOTT_-webfont.eot?#iefix') format('embedded-opentype'),
+        url('BOYCOTT_-webfont.ttf') format('truetype'),
+        url('BOYCOTT_-webfont.svg#BoycottRegular') format('svg');
+   font-weight: normal;
+   font-style: normal;
+}
+
+h1.fontface {
+   font: 60px/68px 'BoycottRegular', Arial, sans-serif;
+   letter-spacing: 0;
+}
+
+h2.fontface {
+   font: 48px/52px 'BoycottRegular', Arial, sans-serif;
+   letter-spacing: 0;
+}
+
+p.style1 {
+   font: 18px/27px 'BoycottRegular', Arial, sans-serif;
+}
+
+a, p a {
+	text-decoration: none;
+	color: #333;
+}
+
+a:hover { color: #191919; }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+	position: relative;
+}
+
+h1 {
+	font-size: 45px;
+	line-height: 0.9;
+	color: #191919;
+	text-align: left;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+h2 {
+	font-size: 28px;
+	line-height: 1.3;
+	color: #191919;
+	text-transform: none;
+	font-style: bold;
+	text-align: center;
+	margin-top: 7px;
+	padding-bottom: 6px;
+}
+
+h3 {
+	font-size: 23px;
+	line-height: 0.9;
+	color: #191919;
+	text-align: left;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+.leftfloat {
+   float: left;
+   clear: both;
+}
+
+h3 span {
+	font-size: 12px;
+	line-height: 1.4;
+	color: white;
+	display: block;
+	margin-top: 10px;
+	text-transform: none;
+}
+
+h4 {
+	font-size: 23px;
+	line-height: 0.9;
+	color: white;
+	text-align: left;
+	margin-bottom: 12px;
+	padding-bottom: 10px;
+}
+
+h4 span {
+	font-size: 12px;
+	line-height: 1.4;
+	color: white;
+	display: block;
+	margin-top: 10px;
+	text-transform: none;
+}
+
+header {
+	position: relative;
+	background: #191919 ;
+	width: 100%;
+	height: 100px;
+	display: block;
+}
+
+header#bottom { 
+	 margin: 72px auto; 
+}
+
+div.bottom  { 
+	content: "";
+   position: absolute;
+   left: 0;
+   bottom: 0px;
+   height: 3px;
+   width: 100%;
+	background: #00aeff; /* Old browsers */
+   background: -moz-linear-gradient(left, #00aeff 1%, #71fc00 15%, #ffff00 30%, #fc7a00 50%, #cc00a6 70%, #ff0084 85%, #ff0000 100%); /* FF3.6+ */
+   background: -webkit-gradient(linear, left top, right top, color-stop(1%,#00aeff), color-stop(15%,#71fc00), color-stop(30%,#ffff00), color-stop(50%,#fc7a00), color-stop(70%,#cc00a6), color-stop(85%,#ff0084), color-stop(100%,#ff0000)); /* Chrome,Safari4+ */
+   background: -webkit-linear-gradient(left, #00aeff 1%,#71fc00 15%,#ffff00 30%,#fc7a00 50%,#cc00a6 70%,#ff0084 85%,#ff0000 100%); /* Chrome10+,Safari5.1+ */
+   background: -o-linear-gradient(left, #00aeff 1%,#71fc00 15%,#ffff00 30%,#fc7a00 50%,#cc00a6 70%,#ff0084 85%,#ff0000 100%); /* Opera 11.10+ */
+   background: -ms-linear-gradient(left, #00aeff 1%,#71fc00 15%,#ffff00 30%,#fc7a00 50%,#cc00a6 70%,#ff0084 85%,#ff0000 100%); /* IE10+ */
+   background: linear-gradient(left, #00aeff 1%,#71fc00 15%,#ffff00 30%,#fc7a00 50%,#cc00a6 70%,#ff0084 85%,#ff0000 100%); /* W3C */
+   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00aeff', endColorstr='#ff0000',GradientType=1 ); /* IE6-9 */	
+}
+
+footer {
+	height: 100px;
+	clear: both;
+	width: 100%;
+	margin: 0 auto;
+	background-color: #191919;
+	background-image: url("images/topbrush-border.png") repeat-x; 
+	color: #fff;
+}
+
+/************************ Containers ************************/
+#container, #container_left, #container_right {
+	position: relative;
+	width: 100%;
+}
+
+#container {
+	position: relative;
+	width: 1000px;
+	margin: 0 auto;
+	background-color: transparent;
+	min-height: 100%;
+}
+
+.container1 {
+   width: 980px;
+   margin: 0 auto;
+   margin-left: auto;
+   margin-right: auto;
+	background-color: transparent;
+	padding-top: 20px;
+	position: relative;
+}
+
+.content1 {
+	position: relative;
+	float: left;
+	width: 900px;
+	margin-top: -10px;
+	margin-bottom: 16px;
+	margin-left: 26px;
+	background: #333;
+	border-top: 3px solid #fff;
+}
+
+#main {
+	position: relative;
+	float: left;
+	width: 100%;
+	margin-top: -12px;
+	margin-bottom: 20px;
+}
+
+.news {
+	float: left;
+	width: 200px;
+	position: relative;
+	background: transparent;
+	padding: 15px;
+	padding-right: 100px;
+	margin-bottom: 10px;
+}
+
+.group3 {
+	float: left;
+	width: 200px;
+	position: relative;
+	background: transparent;
+	padding: 15px;
+	margin-bottom: 10px;
+}
+
+#intro {
+	width: 960px;
+	position: relative;
+	float: left;
+	height: auto;
+	padding: 10px;
+	background: transparent;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/************************ Navigation Menu ************************/
+nav {
+	position: relative;
+   width: 980px;
+	height: 40px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+
+nav ul li {
+	float: left;
+	line-height: normal;
+	margin-left: 55px;
+}
+
+nav ul li a{
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#fff;
+	text-transform:capitalize;
+	font-weight:normal;
+	display:block;	/* IE6, IE7 line height fix */
+	background-color:transparent;
+	text-decoration:none;
+	margin-top:3px;
+	padding:5px;
+	-moz-opacity: 0.66;
+   -khtml-opacity: 0.66;
+   opacity: 0.66;
+   -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=66)";
+   filter: progid:DXImageTransform.Microsoft.Alpha(opacity=66);
+   filter:alpha(opacity=66);
+}
+
+nav ul li a.grn:hover{
+	color:#9acd32;
+	-moz-opacity: 1;
+   -khtml-opacity: 1;
+   opacity: 1;
+   -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+   filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+   filter:alpha(opacity=100);
+}
+
+nav ul li a.orng:hover{
+	color:#ff6600;
+	-moz-opacity: 1;
+   -khtml-opacity: 1;
+   opacity: 1;
+   -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+   filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+   filter:alpha(opacity=100);
+}
+nav ul li a.pnk:hover{
+	color:#FF3399;
+	-moz-opacity: 1;
+   -khtml-opacity: 1;
+   opacity: 1;
+   -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+   filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+   filter:alpha(opacity=100);
+}
+
+nav ul li a.blu:hover{
+	color:#00d0ff;
+	-moz-opacity: 1;
+   -khtml-opacity: 1;
+   opacity: 1;
+   -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+   filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+   filter:alpha(opacity=100);
+}
+
+nav ul li a.prpl:hover{
+	color:#CC00FF;
+	-moz-opacity: 1;
+   -khtml-opacity: 1;
+   opacity: 1;
+   -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+   filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+   filter:alpha(opacity=100);
+}
+
+.green {	color: #9acd32; }
+
+.pink { color: #FF3399; }
+
+.orange { color: #FF6600; }
+
+.blue { color: #00d0ff; }
+
+.purple {color: #cc00ff; }
+
+.large {font-size: 72px; }
+
+.medium {font-size: 50px; }
+
+.small {font-size: 25px; }
+
+.rotate {
+   -webkit-transform: rotate(-90deg);
+   -moz-transform: rotate(-90deg); display: block;
+}
+
+.clearing {
+	clear: both;
+	display: inline;
+	width: 100%;
+	height: 0;
+	overflow: hidden;
+}
+
+/************************ Specifics ************************/
+ 
+.quote {	position: relative;
+	float: left;
+	width: 100%;
+	margin-top: 6px;
+	margin-bottom: 30px;
+	background: none;
+}
+
+.welcome {
+	width: 945px;
+	position: relative;
+	padding: 15px 15px 25px 15px;
+	background: transparent;
+}
+
+.portfolio {
+	width: 945px;
+	position: relative;
+	padding: 15px 15px 25px 15px;
+	background: transparent;
+}
+
+ #title {
+   float: left;
+	width: 250px;
+	height: 100px;
+}
+
+/* ---------- gallery styles start here ----------------------- */
+.gallery {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.gallery li {
+	margin: 15px 10px;
+	padding: 0 12px;
+	float: left;
+	position: relative;
+	width: 180px;
+	height: 130px;
+	background: none;
+}
+
+.gallery img {
+	border: none;
+	padding: 0;
+}
+
+.gallery a:hover img {
+	border-color: #000;
+}
+
+.gallery span {
+	width: 185px;
+	height: 134px;
+	display: block;
+	position: absolute;
+	top: -6px;
+	left: 3px;
+	background: url(images/brush-border.png) no-repeat;
+}
+
+#content {
+   float: left;
+   width: 400px;
+   margin-left: 40px;
+}
+
+.gallery a {
+	text-decoration: none;
+}
+
+img {
+	border: none;
+}
+
+#sidebar1 {
+   float: left;
+   padding-left: 10px;
+   padding-right: 20px;
+   width: 180px;
+}
+
+#sidebar2 {
+   float: right;
+   padding-left: 5px;
+   width: 250px;
+}
+
+/* sidebar and footer widget blocks */
+aside h3 {
+font-size: 14px;
+color: #333;
+}
+
+aside ul {
+list-style: none;
+color: #333;
+margin: -15px 0 15px 25px;
+}
+
+aside li a {
+color: #aaa;
+}
+
+aside li a:hover {
+color: #333;
+}
+
+aside  li {
+border-bottom: 1px dotted #ccc;}
+
+.alignleft {
+   float: left;
+   padding-right: 10px;
+}
+
+.alignright {
+   float: right;
+   padding-left: 10px;
+}

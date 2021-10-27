@@ -1,0 +1,227 @@
+/*light header*/
+
+header.light{
+background-color:#fff;
+box-shadow: 0px 1px #dddddc;
+background-image:url(../images/modern/header-light.jpg);
+background-repeat:repeat-x;
+background-position:0 bottom;
+}
+
+header.light nav #logo h1{
+color:#5a4c44;
+text-shadow:0px 1px #fff;
+}
+
+header.light nav #menu ul{
+border-bottom:1px solid #d7d7d7;
+}
+
+header.light nav #menu ul li a{
+color:#2c2c2c;
+}
+
+header.light nav #menu ul li a:hover{
+color:#f67c05;
+}
+
+header.light nav #menu ul li a.active{
+color:#f67c05;
+}
+
+header.light nav #menu ul li a.active:after{
+background-color:#f67c05;
+}
+
+/*dark header*/
+
+header.dark{
+background-color:#0a0a0a;
+box-shadow: 0px 1px #101010;
+background-image:url(../images/modern/header-dark.jpg);
+background-repeat:repeat-x;
+background-position:0 bottom;
+}
+
+header.dark nav #logo h1{
+color:#ededec;
+text-shadow:0px 1px #101010;
+}
+
+header.dark nav #menu ul{
+border-bottom:1px solid #444444;
+}
+
+header.dark nav #menu ul li a{
+color:#ededec;
+}
+
+header.dark nav #menu ul li a:hover{
+color:#f67c05;
+}
+
+header.dark nav #menu ul li a.active{
+color:#f67c05;
+}
+
+header.dark nav #menu ul li a.active:after{
+background-color:#f67c05;
+}
+
+section#slider{
+background-color:#f1f1f1;
+}
+
+
+article.portfolio{
+display:block;
+overflow:auto;
+z-index:9;
+}
+
+article.portfolio ul li{
+background-color:#fff;
+box-shadow:-1px 1px #dddddc;
+}
+
+article.portfolio ul li .info h3{
+color:#424242;
+}
+
+article.portfolio ul li .info p{
+color:#adadad;
+}
+
+.post figure{
+background-color:#fff;
+box-shadow: 0px 1px #dddddc;
+}
+
+.post  figcaption{
+background-color:#1a1a1a;
+border-top:1px solid #454545;
+color:#fff;
+}
+
+.post  figcaption span{
+color:#6b6b6b;
+}
+
+
+.formblock .txt{
+background-color:#f9f9f9;
+border:1px solid #c0c0c0;
+color:#424242;
+}
+
+
+.formblock .txtarea{
+background-color:#f9f9f9;
+border:1px solid #c0c0c0;
+color:#424242;
+}
+
+.formblock .error {
+color: #9d3131;
+}
+
+
+.subbutton {
+background-color:#f67c05;
+color:#fff;
+}
+
+.subbutton:hover {
+color:#fff;
+background-color:#2a2c2d;
+}
+
+.container.light{
+background-color:#ededec;
+color:#424242;
+background-image:url(../images/modern/light.jpg);
+background-repeat:repeat-x;
+position:relative;
+background-color:#e9e9e9;
+}
+
+.container.light.second{
+background-color:#ededec;
+color:#424242;
+background-image:url(../images/modern/light2.jpg);
+background-repeat:repeat-x;
+background-position:0 bottom;
+position:relative;
+background-color:#e9e9e9;
+}
+
+.container.dark{
+background-color:#fff;
+background-image:url(../images/modern/dark.jpg);
+background-repeat:repeat-x;
+background-color:#000;
+position:relative;
+}
+
+.container.dark.second{
+background-color:#fff;
+background-image:url(../images/modern/dark2.jpg);
+background-repeat:repeat-x;
+background-position:0 bottom;
+background-color:#161616;
+position:relative;
+}
+
+.dark p{
+color:#3a3a3a;
+}
+
+.dark p{
+color:#dddddd;
+}
+
+
+.light .title h1{
+color:#424242;
+text-shadow:0px 1px #fff;
+}
+
+.dark .title h1{
+color:#ededec;
+text-shadow:0px 1px #010101;
+}
+
+.light .title h1 span{
+color:#ededec;
+border-left:2px dotted #ededec;
+padding:0px 0px 0px 20px;
+text-shadow:0px 1px rgba(0,0,0,0.5);
+}
+
+.dark .title h1 span{
+color:#f67c05;
+border-left:2px dotted #f67c05;
+padding:0px 0px 0px 20px;
+text-shadow:0px 1px #010101;
+}
+
+footer{
+}
+
+
+.footer{
+background-color:#fff;
+background-image:url(../images/modern/dark.jpg);
+padding:10px 0px;
+margin:0px;
+position:relative;
+}
+
+.footer p{
+margin:0px auto;
+width:1200px;
+text-transform:uppercase;
+color:#fff;
+font-size:10px;
+text-align:center;
+}

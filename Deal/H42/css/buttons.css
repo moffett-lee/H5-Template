@@ -1,0 +1,235 @@
+/* Default button styling - this applies to all anchors with the .button class */
+
+
+
+.button {
+	font-size: 12px; 
+	text-decoration: none!important; 
+	font-family: Helvetica, Arial, sans serif;
+	padding: 8px 12px; 
+	border-radius: 3px; 
+	-moz-border-radius: 3px; 
+	box-shadow: inset 0px 0px 2px #fff;
+	-o-box-shadow: inset 0px 0px 2px #fff;
+	-webkit-box-shadow: inset 0px 0px 2px #fff;
+	-moz-box-shadow: inset 0px 0px 2px #fff;
+	margin-right:10px;
+	margin-bottom:20px;
+	display:inline-block;
+
+	
+}
+.button:active {
+	display:inline-block; 
+	padding: 8px 12px; 
+	box-shadow: inset 0px 0px 3px #999;
+	-o-box-shadow: inset 0px 0px 3px #999;
+	-webkit-box-shadow: inset 0px 0px 3px #999;
+	-moz-box-shadow: inset 0px 0px 3px #999;
+}
+
+.button:visited {
+	display:inline-block;
+	padding: 8px 12px;
+	margin-right:20px;
+	margin-bottom:30px; 
+	box-shadow: inset 0px 0px 3px #999;
+	-o-box-shadow: inset 0px 0px 3px #999;
+	-webkit-box-shadow: inset 0px 0px 3px #999;
+	-moz-box-shadow: inset 0px 0px 3px #999;
+}
+
+
+.grey2 {
+	color: #444;
+	border: 1px solid #d0d0d0;
+	background-image: -moz-linear-gradient(#ededed, #e1e1e1);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e1e1e1), to(#ededed));
+	background-image: -webkit-linear-gradient(#ededed, #e1e1e1);
+	background-image: -o-linear-gradient(#ededed, #e1e1e1);
+	text-shadow: 1px 1px 1px #fff;
+	background-color: #e1e1e1;
+}
+.grey2:hover {
+	border: 1px solid #b0b0b0;
+	background-image: -moz-linear-gradient(#e1e1e1, #ededed);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ededed), to(#e1e1e1));
+	background-image: -webkit-linear-gradient(#e1e1e1, #ededed);
+	background-image: -o-linear-gradient(#e1e1e1, #ededed);
+	background-color: #ededed;
+}
+
+/* The styles for the grey button */
+.grey {
+	color: #444;
+	border: 1px solid #d0d0d0;
+	background-image: -moz-linear-gradient(#ededed, #e1e1e1);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e1e1e1), to(#ededed));
+	background-image: -webkit-linear-gradient(#ededed, #e1e1e1);
+	background-image: -o-linear-gradient(#ededed, #e1e1e1);
+	text-shadow: 1px 1px 1px #fff;
+	background-color: #e1e1e1;
+}
+.grey:hover {
+	border: 1px solid #b0b0b0;
+	background-image: -moz-linear-gradient(#e1e1e1, #ededed);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ededed), to(#e1e1e1));
+	background-image: -webkit-linear-gradient(#e1e1e1, #ededed);
+	background-image: -o-linear-gradient(#e1e1e1, #ededed);
+	background-color: #ededed;
+}
+.grey:active {	
+	padding: 8px 12px; 
+	display:block; 
+	border: 1px solid #666;
+	width:auto;
+}
+
+/* The styles for the red button */
+.red {
+	color: #923c47;
+	border: 1px solid #d96d7c;
+	background-image: -moz-linear-gradient(#f997b0, #f6677b);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f6677b), to(#f997b0));
+	background-image: -webkit-linear-gradient(#f997b0, #f6677b);
+	background-image: -o-linear-gradient(#f997b0, #f6677b);
+	text-shadow: 1px 1px 1px #fdbcc7;
+	background-color: #f6677b;
+}
+.red:hover {
+	border: 1px solid #c75964;
+	background-image: -moz-linear-gradient(#f6677b, #f997b0);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f997b0), to(#f6677b));
+	background-image: -webkit-linear-gradient(#f6677b, #f997b0);
+	background-image: -o-linear-gradient(#f6677b, #f997b0);
+	background-color: #f997b0;
+}
+.red:active {border: 1px solid #ab3e4b;}
+
+/* The styles for the blue button */
+.blue {
+	color: #41788c;
+	border: 1px solid #6fb1c7;
+	background-image: -moz-linear-gradient(#aae5f7, #73d0f1);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#73d0f1), to(#aae5f7));
+	background-image: -webkit-linear-gradient(#aae5f7, #73d0f1);
+	background-image: -o-linear-gradient(#aae5f7, #73d0f1);
+	text-shadow: 1px 1px 1px #bfeafb;
+	background-color: #73d0f1;
+}
+.blue:hover {
+	border: 1px solid #4690ad;
+	background-image: -moz-linear-gradient(#73d0f1, #aae5f7);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#aae5f7), to(#73d0f1));
+	background-image: -webkit-linear-gradient(#73d0f1, #aae5f7);
+	background-image: -o-linear-gradient(#73d0f1, #aae5f7);
+	background-color: #aae5f7;
+}
+.blue:active {border: 1px solid #3b778b;}
+
+/* The styles for the green button */
+.green {
+	color: #5a742d;
+	border: 1px solid #95b959;
+	background-image: -moz-linear-gradient(#cae387, #a5cb5e);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#a5cb5e), to(#cae387));
+	background-image: -webkit-linear-gradient(#cae387, #a5cb5e);
+	background-image: -o-linear-gradient(#cae387, #a5cb5e);
+	text-shadow: 1px 1px 1px #dff4bc;
+	background-color: #a5cb5e;
+}
+.green:hover {
+	border: 1px solid #687e30;
+	background-image: -moz-linear-gradient(#a5cb5e, #cae387);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#cae387), to(#a5cb5e));
+	background-image: -webkit-linear-gradient(#a5cb5e, #cae387);
+	background-image: -o-linear-gradient(#a5cb5e, #cae387);
+	background-color: #cae387;
+}
+.green:active {border: 1px solid #506320; width:auto; height:auto;}
+
+/* The styles for the black button */
+.black {
+	color: #fff;
+	border: 1px solid #4d4d4d;
+	background-image: -moz-linear-gradient(#656565, #454545);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#454545), to(#656565));
+	background-image: -webkit-linear-gradient(#656565, #454545);
+	background-image: -o-linear-gradient(#656565, #454545);
+	text-shadow: 1px 1px 1px #6d6d6d;
+	background-color: #454545;
+}
+.black:hover {
+	border: 1px solid #363636;
+	background-image: -moz-linear-gradient(#454545, #656565);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#656565), to(#454545));
+	background-image: -webkit-linear-gradient(#454545, #656565);
+	background-image: -o-linear-gradient(#454545, #656565);
+	background-color: #656565;
+}
+.black:active {border: 1px solid #000;}
+
+/* The styles for the yellow button */
+.yellow {
+	color: #986a39;
+	border: 1px solid #e6b650;
+	background-image: -moz-linear-gradient(#ffd974, #febf4d);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#febf4d), to(#ffd974));
+	background-image: -webkit-linear-gradient(#ffd974, #febf4d);
+	background-image: -o-linear-gradient(#ffd974, #febf4d);
+	text-shadow: 1px 1px 1px #fbe5ac;
+	background-color: #febf4d;
+}
+.yellow:hover {
+	border: 1px solid #c1913d;
+	background-image: -moz-linear-gradient(#febf4d, #ffd974);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffd974), to(#febf4d));
+	background-image: -webkit-linear-gradient(#febf4d, #ffd974);
+	background-image: -o-linear-gradient(#febf4d, #ffd974);
+	background-color: #ffd974;
+}
+.yellow:active {border: 1px solid #936b26;}
+
+/* The styles for the purple button */
+.purple {
+	color: #7e5d7c;
+	border: 1px solid #cd93c6;
+	background-image: -moz-linear-gradient(#e9c4e3, #d798d1);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#d798d1), to(#e9c4e3));
+	background-image: -webkit-linear-gradient(#e9c4e3, #d798d1);
+	background-image: -o-linear-gradient(#e9c4e3, #d798d1);
+	text-shadow: 1px 1px 1px #f1ceef;
+	background-color: #d798d1;
+}
+.purple:hover {
+	border: 1px solid #886382;
+	background-image: -moz-linear-gradient(#d798d1, #e9c4e3);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e9c4e3), to(#d798d1));
+	background-image: -webkit-linear-gradient(#d798d1, #e9c4e3);
+	background-image: -o-linear-gradient(#d798d1, #e9c4e3);
+	background-color: #e9c4e3;
+}
+.purple:active {border: 1px solid #6a4664;}
+
+/* The styles for the greyblue button */
+.gblue {
+	color: #57646d;
+	border: 1px solid #929ba2;
+	background-image: -moz-linear-gradient(#bbcbd8, #8ea5b5);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#8ea5b5), to(#bbcbd8));
+	background-image: -webkit-linear-gradient(#bbcbd8, #8ea5b5);
+	background-image: -o-linear-gradient(#bbcbd8, #8ea5b5);
+	text-shadow: 1px 1px 1px #c6d4df;
+	background-color: #8ea5b5;
+}
+.gblue:hover {
+	border: 1px solid #656f78;
+	background-image: -moz-linear-gradient(#8ea5b5, #bbcbd8);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#bbcbd8), to(#8ea5b5));
+	background-image: -webkit-linear-gradient(#8ea5b5, #bbcbd8);
+	background-image: -o-linear-gradient(#8ea5b5, #bbcbd8);
+	background-color: #bbcbd8;
+}
+.gblue:active {border: 1px solid #434f5a;}
+
+/* The styles for the button groups */

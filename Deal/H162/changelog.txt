@@ -1,0 +1,5 @@
+Version 1.0.2.3879 - 08-Feb-11
+	- renamed the width and height attributes from settings.xml to componentWidth and componentHeight, respectively
+
+Version 1.0.1.3363 - 10-Jan-11
+	- fixed bug for updateRotations

@@ -1,0 +1,9 @@
+/* CSS Document */
+*{ padding:0; margin:0}ul,ol,li{ list-style:none}img{ border:none;}
+body { background:#3c7fb5;background-repeat:no-repeat;background-attachment:fixed;}
+.box1{ height:507px; background:url(../images/loginb1.png) repeat-x; padding-top:106px}
+.box2{ width:399px; height:405px; background:url(../images/loginb2.png) center no-repeat; margin:0px auto; padding:0px 65px 0px;}
+.box2 h1{ font:22px "微软雅黑"; line-height:32px; text-align:center;padding-top:130px; color:#FFF; font-weight:normal}
+.box2 table{margin-top:68px}
+.box2 table tr td{ font-size:12px;line-height:30px; color:#3c5d88; padding-bottom:5px}.box_inp1{ width:133px; height:29px; border:none; background:url(../images/input1.jpg) no-repeat; padding:0px 5px; line-height:29px;}.box_inp2{ width:58px; height:29px; border:none; background:url(../images/input2.jpg) no-repeat; padding:0px 5px; line-height:29px;}
+.subbtm{width:95px; height:25px; border:none;background:url(../images/subbtm.png) no-repeat; color:#466388}.copy{ text-align:center; font-size:12px; line-height:24px; color:#ffffff; margin-top:50px;}

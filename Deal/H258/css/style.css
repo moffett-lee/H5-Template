@@ -1,0 +1,64 @@
+/* Getting the new tags to behave */
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {display:block}
+mark, rp, rt, ruby, summary, time {display:inline}
+.left {float:left}
+.right {float:right}
+.wrapper {width:100%;overflow:hidden}
+/* Global properties */
+body {background:#050505;border:0;font:14px Arial, Helvetica, sans-serif;color:#808080;line-height:20px}
+.css3{border-radius:8px;-moz-border-radius:8px;-webkit-border-radius:8px;box-shadow:0 0 4px rgba(0, 0, 0, .4);-moz-box-shadow:0 0 4px rgba(0, 0, 0, .4);-webkit-box-shadow:0 0 4px rgba(0, 0, 0, .4);behavior:url(js/PIE.htc);position:relative}
+.main {margin:0 auto;width:940px;position:relative;z-index:1}
+.body1 {background:url(../images/bg_img2.png) center 0 no-repeat;height:318px;width:515px;right:0px;top:80px;position:absolute;z-index:2}
+.ic, .ic a {border:0;float:right;background:#fff;color:#f00;width:50%;line-height:10px;font-size:10px;margin:-220% 0 0 0;overflow:hidden;padding:0}
+a {color:#a1802b;text-decoration:underline;outline:none}
+a:hover {text-decoration:none}
+h1 {float:left;padding:19px 0 0 30px}
+h2 {font-size:32px;line-height:40px;padding:30px 0 18px 0;color:#fff;font-weight:300;letter-spacing:-2px}
+h2 span {font-size:17px;display:block;line-height:24px;font-weight:500;color:#b4b4b4;letter-spacing:-1px;margin-top:-6px}
+p {padding-bottom:20px}
+/* header */
+header {width:100%;overflow:hidden}
+#logo {display:block;background:url(../images/logo.jpg) 0 3px no-repeat;padding:0 0 0 90px;font-size:32px;color:#fff;font-weight:300;text-decoration:none;line-height:56px;letter-spacing:-2px}
+#menu {float:right;padding:32px 0 0 0}
+#menu li {float:left;padding-left:12px}
+#menu li a {display:block;font-size:11px;color:#fff;text-transform:uppercase;text-decoration:none;line-height:34px;padding:0 22px;behavior:url(js/PIE.htc);position:relative;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px}
+#menu li a:hover, #menu #menu_active a {background:url(../images/bg_menu_active.gif) top repeat-x #520001}
+#banner {background:url(../images/bg_banner_2.jpg) 0 0 no-repeat;height:285px;width:100%;overflow:hidden;margin-top:23px}
+.text {padding:53px 0 0 60px}
+.text h1 {float:none;font-size:32px;line-height:40px;font-weight:300;color:#fff;padding:0 0 33px 0;letter-spacing:-2px}
+.text h1 span {display:block;color:#000;font-weight:900}
+.text .button {display:inline-block;background:url(../images/bg_button1.gif) top repeat-x #b3b3b3;font-size:11px;color:#000;text-decoration:none;text-transform:uppercase;line-height:34px;padding:0 20px;behavior:url(js/PIE.htc);position:relative;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px}
+.text .button:hover {background:#000;color:#fff}
+/* content */
+#content {width:100%;overflow:hidden;padding-top:0;padding-bottom:26px}
+.pad_left1 {padding-left:60px}
+.pad_left2 {padding-left:35px}
+.pad_bot1 {padding-bottom:15px}
+.pad_bot2 {padding-bottom:35px}
+.marg_right1 {margin-right:28px}
+.box1 {background:url(../images/bg_box1.gif) top repeat-x #050505;border:1px solid #2a2a2a;behavior:url(js/PIE.htc);position:relative;border-radius:14px;-moz-border-radius:14px;-webkit-border-radius:14px;padding:21px 30px 24px 30px}
+.list1 li {line-height:34px;border-bottom:1px solid #1e1e1e}
+.list1 .bg_none {border:none}
+.list1 li a {color:#808080;text-decoration:none;padding-left:20px;background:url(../images/marker_1.gif) 6px 6px no-repeat}
+.list1 li a:hover {color:#a1802b}
+.list2 {margin:-5px 0}
+.list2 li {line-height:30px}
+.list2 li a {color:#808080;padding-left:12px;background:url(../images/marker_1.gif) 0 5px no-repeat}
+.list2 li a:hover{color:#a1802b}
+.list3 {margin:-12px 0}
+.list3 li {line-height:35px}
+.list3 li a{color:#808080;padding-left:12px;background:url(../images/marker_1.gif) 0 5px no-repeat;text-decoration:none}
+.list3 li a:hover{color:#a1802b}
+.color1 {color:#fff}
+.line1 {background:url(../images/line_ver1.gif) 250px 0 repeat-y;padding:10px 0}
+.link1 {color:#808080;text-decoration:none}
+.link1:hover {text-decoration:underline}
+/* footer */
+footer {padding:35px 0 38px 0;text-align:center;font-size:12px;line-height:18px;background:#0d0d0d}
+footer a{}
+footer a:hover{}
+/* forms */
+#ContactForm {line-height:24px}
+#ContactForm a {margin-left:40px;float:right}
+#ContactForm .input {float:right;width:386px;height:16px;border:1px solid #373737;background:none;padding:3px 5px;margin-bottom:6px;color:#808081;font:14px Arial, Helvetica, sans-serif}
+#ContactForm textarea {overflow:auto;float:right;width:386px;height:224px;border:1px solid #373737;background:none;padding:3px 5px;margin-bottom:10px;color:#808081;font:14px Arial, Helvetica, sans-serif}

@@ -1,0 +1,175 @@
+.car_div {
+}
+
+#owl {
+	overflow: hidden;
+	z-index: 1;
+	position: relative;
+	margin: -29px -10px 0;
+}
+
+
+#owl .owl-item {
+	float: left;
+	width: 100%;
+}
+
+#owl .item {
+	color: #fff;
+	overflow: hidden;
+	padding: 0 10px 20px;
+	position: relative;
+	text-align: center;
+	text-align: left;
+}
+
+#owl .item a img {
+	margin-bottom: 15px;
+}
+
+#owl .item a {
+	box-shadow: 0px 0px 0px transparent;
+    font: 600 20px/20px 'Open Sans', sans-serif;
+	text-align: center;
+	padding: 15px 15px 18px;
+	color: #fff;
+	display: block;
+	background-color: #92ce0a;
+}
+
+#owl .item a:hover {
+	box-shadow: 3px 3px 5px #555;
+}
+
+#owl .item.it1 a  {
+	background-color: #ffe202;
+}
+
+#owl .item.it2 a  {
+	background-color: #0052da;
+}
+
+#owl .item.it3 a  {
+	background-color: #ff7f00;
+}
+
+#owl .owl-wrapper-outer {
+	padding-top: 53px;
+	overflow: hidden;
+}
+
+#owl .owl-prev, #owl .owl-next {
+	cursor: pointer;
+	position: absolute;
+	background: url(../images/prevnext.png) 0 0 no-repeat;
+	display: block;
+	height: 27px;
+	right: 42px;
+	top: 0;
+	width: 31px;
+	overflow: hidden;
+	text-indent: -999px;
+}
+
+#owl .owl-next {
+	right: 10px;
+	background-position: right bottom;
+}
+
+#owl .owl-next:hover {
+	background-position: right 0;
+}
+
+
+
+#owl .owl-prev:hover {
+	background-position: 0 bottom;
+}
+
+
+/* Owl content */
+
+
+
+.owl-carousel .owl-wrapper{
+	display: none;
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+	-webkit-perspective: 1000;
+}
+
+
+.car_div {
+}
+
+#owl1 {
+	overflow: hidden;
+	position: relative;
+	margin: -62px -10px 0px;
+	padding-top: 66px;
+
+}
+
+#owl1 .owl-item {
+	float: left;
+	width: 100%;
+}
+
+
+
+#owl1 .item {
+	overflow: hidden;
+	padding: 0 10px;
+	position: relative;
+	text-align: left;
+}
+
+#owl1 .item>div {
+	background-color: #eefbfa;
+	padding-left: 21px;
+	padding-top: 26px;
+	padding-bottom: 25px;
+}
+
+#owl1 .col1 {
+	font: 12px/16px 'Patua One', cursive;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #39b4b1;
+}
+
+#owl1 .owl-wrapper-outer {
+	overflow: visible;
+	padding-top: 0;
+}
+
+
+#owl1 .owl-prev, #owl1 .owl-next {
+	cursor: pointer;
+	position: absolute;
+	background: url(../images/prevnext.png) 0 0 no-repeat;
+	display: block;
+	height: 30px;
+	right: 41px;
+	top: 4px;
+	width: 30px;
+	overflow: hidden;
+	text-indent: -999px;
+}
+
+#owl1 .owl-next {
+		right: 11px;
+	background-position: right bottom;
+}
+
+
+
+#owl1 .owl-next:hover {
+	background-position: right 0;
+}
+
+
+
+#owl1 .owl-prev:hover {
+	background-position: 0 bottom;
+}

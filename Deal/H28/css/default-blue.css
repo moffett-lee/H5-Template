@@ -1,0 +1,619 @@
+/* ===================================================================================
+
+Theme Name: Moderna Responsive Site Template
+Theme URI: http//pixel-industry.com/moderna/Boxed/
+Description: Moderna is Responsive and Creative Site Template 
+Author: pixel-industry
+Author URI: http//pixel-industry.com
+Version: 1.0
+
+Style: blue-default
+
+======================================================================================*/
+
+/*=====================================================================================
+        BASIC STYLES
+======================================================================================*/
+a{
+    color: #61d5d1;
+}
+
+a:hover{
+    color: #89e0dd;
+}
+
+/* TEXT HIGHLIGHT */
+.highlight-style{
+    background: #61d5d1;
+    color: #fff;
+}
+
+/*FINDOUT MORE LINK STYLE */
+.find-out-more, a.find-out-more{
+    color: #61d5d1;
+}
+
+a.find-out-more:hover{
+    color: #89e0dd;
+}
+
+
+
+/*=====================================================================================
+        HEADER CONTAINER STYLES
+======================================================================================*/
+#logo a{
+    background: url('../img/blue-default/logo.png') no-repeat;
+    height: 25px;
+    width: 247px !important;
+    display: block;
+    text-indent: -9999px;
+}
+
+
+
+/*=====================================================================================
+        SLIDER 
+======================================================================================*/
+.slide-elements h3 span{
+    color: #7cdcd9;
+}
+
+.anythingSlider-default .arrow a {
+    display: block;
+    width: 26px;
+    height: 40px;
+    margin: -25px 0 0 0; /* half height of image */
+    text-align: center;
+    outline: 0;  
+    background: url('../img/blue-default/slider-arrows.png') no-repeat;
+}
+
+/* back arrow */
+.anythingSlider-default .back { left: -50px; }
+.anythingSlider-default .back a { background-position:  -0px -40px; }
+.anythingSlider-default .back a:hover,
+.anythingSlider-default .back a.hover { background-position:  -0px -0px; }
+/* forward arrow */
+.anythingSlider-default .forward { right: -50px; }
+.anythingSlider-default .forward a { background-position:  -26px -40px; }
+.anythingSlider-default .forward a:hover,
+.anythingSlider-default .forward a.hover { background-position:  -26px -0px; }
+
+
+
+/*=====================================================================================
+        HOME PAGE STYLES
+======================================================================================*/
+/* PORTFOLIO CAROUSEL */
+.carousel .carousel-nav li:hover{
+    background: #7cdcd9;
+}
+
+
+
+/*=====================================================================================
+        SERVICES PAGE STYLES
+======================================================================================*/
+
+.icon1:hover{
+    background: #7cdcd9 url('../img/services/brush.png')  no-repeat;
+    background-position:  -0px -0px;
+}
+
+.icon2:hover{
+    background: #7cdcd9 url('../img/services/box.png')  no-repeat;
+    background-position:  -0px -0px;
+}
+
+.icon3:hover{
+    background: #7cdcd9 url('../img/services/mac.png')  no-repeat;
+    background-position:  -0px -0px;
+}
+
+.icon4:hover{
+    background: #7cdcd9 url('../img/services/chart.png')  no-repeat;
+    background-position:  -0px -0px;
+}
+
+.icon5:hover{
+    background: #7cdcd9 url('../img/services/pie.png')  no-repeat;
+    background-position:  -0px -0px;
+}
+
+.icon6:hover{
+    background: #7cdcd9 url('../img/services/rocke-t.png')  no-repeat;
+    background-position:  -0px -0px;
+}
+
+.icon7:hover{
+    background: #7cdcd9 url('../img/services/android.png')  no-repeat;
+    background-position:  -0px -0px;
+}
+
+.icon8:hover{
+    background: #7cdcd9 url('../img/services/arrow-down.png')  no-repeat;
+    background-position:  -0px -0px;
+}
+
+.icon9:hover{
+    background: #7cdcd9 url('../img/services/arrow-left.png')  no-repeat;
+    background-position:  -0px -0px;
+}
+
+.icon10:hover{
+    background: #7cdcd9 url('../img/services/arrow-right.png')  no-repeat;
+    background-position:  -0px -0px;
+}
+
+.icon11:hover{
+    background: #7cdcd9 url('../img/services/arrow-up.png')  no-repeat;
+    background-position:  -0px -0px;
+}
+
+.icon12:hover{
+    background: #7cdcd9 url('../img/services/book.png')  no-repeat;
+    background-position:  -0px -0px;
+}
+
+.icon13:hover{
+    background: #7cdcd9 url('../img/services/calendar.png')  no-repeat;
+    background-position:  -0px -0px;
+}
+
+.icon14:hover{
+    background: #7cdcd9 url('../img/services/camera.png')  no-repeat;
+    background-position:  -0px -0px;
+}
+
+.icon15:hover{
+    background: #7cdcd9 url('../img/services/chain.png')  no-repeat;
+    background-position:  -0px -0px;
+}
+
+.icon16:hover{
+    background: #7cdcd9 url('../img/services/chain2.png')  no-repeat;
+    background-position:  -0px -0px;
+}
+
+.icon17:hover{
+    background: #7cdcd9 url('../img/services/chrome.png')  no-repeat;
+    background-position:  -0px -0px;
+}
+
+.icon18:hover{
+    background: #7cdcd9 url('../img/services/firefox.png')  no-repeat;
+    background-position:  -0px -0px;
+}
+
+.icon19:hover{
+    background: #7cdcd9 url('../img/services/safari.png')  no-repeat;
+    background-position:  -0px -0px;
+}
+
+.icon20:hover{
+    background: #7cdcd9 url('../img/services/clapboard.png')  no-repeat;
+    background-position:  -0px -0px;
+}
+
+.icon21:hover{
+    background: #7cdcd9 url('../img/services/cog.png')  no-repeat;
+    background-position:  -0px -0px;
+}
+
+.icon22:hover{
+    background: #7cdcd9 url('../img/services/construction.png')  no-repeat;
+    background-position:  -0px -0px;
+}
+
+.icon23:hover{
+    background: #7cdcd9 url('../img/services/cup.png')  no-repeat;
+    background-position:  -0px -0px;
+}
+
+.icon24:hover{
+    background: #7cdcd9 url('../img/services/cut.png')  no-repeat;
+    background-position:  -0px -0px;
+}
+
+.icon25:hover{
+    background: #7cdcd9 url('../img/services/download.png')  no-repeat;
+    background-position:  -0px -0px;
+}
+
+.icon26:hover{
+    background: #7cdcd9 url('../img/services/flag.png')  no-repeat;
+    background-position:  -0px -0px;
+}
+
+.icon27:hover{
+    background: #7cdcd9 url('../img/services/folder.png')  no-repeat;
+    background-position:  -0px -0px;
+}
+
+.icon28:hover{
+    background: #7cdcd9 url('../img/services/globe.png')  no-repeat;
+    background-position:  -0px -0px;
+}
+
+.icon29:hover{
+    background: #7cdcd9 url('../img/services/graph.png')  no-repeat;
+    background-position:  -0px -0px;
+}
+
+.icon30:hover{
+    background: #7cdcd9 url('../img/services/hd.png')  no-repeat;
+    background-position:  -0px -0px;
+}
+
+.icon31:hover{
+    background: #7cdcd9 url('../img/services/help.png')  no-repeat;
+    background-position:  -0px -0px;
+}
+
+.icon32:hover{
+    background: #7cdcd9 url('../img/services/home.png')  no-repeat;
+    background-position:  -0px -0px;
+}
+
+.icon33:hover{
+    background: #7cdcd9 url('../img/services/idea.png')  no-repeat;
+    background-position:  -0px -0px;
+}
+
+.icon34:hover{
+    background: #7cdcd9 url('../img/services/image.png')  no-repeat;
+    background-position:  -0px -0px;
+}
+
+.icon35:hover{
+    background: #7cdcd9 url('../img/services/lab.png')  no-repeat;
+    background-position:  -0px -0px;
+}
+
+.icon36:hover{
+    background: #7cdcd9 url('../img/services/label.png')  no-repeat;
+    background-position:  -0px -0px;
+}
+
+.icon37:hover{
+    background: #7cdcd9 url('../img/services/lock.png')  no-repeat;
+    background-position:  -0px -0px;
+}
+
+.icon38:hover{
+    background: #7cdcd9 url('../img/services/mail.png')  no-repeat;
+    background-position:  -0px -0px;
+}
+
+.icon39:hover{
+    background: #7cdcd9 url('../img/services/marker.png')  no-repeat;
+    background-position:  -0px -0px;
+}
+
+.icon40:hover{
+    background: #7cdcd9 url('../img/services/paperclip.png')  no-repeat;
+    background-position:  -0px -0px;
+}
+
+.icon41:hover{
+    background: #7cdcd9 url('../img/services/pdf.png')  no-repeat;
+    background-position:  -0px -0px;
+}
+
+.icon42:hover{
+    background: #7cdcd9 url('../img/services/pencil.png')  no-repeat;
+    background-position:  -0px -0px;
+}
+
+.icon43:hover{
+    background: #7cdcd9 url('../img/services/phone.png')  no-repeat;
+    background-position:  -0px -0px;
+}
+
+.icon44:hover{
+    background: #7cdcd9 url('../img/services/preview.png')  no-repeat;
+    background-position:  -0px -0px;
+}
+
+.icon45:hover{
+    background: #7cdcd9 url('../img/services/rss.png')  no-repeat;
+    background-position:  -0px -0px;
+}
+
+.icon46:hover{
+    background: #7cdcd9 url('../img/services/shop.png')  no-repeat;
+    background-position:  -0px -0px;
+}
+
+.icon47:hover{
+    background: #7cdcd9 url('../img/services/shop.png')  no-repeat;
+    background-position:  -0px -0px;
+}
+
+.icon48:hover{
+    background: #7cdcd9 url('../img/services/speaker.png')  no-repeat;
+    background-position:  -0px -0px;
+}
+
+.icon49:hover{
+    background: #7cdcd9 url('../img/services/tool.png')  no-repeat;
+    background-position:  -0px -0px;
+}
+
+.icon50:hover{
+    background: #7cdcd9 url('../img/services/warning.png')  no-repeat;
+    background-position:  -0px -0px;
+}
+
+
+
+/*=====================================================================================
+        PORTFOLIO PAGE STYLES
+======================================================================================*/
+#portfolio-filter li a:hover{
+    color: #89e0dd;
+}
+
+#portfolio-filter .active a{
+    color: #89e0dd !important;
+}
+
+figcaption .category{
+    color: #61d5d1;
+    text-transform: none;
+}
+
+figure.img-styled .img-hover{
+    background: #8cd8dd;
+}
+
+figure.img-styled .img-hover li a{
+    text-shadow: 0 1px 0 #5BB9BF;
+}
+
+figure.img-styled .img-hover li.portfolio-single:hover{
+    background: url('../img/blue-default/chain-hover.png') no-repeat center;
+}
+
+figure.img-styled .img-hover li.portfolio-grid:hover{
+    background: url('../img/blue-default/grid-hover.png') no-repeat center;
+}
+
+figure.img-styled .img-hover li.portfolio-zoom:hover{
+    background: url('../img/blue-default/zoom-hover.png') no-repeat center;
+}
+
+/* PORTFOLIO WITH SHOWCASE - SHOWCASE ITEM STYLE */
+.showcase-nav li a:hover{
+    color: #89e0dd;
+}
+
+.showcase-nav li a:hover{
+    color: #89e0dd;
+}
+
+
+
+/*=====================================================================================
+        BLOG PAGE STYLES
+======================================================================================*/
+.grid_9.blog .meta .category.design{
+    background: #7cdcd9 url('../img/pen.png') no-repeat center;
+}
+
+.grid_9.blog .meta .category.photo{
+    background: #7cdcd9 url('../img/picture.png') no-repeat center;
+}
+
+.grid_9.blog .meta .category.video{
+    background: #7cdcd9 url('../img/movie.png') no-repeat center;
+}
+
+
+/* POST CONTENT STYLING */
+.grid_9.blog .post .post-title a{
+    background: #7cdcd9;
+    text-shadow: 0 1px 0 #5BB9BF;
+}
+
+
+/* BLOG POST COMMENTS */
+.post-comments .comments-li .comment .comment-meta h5:hover{
+    color: #7cdcd9;
+}
+
+.comment-form .submit{
+    text-shadow: 2px 2px #5BB9BF;
+}
+
+
+/* BLOG POST NO IMAGE POST TITLE */
+.grid_9.blog .post.no-image .post-title a:hover{
+    color: #7cdcd9;
+}
+
+
+
+/*=====================================================================================
+        CONTACT PAGE STYLE
+======================================================================================*/
+.contact-form .submit{
+    text-shadow: 2px 2px #5BB9BF;
+}
+
+
+
+/*=====================================================================================
+        SIDEBAR  STYLE
+======================================================================================*/
+.aside-widgets li a:hover{
+    color: #61d5d1;
+}
+
+
+
+/*=====================================================================================
+        PAGINATION STYLE
+======================================================================================*/
+.pagination li:hover, .pagination li.arrow:hover{
+    background: #7cdcd9;
+}
+
+.pagination li.active{
+    background: #7cdcd9;
+}
+
+
+
+/*=====================================================================================
+        FOOTER STYLES
+======================================================================================*/
+.container_12 .copyright .to-top:hover{
+    background: #7cdcd9;
+}
+
+
+
+/*=====================================================================================
+        ELEMENTS
+======================================================================================*/
+/* BUTTON BIG STYLE */
+
+.btn-big.style-color{
+    background: url('../img/blue-default/btn-big.png') repeat-x;
+    background-position: -0px -0px;
+
+    border: 1px solid #5bb9bf;
+}
+
+.btn-big.style-color span{
+    text-shadow: 2px 2px #5bb9bf;
+}
+
+.btn-big.style-color:hover{
+    background: url('../img/blue-default/btn-big.png') repeat-x;
+    background-position: -0px -45px;
+}
+
+.btn-big.style-color:active{
+    background: url('../img/blue-default/btn-big.png') repeat-x;
+    background-position: -0px -90px;
+}
+
+
+/* MEDIUM BUTTON STYLE */
+.btn-medium.style-color{
+    background: url('../img/blue-default/btn-med.png') repeat-x;
+    background-position: -0px -0px;
+
+    border: 1px solid #5bb9bf;
+}
+
+.btn-medium.style-color span{
+    text-shadow: 1px 1px #5bb9bf;
+}
+
+.btn-medium.style-color:hover{
+    background: url('../img/blue-default/btn-med.png') repeat-x;
+    background-position: -0px -30px;
+}
+
+.btn-medium.style-color:active{
+    background: url('../img/blue-default/btn-med.png') repeat-x;
+    background-position: -0px -60px;
+}
+
+
+/* SMALL BUTTON STYLE */
+.btn-small.style-color{
+    background: url('../img/blue-default/btn-small.png') repeat-x;
+    background-position: -0px -0px;
+
+    border: 1px solid #5bb9bf;
+}
+
+.btn-small.style-color span{
+    text-shadow: 1px 1px #5bb9bf;
+}
+
+.btn-small.style-color:hover{
+    background: url('../img/blue-default/btn-small.png') repeat-x;
+    background-position: -0px -26px;
+}
+
+.btn-small.style-color:active{
+    background: url('../img/blue-default/btn-small.png') repeat-x;
+    background-position: -0px -52px;
+}
+
+
+
+/* TABS STYLES */
+.tabs li a:hover, .tabs li.active a{
+    color: #61D5D1;
+}
+
+/* ACCORDION STYLES */
+.accordion .title a:hover{
+    color: #61D5D1;
+}
+
+/* TOGGLE STYLES */
+.vertical-toggle div.title .text:hover{
+    color: #61D5D1;
+}
+
+
+/* COLORED LIST STYLE */
+/* CHECKLIST */
+.list-check{
+    background: url('../img/blue-default/check-mark.png') 0 5px no-repeat;
+}
+
+/* ARROW */
+.list-arrow{
+    background: url('../img/blue-default/arrow-mark.png') 0 8px no-repeat;
+}
+
+/* ERROR */
+.list-error{
+    background: url('../img/blue-default/error-mark.png') 0 11px no-repeat;
+}
+
+/* SQUARE */
+.list-square{
+    background: url('../img/blue-default/square-mark.png') 0 11px no-repeat;
+}
+
+/* STAR */
+.list-star{
+    background: url('../img/blue-default/star-mark.png') 0 9px no-repeat;
+}
+
+/* THUMBDOWN */
+.list-thumbdown{
+    background: url('../img/blue-default/thumbdown-mark.png') 0 7px no-repeat;
+}
+
+/* THUMBUP */
+.list-thumbup{
+    background: url('../img/blue-default/thumbup-mark.png') 0 7px no-repeat;
+}
+
+
+
+/*=====================================================================================
+        COLUMNS - 960 GS ILLUSTRATION
+======================================================================================*/
+.column-illustration .grid_1:hover .hover, 
+.column-illustration .grid_3:hover .hover, 
+.column-illustration .grid_4:hover .hover, 
+.column-illustration .grid_6:hover .hover, 
+.column-illustration .grid_8:hover .hover, 
+.column-illustration .grid_12:hover .hover, 
+.grid_12.column-illustration.last:hover .hover{
+    background: #7cdcd9;
+}
+
+

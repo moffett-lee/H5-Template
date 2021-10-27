@@ -1,0 +1,19 @@
+.sf-menu>li>a, #owl .item a, a.btn, .block1 a
+{
+	behavior: url(js/PIE.htc);
+	position: relative;
+}
+
+
+#form .invalid .error-message, #form .empty .empty-message {
+	display: block;
+}
+
+#form .error-message, #form .empty-message {
+	display: none;
+}
+
+
+.socials a:hover {
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+}

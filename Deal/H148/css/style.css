@@ -1,0 +1,274 @@
+/* Website template from cssmoban.com */
+body {
+	background: url(../images/bg-body.jpg) repeat left top;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+}
+img {
+	border: 0;
+}
+/*------------------------------ HEADER ------------------------------*/
+#header {
+	background: url(../images/bg-header.jpg) repeat-x left top;
+	height: 160px;
+}
+#header > div {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+	text-align: right;
+}
+/** Logo **/
+#logo {
+	float: left;
+}
+/** Navigation **/
+#navigation {
+	display: inline-block;
+	line-height: 150px;
+	list-style: none;
+	width: 510px;
+	margin: 0;
+	padding: 0;
+}
+#navigation li {
+	float: left;
+	width: 102px;
+	text-align: center;
+}
+#navigation li:first-child {
+	margin-left: 0;
+}
+#navigation li a {
+	color: #9b660b;
+	line-height: 60px;
+	text-decoration: none;
+	text-shadow: -2px 2px 1px #000;
+}
+#navigation li a:hover, #navigation li.selected a {
+	color: #e29b1f;
+}
+/*------------------------------ CONTENTS ------------------------------*/
+#contents {
+	background: #fff7db url(../images/content-border.jpg) repeat-x left bottom;
+	min-height: 1080px;
+	padding-bottom: 10px;
+}
+#contents > div {
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+#contents h3 {
+	color: #a17b2d;
+	font-size: 16px;
+	font-weight: normal;
+	letter-spacing: 1px;
+	margin: 0
+}
+#contents p {
+	color: #aa9387;
+	font-size: 13px;
+	line-height: 24px;
+	margin: 0 auto;
+	padding: 0 0 24px;
+	text-align: justify;
+}
+#contents p a {
+	color: #aa9387;
+}
+#contents a:hover {
+	color: #ce8763;
+}
+/** Adbox **/
+#contents div#adbox {
+	margin-bottom: 36px;
+	padding: 0;
+	text-align: center;
+}
+#adbox img {
+	margin-bottom: 24px;
+}
+#adbox p {
+	width: 600px;
+	text-align: center;
+	text-indent: 40px;
+}
+/** Featured **/
+#contents div#featured {
+	background: url(../images/bg-featured.png) no-repeat center top;
+	width: 100%;
+	margin-bottom: 60px;
+	padding: 30px 0 24px;
+	text-align: center;
+}
+#featured ul {
+	display: inline-block;
+	list-style: none;
+	width: 960px;
+	margin: 0;
+	padding: 0;
+}
+#featured ul li {
+	float: left;
+	width: 300px;
+	margin: 0 10px;
+}
+#featured p {
+	padding: 0;
+	text-align: center;
+}
+/** About **/
+#contents div#about {
+	width: 730px;
+	padding: 20px 115px 0;
+}
+#about h3 {
+	margin: 30px 0 0;
+}
+#about p {
+	font-size: 13px;
+	margin: 0 auto;
+	text-align: justify
+}
+/** Shop **/
+#contents div#shop {
+	width: 930px;
+	margin-bottom: 60px;
+	padding-left: 10px;
+	padding-right: 20px;
+}
+#shop > div {
+	display: inline-block;
+	margin: 0 0 30px;
+}
+#shop > div img {
+	float: left;
+	margin: 0 40px 30px 0;
+}
+/** MAIN **/
+#main {
+	float: left;
+	min-height: 100px;
+	width: 520px;
+	margin: 0 30px 0 100px;
+}
+#main > div {
+	background: url(../images/separator.png) no-repeat center bottom;
+	display: inline-block;
+	margin: 0 0 18px;
+}
+#main > div h3 {
+	margin: 30px 0 12px;
+}
+#main > div p {
+	text-align: justify;
+}
+/** SIDEBAR **/
+#sidebar {
+	float: left;
+	background: url(../images/vborder.png) repeat-y left top;
+	min-height: 848px;
+	width: 180px;
+	margin: 30px 0 0;
+	padding-left: 21px;
+}
+#sidebar h3 {
+	margin: 15px 0 12px;
+	padding-left: 40px;
+}
+#sidebar ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#sidebar > ul li {
+	margin: 0 0 24px;
+}
+#sidebar > ul li a {
+	color: #aa9387;
+	font-size: 14px;
+	line-height: 24px;
+	text-decoration: none;
+}
+#sidebar ul li > div {
+	display: none;
+	width: 80px;
+	padding-left: 40px;
+}
+#sidebar ul li:hover > div {
+	display: block;
+}
+#sidebar ul li > div a {
+	color: #aa9387;
+	font-size: 12px;
+	display: block;
+}
+#sidebar ul li > div a:hover {
+	color: #ce8763;
+}
+/** Contact **/
+#contents div#contact {
+	width: 720px;
+	padding: 50px 120px 0;
+}
+#contact h4 {
+	color: #8a5c02;
+	font-size: 15px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+}
+#contact h4 a {
+	color: #8a5c02;
+	text-decoration: none;
+}
+#contact a.email {
+	font-size: 13px;
+}
+#contact p.numbers {
+	margin: 0 0 30px;
+	padding-left: 40px;
+}
+#contact p.address {
+	padding-left: 40px;
+}
+/*------------------------------ FOOTER ------------------------------*/
+#footer {
+	background: url(../images/bg-footer.png) repeat-x center bottom;
+	padding: 18px 0 30px;
+}
+/** Connect **/
+#connect {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0 0 30px;
+	text-align: center;
+}
+#connect a {
+	background: url(../images/icons.png) no-repeat;
+	display: inline-block;
+	height: 39px;
+	width: 40px;
+	margin: 0 20px;
+}
+#connect a.facebook {
+	background-position: 0 0;
+}
+#connect a.email {
+	background-position: 0 -49px;
+}
+#connect a.twitter {
+	background-position: 0 -98px;
+}
+#connect a.googleplus {
+	background-position: 0 -147px;
+}
+#footer p {
+	color: #956836;
+	font-size: 13px;
+	line-height: 24px;
+	width: 960px;
+	margin: 0 auto;
+	text-align: center;
+}

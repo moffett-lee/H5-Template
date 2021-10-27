@@ -1,0 +1,35 @@
+/* 2k110603 revise showMore */
+.min_heightforJs{/* min-height:260px; background:url(../images/loading.gif) no-repeat center 100px; */}
+.hide_conforJs{ display:none;}
+
+
+
+/* rewriting conD*/
+.showInformation_area{ position:relative; overflow:hidden; height:335px;}
+.showInformation_list{ margin-top:0px;}
+.conD>header.title{ margin-bottom:0;}
+.conD> .showInformation_area .showInformation_list article{ padding:8px 10px 8px 8px; border-top:1px solid #ccc; background:#fff url(../images/conDItemBg.png) left bottom repeat-x; height:50px;}
+.conD> .showInformation_area .showInformation_list article:first-of-type{ border:none;}
+.conD> .showInformation_area .showInformation_list article>a{background:url(../images/iconNext.gif) right center no-repeat; min-height:50px; display:block; padding-right:10px;}
+.conD> .showInformation_area .showInformation_list article>a>h1{ text-align:left; height:20px; line-height:20px;}
+.conD> .showInformation_area .showInformation_list article>a>img{ float:left; margin-right:8px; width:50px; height:50px; display:block;}
+.conD> .showInformation_area .showInformation_list article>a>p{ text-align:left; line-height:16px; color:#555;}
+.conD> .showInformation_area .showInformation_list article>a>p>span{ color:#ff4500}
+.conD>.goTop{ margin:8px;}
+.pageChannelList >.showInformation_area .showInformation_list article > a > p > span{color:#666;padding-right: 8px;}
+.pageChannelList >.showInformation_area .showInformation_list article > a > p{margin-top:10px;}
+
+/* rewriting pageStoreList*/
+.pageStoreList .showInformation_area{ height:385px;}
+.pageStoreList>header.title{ border-top:1px solid #ccc; border-bottom:none; background:#f5f5f5; height:25px;}
+.pageStoreList>header>h1{ float:left; margin-top:4px;}
+.pageStoreList>header>.selectCity{  width:200px; height:21px; overflow:hidden; margin-top:2px; float:right; text-align:right; }
+.pageStoreList>header>.selectCity>select{ width:100px; height:20px; line-height:20px;}
+.pageStoreList>header.title{ margin:5px 0 0 0; padding:4px 8px;}
+.pageStoreList> .showInformation_area .showInformation_list article{ border-top:1px solid #ccc; padding:8px 10px 8px 8px;}
+.pageStoreList> .showInformation_area .showInformation_list article>a:first-of-type{ display:block; color:#000; padding-right:10px; background:url(../images/iconNext.gif) right 25px no-repeat;}
+.pageStoreList> .showInformation_area .showInformation_list article>a>h2{ height:20px; line-height:20px; font-size:14px;}
+.pageStoreList> .showInformation_area .showInformation_list article>a>p{ line-height:16px;}
+.pageStoreList> .showInformation_area .showInformation_list article>a:last-of-type{ color:#ff4500; font-size:14px; line-height:24px; font-weight:bold;}
+.pageStoreList>.goTop{ margin:8px;}
+

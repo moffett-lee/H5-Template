@@ -1,0 +1,24 @@
+/*--------- slider ---------*/
+#slide { position:relative; width:750px; height:398px; margin:0 auto; z-index:2; overflow:hidden;}
+
+.gallery {
+	width:748px; height:366px; margin:0 auto; position:relative; z-index:2; border:#dddddd 1px solid; 
+}
+.items {display:none;}
+
+.pag { position:relative; width:190px; height:368px; margin-top:-5px;}
+.img-pags {position:static; left:0px; z-index:1; display:block;}
+.img-pags ul {}
+.img-pags li { width:190px; height:126px; padding:5px 0; display:block; overflow:hidden; position:relative;  }
+.img-pags li a {position:relative;display:inline-block; border:#dddddd 1px solid;}
+.img-pags li a img {}
+.img-pags li a span {position:absolute; border:#dddddd 4px solid; top:0; left:0; width:180px; height:106px; display:none; z-index:999; }
+.img-pags li.current a span, .img-pags li:hover a span {display:block;} 
+.img-pags li.active a,.img-pags li a:hover{}
+.img-pags li.active a img,.img-pags li a:hover img{}
+
+
+.gallery-button-1 {position:absolute; top:-18px; left:84px; z-index:111; display:inline-block; width:23px; height:13px; background:url(../images/gallery-button-1.gif) 0 0 no-repeat;}
+.gallery-button-1:hover {background-position:right 0;}
+.gallery-button-2 {position:absolute; bottom:-25px; left:84px; z-index:111; display:inline-block; width:23px; height:13px; background:url(../images/gallery-button-2.gif) 0 0 no-repeat;}
+.gallery-button-2:hover {background-position:right 0;}

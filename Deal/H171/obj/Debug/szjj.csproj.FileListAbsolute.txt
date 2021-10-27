@@ -1,0 +1,55 @@
+C:\Documents and Settings\Huiya\桌面\第一项目\szjj1\szjj\szjj\bin\szjj.dll
+C:\Documents and Settings\Huiya\桌面\第一项目\szjj1\szjj\szjj\bin\szjj.pdb
+C:\Documents and Settings\Huiya\桌面\第一项目\szjj1\szjj\szjj\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Huiya\桌面\第一项目\szjj1\szjj\szjj\obj\Debug\szjj.dll
+C:\Documents and Settings\Huiya\桌面\第一项目\szjj1\szjj\szjj\obj\Debug\szjj.pdb
+C:\Documents and Settings\Administrator\桌面\szjj\szjj\bin\szjj.dll
+C:\Documents and Settings\Administrator\桌面\szjj\szjj\bin\szjj.pdb
+C:\Documents and Settings\Administrator\桌面\szjj\szjj\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\szjj\szjj\obj\Debug\szjj.dll
+C:\Documents and Settings\Administrator\桌面\szjj\szjj\obj\Debug\szjj.pdb
+F:\世尊家居\szjj\szjj\bin\szjj.dll
+F:\世尊家居\szjj\szjj\bin\szjj.pdb
+F:\世尊家居\szjj\szjj\obj\Debug\ResolveAssemblyReference.cache
+F:\世尊家居\szjj\szjj\obj\Debug\szjj.dll
+F:\世尊家居\szjj\szjj\obj\Debug\szjj.pdb
+E:\世尊\szjj\szjj\szjj\bin\szjj.dll
+E:\世尊\szjj\szjj\szjj\bin\szjj.pdb
+E:\世尊\szjj\szjj\szjj\obj\Debug\ResolveAssemblyReference.cache
+E:\世尊\szjj\szjj\szjj\obj\Debug\szjj.dll
+E:\世尊\szjj\szjj\szjj\obj\Debug\szjj.pdb
+C:\Documents and Settings\Administrator\桌面\szjj\szjj\szjj\bin\szjj.dll
+C:\Documents and Settings\Administrator\桌面\szjj\szjj\szjj\bin\szjj.pdb
+C:\Documents and Settings\Administrator\桌面\szjj\szjj\szjj\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\szjj\szjj\szjj\obj\Debug\szjj.dll
+C:\Documents and Settings\Administrator\桌面\szjj\szjj\szjj\obj\Debug\szjj.pdb
+E:\世尊\szjj\szjj\szjj\szjj\bin\szjj.dll
+E:\世尊\szjj\szjj\szjj\szjj\bin\szjj.pdb
+E:\世尊\szjj\szjj\szjj\szjj\obj\Debug\ResolveAssemblyReference.cache
+E:\世尊\szjj\szjj\szjj\szjj\obj\Debug\szjj.dll
+E:\世尊\szjj\szjj\szjj\szjj\obj\Debug\szjj.pdb
+F:\世尊家居\szjj\szjj\szjj\szjj\bin\szjj.dll
+F:\世尊家居\szjj\szjj\szjj\szjj\bin\szjj.pdb
+F:\世尊家居\szjj\szjj\szjj\szjj\obj\Debug\ResolveAssemblyReference.cache
+F:\世尊家居\szjj\szjj\szjj\szjj\obj\Debug\szjj.dll
+F:\世尊家居\szjj\szjj\szjj\szjj\obj\Debug\szjj.pdb
+C:\Documents and Settings\Huiya\桌面\szjjw\szjj\szjj\bin\szjj.dll
+C:\Documents and Settings\Huiya\桌面\szjjw\szjj\szjj\bin\szjj.pdb
+C:\Documents and Settings\Huiya\桌面\szjjw\szjj\szjj\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Huiya\桌面\szjjw\szjj\szjj\obj\Debug\szjj.dll
+C:\Documents and Settings\Huiya\桌面\szjjw\szjj\szjj\obj\Debug\szjj.pdb
+F:\sunjunjie\世尊家具\szjj\szjj2012-03-26(2)\szjj\szjj\bin\szjj.dll
+F:\sunjunjie\世尊家具\szjj\szjj2012-03-26(2)\szjj\szjj\bin\szjj.pdb
+F:\sunjunjie\世尊家具\szjj\szjj2012-03-26(2)\szjj\szjj\obj\Debug\ResolveAssemblyReference.cache
+F:\sunjunjie\世尊家具\szjj\szjj2012-03-26(2)\szjj\szjj\obj\Debug\szjj.dll
+F:\sunjunjie\世尊家具\szjj\szjj2012-03-26(2)\szjj\szjj\obj\Debug\szjj.pdb
+C:\Documents and Settings\Administrator\桌面\szjj2012-03-26(2)\szjj2012-03-26(2)\szjj\szjj\bin\szjj.dll
+C:\Documents and Settings\Administrator\桌面\szjj2012-03-26(2)\szjj2012-03-26(2)\szjj\szjj\bin\szjj.pdb
+C:\Documents and Settings\Administrator\桌面\szjj2012-03-26(2)\szjj2012-03-26(2)\szjj\szjj\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\szjj2012-03-26(2)\szjj2012-03-26(2)\szjj\szjj\obj\Debug\szjj.dll
+C:\Documents and Settings\Administrator\桌面\szjj2012-03-26(2)\szjj2012-03-26(2)\szjj\szjj\obj\Debug\szjj.pdb
+F:\sunjunjie\世尊家具\szjj\szjj\szjj\bin\szjj.dll
+F:\sunjunjie\世尊家具\szjj\szjj\szjj\bin\szjj.pdb
+F:\sunjunjie\世尊家具\szjj\szjj\szjj\obj\Debug\ResolveAssemblyReference.cache
+F:\sunjunjie\世尊家具\szjj\szjj\szjj\obj\Debug\szjj.dll
+F:\sunjunjie\世尊家具\szjj\szjj\szjj\obj\Debug\szjj.pdb

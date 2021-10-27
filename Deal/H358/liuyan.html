@@ -1,0 +1,326 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta content="telephone=no" name="format-detection" />
+
+<link rel="stylesheet" type="text/css" href="css/common.css">
+<link rel="stylesheet" type="text/css" href="css/wen.css">
+
+
+
+
+<link rel="apple-touch-icon" href="img/icon.png"/>
+
+
+	<title>仿中企动力手机wap企业网站模板留言页【3v3.cc】</title>
+
+<title>网站留言列表</title>
+<meta name="Keywords" content="">
+<meta name="Description" content="">
+<title></title>
+</head>
+<body>
+<div id="box_root" class="z3g-pageMessage z3g-pageNoIscroll">
+	<!-- 主题内容区 -->
+	<div id="box_mainBody">
+		<div id="box_main" >
+			<!-- 头部区域 开始 -->
+			<header id="box_header">
+			</header>
+			<!-- 头部区域 结束 -->
+
+			<!-- 内容区域 开始 -->
+			<div id="box_content">
+				<div class="columnSpace" id="elem-Messages_emit01-001" name="发表留言"> 
+				
+
+
+
+<div id="Messages_emit01-001" class="Messages_emit01-d1_c1">
+
+
+				
+<!-- 发表留言组件 开始 -->
+<section class="Messages_emit01-d1_c1" id="Messages_emit01-001_Messages_emit01-d1_c1">
+	
+	<form id="Messages_emit01-001_referForm" action="/Messages.do?method=emit01&amp;compId=Messages_emit01-001" method="post" name="Messages_emit01-001_referForm">
+		<input type="hidden" id="token" name="token" value="9907a3e25c8451927d2898dffcce96d3" />
+		<input type="hidden" name="org.apache.struts.taglib.html.TOKEN" value="" />
+		<div id="msgTitle"  class="normalStyle" ><!--相关模式改为“normalStyle”-->
+			<div class="z3g-headerSmallNew">
+						<span class="active left">
+							<div class="z3g-btn active btnArrow btnArrowLeft back">
+								<b>
+									<em></em>
+								</b>
+								<span>返回</span>
+							</div>
+						</span>
+						<span class="center">在线留言</span>	
+						<span href="" class="active right">
+
+						</span>
+					</div>
+			
+			<div class="z3g-headerSmall" style="display:none;">
+			<span href="javascript:void(0);" class="active back">
+				<em class="icon">返回</em>
+			</span>
+			<span class="title">在线留言</span>	
+				<span href="javascript:void(0);" id="detail_more" class="active more">
+					<em class="icon"></em>
+				</span>
+			</div>
+			<div class="borderTitle">
+				<ul class="titleWrap">
+					<li id="list" class="active">
+						<div><span class="text">查看留言</span>
+									<span class="number">4</span>
+						</div>
+					</li>
+					<li id="emit" class="current active">
+						<div><span class="text">我要留言</span></div>										
+					</li>
+				</ul>
+				<span class="active controlBar">
+					<em class="icon up"></em>
+				</span>
+			</div>
+			<!-- 发表留言后的提示框  开始-->
+			<div id="msgSuccessAlertInfo" style="display:none;">	
+				<div class="z3g-alertWindow">		
+					<section class="z3g-alertInfoSuccess-c1" >
+						<div class="alertInfoWrap">
+							<div class="alertInfoCont">
+								<div class="icon"></div>
+								<div class="info">
+									<p class="infoTitle">您的留言发送成功!</p>
+									<p class="infoOther">感谢您的留言，我们将会第一时间回复并与您联系，谢谢!</p>
+								</div>
+							</div>
+							<div class="alertInfoOperation">
+								<span class="time"><span id="msgMiao1">2</span>秒后自动</span>
+								<button class="active z3g-button" type="button" >关闭</button>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div> 
+			<!-- z3g-alertInfoFault-c1 -->
+			<section class="z3g-alertInfoFault-c1" style="display:none;">
+				<div class="alertInfoWrap">
+					<div class="alertInfoCont">
+						<div class="icon"></div>
+						<div class="info">
+							<p class="infoTitle">您的留言发送失败!</p>
+							<p class="infoOther">感谢您的留言，我们将会第一时间回复并与您联系，谢谢!</p>
+						</div>
+					</div>
+					<div class="alertInfoOperation">
+						<span class="time" ><span id="msgMiao2">2</span>秒后自动</span>
+						<button class="active z3g-button" type="button" onclick="closeMsgInfo('z3g-alertInfoFault-c1');">关闭</button>
+					</div>
+				</div>
+			</section>
+			<!-- 发表留言后的提示框  结束-->
+			
+			<div class="borderCont z3g-noTouchMoveWrap" id="borderContEmit" >
+				<ul>
+					<li class="tel">
+						<input class="z3g-input" type="tel" id="phone" name="phone" maxlength="32" placeholder="您的电话" />
+					</li>		
+					<li class="cont">
+						<textarea class="z3g-textarea"  name="content" id="content" placeholder="输入您的评论内容"></textarea>
+					</li>
+					<li class="name">
+						<input class="z3g-input" type="text" id="author" name="author" maxlength="20" placeholder="您的姓名" />
+					</li>
+					<li class="email">
+						<input class="z3g-input" type="email"  id="mail" name="mail" maxlength="50" placeholder="输入您的邮箱" />
+					</li>
+					<li class="verificationCode">
+						<input class="z3g-input" type="text" id="verifyCode" name="verifyCode" value="" maxlength="25" placeholder="输入右侧验证码" />
+						<img class="verify-pic" src="http//m.300.cn/verifyCode?" id="Messages_emit01-001_vcode" name="Messages_emit01-001_vcode"  alt=""/>
+						<input type="hidden" id="ajaxverifyCode" name="ajaxverifyCode" value="" />
+						<input type="hidden" id="Messages_emit01-001_chkcode" name="Messages_emit01-001_chkcode" value="" />
+						<input type="hidden" id="CompAction" name="CompAction" value="SubmitMessage" />
+						<input type="hidden" id="categoryType" name="categoryType" value="forSite" />
+						<input type="hidden" id="newsId" name="newsId" value="" />
+						<input type="hidden" id="productId" name="productId" value="" />
+						<input type="hidden" id="productMenu" name="productMenu" value="" />
+					</li>
+					<li class="submitBtn">
+						<button id="Messages_emit01-001_submit" class="z3g-button active" type="button" >发表留言</button>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="borderCont" id="borderContList" style="display:none;">
+				 
+					
+					
+						 	
+							<ul>
+								<li>
+									<div class="active replayBtn"   alt="" msgCount="0">
+										<h3 class="productTitle">
+											不错！
+										</h3>
+										<p class="cont">
+											<span class="left">
+												<em class="time">2013-07-04 16:54:01</em>
+												<em class="people">
+													
+												</em>
+											</span>
+											<span class="right">回复<em>[<cite class="replyNumber">0</cite>]</em/></span>
+										</p>
+									</div>
+									<div class="replyWrap" style="display:none;">
+										<ul>
+											
+										</ul>
+										<div class="arrow"></div>
+									</div>
+								</li>
+							</ul>
+						 	
+							<ul>
+								<li>
+									<div class="active replayBtn"   alt="" msgCount="0">
+										<h3 class="productTitle">
+											何止是龙头，简直是龙头中的霸主！
+										</h3>
+										<p class="cont">
+											<span class="left">
+												<em class="time">2013-04-06 20:02:09</em>
+												<em class="people">
+													
+														杨洋
+													
+												</em>
+											</span>
+											<span class="right">回复<em>[<cite class="replyNumber">0</cite>]</em/></span>
+										</p>
+									</div>
+									<div class="replyWrap" style="display:none;">
+										<ul>
+											
+										</ul>
+										<div class="arrow"></div>
+									</div>
+								</li>
+							</ul>
+						 	
+							<ul>
+								<li>
+									<div class="active replayBtn"   alt="" msgCount="0">
+										<h3 class="productTitle">
+											中企动力最棒！加油……
+										</h3>
+										<p class="cont">
+											<span class="left">
+												<em class="time">2013-03-28 16:31:53</em>
+												<em class="people">
+													
+														绍兴分公司张
+													
+												</em>
+											</span>
+											<span class="right">回复<em>[<cite class="replyNumber">0</cite>]</em/></span>
+										</p>
+									</div>
+									<div class="replyWrap" style="display:none;">
+										<ul>
+											
+										</ul>
+										<div class="arrow"></div>
+									</div>
+								</li>
+							</ul>
+						 	
+							<ul>
+								<li>
+									<div class="active replayBtn"   alt="" msgCount="0">
+										<h3 class="productTitle">
+											中企动力，绝对是互联网行业的龙头！
+										</h3>
+										<p class="cont">
+											<span class="left">
+												<em class="time">2013-02-19 17:52:26</em>
+												<em class="people">
+													
+														宗晓庆
+													
+												</em>
+											</span>
+											<span class="right">回复<em>[<cite class="replyNumber">0</cite>]</em/></span>
+										</p>
+									</div>
+									<div class="replyWrap" style="display:none;">
+										<ul>
+											
+										</ul>
+										<div class="arrow"></div>
+									</div>
+								</li>
+							</ul>
+						
+						 
+					   
+				
+			</div>
+		</div>
+	</form>
+</section>
+<!-- 发表留言组件 结束 -->	
+<script type="text/javascript">
+CompInit.addCompInit('Messages_emit01',{
+	 requireJs:'http//m.300.cn/publicScripts/messages/Messages_emit01.js' ,
+	 initFunc:function(){ 
+		var options={
+			
+			
+			
+				gjt:'1',
+			
+			messageCompId:'Messages_emit01-001'
+		}
+		Messages_emit01.init(options);
+	 }
+});
+</script>
+</div> 
+				</div>
+			</div>
+			<!-- 内容区域 结束 -->
+			<div class="columnSpace" id="elem-PublicConfig_showBottom01-001" name="bottom">
+			
+
+
+
+
+
+	<section class="PublicConfig_showBottom01-d1_c1">
+	<div class="htmledit">
+		<div style="text-align: center;"> COPYRIGHT &copy; 2010-2013<br /> 中企动力科技股份有限公司<br /> 版权所有 &nbsp; 京IPC证 010249号
+		<BR>温馨提示：本信息仅供提供演示方便链接，与原网站无关！ <a href="index.html">首页演示图</a>  <a href="zhengwen.html">正文页演示图</a>  <a href="xinwen.html">新闻列表演示图</a>  <a href="share.html">分享页演示图</a>  <a href="liuyan.html">留言演示图</a>  <a href="chanpin.html">产品演示图</a></div> 
+	</div>
+	</section>
+
+
+
+
+			</div>
+		</div>
+	</div>
+</div>	
+
+<script type="text/javascript" src="js/lib.min.js"></script>
+</body>
+</html>

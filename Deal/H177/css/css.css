@@ -1,0 +1,142 @@
+@charset "utf-8";
+body {
+	margin: 0px;
+	padding: 0px;
+	background-image: url(../images/top_01.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 22px;
+	color: #393a31;
+	background-color: #DBC190;
+}
+a
+{
+	text-decoration:none;
+	}
+.content_bg {
+	background-image: url(../images/bg_03.png);
+	background-repeat: repeat-y;
+	width: 1005px;
+	margin:auto;
+}
+/** html .content_bg {background-image:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/bg_03.png", sizingMethod="scale");}*/
+* html .content_bg {background-image:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/bg_03.png", sizingMethod="scale");}
+
+.content_end_bg {
+	background-image: url(../images/bg_06.png);
+	background-repeat: no-repeat;
+	width: 1005px;
+	height: 28px;
+	margin: auto;
+}
+* html .content_end_bg {background-image:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/bg_06.png", sizingMethod="scale");}
+.bown {
+	color: #b77800;
+}
+.wirte {
+	color: #FFFFFF;
+}
+.blod {
+	font-weight: bold;
+}
+.column {
+	color: #482e0b;
+}
+.fourteen {
+	font-size: 14px;
+}
+.line {
+	border: 1px solid #5b411d;
+}
+.bianxian {
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #b09a6b;
+}
+.xuxian {
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #b09a6b;
+}
+.new_zi {
+	color: #f3e8c8;
+}
+.huibian {
+	border: 1px solid ##857962;
+}
+.org {
+	color: #f2d06f;
+}
+.org2 {
+	color: #ffc019;
+}
+.hangago {
+	line-height: 25px;
+}
+.jiantou {
+	font-size: 9px;
+}
+.newzi a:link {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #f3e8c8;
+	text-decoration: none;
+}
+.newzi a:visited {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #f3e8c8;
+	text-decoration: none;
+}
+.newzi a:hover {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #F1B05E;
+	text-decoration: none;
+}
+.zuobian a:link {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #482e0b;
+	text-decoration: none;
+}
+.zuobian a:visited {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #482e0b;
+	text-decoration: none;
+}
+.zuobian a:hover {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #482e0b;
+	text-decoration: none;
+}
+.shuzi {
+	font-size: 32px;
+	line-height: 48px;
+	font-weight: bold;
+	color: #ae8237;
+}
+.hang {
+	line-height: 14px;
+}
+.xu {
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #f3e8c8;
+}
+.kuang {
+	border: 1px solid #fdf5dd;
+}
+.yindao {
+	background-image: url(../images/yingg.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+}
+.yd_zi {
+	color: #f5e7cf;
+}
+.modbox{filter:alpha(opacity=40);-moz-opacity:0.8;width:auto !important;width:100%}

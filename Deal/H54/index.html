@@ -1,0 +1,232 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<title>Home</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href='http//fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<link href='http//fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<!--slider-->
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="all" />
+<script src="js/modernizr.js"></script>
+<!-- jQuery -->
+ <script src="js/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+  <!-- FlexSlider -->
+  <script defer src="js/jquery.flexslider.js"></script>
+  <script type="text/javascript">
+    $(function(){
+      SyntaxHighlighter.all();
+    });
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
+</head>
+<body>
+   <div class="header">
+	  <div class="header-top">
+			<div class="wrap"> 
+				    <div class="logo">
+						<a href="index.html"><img src="images/logo.png" alt=""/></a>
+					</div>
+					<ul class="follow_icon">
+						<li><a href="#"><img src="images/fb.png" alt=""></a></li>
+						<li><a href="#"><img src="images/rss.png" alt=""></a></li>
+						<li><a href="#"><img src="images/tw.png" alt=""></a></li>
+						<li><a href="#"><img src="images/g+.png" alt=""></a></li>
+					</ul>
+				    <div class="clear"></div> 
+				</div>
+		</div>
+		<div class="header-bottom">
+			  <div class="wrap"> 
+			      <div class="top-nav">
+						<ul>
+							<li class="active"><a href="index.html">Home</a></li>
+							<li><a href="about.html">About</a></li> 
+							<li><a href="staff.html">Staff</a></li> 
+							<li><a href="services.html">Services</a></li> 
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+				    <div class="search_box">
+					     <form>
+					     	<input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}"><input type="submit" value="">
+					     </form>
+					</div>
+	    			<div class="clear"></div>	
+	   		 </div>
+  		</div>
+  	</div>
+  	   <div class="banner">
+			<div class="flexslider">
+	          <ul class="slides">
+	            <li><img src="images/banner1.jpg" alt=""/></li>
+	  	    	<li><img src="images/banner2.jpg"  alt=""/></li>
+	  	    	<li><img src="images/banner3.jpg"  alt=""/></li>
+	  	    	<li><img src="images/banner4.jpg"  alt=""/></li>
+	          </ul>
+	        </div>
+	   </div>
+	   <div class="wrap"> 
+	       <div class="content-top">
+				<div class="col_1_of_5 span_1_of_5">
+					<div class="css3">
+						<img src="images/pic.jpg" alt="css3" title="Flats">
+					</div>
+					<div class="item_content1">
+						<h4 class="title">Lorem ipsum dolor sit</h4>
+						<div class="more">
+							<a href="#" class="btn">Read More</a>
+						</div>
+					</div>
+				</div>
+				<div class="col_1_of_5 span_1_of_5">
+					<div class="css3">
+						<img src="images/pic1.jpg" alt="css3" title="Flats">
+					</div>
+					<div class="item_content2">
+						<h4 class="title">Lorem ipsum dolor sit</h4>
+						<div class="more">
+							<a href="#" class="btn">Read More</a>
+						</div>
+					</div>
+				</div>
+				<div class="col_1_of_5 span_1_of_5">
+					<div class="css3">
+						<img src="images/pic2.jpg" alt="css3" title="Flats">
+					</div>
+					<div class="item_content3">
+						<h4 class="title">Lorem ipsum dolor sit</h4>
+						<div class="more">
+							<a href="#" class="btn1">Read More</a>
+						</div>
+					</div>
+				</div>
+				<div class="col_1_of_5 span_1_of_5">
+					<div class="css3">
+						<img src="images/pic3.jpg" alt="css3" title="Flats">
+					</div>
+					<div class="item_content4">
+						<h4 class="title">Lorem ipsum dolor sit</h4>
+						<div class="more">
+							<a href="#" class="btn2">Read More</a>
+						</div>
+					</div>
+				</div>
+				<div class="col_1_of_5 span_1_of_5">
+					<div class="css3">
+						<img src="images/pic4.jpg" alt="css3" title="Flats">
+					</div>
+					<div class="item_content5">
+						<h4 class="title">Lorem ipsum dolor sit</h4>
+						<div class="more">
+							<a href="#" class="btn">Read More</a>
+						</div>
+					</div>
+				</div>
+				<div class="clear"></div>	
+			</div>
+		 <div class="content-bottom">
+			<div class="section group example">
+					<div class="col_1_of_2 span_1_of_2">
+						<ul class="list2">
+	                            <li>
+	                                <figure><img src="images/pic5.jpg" alt=""></figure>
+	                                <div class="extra-wrap">
+	                                    <h4>Fusce euismod consequat ante. Lorem ipsum dolor sit amet</h4>
+	                                    <p class="comment"><a href="#">Oct 3rd, 2013</a><span>|</span><a href="#">1 Comment</a></p>
+	                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip..<a href="#">[...]</a></p>
+	                                </div>
+	                            </li>
+	                            <li>
+	                                <figure><img src="images/pic6.jpg" alt=""></figure>
+	                                <div class="extra-wrap">
+	                                    <h4>ellentesque sed dolor. Aliquam congue fermentum</h4>
+	                                    <p class="comment"><a href="#">Oct 3rd, 2013</a><span>|</span><a href="#">13 Comment</a></p>
+	                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip..<a href="#">[...]</a></p>
+	                                </div>
+	                            </li>
+	                      </ul>
+				      </div>
+				<div class="col_1_of_2 span_1_of_2">
+				   <h3>Lorem Ipsum is simply dummy text </h3>
+				   <p class="comment"><a href="#">Oct 5th, 2013</a><span>|</span><a href="#">35 Comments</a></p>
+				   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+				   <p><em>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta.</em><br>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat null.</p>
+				   <div class="sidebar-nav">
+		                <ul>
+		                   <li><a href="">Always free from repetition</a></li>
+		                    <li><a href="">Always free from repetition</a></li>
+		                    <li><a href="">The standard chunk of Lorem Ipsum</a></li>
+		                    <li><a href="">The standard chunk of Lorem Ipsum</a></li>
+		                    <li><a href="">The standard chunk of Lorem Ipsum</a></li>
+		                </ul>
+		           </div>
+ 				</div>
+				<div class="clear"></div> 
+		    </div>
+		</div>
+   </div>
+ <div class="footer">
+	<div class="wrap">
+       <div class="footer-top">
+				<div class="col_1_of_4 span_1_of_4">
+					<h3>Information</h3>
+					<ul>
+						<li><a href="#">About us</a></li>
+						<li><a href="#">Sitemap</a></li>
+						<li><a href="#">Contact</a></li>
+						<li><a href="#">Terms and conditions</a></li>
+						<li><a href="#">Legal Notice</a></li>
+					</ul>
+				</div>
+				<div class="col_1_of_4 span_1_of_4">
+					<h3>Categories</h3>
+					<ul>
+						<li><a href="#">New products</a></li>
+						<li><a href="#">top sellers</a></li>
+						<li><a href="#">Specials</a></li>
+						<li><a href="#">Products</a></li>
+						<li><a href="#">Comments</a></li>
+					</ul>
+				</div>
+				<div class="col_1_of_4 span_1_of_4">
+					<h3>My Account</h3>
+					<ul>
+						<li><a href="#">Your Account</a></li>
+						<li><a href="#">Personal info</a></li>
+						<li><a href="#">Prices</a></li>
+						<li><a href="#">Address</a></li>
+						<li><a href="#">Locations</a></li>
+					</ul>
+				</div>
+				<div class="col_1_of_4 span_1_of_footer-lastgrid">
+					<h3>Contact Us</h3>
+					<div class="footer-grid-address">
+						<p>Tel.800-255-9999</p>
+						<p>Fax: 1234 568</p>
+						<p>Email:<a class="email-link" href="#">email(at)purity.com</a></p>
+					</div>
+			   </div>
+				<div class="clear"></div> 
+		</div>
+		<div class="copy">
+			<p>&copy; Copyright &copy; 2013.Company name All rights reserved.<a target="_blank" href="http//www.zjf88.com/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></p>
+		</div>
+	</div>
+	</div>
+<div style="display:none"><script src='http//v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
+</body>
+</html>
+
+    	
+    	
+            

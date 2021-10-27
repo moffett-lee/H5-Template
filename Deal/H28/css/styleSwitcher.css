@@ -1,0 +1,181 @@
+/* 
+    Document   : styleSwitcher
+    Created on : 11.08.2012., 16:41:51
+    Author     : Pixel Industry
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#style-switcher{
+    position: fixed;
+    left: -135px;
+    top: 100px;
+    background: #fff;
+    width: 135px;
+    height: 340px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 2px 2px 2px #777;
+    z-index: 999;
+}
+
+#style-switcher #styles-container{
+    padding: 15px;
+}
+
+#style-switcher #styles-container section{
+    margin-bottom: 10px;
+    position: relative;
+}
+
+#style-switcher h6{
+    font: 12px Trebuchet MS;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#style-switcher #styles-button{
+    width: 20px;
+    height: 100px;
+    position: absolute;
+    top: 20px;
+    right: -30px;
+
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 5px;
+    box-shadow: 2px 2px 2px #777;
+
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(left, #ffffff 0%, #fcfcfc 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ffffff), color-stop(100%,#fcfcfc)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, #ffffff 0%,#fcfcfc 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, #ffffff 0%,#fcfcfc 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, #ffffff 0%,#fcfcfc 100%); /* IE10+ */
+    background: linear-gradient(to right, #ffffff 0%,#fcfcfc 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fcfcfc',GradientType=1 ); /* IE6-9 */
+}
+
+#style-switcher #styles-button #switcher-logo{
+    background: url(img/logo.png) center center no-repeat;
+    width: 20px;
+    height: 100px;
+}
+
+#style-switcher .styles-list{
+    overflow: hidden;
+}
+
+#style-switcher .styles-list li{
+    float: left;
+    width: 20px;
+    height: 20px;
+
+    text-indent: -9999px;
+    margin: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+#style-switcher .styles-list li:hover{
+    opacity: 0.9;
+}
+
+#style-switcher select{
+    background: #f8f8f8;
+    border: 1px solid #AAA;
+    color: #555;
+    font: 12px 'Droid Sans';
+    margin: 0;
+    overflow: hidden;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 95px;
+}
+
+/*************************
+    CUSTOM THEME STYLES
+**************************/
+
+
+/*  STYLES   */
+
+#style-switcher .styles-list .default-blue{
+    background: #61D5D1;
+    box-shadow: 0 0 2px #c6fdfb;
+}
+
+#style-switcher .styles-list .chocolate{
+    background: #CC9966;
+    box-shadow: 0 0 2px #fbe1c7;
+}
+
+#style-switcher .styles-list .dark-blue{
+    background: #6faaae;
+    box-shadow: 0 0 2px #baf5f9;
+}
+
+#style-switcher .styles-list .dark-green{
+    background: #6ec480;
+    box-shadow: 0 0 2px #cbfdd6;
+}
+
+#style-switcher .styles-list .green{
+    background: #7fe695;
+    box-shadow: 0 0 2px #cbfed6;
+}
+
+#style-switcher .styles-list .orange{
+    background: #f1784d;
+    box-shadow: 0 0 2px #fcd0c0;
+}
+
+#style-switcher .styles-list .pink{
+    background: #FBBEC5;
+    box-shadow: 0 0 2px #fedde1;
+}
+
+#style-switcher .styles-list .purple{
+    background: #D6B2E4;
+    box-shadow: 0 0 2px #fcd7d5;
+}
+
+#style-switcher .styles-list .red{
+    background: #e84942;
+    box-shadow: 0 0 2px #f8a09d;
+}
+
+#style-switcher .styles-list .yellow{
+    background: #feeb48;
+    box-shadow: 0 0 2px #fcf4ac;
+}
+
+
+/*  SKINS   */
+
+#style-switcher .skin-list li{
+    background: none repeat scroll 0 0 #8F8F8F;
+    color: #FFFFFF;
+    font: 12px 'Droid Sans';
+    height: 15px;
+    padding: 8px;
+    text-transform: uppercase;
+    width: 80px;
+    margin-bottom: 10px;
+    border-radius: 1px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#style-switcher .skin-list li:hover{
+    opacity: 0.9;
+}
+
+#style-switcher .skin-list a{
+    color: #fff;
+}
+
+#style-switcher .skin-list .active{
+    background: #7fe695;
+}

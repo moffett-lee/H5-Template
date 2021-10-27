@@ -1,0 +1,36 @@
+/*======= index.html =======*/
+#page_2 h1 a{ color:#bb0e0e}
+#page_2 .menu{ background:#bb0e0e}
+#page_2 .menu li a:hover, #page_2 .menu .active a{ color:#bb0e0e !important}
+#page_2 a{ color:#bb0e0e}
+#page_2 .list1 li a:hover{ color:#bb0e0e !important}
+/*======= index-1.html =======*/
+#page_3 h1 a{ color:#ca6509}
+#page_3 .menu{ background:#ca6509}
+#page_3 .menu li a:hover, #page_3 .menu .active a{ color:#ca6509 !important}
+#page_3 a{ color:#ca6509}
+#page_3 .marg_right1{ margin-right:12px;}
+#page_3 .pad_bot1{ padding-bottom:5px;}
+/*======= index-2.html =======*/
+#page_4 h1 a{ color:#3f9711}
+#page_4 .menu{ background:#3f9711}
+#page_4 .menu li a:hover, #page_4 .menu .active a{ color:#3f9711 !important}
+#page_4 a{ color:#3f9711}
+#page_4 .pad_bot1{ padding-bottom:5px;}
+#page_4 .button{ background:#3f9711}
+/*======= index-3.html =======*/
+#page_5 h1 a{ color:#0ca0ce}
+#page_5 .menu{ background:#0ca0ce}
+#page_5 .menu li a:hover, #page_5 .menu .active a{ color:#0ca0ce !important}
+#page_5 a{ color:#0ca0ce}
+#page_5 .pad_bot1{ padding-bottom:5px;}
+#page_5 .pad_top1{ padding-top:5px;}
+/*======= index-4.html =======*/
+#page_6 h1 a{ color:#8606c5}
+#page_6 .menu{ background:#8606c5}
+#page_6 .menu li a:hover, #page_6 .menu .active a{ color:#8606c5 !important}
+#page_6 a{ color:#8606c5}
+#page_6 .pad_bot1{ padding-bottom:5px;}
+#page_6 .button{ background:#8606c5}
+/*======= index-5.html =======*/
+/*======= index-6.html =======*/

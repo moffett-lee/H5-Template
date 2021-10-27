@@ -1,0 +1,83 @@
+/* COMMENTS ------------------------------------------------------------*/
+
+
+.comment {
+  border-bottom: 1px #f9f9ee dotted;
+  margin: 0 0 18px;
+  padding: 0px;
+}
+
+
+.v-card{ color: #ccc;}
+
+
+.respond-title-wrap,
+.comment-title-wrap {
+	border-bottom: 1px solid #f9f9ee;
+	padding: 0 0 15px 0;
+	margin: 0 0 30px 0;
+}
+
+
+
+
+.commentlist ul li:first-child .comment-border {
+	 border-bottom: 1px #f9f9ee dotted;
+	margin: 18px 0 0 0;
+ 	height: 18px;
+	width: 430px;
+}
+
+/* CHILDREN ------------------------------------------------------------*/
+
+.children .comment {  
+	border-bottom: none;
+	border-top: 1px #f9f9ee dotted;
+}
+
+
+.comment .children li{ background: url(../img/reply-dark.png) no-repeat 10px 40px;  }
+
+
+/* REPLY ------------------------------------------------------------*/
+
+#posts .reply .comment-reply-link { 
+	display: block;
+	padding: 0 15px 0 0; 
+	color: #f9f9ee;
+	font-size: 11px;
+	background: #606060;
+	padding: 3px 10px;
+	
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+
+#posts .reply .comment-reply-link{
+	color: #f9f9ee;
+}
+
+
+/* META ------------------------------------------------------------*/
+
+.comment-meta { 
+	margin: 0 0 12px 50px; 
+	color: #a4a5aa;
+	font-size: 11px;
+	position: relative;
+}
+
+.children .comment-meta { margin-left: 40px; }
+
+
+
+.comment-author cite {
+	font-weight: bold;
+	font-style: normal;
+	color: #2C2D31;
+	margin: 0;
+	padding: 0;
+}
+

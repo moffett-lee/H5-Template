@@ -1,0 +1,252 @@
+body
+{
+background:url(images/bg.gif) repeat #000000;
+padding:0; font-family:arial, sans-serif; font-size:12px;
+margin:0px auto auto auto;
+color:#36322b;
+}
+p{
+padding:0px;
+text-align:justify;
+margin:0px;
+line-height:20px;
+}
+p.welcome{
+padding:30px 35px 0 35px;
+}
+p.testimonial{
+font-style:italic;
+padding:5px 15px 0 5px;
+}
+.clear{
+clear:both;
+}
+a{
+text-decoration:underline;
+}
+a.read_more{
+display:block;
+width:66px;
+height:23px;
+line-height:23px;
+text-align:center;
+color:#fff;
+float:right;
+margin:10px 40px 0 0;
+padding:0 0 0 17px;
+text-decoration:none;
+font-size:12px;
+background:url(images/read_more_bg.gif) no-repeat center;
+}
+a:hover.read_more{
+text-decoration:underline;
+}
+img.left_img{
+float:left;
+padding:3px 25px 3px 3px;
+}
+
+#main_container{
+width:821px;
+height:auto;
+margin:auto;
+padding:0px;
+}
+#header{
+width:821px;
+height:135px;
+margin:0px;
+padding:0px;
+background:url(images/header_bg.gif) no-repeat center top;
+}
+.logo{
+padding:30px 0 0 0px;
+}
+.title{
+width: auto;
+padding:2px 0 10px 0;
+font-size:17px;
+color:#2e2721;
+font-weight:bold;
+}
+.title_welcome{
+width: auto;
+padding:0 0 0 35px;
+font-size:22px;
+color:#24a4b3;
+background:url(images/checked.gif) no-repeat left top;
+margin:0 0 10px 25px;
+}
+span.red{
+font-weight:bold;
+color:#da5b23;
+}
+span.orange{
+font-weight:bold;
+color:#da5b23;
+}
+
+/*---------------- menu tab----------------------*/
+.menu{
+width:821px;
+height:42px;
+margin:0px;
+background:url(images/menu_bg.gif) no-repeat left;
+}
+.menu ul{
+list-style:none;
+padding:0 0 0 15px;
+margin:0px;
+}
+.menu ul li{
+display:inline;
+}
+.menu ul li a{
+float:left;
+height:42px;
+border:none;
+padding:0 15px 0 15px;
+text-decoration:none;
+color:#fff;
+line-height:42px;
+font-size:14px;
+}
+.menu ul li.selected a{
+float:left;
+height:42px;
+border:none;
+padding:0 15px 0 15px;
+text-decoration:none;
+color:#fff;
+line-height:42px;
+font-size:14px;
+background:url(images/menu_bullet.gif) no-repeat bottom center;
+}
+.menu ul li a:hover{
+background:url(images/menu_bullet.gif) no-repeat bottom center;
+}
+
+/*-------------welcome_box------------*/
+.welcome_box{
+width:496px;
+height:202px;
+background:url(images/welcome_box.gif) no-repeat center;
+padding:0px;
+}
+/*---------------center_content-------*/
+.center_content{
+width:821px;
+height:auto;
+clear:both;
+padding:25px 0 30px 0;
+background-color:#e9e5e2;
+}
+.center_left{
+width:500px;
+float:left;
+padding:10px 0 10px 10px;
+}
+.center_right{
+width:300px;
+float:left;
+padding:10px 0 10px 0px;
+}
+.software_box{
+width:187px;
+height:265px;
+padding:0 0 15px 50px;
+}
+.features{
+padding:10px 0 0 30px;
+}
+.news_box{
+float:left;
+width:auto;
+border-bottom:1px #CCCCCC dashed;
+padding:10px 0 8px 0;
+}
+.news_icon{
+width:30px;
+height:33px;
+float:left;
+background:url(images/news_icon.gif) no-repeat center;
+}
+.news_content{
+width:400px;
+float:left;
+text-align:justify;
+line-height:20px;
+padding:0 0 0 10px;
+}
+/*-----------------------login_form-------------------*/
+.text_box{
+width:278px;
+height:144px;
+padding:15px 0 0 10px;
+background:url(images/text_box.gif) no-repeat center;
+background-position:0px 0px;
+}
+.login_form_row{
+float:left;
+padding:4px 0 4px 0;
+}
+label.login_label{
+width:70px;
+float:left;
+padding:3px 5px 0 0;
+color:#000;
+text-align:right;
+}
+input.login_input{
+width:153px;
+height:18px;
+float:left;
+border:1px #9dbbc6 solid;
+background-color:#fff;
+color: #000;
+}
+input.login{
+float:right;
+padding:10px 20px 0 0;
+}
+/*----------------------list-------------------------*/
+ul.list{
+list-style:none;padding:0px;margin:0px; 
+}
+ul.list li{
+list-style:none;width: auto;height: auto;padding:0px; margin:8px 0 8px 0;
+}
+ul.list li a{
+height:24px; width: auto; padding:0 0 0 15px; margin:0;color:#36322b;text-align:left;line-height:24px;
+text-decoration:none;
+}
+ul.list li span{
+height:24px; width:24px; display:block;padding:0px; margin:0px;color:#000;text-align:center; float:left; float:left; line-height:24px;
+background:url(images/bullet_list.gif) no-repeat left;
+}
+ul.list li a:hover{
+text-decoration:underline;
+}
+.testimonials{
+padding:20px 0 20px 0;
+}
+/*-------------------footer------------------------*/
+#footer{
+width:821px;
+height:50px;
+clear:both;
+color:#837d7b;
+}
+.left_footer{
+float:left;
+padding:20px 0 0 0;
+}
+#footer a{
+color:#837d7b;
+padding:0 8px 0 8px;
+text-decoration:none;
+}
+.right_footer{
+float:right;
+padding:15px 5px 0 0 ;
+}

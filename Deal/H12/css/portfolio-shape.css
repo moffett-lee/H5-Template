@@ -1,0 +1,84 @@
+
+/*=========================================================================
+ portfolio-shapes
+========================================================================= */
+
+.portfolio-shape li .boxcaption { bottom: -241px; left: 0; }
+
+.portfolio-shape li .box_2 { width: 129px; height: 120px; padding: 60px 20px; text-align: center; }
+
+.portfolio-shape .boxcaption { float:left; position: absolute; background: none repeat scroll 0 0 #2778C8; cursor:pointer; }
+
+.portfolio-shape .project-name { float:left; width:100%; }
+
+.portfolio-shape .project-name h2 { color:#fff; font-size: 15px; margin: 36px 0 12px; text-transform: uppercase; }
+
+.portfolio-shape .project-name h5 { margin-bottom: 28px; }
+
+.project-float-text { float:left; width:100%; }
+
+.project-float-text p { line-height:18px; color:#fcfcfc; margin-bottom: 10px; }
+
+.portfolio-shape .p-view, .portfolio-shape .p-link { display: block; width: 36px; height: 36px; position: absolute; top: 50%; margin-top: 81px; z-index: 999; }
+
+.portfolio-shape .p-view { left: 50%; margin-left: -50px; background: url("../img/icons/view.png") repeat scroll 0 0 transparent; }
+
+.portfolio-shape .p-view:hover { background-position: 0 -36px; }
+
+.portfolio-shape .p-link { right: 50%; margin-right: -50px; background: url("../img/icons/link.png"); }
+
+.portfolio-shape .p-link:hover { background-position: 0 -36px; }
+
+/*=========================================================================
+ PORTFOLIO
+========================================================================= */
+
+.portfolio-float { width: 100%; margin: 0 0 30px; padding: 0; float: left; }
+
+.portfolio-float ul { list-style-type: none; margin: 0; padding: 0; }
+
+.portfolio-float ul li { float: left; margin: 0 0 5px 5px; padding: 0; position: relative; background-color: #f8f8f8; }
+
+.portfolio-float ul li img { float: left; }
+
+/*=========================================================================
+ port-effect STYLE ITEM
+========================================================================= */
+
+.portfolio-float ul.port-effect li { margin: 20px 10px 0; background-color: transparent; overflow: hidden; }
+
+.port-effect .img-effect-port { display: block; position: relative; }
+
+.port-effect .item-mask { position: absolute; left: 0; top: 0; z-index: 99; }
+
+.port-effect .img-effect-port img { z-index:9; }
+
+/*=========================================================================
+ HEXAGON STYLE
+========================================================================= */
+
+.hexagon .img-effect-port { width: 170px; height: 184px; }
+
+.hexagon .item-mask { background: url(../img/portfolio/mask-hexagon.png) no-repeat 0 0 transparent; width: 170px; height: 185px; }
+
+.hexagon .img-effect-port img { height: 184px; }
+
+/*=========================================================================
+ PORTFOLIO filterable NAVIGATION
+========================================================================= */
+
+.filterable-float { float: right; }
+
+.filterable-float ul { margin: 0 auto; }
+
+.filterable-float li { background: none; display: inline; float: left; margin-right: 10px; }
+
+.filterable-float li:last-child { background: none; }
+
+.filterable-float li a { background-color: #FFFFFF; border: 1px solid #ECECEC; color: #777777; display: inline-block; font-size: 12px; padding: 0 10px; }
+
+.filterable-float li a:hover { background-color: #333; border-color: rgba(0, 0, 0, 0.1); color: #FFFFFF; }
+
+.filterable-float li.current a { background-color: #333; border-color: rgba(0, 0, 0, 0.1); color: #FFFFFF; }
+
+.filterable-float li span { font-size: 11px; color: #ccc; }

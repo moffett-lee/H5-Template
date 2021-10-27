@@ -1,0 +1,19 @@
+::-moz-selection{background: #EEECD5; color: #543b4e;}
+::selection {background: #EEECD5; color: #543b4e;} 
+body {background: url('../img/bg1920-green.jpg') no-repeat fixed 0 0 transparent;}
+section p {color: #8f8e8b;}
+.button {background-color: #92ae6a;}
+#brand-inner {background-color: #92ae6a;}
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {border-bottom: 6px solid #92ae6a;}
+.navbar .nav-social li a:hover {background-color: #92ae6a;}
+#testimonials .container {background: url('../img/greendot.png') repeat scroll 0 0 transparent;}
+.ribbon span {color: #92AE6A;}
+.circle-container:hover .circle, .circle-active {background-color: #92ae6a;}
+.circle-text h3 {border-bottom: 1px solid #a1b87c;}
+#testimonials .comment p {color: #d3e3bc;}
+#testimonials .comment-author {color: #EEECD5 !important;}
+#contact .container {background: url('../img/greendot.png') repeat scroll 0 0 transparent;}
+#contact p {color: #d3e3bc;}
+#contact .brand-circle {background-color: #5d6944;}
+#contact textarea {background: url('../img/bg-textarea-green.png') repeat scroll 0 -16px transparent;}
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {color: #92ae6a;}

@@ -1,0 +1,53 @@
+
+/*=========================================================================
+ Slider Form
+========================================================================= */
+
+.signup-form-ctnr .signup-btn { width: 100%; padding: 6px 8px 8px; display: block; font-size: 12px; }
+
+.signup-form-ctnr .no-engagement { color: #aaa; font-size: 10px; font-weight: 500; line-height: 12px; padding: 10px 0 0; text-align: center; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4); }
+
+.signup-form-ctnr .go-to-signup { line-height: 16px; height: 16px; font-weight: 500; font-size: 13px; width: 252px; padding: 3px 5px; margin: 12px auto; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.3); }
+
+.signup-form-ctnr .go-to-signup:hover { -webkit-box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.6), 0px 1px 1px rgba(255, 255, 255, 0.3); -moz-box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.6), 0px 1px 1px rgba(255, 255, 255, 0.3); box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.6), 0px 1px 1px rgba(255, 255, 255, 0.3); behavior: url(js/PIE.htc); }
+
+.signup-form-ctnr .go-to-signup a span { float:left; margin-right: 0px; color: #092843; }
+
+.signup-form-ctnr .go-to-signup a span.or { margin-left: 3px; }
+
+.signup-form-ctnr .go-to-signup a img { float:left; margin-left: 3px; }
+
+.signup-form-ctnr .go-to-signup a img.google { margin-top: 1px; margin-left: 5px; }
+
+.signup-form-ctnr .field.email { width: 48%; float:left; }
+
+.signup-form-ctnr .field.phone { width: 48%; position: absolute; right: 0px; margin: 0 0px 14px 0; z-index: 5; }
+
+.home-form { margin: 10px 0; width: 100%; position: relative; }
+
+.home-form fieldset { border: none; }
+
+.home-form .field { width: 100%; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; -ms-border-radius: 5px; -khtml-border-radius: 5px; position: relative; height: 34px; background: #000; margin: 0 0 14px 0; vertical-align: baseline; behavior: url(js/PIE.htc); }
+
+.home-form .field.textarea { height: 100px; }
+
+.home-form .field.focus .text span { color: #ddd!important; }
+
+.home-form .field.focus.keydown .text span { font-size: 0px; }
+
+.home-form .field label.text { background: #000; font-weight: normal; -moz-border-radius: 4px; -webkit-border-radius: 4px; -o-border-radius: 4px; -ms-border-radius: 4px; -khtml-border-radius: 4px; border-radius: 5px; height: 34px; color: #838B92; -webkit-font-smoothing: antialiased; behavior: url(js/PIE.htc); }
+
+.home-form .field.textarea label.text { height: 100px!important; display: block; }
+
+.home-form .field label.text span { display: block; -webkit-transition: all 0.2s ease-in; -moz-transition: all 0.2s ease-in; transition: all 0.2s ease-in; padding: 6px 9px 0; height: 30px; vertical-align:middle; font-size: 10px; line-height:20px; font-family: 'OpenSansRegular', Arial; behavior: url(js/PIE.htc); }
+
+.home-form .field .itext { position: absolute; top: 0; left: 0; display: block; vertical-align: baseline; width: 100%; padding:7px; z-index: 5; background: transparent; color: #ccc; font: normal 12px 'OpenSansRegular', Arial; }
+
+.home-form .field .itext:focus { border-color: #9a0000!important; -moz-box-shadow: 0 0 8px rgba(255, 0, 0, 0.6); -webkit-box-shadow: 0 0 8px rgba(255, 0, 0, 0.6); -o-box-shadow: 0 0 8px rgba(255, 0, 0, 0.6); box-shadow: 0 0 8px rgba(255, 0, 0, 0.6); behavior: url(js/PIE.htc); }
+
+.home-form input[type=text], .home-form input[type=password], .home-form textarea { border: 1px solid rgba(0, 0, 0, 0.7); *border:none;
+-moz-box-shadow: 0 1px rgba(255, 255, 255, 0.1); -webkit-box-shadow: 0 1px rgba(255, 255, 255, 0.1); -o-box-shadow: 0 1px rgba(255, 255, 255, 0.1); box-shadow: 0 1px rgba(255, 255, 255, 0.1); background: white; -moz-border-radius: 4px; -webkit-border-radius: 4px; -o-border-radius: 4px; -ms-border-radius: 4px; -khtml-border-radius: 4px; border-radius: 4px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box; behavior: url(js/PIE.htc); }
+
+.home-form textarea { height: 100px; }
+
+.home-form-btn { border: 0 none; font-size: 12px; width: 100%; }

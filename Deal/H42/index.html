@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+<link rel="apple-touch-icon" sizes="114x114" href="images/icontwo.png">
+<link rel="apple-touch-startup-image" href="images/startup.png" />
+<title>Esepina WebApp</title>
+
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/buttons.css" rel="stylesheet" type="text/css">
+<link href="css/type.css" rel="stylesheet" type="text/css">
+<link href="css/add2home.css" rel="stylesheet" type="text/css">
+<link href="css/flexslider.css" rel="stylesheet" type="text/css">
+<link href="css/photoswipe.css" rel="stylesheet" type="text/css">
+
+<!-- Do not move the bellow script to custom.js! It must stay here to load properly! -->
+<script type="text/javascript">
+	function loadImages() {
+		if (document.getElementById) {  // DOM3 = IE5, NS6
+			document.getElementById('hidepage').style.visibility = 'hidden';
+		}else {
+		if (document.layers) {  // Netscape 4
+			document.hidepage.visibility = 'hidden';
+		}else {  // IE 4
+			document.all.hidepage.style.visibility = 'hidden';
+		  }
+	   }
+	}
+</script>
+
+<script type="text/javascript" src="scripts/jquery.js"></script>
+<script type="text/javascript" src="scripts/contact.js"></script>
+<script type="text/javascript" src="scripts/jquery.flexslider-min.js"/></script>
+<script type="text/javascript" src="scripts/tweetable.js"></script>
+<script type="text/javascript" src="scripts/add2home.js"></script>
+<script type="text/javascript" src="scripts/jquery.nivo.slider.pack.html"></script>
+<script type="text/javascript" src="scripts/klass.min.js"></script>
+<script type="text/javascript" src="scripts/code.photoswipe.jquery-3.0.4.min.js"></script>
+<script type="text/javascript" src="scripts/custom.js"></script>
+</head>
+
+<body OnLoad="loadImages()">
+<p class="no-mobile">Please visit from your mobile phone!<br/> This site is designed for mobiles you know! </p>
+<div class="site">
+
+<div id="hidepage"> 
+	<p class="center-text">Loading depends on mobile bandwidth speed!<br/><img src="images/background/130.gif" alt="load"></p>
+</div>
+
+<div class="navigation">
+	<a id="home" class="selected" href="#"><img src="images/nav/item1ns.png" alt="img"><em class="under-icon-text">Home</em></a>
+    <a id="about" 		  	      href="#"><img src="images/nav/item2ns.png" alt="img"><em class="under-icon-text">About</em></a>
+    <a id="portfolio" 	  		  href="#"><img src="images/nav/item3ns.png" alt="img"><em class="under-icon-text">Portfolio</em></a>
+    <a id="blog" 		  	      href="#"><img src="images/nav/item5ns.png" alt="img"><em class="under-icon-text">Blog</em></a>
+    <a id="contact" 	  		  href="#"><img src="images/nav/item4ns.png" alt="img"><em class="under-icon-text">Contact</em></a>
+</div>
+
+<div class="header-deco"></div>
+<div class="header">
+	<img class="logo" src="images/logo.png" alt="img"> 
+    <div class="social-icons">
+    	<a href="#"><img src="images/social-icons/facebook.png" alt="img"></a>
+        <a href="#"><img src="images/social-icons/twitter.png" alt="img"></a>
+        <a href="#"><img src="images/social-icons/rss.png" alt="img"></a>
+        <a href="#"><img src="images/social-icons/mail.png" alt="img"></a>
+    </div>
+</div>
+<div class="decoration"></div>
+
+<div class="home">
+	<div class="flexslider">
+	    <ul class="slides">
+	    	<li>
+	    		<img src="images/slider/1.jpg" />
+	    		<p class="flex-caption">Swipe this picture, left or right!</p>
+	    	</li>
+	    	<li>
+	    		<img src="images/slider/2.jpg" />
+	    		<p class="flex-caption">Come on! Swipe the picture!</p>
+	    	</li>
+	    	<li>
+	    		<img src="images/slider/3.jpg" />
+                <p class="flex-caption">Really! Please swipe the picture</p>
+	    	</li>
+	    	<li>
+	    		<img src="images/slider/4.jpg" />
+                <p class="flex-caption">Well? Are you gonna swipe?!</p>
+	    	</li>
+	    </ul>
+	</div>
+    <p class="under-slider-heading shadow">We like you! That's why we made Esepina!</p>
+    <p class="under-slider-description shadow">
+    	Everything about this template is mobile developed. 
+        It works on most mobile devices, and it provides an
+        awesome mobile iPhone WebApp with custom splash screen and home-screen icon! 
+    </p>
+    <div class="decoration"></div>
+    <div class="column">
+		<p class="column-text shadow">
+        	<strong>Works on iPhones!</strong>
+            <img class="round-icon" src="images/icon/iphone.png" alt="img">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+        </p>
+        <div class="clear"></div>
+		<p class="column-text shadow">
+        	<strong>Works on Androids!</strong>
+            <img class="round-icon" src="images/icon/android.png" alt="img">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+        </p>
+        <div class="clear"></div>
+		<p class="column-text last-item shadow">
+        	<strong>Works on BlackBerry</strong>
+            <img class="round-icon" src="images/icon/bberry.png" alt="img">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+        </p>
+        <div class="clear"></div>
+    </div>
+    <div class="decoration"></div>
+</div>
+
+<div class="about">
+	<div class="column">
+		<img class="image-width image-deco" src="images/about-images/1.jpg" alt="img">
+        <h4 class="image-heading shadow">An awesome image maybe?</h4>
+        <p class="shadow">            
+        	Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+        </p>
+        <div class="clear"></div>
+    </div>
+    <div class="decoration"></div>
+    <div class="full-width">
+    	<h4 class="shadow">Lists? Sure thing </h4>
+        <ul class="icon-list shadow">
+        	<li class="list-info">Lorem ipsum dolor sit amet adipiscing.</li>
+            <li class="list-heart">Donec faucibus nisi vel libero.</li>
+            <li class="list-attention">Nullam volutpat nunc sed odio ultrices.</li>
+            <li class="list-cross">Quisque vel mi eu lectus lobortis.</li>
+            <li class="list-arrow">Donec sed sem eu justo tempus.</li>
+            <li class="list-plus">Maecenas vitae mauris mi, id egestas.</li>
+            <li class="list-warning">Maecenas at lectus nunc, non lobortis.</li>
+            <li class="list-tick last-item">Maecenas at lectus nunc, non lobortis.</li>
+        </ul> 
+    </div>
+    <div class="decoration"></div>
+    <div class="demo-buttons">
+    	<a href="#" class="button grey">Button</a>
+    	<a href="#" class="button yellow">Button</a>
+        <a href="#" class="button green">Button</a>
+        <a href="#" class="button black">Button</a>
+        <a href="#" class="button red">Button</a>
+        <a href="#" class="button blue">Button</a>
+        <a href="#" class="button gblue">Button</a>
+        <a href="#" class="button purple">Button</a>
+    </div>
+    <div class="decoration"></div>
+    <div class="full-width">
+    	<h4 class="shadow">What about notification boxes?</h4>
+        <div class="notification-box-green">
+            <a href="#" class="notification-quit-green">x</a>
+            <img class="notification-icon" src="images/lists/list-tick.png" alt="">
+            <p class="notification-text">Yes, green is good! You can download stuff!</p>
+        </div>
+        <div class="notification-box-yellow">
+            <a href="#" class="notification-quit-yellow">x</a>
+            <img class="notification-icon" src="images/lists/list-warning.png" alt="">
+            <p class="notification-text">Warning! Something requires attention!</p>
+        </div>
+        <div class="notification-box-blue">
+            <a href="#" class="notification-quit-blue">x</a>
+            <img class="notification-icon" src="images/lists/list-info.png" alt="">
+            <p class="notification-text">Information! Something interesting!</p>
+        </div>
+        <div class="notification-box-red last-item">
+            <a href="#" class="notification-quit-red">x</a>
+            <img class="notification-icon" src="images/lists/list-cross.png" alt="">
+            <p class="notification-text">Attention! Something bad is happening!</p>
+        </div> 
+    </div>
+    <div class="decoration"></div>
+    <div class="full-width">
+    	<h4 class="shadow">Highlighted text?</h4>
+       	<p class="highlight shadow"><span class="highlight-orange">Donec vehiculas</span> aliqet justi roncs. Proin sagittis mauris mauris maleda.Proin sagittis mauris mauris maleda.</p>
+      	<p class="highlight shadow"><span class="highlight-green">Donec vehiculas</span> aliqet justi roncs. Proin sagittis mauris mauris maleda.Proin sagittis mauris mauris maleda.</p>        
+       	<p class="highlight shadow"><span class="highlight-yellow">Donec vehiculas</span> aliqet justi roncs. Proin sagittis mauris mauris maleda.Proin sagittis mauris mauris maleda.</p>        
+		<p class="highlight last-item shadow"><span class="highlight-gray">Donec vehiculas</span> aliqet justi roncs. Proin sagittis mauris mauris maleda.Proin sagittis mauris mauris maleda.</p>        
+    </div>
+    <div class="decoration"></div>
+   	<div class="column-big">
+    	<p class="left-column-big-text shadow">
+        <img class="left-column-big-icon" src="images/columns/left-iphone.png" alt="img">
+        <strong class="left-column-big-title">Your Awesome Title Here!</strong>
+         	Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Phasellus vel orci justo, quis lobortis velit. Suspendisse a 
+            sem vel risus suscipit dictum quis quis sapien. Nunc nec adipiscing ante. 
+            Praesent aliquet magna quis nisl fermentum molestie. Vivamus felis tellus.
+			Suspendisse a sem vel risus suscipit dictum quis quis sapien. Nunc nec adipiscing ante. 
+            Praesent aliquet magna quis nisl fermentum molestie. Vivamus felis tellus.
+        </p>
+     </div>   
+     <div class="clear"></div> 
+     <div class="decoration"></div>
+     <div class="column-big">
+     	<p class="right-column-big-text shadow">
+        <img class="right-column-big-icon" src="images/columns/right-android.png" alt="img">
+        <strong class="right-column-big-title">Your Awesome Title Here!</strong>
+          	Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Phasellus vel orci justo, quis lobortis velit. Suspendisse a 
+            sem vel risus suscipit dictum quis quis sapien. Nunc nec adipiscing ante. 
+            Praesent aliquet magna quis nisl fermentum molestie. Vivamus felis tellus.
+			Suspendisse a sem vel risus suscipit dictum quis quis sapien. Nunc nec adipiscing ante. 
+            Praesent aliquet magna quis nisl fermentum molestie. Vivamus felis tellus.
+        </p>
+	</div>   
+    <div class="clear"></div> 
+    <div class="decoration"></div>
+    <div class="full-width demo-icons">
+    	<h4 class="shadow">What icons can you use?</h4>
+    	<a href="#"><img class="round-icon" src="images/icon/addressbook.png" alt="img"></a> 
+        <a href="#"><img class="round-icon" src="images/icon/alert2.png" alt="img"></a> 
+        <a href="#"><img class="round-icon" src="images/icon/alert3.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/android.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/arrow-down.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/arrow-left.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/arrow-right.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/arrow-up.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/bberry.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/cameras.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/blue.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/cart.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/chalendar.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/chart.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/clip.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/clocks.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/cloud-down.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/cloud-up.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/cog1.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/cog2.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/columns.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/comment.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/delicious.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/digg.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/document.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/documents.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/download.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/dribble.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/dropbox.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/facebook.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/female-icon.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/film-strip.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/go-full.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/go-full2.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/go-normal.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/graph.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/headset.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/highdef.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/highdef2.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/home.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/href.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/imac.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/img.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/img2.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/incoming.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/ipad.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/iphone.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/ipodc.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/ipodn.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/linux.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/list-icons.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/list-image.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/lists.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/location.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/lowdef.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/lowdef2.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/magnifier.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/magnifier2.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/mail.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/male-icon.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/mic.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/mobile.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/money.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/mouse.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/myspace.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/notebook.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/osx.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/outgoing.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/paypal.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/pdf-doc.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/pdf-docs.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/phone.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/pricetag.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/refresh.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/refresh2.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/settings.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/shuffle.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/sings.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/skype.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/speach1.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/speach2.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/stumble.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/tags.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/tumblr.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/twitter.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/upload.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/user.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/users.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/vimeo.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/volume.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/wifi.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/win.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/wp.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/youtube.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/zip.png" alt="img"></a>
+        <a href="#"><img class="round-icon" src="images/icon/zips.png" alt="img"></a> 
+        <div class="clear"></div>
+    </div>
+</div>
+
+<div class="portfolio"> 
+	<div class="full-width">
+    <h4 class="shadow">Porfolios are really important!</h4>
+    <p class="shadow">
+    	That's why Esepina uses a portfolio compatible WITH ALL mobile devices!
+    	Fullscreen gallery, the only way to get your mobile template looking AWESOME!
+    </p>
+    </div>
+    <div class="decoration"></div>
+	<ul id="gallery" class="gallery">
+		<li><a href="images/swype/full/001.jpg">
+        	<img src="images/swype/thumb/001.jpg" alt="Caption Title One" />
+        </a></li>
+		<li><a href="images/swype/full/002.jpg">
+        	<img src="images/swype/thumb/002.jpg" alt="Caption Title Two" />
+        </a></li>
+		<li><a href="images/swype/full/003.jpg">
+        	<img src="images/swype/thumb/003.jpg" alt="Caption Title Three" />
+        </a></li>
+		<li><a href="images/swype/full/004.jpg">
+        	<img src="images/swype/thumb/004.jpg" alt="Caption Title Four" />
+        </a></li>
+		<li><a href="images/swype/full/005.jpg">
+        	<img src="images/swype/thumb/005.jpg" alt="Caption Title Five" />
+        </a></li>
+		<li><a href="images/swype/full/006.jpg">
+        	<img src="images/swype/thumb/006.jpg" alt="Caption Title Six" />
+        </a></li>
+		<li><a href="images/swype/full/007.jpg">
+        	<img src="images/swype/thumb/007.jpg" alt="Caption Title Eight" />
+        </a></li>
+		<li><a href="images/swype/full/008.jpg">
+        	<img src="images/swype/thumb/008.jpg" alt="Caption Title Nine" />
+        </a></li>
+		<li><a href="images/swype/full/009.jpg">
+        	<img src="images/swype/thumb/009.jpg" alt="Caption Title Ten" />
+        </a></li>
+	</ul>
+    <div class="decoration"></div>
+</div>
+<div class="blog">
+	<div class="blog-post">
+    	<img class="image-deco image-width" src="images/about-images/1.jpg" alt="img">
+        <ul class="blog-post-details">
+        	<li class="posted-by">admin</li>
+            <li class="posted-at">02/12/2012</li>
+            <li class="posted-in">CSS, HTML</li>
+            <li class="posted-mo"><a href="#">More</a></li>
+        </ul>   
+        <div class="clear"></div>
+        <p class="shadow">
+        	Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Vestibulum imperdiet, diam ut placerat sagittis, ligula 
+            risus suscipit ante, et faucibus lectus nisl non felis. 
+        </p>
+    </div>
+    <div class="decoration"></div>
+	<div class="blog-post">
+    	<img class="image-deco image-width" src="images/about-images/2.jpg" alt="img">
+        <ul class="blog-post-details">
+        	<li class="posted-by">admin</li>
+            <li class="posted-at">02/12/2012</li>
+            <li class="posted-in">CSS, HTML</li>
+            <li class="posted-mo"><a href="#">More</a></li>
+        </ul>   
+        <div class="clear"></div>
+        <p class="shadow">
+        	Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Vestibulum imperdiet, diam ut placerat sagittis, ligula 
+            risus suscipit ante, et faucibus lectus nisl non felis.
+        </p> 
+    </div>
+    <div class="decoration"></div>
+	<div class="blog-post">
+    	<img class="image-deco image-width" src="images/about-images/3.jpg" alt="img">
+        <ul class="blog-post-details">
+        	<li class="posted-by">admin</li> 
+            <li class="posted-at">02/12/2012</li>
+            <li class="posted-in">CSS, HTML</li>
+            <li class="posted-mo"><a href="#">More</a></li>
+        </ul>   
+        <div class="clear"></div>
+        <p class="shadow">
+        	Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Vestibulum imperdiet, diam ut placerat sagittis, ligula 
+            risus suscipit ante, et faucibus lectus nisl non felis. 
+        </p>
+    </div>
+    <div class="decoration"></div>
+	<div class="blog-post">
+    	<img class="image-deco image-width" src="images/about-images/4.jpg" alt="img">
+        <ul class="blog-post-details">
+        	<li class="posted-by">admin</li>
+            <li class="posted-at">02/12/2012</li>
+            <li class="posted-in">CSS, HTML</li>
+            <li class="posted-mo"><a href="#">More</a></li>
+        </ul>   
+        <div class="clear"></div>
+        <p class="shadow">
+        	Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Vestibulum imperdiet, diam ut placerat sagittis, ligula 
+            risus suscipit ante, et faucibus lectus nisl non felis. 
+    </div>
+    <div class="decoration"></div>
+</div>
+<div class="contact">
+	<div class="full-width">
+        <h4 class="shadow">Let's get in touch!</h4>
+        <p class="shadow">
+            This contact form has AJAX and PHP, so it sends messages, 
+            you can also use the buttons to call, send SMS or send 
+            an e-mail through your default mobile email app
+        </p>
+    </div>
+	<form id="contactForm">
+    <div class="decoration"></div>
+        <fieldset>
+            <label for="contactName" id="name_label">Name (required)</label>
+            <input type="text" name="contactName" id="contactName" size="30" value="" class="text-input" />
+            <span class="error" id="nameError">Please enter your name !</span>
+            <label for="contactEmail" id="email_label">Email (required)</label>
+            <input type="text" name="contactEmail" id="contactEmail" size="30" value="" class="text-input" />
+            <span class="error" id="emailError">Please enter your email address !</span> 
+            <span class="error" id="emailError2">Please enter a valid email address !</span>
+            <label for="contactMessage" id="message_label">Message</label>
+            <textarea  name="contactMessage" id="contactMessage" class="text-input"></textarea>
+            <span class="error" id="messageError">Please enter message !</span>
+            <p>
+                <input type="submit" name="submitMessage" class="contactButton button grey" id="contactSubmitBtn" value="Send"/>
+                <a class="contactBut button grey" href="tel:+1234456789">Call Us!</a>
+                <a class="contactBut button grey" href="sms:+1234456789">Text Us!</a>
+                <a class="contactBut button grey" href="mailto:example@domain.com">Mail Us!</a>
+            </p>
+		</fieldset>
+	</form>
+    <div class="decoration"></div>
+</div>
+
+<div class="footer">
+	<div id="tweets"></div>
+    <p class="copyright">&copy; Copyright 2012. All rights reserved. <a href="#">Terms Of Service</a></p>
+</div>
+
+<div class="empty-clear-menu"></div>
+</div>
+</body>
+</html>

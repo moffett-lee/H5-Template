@@ -1,0 +1,453 @@
+/* Distributed by http//freehtml5templates.com */
+
+/*** The All So Important RESET! ***/
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, ol, ul, li, form, label, legend, caption, aside, details, figcaption, figure, footer,header, hgroup, menu, nav, section, summary {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+a img {border:none}
+
+aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {display: block}
+
+html {
+	width:100%;
+	height:100%;
+}
+
+ body{
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color:#fff;
+	color:#333;
+	margin:0 0 1px; height:100%; 
+	line-height: 1.5;
+}
+	
+/* layout */
+
+#wrapper {
+width: 1000px;
+margin: 0 auto;
+margin-top: 10px;
+margin-bottom: 20px;
+background: #fff;
+}
+#container{
+			position:relative;
+			width:1200px;
+			margin:0 auto;
+			background-color:transparent;
+}
+
+.container1{
+    width:1200px;
+    margin: 0 auto;
+	background-color:transparent;
+	padding-top: 20px;
+	color:#333;
+	position: relative;
+}
+.menu{
+    width:1000px;
+    margin: 0 auto;
+	background-color:transparent;
+	padding-top:10px;
+	padding-bottom:10px;
+	position: relative;
+}
+
+.group2rt{
+		float: right;
+	width: 200px;
+	position: relative;
+	background:transparent;
+	padding:15px;
+	margin-bottom:10px;
+}
+.group2 {
+	float: left;
+	width: 300px;
+	position: relative;
+	background:transparent;
+	padding:15px;
+	margin-bottom:10px;
+}
+	
+.group3 {
+	float: left;
+	width: 120px;
+	position: relative;
+	background:transparent;
+	padding:10px;
+	margin-bottom:10px;
+	font-size: 12px;
+	display:block;
+	height: 250px;
+}
+
+.group4 {
+	float: left;
+	width: 420px;
+	position: relative;
+	background:transparent;
+	padding:60px 15px 15px;
+	margin-bottom:10px;
+}
+.newsbox {
+	float: left;
+	width: 425px;
+	position: relative;
+	background:transparent;
+	padding:15px;
+	margin:0 auto;
+}
+
+#main {
+width: 940px;
+margin: 0 auto;
+padding-top: 30px;
+background: #FFF url(images/colbg.png) repeat-y;
+overflow: hidden;
+}
+
+#content {
+float: left;
+width: 450px;
+margin-left: 40px;
+}
+
+#sidebar1 {
+float: left;
+padding-left: 20px;
+width: 155px;
+}
+
+#sidebar2 {
+float: right;
+padding-right: 15px;
+width: 155px;
+}
+
+footer{
+	height:200px;
+	clear:both;
+	width:100%;
+	margin:0 auto;
+	background-color:#555;
+	color:#fff;
+}
+
+/* basics */
+
+h1,h2,h3,h4,h5,h6 {
+font-weight: bold;
+clear: both;
+color: #333;
+}
+
+h1{
+	font-size: 30px;
+	line-height:0.9;
+	color:#fff;
+	text-align:left;
+	margin-bottom:10px;
+	padding-bottom:10px;
+}
+	
+h2{
+	font-size: 20px;
+	line-height:1.3;
+	color:#fff;
+	text-transform:none;
+	font-style:bold;
+	text-align:center;
+	margin-top:7px;
+	padding-bottom:6px;
+}
+	
+
+h3{
+	font-size: 16px;
+	line-height:0.9;
+	color:#fff;
+	text-align:left;
+	margin-bottom:10px;
+	padding-bottom:10px;
+	}
+
+h4{
+	font-size: 23px;
+	line-height:0.9;
+	color:white;
+	text-align:left;
+	margin-bottom:12px;
+	padding-bottom:10px;
+}
+
+a:link, a:visited {
+color:#191919;
+text-decoration:none;
+font-size:14px;
+font-weight:bold;
+}
+
+a:hover, a:active {
+color: rgba(5,171,224,1);
+}
+
+p {
+margin-bottom: 18px;
+}
+
+li {
+padding-left: 5px;
+}
+
+/************************ Navigation Menu ************************/
+aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {display: block}
+
+nav{
+	position:relative;
+    width:100%;
+	height:40px;
+	margin: 0 auto;
+	padding-top: 20px;
+	background:#555;
+	border-bottom: 1px solid #333;
+}
+nav li a:link{
+color:#aaa;
+font-size:16px;
+text-decoration: none;
+}
+nav li a:hover{
+color:#fff;
+}
+
+nav ul li{
+	float: left;
+	line-height:normal;
+	margin-left:15px;
+	list-style:none;
+}
+
+.clearing{
+	clear: both;
+	display: inline;
+	width: 100%;
+	height: 0;
+	overflow:hidden;
+}
+
+/** HEADER */
+header{
+	position: relative;
+	background: rgb(135,224,253); /* Old browsers */
+	background: -moz-linear-gradient(45deg, rgba(135,224,253,1) 0%, rgba(83,203,241,1) 40%, rgba(5,171,224,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgba(135,224,253,1)), color-stop(40%,rgba(83,203,241,1)), color-stop(100%,rgba(5,171,224,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(45deg, rgba(135,224,253,1) 0%,rgba(83,203,241,1) 40%,rgba(5,171,224,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(45deg, rgba(135,224,253,1) 0%,rgba(83,203,241,1) 40%,rgba(5,171,224,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(45deg, rgba(135,224,253,1) 0%,rgba(83,203,241,1) 40%,rgba(5,171,224,1) 100%); /* IE10+ */
+	background: linear-gradient(45deg, rgba(135,224,253,1) 0%,rgba(83,203,241,1) 40%,rgba(5,171,224,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#05abe0',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	width: 100%;
+	height:75px;
+	display:block;
+}
+
+header>h1 {
+float: left;
+margin: 0 0 18px 10px;
+width: 600px;
+font-size: 40px;
+line-height: 36px;
+}
+
+header>h1 a {
+color: #333;
+font-weight: bold;
+text-decoration: none;
+text-shadow: 0px 2px 3px #555;
+}
+
+header>h2 {
+color: #777;
+clear: right;
+float: right;
+font-style: italic;
+font-size: 14px;
+margin: 14px 10px 18px 0;
+}
+
+/** ARTICLES **/
+article img {
+border: none;
+-webkit-box-shadow: 3px 3px 7px #777;
+-moz-box-shadow: 3px 3px 7px #777;
+}
+
+#content p, ul, ol, hr {
+margin-bottom: 24px;
+}
+
+#content ul ul, ol ol, ul ol, ol ul {
+margin-bottom: 0;
+}
+
+#content h1, h2, h3, h4, h5, h6 {
+color: #333;
+margin: 0 0 20px 0;
+line-height: 1.5em;
+}
+
+.alignleft, img.alignleft {
+display: inline;
+float: left;
+margin-right: 10px;
+}
+
+.alignright, img.alignright {
+display: inline;
+float: right;
+margin-left: 10px;
+}
+
+.aligncenter, img.aligncenter {
+clear: both;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+img.alignleft, img.alignright, img.aligncenter {
+margin-bottom: 12px;
+}
+
+/* sidebar and footer widget blocks */
+
+aside h3 {
+font-size: 18px;
+text-shadow: 0px 2px 3px #ddd;
+}
+
+aside ul {
+list-style: square;
+color: #aaa;
+margin: -15px 0 15px 25px;
+}
+aside li a{
+color:#191919;
+font-size:10px;
+}
+
+#footer-area {
+
+color: #191919;
+font-size: 90%;
+padding: 18px 0;
+margin-left: 150px;
+
+}
+
+.footer-segment {
+float: left;
+margin-right: 20px;
+margin-left: 20px;
+width: 190px;
+}
+
+footer aside h4 {
+color: #191919;
+font-size: 16px;
+line-height: 1.5em;
+}
+
+footer ul {
+list-style: none;
+margin: -15px 0;
+}
+
+footer a:link, footer a:visited {
+color: #ccc;
+}
+
+footer a:hover { 
+text-decoration: underline; 
+}
+
+footer p {
+margin-top: -15px;
+color: #faf0e6;
+}
+
+/************************ Specifics ************************/
+ 
+
+ #title{
+	position:relative;
+   	float:left;
+   	top:-10px;
+	left:100px;
+	width:401px;
+	height:58px;
+	background-image: url(images/intro.png);
+	margin: 0 auto;
+	display: block;
+	color:#fff;
+}
+	
+.button {
+	width: 80px;
+	height:20px;
+	position:relative;
+	margin-top:12px;
+	padding:5px;
+	background: rgb(135,224,253); /* Old browsers */
+	background: -moz-linear-gradient(45deg, rgba(135,224,253,1) 0%, rgba(83,203,241,1) 40%, rgba(5,171,224,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgba(135,224,253,1)), color-stop(40%,rgba(83,203,241,1)), color-stop(100%,rgba(5,171,224,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(45deg, rgba(135,224,253,1) 0%,rgba(83,203,241,1) 40%,rgba(5,171,224,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(45deg, rgba(135,224,253,1) 0%,rgba(83,203,241,1) 40%,rgba(5,171,224,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(45deg, rgba(135,224,253,1) 0%,rgba(83,203,241,1) 40%,rgba(5,171,224,1) 100%); /* IE10+ */
+	background: linear-gradient(45deg, rgba(135,224,253,1) 0%,rgba(83,203,241,1) 40%,rgba(5,171,224,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#05abe0',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	display: inline-block;
+	color:#ccc;
+	font-weight:bold;
+	cursor: pointer;
+	text-align: center;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	float:left;
+	text-decoration:none;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+	
+.button:hover {
+	color:#fff;
+}
+
+.yellow {
+color:#ffff00;
+}
+.red {
+color:#8b0000 ;
+}
+.black { 
+color:#191919;
+}

@@ -1,0 +1,254 @@
+
+.menu_block  {
+	z-index: 999;
+	float: right;
+	padding-top: 1px;
+	position: relative;
+
+}
+
+.menu_block nav {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+nav>.sf-menu {
+	z-index: 990;
+	text-align: center;
+	position: relative;
+}
+nav{ position:relative;padding: 0px 0 0 0;}
+.sf-menu ul {position:absolute;top:-999px; display:none;/* left offset of submenus need to match (see below) */}
+.sf-menu li {float:left;position:relative; }
+.sf-menu>li {
+	display: block;
+	z-index: 900;
+	position: relative;
+	font-weight: 600;
+	z-index: 5;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.sf-menu>li+li {
+}
+
+
+.sf-menu>li>ul>li {
+  float: none;
+  position: static;
+}
+
+
+.sf-menu>li>a{
+	min-width: 104px;
+	text-align: center;
+	background-color: #92ce0a;
+	display: block;
+	padding: 5px 10px 8px;
+	text-transform: uppercase;
+	position: relative;
+	z-index: 999;
+	color: #fff;
+	box-shadow: 0px 0px 0px transparent;
+
+}
+
+
+.sf-menu>li+li>a {
+	background-color: #ffe202;
+}
+
+.sf-menu>li+li+li>a {
+	background-color: #0052da;
+}
+
+.sf-menu>li+li+li+li>a {
+	background-color: #ff7f00;
+}
+
+.sf-menu>li+li+li+li+li>a {
+	background-color: #04bacf;
+}
+
+.sf-menu>li+li+li+li+li+li>a {
+	background-color: #04bacf;
+}
+
+.sf-menu>li>a+a {
+	background-color: #ffe202;
+}
+
+.sf-menu>li>a+a {
+	background-color: #ffe202;
+}
+
+.sf-menu>li>a:hover,
+.sf-menu>li.current>a,
+.sf-menu>li.sfHover>a {
+	box-shadow: 3px 3px 5px #555;
+}
+
+.sf-menu>li.current,.sf-menu>li:hover, .sf-menu>li.sfHover {
+	z-index: 999;
+}
+
+
+
+
+.sf-menu>li.sfHover {
+	z-index: 999;
+}
+
+.sf-menu>li.sfHover>a.sf-with-ul:after,
+.sf-menu>li.current>a.sf-with-ul:after
+{
+	background-position: 0 0;
+
+}
+
+
+ 
+.sf-menu>li>ul>li>a.sf-with-ul:after {
+	content: '';
+	position: absolute;
+	width: 7px;
+	background: url(../images/arrows.png) right 0 no-repeat;
+	height: 5px;
+	right: -10px;
+	left: auto !important;
+	bottom: 5px;
+	pointer-events: none;
+	z-index: 999;
+}
+
+.sf-menu>li>ul>li.sfHover>a.sf-with-ul:after {
+}
+
+
+.sf-menu a{
+
+}
+
+
+
+/*================================>> 2 Level <<========================================*/
+.sf-menu li ul,.sf-menu li.sfHover>ul{
+	left: 0px;
+	z-index: 999; 
+	padding-top: 12px;
+	width: 97px;
+	top: 104px;
+	padding-bottom: 14px;
+	background-color: #4d4d4d;
+
+}
+
+
+
+.sf-menu li ul li{
+	position: relative;
+	text-align: left;
+	float: none !important;
+	font-size: 12px;
+	padding: 0 3px;
+	margin: 0 20px;
+	line-height: 35px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.sf-menu li ul li+li {
+}
+
+
+.sf-menu li ul li a{
+	position: relative;
+	z-index: 999;
+	color:#bcbcbc;	
+
+}
+
+
+
+
+
+.sf-menu li li a:hover, 
+.sf-menu li.sfHover li.sfHover>a {  
+	color: #fff;
+
+}
+
+/*================================>> 3 Level <<========================================*/
+.sf-menu li.sfHover li.sfHover ul{
+	left: 77px;
+	top: -12px;
+	width: 86px;
+	background-color: #ff422f;
+}
+.sf-menu li.sfHover li.sfHover ul li {
+	line-height: 36px;
+	margin: 0 14px 0 18px;
+	padding-left: 0;
+}
+.sf-menu li.sfHover li.sfHover ul li+li {
+}
+
+.sf-menu li.sfHover li.sfHover ul li a {
+	color: #ffe5b1;
+}
+
+.sf-menu li.sfHover li.sfHover ul li a:hover {
+	color: #fff;
+}
+
+/*==================================RESPONSIVE LAYOUTS===============================================*/
+
+@media only screen and (max-width: 995px) {
+
+	.sf-menu > li > a {
+		min-width: 55px;
+	}
+
+}
+
+@media only screen and (max-width: 767px) {
+	.menu_block {
+		float: none !important;
+		padding: 12px 0px 12px !important;
+		clear: both;
+		min-height: 0px;
+  	border: none;
+	}
+
+
+  header nav{
+  	border: none !important;
+		float:none !important;
+		font:12px/15px Arial, Helvetica, sans-serif;
+		text-transform:uppercase;
+		color:#927c67;
+		margin: 0 auto;
+		
+	
+	}
+
+	
+
+  header nav ul {
+  	border: none;
+  }
+
+	.sf-menu{display:none !important; float: none;}
+
+	#mm0{
+		font:12px/15px Arial, Helvetica, sans-serif;
+		color:#202020;
+		width:100%;
+		margin: 0 auto;
+		float: none;
+    outline: none;
+		border:2px solid #0052DA;
+	}
+	
+
+}

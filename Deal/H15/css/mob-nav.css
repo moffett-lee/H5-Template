@@ -1,0 +1,171 @@
+/************************************************************************************
+GENERAL
+*************************************************************************************/
+body {
+	font: .9em/150% Arial, Helvetica, sans-serif;
+	color: #666;
+}
+a {
+	text-decoration: none;
+	color: #39C;
+}
+h1, h2 {
+	line-height: 120%;
+	margin: 0 0 10px;
+	color: #000;
+}
+header {
+	content: " "; 
+	display: table; 
+}
+
+
+/************************************************************************************
+STRUCTURE
+*************************************************************************************/
+#pagewrap {
+	width: 960px;
+	max-width: 94%;
+	margin: 30px auto 0;
+}
+#content {
+	clear: both;
+	border-top: solid 1px #ccc;
+	padding-top: 20px;
+	margin: 20px 0;
+}
+
+/************************************************************************************
+NAV
+*************************************************************************************/
+#nav-wrap {
+	margin-top: 20px;
+}
+
+/* menu icon */
+#menu-icon {
+	display: none; /* hide menu icon initially */
+}
+
+#nav, 
+#nav li {
+	margin: 0;
+	padding: 0;
+}
+#nav li {
+	list-style: none;
+	float: left;
+	margin-right: 5px;
+}
+
+/* nav link */
+#nav a {
+	padding: 4px 15px;
+	display: block;
+	color: #000;
+	background: #ecebeb;
+}
+#nav a:hover {
+	background: #f8f8f8;
+}
+
+/* nav dropdown */
+#nav ul {
+	background: #fff;
+	padding: 2px;
+	position: absolute;
+	border: solid 1px #ccc;
+	display: none; /* hide dropdown */
+	width: 200px;
+}
+#nav ul li {
+	float: none;
+	margin: 0;
+	padding: 0;
+}
+#nav li:hover > ul {
+	display: block; /* show dropdown on hover */
+}
+
+/************************************************************************************
+MOBILE
+*************************************************************************************/
+@media screen and (max-width: 600px) {
+
+	/* nav-wrap */
+	#nav-wrap {
+		position: relative;
+	}
+
+	/* menu icon */
+	#menu-icon {
+		color: #000;
+		width: 42px;
+		height: 30px;
+		background: #ecebeb url(../images/menu-icon.png) no-repeat 10px center;
+		padding: 8px 10px 0 42px;
+		cursor: pointer;
+		border: solid 1px #666;
+		display: block; /* show menu icon */
+	}
+	#menu-icon:hover {
+		background-color: #f8f8f8;
+	}
+	#menu-icon.active {
+		background-color: #bbb;
+	}
+	
+	/* main nav */
+	#nav {
+		clear: both;
+		position: absolute;
+		top: 38px;
+		width: 160px;
+		z-index: 10000;
+		padding: 5px;
+		background: #f8f8f8;
+		border: solid 1px #999;
+		display: none; /* visibility will be toggled with jquery */
+	}
+	#nav li {
+		clear: both;
+		float: none;
+		margin: 5px 0 5px 10px;
+	}
+	#nav a, 
+	#nav ul a {
+		font: inherit;
+		background: none;
+		display: inline;
+		padding: 0;
+		color: #666;
+		border: none;
+	}
+	#nav a:hover, 
+	#nav ul a:hover {
+		background: none;
+		color: #000;
+	}
+	
+	/* dropdown */
+	#nav ul {
+		width: auto;
+		position: static;
+		display: block;
+		border: none;
+		background: inherit;
+	}
+	#nav ul li {
+		margin: 3px 0 3px 15px;
+	}
+
+}
+
+@media screen and (min-width: 600px) {
+
+	/* ensure #nav is visible on desktop version */
+	#nav {
+		display: block !important;
+	}
+
+}

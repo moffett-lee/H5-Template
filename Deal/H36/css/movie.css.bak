@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+
+.movieHome{width:96px;height:137px;border:solid 1px #c4c4c4;float:left;margin:10px 1px 0 1px;position:relative}
+.movieHome img{width:94px;height:135px;border:solid 1px #fff}
+.movieCover{position:absolute;bottom:1px;left:1px;width:94px;height:25px;background:url(http//static.m1905.com/3g/20130605/images/cover.png) repeat-x;line-height:25px;font-size:14px;color:#fff;text-align:center}
+.movieScreem{margin:0 auto;width:300px}.movieListScreem{width:300px;margin:0 auto}
+
+.movieList{width:96px;height:137px;border:solid 1px #c4c4c4;float:left;margin:10px 1px 0 1px;position:relative}
+.movieList img{width:94px;height:135px;border:solid 1px #fff}
+.movieBlock{width:300px;float:left;border-bottom:solid 1px #ccc;padding-bottom:10px}
+.movieDetail{width:190px;margin:10px 0 0 5px;float:left}
+.movieTitle{width:97px;float:left;height:40px;line-height:20px}
+.movieTitle a,.movieTitle a:visited{color:#444}
+.movieTitle a:hover{color:#000}
+.movieListPlay{display:block;width:75px;height:40px;background:url(http//static.m1905.com/3g/20130605/images/movielistPlay.jpg);float:right;color:#fff;line-height:40px;padding-left:10px}
+.movieListPlay:active{background:url(http//static.m1905.com/3g/20130605/images/movielistPlayActive.jpg)}
+.movieDetails{width:190px;float:left;height:100px}
+.movieDetail p{width:190px;margin-top:5px;display:block;}
+.movieDetail p,.movieDetail span{color:#999;font-size:14px; line-height:15px}
+
+.movieDetaiImg{width:96px;height:137px;border:solid 1px #c4c4c4;float:left;margin:10px 1px 0 1px;}
+.movieDetaiImg img{width:94px;height:135px;border:solid 1px #fff}
+.movieInfo{width:60%;margin:10px 0 0 5px;float:left}
+.movieInfos{float:left}
+.movieInfo p{margin-top:3px;display:block;height:15px;overflow:hidden}
+.movieInfo p,.movieInfo span{color:#999;font-size:14px; line-height:15px}
+.movieDetailPlay{margin-top:3px;display:block;width:75px;height:40px;background:url(http//static.m1905.com/3g/20130605/images/movielistPlay.jpg);float:left;color:#fff;line-height:40px;padding-left:10px}
+.movieDetailPlay:active{background:url(http//static.m1905.com/3g/20130605/images/movielistPlayActive.jpg)}
+
+
+@media (min-width:640px){
+.movieScreem,.movieListScreem{width:620px;margin:0 auto}
+.movieHome{margin:10px 2px 0 2px;width:97px;height:138px;}
+.movieHome img{width:95px;height:136px;}
+}
+
+@media (max-width:319px) and (min-width:240px){
+.movieListScreem{width:220px;margin:0 auto}
+.movieHome{margin:10px 5px 0 5px;width:97px;height:138px;}
+.movieHome img{width:95px;height:136px;}
+
+.movieList{float:none;}
+.movieBlock{width:100%;}
+.movieDetail{width:100%;margin:10px 0 0 0;float:none}
+.movieTitle{width:100%;float:none;height:20px;font-size:16px;line-height:20px}
+.movieDetails{width:100%;float:none}
+.movieDetail p{width:100%;margin-top:5px;display:block}
+.movieDetail p,.movieDetail span{color:#999;font-size:14px;line-height:15px}
+
+.movieDetaiImg{float:none}
+.movieInfo{margin-top:10px;}
+.movieInfos{float:none}
+.movieListPlay{width:125px;float:none;font-size:16px;background:url(http//static.m1905.com/3g/20130605/images/movielistPlay2.jpg);padding-left:40px;margin-top:10px}
+.movieListPlay:active{background:url(http//static.m1905.com/3g/20130605/images/movielistPlayActive2.jpg)}
+}

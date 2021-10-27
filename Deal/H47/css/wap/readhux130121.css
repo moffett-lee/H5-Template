@@ -1,0 +1,42 @@
+@charset "utf-8";body {margin:0;height:100%;background-color:#EFF7FD;}
+img,a img{border:0}
+a{text-decoration:none;color:#333}a:visited{color:purple}
+a:hover{text-decoration:none}
+body{line-height:18px;color:#333;font-size:16px;-webkit-text-size-adjust: none;}
+select,input{padding:0;margin:0;color:#666}
+dl,dt,dd,p,form,em,span{margin:0;padding:0;list-style:none;font-style:normal}
+
+#top{background:#c00;height:3px;text-align:center}
+.flr{padding:10px 8px 10px 0;text-align:center}.flr a{margin:0 6px}
+#logo{padding:5px 4px 5px 7px}
+#scr{background:#eff7fd;padding:3px 4px 2px 7px}
+.btm{background-color:#5cb6eb;height:28px;padding:8px 0 0 7px;}
+.btm span{color:#f4f4f4;float:left}
+.btm a{color:#f4f4f4;float:right;padding-right:10px}
+.read_content{color:#000;margin:0 10px 10px 10px;word-wrap:break-word;font-size:18px;line-height:27px}
+.read_content strong{display:block}
+.read_content p{text-indent:2em;margin-top:8px;word-break:break-all;}
+#scr{padding:10px 0}#scr a{margin:0 8px}
+.botlink{clear:both;padding:0 10px;color:#666;font-size:12px}.botlink a{color:#666}
+.lrpage{line-height:20px;padding:3px 10px;clear:both;height:20px;background:#F0F0F0 url(../../images/wapiphone/titlebg.gif) repeat-x;}
+.lrpage dt{float:left}.lrpage dd{float:right}
+table{width:100%;margin:4px 0}
+a.btmback,a.btmnext{display:block;width:100%;height:30px;-moz-border-radius:5px;-khtml-border-radius:5px;-webkit-border-radius:5px;text-align:center;border-radius:8px 0 0 8px;background-color:#E4F3FE;border:1px solid #AAC6E2;line-height:30px;color:#3164cd}
+a.btmnext{border-radius:0 8px 8px 0;}
+
+.rbtn{height:38px;line-height:38px;background-color:#E5EEF5; border-bottom:1px solid #CCD8E1}
+.rbtnl{float:left}
+.rbtnr{float:right;margin-top:3px}
+.rbtn a{padding:12px 7px 10px;margin:0 6px;font-size:10pt;color:#555;}
+.rbtn span{font-size:12pt}
+.rbtn a.cur1{background:#EFF7FD;color:#62809C}
+.rbtn a.cur2{background:#333;color:#ddd}
+
+.night{background-color:#333}
+.night #scr{background-color:#2f2f2f;color:#E1DBCB}
+.night .lrpage{background:none;background-color:#555}
+.night .rbtn{background-color:#666;color:#E1DBCB}
+.night .btm{background:none;background-color:#222;}
+.night,.night strong,.night .read_content{background-color:#333;color:#E1DBCB}
+.night a{color:#ddd}
+.night a.btmback,.night a.btmnext{background-color:#707070;border:1px solid #505050}

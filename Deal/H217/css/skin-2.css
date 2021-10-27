@@ -1,0 +1,76 @@
+
+.jcarousel-skin-tango .jcarousel-container {
+    background: none;
+    border: 0;
+	
+}
+.jcarousel-skin-tango .jcarousel-direction-rtl {
+	direction: rtl;
+}
+.jcarousel-skin-tango .jcarousel-container-horizontal {
+    width: 744px;
+    padding: 0px;
+}
+.jcarousel-skin-tango .jcarousel-clip {
+    overflow: hidden;
+}
+.jcarousel-skin-tango .jcarousel-clip-horizontal {
+    width:  744px;
+}
+.jcarousel-skin-tango .jcarousel-item {
+    width: 186px;
+}
+.jcarousel-skin-tango .jcarousel-item-horizontal {
+	margin-left: 0;
+    margin-right: 0px;
+}
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-item-horizontal {
+	margin-left: 0px;
+    margin-right: 0;
+}
+.jcarousel-skin-tango .jcarousel-item-placeholder {
+    background: transparent !important;
+    color: #000;
+}
+/**
+ *  Horizontal Buttons
+ */
+.jcarousel-skin-tango .jcarousel-next-horizontal {
+    position: absolute;
+    top: 297px;
+    right: 0px;
+    width: 186px;
+    height: 99px;
+    cursor: pointer;
+    background: transparent url(../images/prev-next.jpg) 0 0 repeat-y;
+	text-align:center; color:#959595; 
+}
+.jcarousel-skin-tango .jcarousel-next-horizontal span {display:inline-block;font-size:24px; line-height:30px; font-style:italic; background:url(../images/next.png) right 13px no-repeat; padding-right:14px; margin-top:31px;}
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal,
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:hover {
+	background-position: right 0;
+}
+.jcarousel-skin-tango .jcarousel-next-horizontal:hover {
+    background-position: right 0;
+	color:#fff !important;
+}
+.jcarousel-skin-tango .jcarousel-prev-horizontal {
+    position: absolute;
+    top: 297px;
+    right: 186px;
+    width: 186px;
+    height: 99px;
+    cursor: pointer;
+    background: transparent url(../images/prev-next.jpg) 0 0 repeat-y;
+	text-align:center; color:#959595; 
+}
+.jcarousel-skin-tango .jcarousel-prev-horizontal span {display:inline-block;font-size:24px; line-height:30px; font-style:italic; background:url(../images/prev.png) 0 13px no-repeat; padding-left:14px; margin-top:31px;}
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal,
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:hover {
+    background-position: right 0;
+	color:#fff !important;
+}
+.jcarousel-skin-tango .jcarousel-prev-horizontal:hover {
+    background-position: right 0;
+	color:#fff !important;
+}

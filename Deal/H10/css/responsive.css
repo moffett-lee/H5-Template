@@ -1,0 +1,138 @@
+/*CSS FOR RESPONSIVE LAYOUTS*/
+/*___________________________________________________________________*/
+
+/*---------------iPad & Samsung Galaxy Tablets portrait---------------*/
+/*___________________________________________________________________*/
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+#container{ width: 794px;}
+.container {width: 714px; }
+.sidebar .widget  .top-search input{width: 145px;}
+.after-nav-info{display: none;}
+.flex-slider-text{ margin-top: 60px;margin-bottom: 60px; }
+.flex-slider-text h1{font-size: 22px;line-height: 28px;}
+.flex-slider-text p{font-size: 13px;line-height: 21px;}
+ul.main-menu.alternative{float: left;width: 100%;display: block;margin-top: 15px;}
+ul#portfolio-container.two-columns li {width: 47.88%;}
+ul#portfolio-container  .flex-control-nav li, .blog-post .flex-control-nav li{ width: 10px;}
+ul#portfolio-container.two-columns li .item-wrapp .portfolio-item:hover  a.item-permalink{left: 38%;}
+ul#portfolio-container.two-columns li .item-wrapp .portfolio-item:hover  a.item-preview{right: 38%;}
+ul#portfolio-container.three-columns li .item-wrapp .portfolio-item:hover  a.item-permalink{left: 31.5%;}
+ul#portfolio-container.three-columns li .item-wrapp .portfolio-item:hover  a.item-preview{right: 31.5%;}
+.one-third.product .item-wrapp .portfolio-item:hover  a.item-permalink{left: 26%;}
+.one-third.product .item-wrapp .portfolio-item:hover  a.item-preview{right: 26%;}
+.portfolio-item:hover  a.item-permalink{left: 26%;}
+.portfolio-item:hover  a.item-preview{right: 26%;}
+.blog-item.small:hover  a.item-permalink{display: none;}
+.blog-item.small:hover  a.item-preview{display: none;}
+.blog-item.medium:hover  a.item-permalink{left: 34%;}
+.blog-item.medium:hover  a.item-preview{right: 34%;}
+.blog-item.large:hover  a.item-permalink{left: 42%;}
+.blog-item.large:hover  a.item-preview{right: 42%;}
+.blog-post.layout-2 .media-holder{ float:left;width: 110px;}
+.comment-entry{margin:-70px 0 0 90px;width:75%;}
+ul.commentlist li.child .comment-entry{  width:70%;}
+}
+/*___________________________________________________________________*/
+
+/*---------------iPhone & Samsung Mobiles landscape---------------*/
+/*___________________________________________________________________*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+#container{ width: 440px;}
+.container {width: 400px; }
+#main-navigation select { display: block}
+#main-navigation ul{display: none;}
+#main-navigation select {margin: 30px 70px;  width:300px;} 
+.after-nav-info{ width: 100%;text-align: center;}
+#logo{text-align:center;width: 100%;float: left;}
+a#logo span {text-align: center;display: block;position: relative;}
+.top-search{display: none;}
+.one,.one-half,.two-third,.one-third,.one-fourth ,.one-fifth,.one-sixth,.three-fourth{ float:left;position:relative;width: 100%; margin-right: 0!important;margin-bottom: 20px;}
+ #header-links ul.social-links{display: none;}
+#header-links  div{margin-bottom: 0px;}
+ul#portfolio-container.two-columns li,  ul#portfolio-container.three-columns li,  ul#portfolio-container.four-columns li {width: 47.88%;}
+ul#portfolio-container  .flex-control-nav li, .blog-post .flex-control-nav li{ width: 10px;}
+ul#portfolio-container.two-columns li .item-wrapp .portfolio-item:hover  a.item-permalink{left: 28%;}
+ul#portfolio-container.two-columns li .item-wrapp .portfolio-item:hover  a.item-preview{right: 28%;}
+ul#portfolio-container.three-columns li .item-wrapp .portfolio-item:hover  a.item-permalink{left:28%;}
+ul#portfolio-container.three-columns li .item-wrapp .portfolio-item:hover  a.item-preview{right:28%;}
+.one-third.product .item-wrapp .portfolio-item:hover  a.item-permalink{left: 40%;}
+.one-third.product .item-wrapp .portfolio-item:hover  a.item-preview{right: 40%;}
+.portfolio-item:hover  a.item-permalink{left: 28%;}
+.portfolio-item:hover  a.item-preview{right: 28%;}
+ ul.pricing-boxes li{margin-bottom: 20px;}
+ ul.pricing-boxes.five li {width:99%; }
+ ul.pricing-boxes.four li {width: 99%;}
+ ul.pricing-boxes.three li {width: 99%; }
+ul.pricing-boxes li .plan-features{ border-right:1px solid #e6e9ee;}
+.plan-features ul li{margin-bottom: 0px;}
+.blog-post.layout-2 .media-holder{width: 400px;margin-bottom: 20px; margin-right: 0px;}
+.blog-item.small:hover  a.item-permalink{left: 40%;}
+.blog-item.small:hover  a.item-preview{right: 40%;}
+.blog-item.medium:hover  a.item-permalink{left: 30%;}
+.blog-item.medium:hover  a.item-preview{right: 30%;}
+.blog-item.large:hover  a.item-permalink{left: 40%;}
+.blog-item.large:hover  a.item-preview{right: 40%;}
+#filterable li {margin-bottom: 5px;}
+#filterable li a {padding: 5px 8px;}
+ #breadcrumb{ text-align: center;padding-bottom: 15px;}
+#breadcrumb .one-half{margin-bottom: 0px;}
+#breadcrumbs ul{float:left;width: 100%;text-align: center}
+.comment-entry{margin:-70px 0 0 90px;width:66%;}
+ul.commentlist li.child .comment-entry{  width:56%;}
+}
+/*___________________________________________________________________*/
+
+/*---------------iPhone & Samsung Mobiles landscape---------------*/
+/*___________________________________________________________________*/
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+#container{ width: 300px;}
+.container {width:260px; }
+#main-navigation select { display: block}
+#main-navigation ul{display: none;}
+#main-navigation select {margin: 30px 10px;  width:260px;} 
+.after-nav-info{ width: 100%;text-align: center;}
+#logo{text-align:center;width: 100%;float: left;}
+a#logo span {text-align: center;display: block;position: relative;}
+.top-search{display: none;}
+.one,.one-half,.two-third,.one-third,.one-fourth ,.one-fifth,.one-sixth,.three-fourth{ float:left;position:relative;width: 100%; margin-right: 0!important;margin-bottom: 20px;}
+ #header-links ul.social-links{display: none;}
+#header-links  div{margin-bottom: 0px;}
+ul#portfolio-container {margin:0 0  0 0%;}
+ul#portfolio-container.two-columns li,  ul#portfolio-container.three-columns li,  ul#portfolio-container.four-columns li {width: 98%;margin-right: 0!important;}
+ul#portfolio-container  .flex-control-nav li, .blog-post .flex-control-nav li{ width: 10px;}
+ul#portfolio-container.two-columns li .item-wrapp .portfolio-item:hover  a.item-permalink{left: 33%;}
+ul#portfolio-container.two-columns li .item-wrapp .portfolio-item:hover  a.item-preview{right: 33%;}
+ul#portfolio-container.three-columns li .item-wrapp .portfolio-item:hover  a.item-permalink{left:33%;}
+ul#portfolio-container.three-columns li .item-wrapp .portfolio-item:hover  a.item-preview{right:33%;}
+.one-third.product .item-wrapp .portfolio-item:hover  a.item-permalink{left: 33%;}
+.one-third.product .item-wrapp .portfolio-item:hover  a.item-preview{right: 33%;}
+.portfolio-item:hover  a.item-permalink{left: 33%;}
+.portfolio-item:hover  a.item-preview{right: 33%;}
+ ul.pricing-boxes li{margin-bottom: 20px;}
+ ul.pricing-boxes.five li {width:99%; }
+ ul.pricing-boxes.four li {width: 99%; }
+ ul.pricing-boxes.three li {width: 99%;}
+ul.pricing-boxes li .plan-features{ border-right:1px solid #e6e9ee;}
+.plan-features ul li{margin-bottom: 0px;}
+.blog-post.layout-2 .media-holder{width:260px;margin-bottom: 20px; margin-right: 0px;}
+.blog-item.small:hover  a.item-permalink{left: 33%;}
+.blog-item.small:hover  a.item-preview{right: 33%;}
+.blog-item.medium:hover  a.item-permalink{left: 33%;}
+.blog-item.medium:hover  a.item-preview{right: 33%;}
+.blog-item.large:hover  a.item-permalink{left: 33%;}
+.blog-item.large:hover  a.item-preview{right: 33%;}
+#filterable li {margin-bottom: 5px;}
+#filterable li a {padding: 5px 8px;}
+ #breadcrumb{ text-align: center;padding-bottom: 15px;}
+#breadcrumb .one-half{margin-bottom: 0px;}
+#breadcrumbs ul{float:left;width: 100%;text-align: center}
+.comment-entry{margin:-70px 0 0 90px;width:66%;}
+ul.commentlist li.child .comment-entry{  width:56%;}
+.blog-post.layout-3{width: 98%; margin-right: 0%!important}
+ul.commentlist li.child{margin-left: 0px;}
+.comment-entry{ margin:0px 0 0 0px;width:82%;}
+ul.commentlist li.child .comment-entry{   width:82%;}
+form.simple-form   textarea {width: 90%; }
+.comment > .avatar,.comment-arrow{display: none;}
+}

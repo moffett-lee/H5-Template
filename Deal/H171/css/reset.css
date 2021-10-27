@@ -1,0 +1,175 @@
+@charset "utf-8";
+
+/*
+
+Last Update 2009-11-20
+
+*/
+
+/* margin,padding
+--------------------------------------------------------------------*/
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+div,
+p,
+pre,
+address,
+blockquote,
+ul,
+ol,
+dl,
+dt,
+dd,
+form,
+fieldset {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+/* heading
+--------------------------------------------------------------------*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+}
+
+/* font 
+--------------------------------------------------------------------*/
+
+body {
+font-family: "宋体","新宋体",Arial,Helvetica,sans-serif;	font-size: 62.5%;
+	_font-size: 62.5%;
+	*font-size: 62.5%;
+	font-size: 62.5%\9;
+}
+
+address,
+em {
+	font-style: normal;
+}
+
+/* list 
+--------------------------------------------------------------------*/
+
+ol,
+ul {
+	list-style-type: none;
+}
+
+/* img 
+--------------------------------------------------------------------*/
+
+img {
+	border: none;
+	vertical-align: bottom;
+}
+
+/* form
+--------------------------------------------------------------------*/
+
+input,
+select,
+textarea,
+button {
+	font-size: inherit;
+	line-height: inherit;
+}
+
+button {
+	cursor: pointer;
+}
+
+/* table
+--------------------------------------------------------------------*/
+
+table,
+thead,
+tbody,
+tfoot,
+tr,
+th,
+td,
+caption,
+col,
+colgroup {
+	text-align: inherit;
+	line-height: inherit;
+	font-size: 100%;
+}
+
+table {
+	display: table;
+}
+
+thead {
+	display: table-header-group;
+}
+
+tbody {
+	display: table-row-group;
+}
+
+tfoot {
+	display: table-footer-group;
+}
+
+tr {
+	display: table-row;
+}
+
+th,
+td {
+	display: table-cell;
+}
+
+caption {
+	display: table-caption;
+}
+
+col {
+	display: table-column;
+}
+
+colgroup {
+	display: table-column-group;
+}
+
+/* clearfix
+--------------------------------------------------------------------*/
+
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+.clearfix {display: inline-block;}/*IE7用*/
+
+/* Hides from IE-mac \*/
+* html .clearfix { height:1%;}
+.clearfix { display:block;}
+/* End hide from IE-mac */
+
+
+/*IE6-PNG解决方案*/
+.png img {azimuth: expression(
+this.pngSet?this.pngSet=true:(this.nodeName == "IMG" && this.src.toLowerCase().indexOf('.png')>-1?(this.runtimeStyle.backgroundImage = "none",
+this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.src + "', sizingMethod='image')",
+this.src = "transparent.gif"):(this.origBg = this.origBg? this.origBg :this.currentStyle.backgroundImage.toString().replace('url("','').replace('")',''),
+this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.origBg + "', sizingMethod='crop')",
+this.runtimeStyle.backgroundImage = "none")),this.pngSet=true);}

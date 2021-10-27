@@ -1,0 +1,952 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+	"http//www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http//www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>Awesome HTML Template</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+	<link href='http//fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css' />
+	<link href='http//fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css' />
+	<link href='http//fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css' />
+	<script type="text/javascript" src="scripts/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="scripts/jquery.scrollTo.js"></script>
+	<script type="text/javascript" src="scripts/jquery.nav.js"></script>
+		<script type="text/javascript" src="scripts/jquery.quicksand.js"></script> 
+	<script type="text/javascript" src="scripts/easing.js"></script> 
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$(".navMenu").onePageNav();
+			
+	// Clone applications to get a second collection
+	var $data = $(".portfolioItems").clone();
+	
+	//NOTE: Only filter on the main portfolio page, not on the subcategory pages
+	$('.portfolioSort li a').click(function(e) {
+		$(".portfolioSort li a").removeClass("activePSLink");	
+		// Use the last category class as the category to filter by. This means that multiple categories are not supported (yet)
+		var filterClass=$(this).attr('class').split(' ').slice(-1)[0];
+		
+		if (filterClass == 'all') {
+			var $filteredData = $data.find('.portfolioItem');
+		} else {
+			var $filteredData = $data.find('.portfolioItem[data-type=' + filterClass + ']');
+		}
+		$(".portfolioItems").quicksand($filteredData, {
+			duration: 800,
+			easing: 'swing',
+		});		
+		$(this).addClass("activePSLink"); 			
+		return false;
+	});
+	
+		});
+					function showfolio(number){
+			$.ajax({
+			type: 'POST',
+			dataType:'html',
+  url: "portfolio.php?id="+number,
+  success: function(data) { 
+  //alert(data);
+  $(".portfolio-1").empty().append(data).slideDown();
+}
+			});}
+function outhere(){
+$(".portfolio-1").slideUp();}
+</script>
+	<!--[if lt IE 9]>
+        <link rel="stylesheet" type="text/css" href="css/iefix.css" />
+	<![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+<body>
+<div class="wrapped">
+<h6>Choose color:</h6>
+<ul>
+<li><a id="color1" href="http//www.huiyi8.com/moban/">Green</a></li>	
+<li><a id="color2" href="http//www.huiyi8.com/moban/">Orange</a></li>	
+</ul>
+</div>
+	<div id="home">
+		<div class="container">
+			<div class="header">
+				<div class="headerTop">
+					<div class="headerTop-1 clearfix">
+						<div class="headerLeft clearfix">
+							<h1><a href="#">&nbsp;</a></h1>
+							<p>Premium HTML Theme</p>
+						</div>
+						<div class="headerRight clearfix">
+							<form action="" method="get" class="searchForm" />
+								<p><input type="text" name="search" onfocus="if(this.value=='Search')this.value='';" onblur="if(this.value=='')this.value='Search';" value="Search" /></p>
+							</form>
+							<div class="socialLinks clearfix">
+								<a href="#" class="twitter"><img src="images/twitter.gif" alt="twitter" /></a>
+								<a href="#" class="facebook"><img src="images/facebook.gif" alt="facebook" /></a>
+								<a href="#" class="twitter"><img src="images/social_icon3.gif" alt="icon" /></a>
+								<a href="#" class="rss"><img src="images/rss.gif" alt="twitter" /></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="headerBottom">
+					<div class="headerBottom-1 clearfix">
+						<ul class="navMenu clearfix">
+							<li><a href="#home">Home</a></li>
+							<li><a href="#about_us">About Us</a></li>
+							<li><a href="#portfolio">Portfolio</a></li>
+							<li><a href="#services">Services</a></li>
+							<li><a href="#blog">Blog</a></li>
+							<li><a href="#features">Features</a></li>
+							<li><a href="#contact">Contact</a></li>
+						</ul>
+						<div class="info clearfix">
+							<p class="emailAddress"><a href="#">info@yoursite.com</a></p>
+							<p class="phoneNum">1-123-456-7890</p>
+						</div>
+					</div>
+					<div class="menuBottom"></div>
+				</div>
+			</div>
+			<div class="content">
+				<div class="home-1">
+					<h1>Hey ! I am<br /><span>Business <span class="agencySpan">Agency</span></span></h1>
+					<p>
+						Aenean lacinia bibendum nulla sed consectetur. Cras mattis 
+						consectetur purus sit amet fermentum. Donec id elit non 
+						mi porta gravida at eget.
+					</p>
+					<a href="#" class="checkPortfolio">Check our Portfolio</a>
+				</div>
+				<div class="home-2">
+					<div class="home-2-center clearfix">
+						<div class="skills">
+							<div><img src="images/skill-image1.png" alt="minimal design" /></div>
+							<p>Minimal Design</p>
+						</div>
+						<div class="skills">
+							<div><img src="images/skill-image2.png" alt="minimal design" /></div>
+							<p>Easy Installation</p>
+						</div>
+						<div class="skills">
+							<div><img src="images/skill-image3.png" alt="minimal design" /></div>
+							<p>Browser Support</p>
+						</div>
+						<div class="skills">
+							<div><img src="images/skill-image4.png" alt="minimal design" /></div>
+							<p>SEO Friendly</p>
+						</div>
+						<div class="skills">
+							<div><img src="images/skill-image5.png" alt="minimal design" /></div>
+							<p>Unlimited Versions</p>
+						</div>
+						<div class="weCreate">
+							<h2>
+								We create Clean, Modern and Eye Catching websites which helps your
+								business to grow better...
+							</h2>
+						</div>
+					</div>
+				</div>
+				<div class="home-3">
+					<div class="home-3-center">
+						<div>
+							<h3>
+								Check out the great features of the theme and purchase 
+								<span>Awesome now....</span>
+							</h3>
+							<p>
+								Awesome is available for the ridiculously low, one-time cost of $35! That's 
+								right, I'm practically giving it away!
+							</p>
+						</div>
+						<a href="#" class="purchaseTheme">Purchase the Theme</a>
+					</div>
+				</div>
+				<div class="home-4 clearfix">
+					<div class="home-apps home-apps1">
+						<h4>Web Application</h4>
+						<p>Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum.</p>
+					</div>
+					<div class="home-apps home-apps2">
+						<h4>Mobile Apps</h4>
+						<p>Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum.</p>
+					</div>
+					<div class="home-apps home-apps3">
+						<h4>iPAD Application</h4>
+						<p>Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum.</p>
+					</div>
+				</div>
+			</div>
+		</div><!-- HOME SECTION END -->
+	</div>
+	
+	<div id="about_us">
+		<div class="container">
+			<div class="content">
+				<div class="contentTitle1">
+					<h1>About <span>Us</span></h1>
+				</div>
+				<div class="contentTitle2">
+					<p>Check out the great features of the theme and purchase <span>Awesome now</span>....</p>
+				</div>
+				<div class="aboutUs-1 clearfix">
+					<div class="aboutUs-left">
+						<p class="aboutPara1">
+							<span>Etiam eget mi enim, non ultricies nisi voluptatem, illo inventore veritatis et quasi architecto beatae 
+							vitae dicta sunt explicabo nemo enim ipsam voluptatem.</span><br /><br />
+
+							Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam 
+							rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt 
+							explicabo. Donec ut volutpat metus. Aliquam tortor lorem, fringilla tempor dignissim at, pretium et arcu. 
+							Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam 
+							rem aperiam, eaque ipsa quae ab illo inventore veritatis.
+						</p>
+						<h2>
+							"<span>Awesome</span> is available for the ridiculously low, one-time cost of <span>$35!</span> 
+							That's right, I'm practically giving it away!”
+						</h2>
+						<div class="aboutUs-readMore clearfix">
+							<img src="images/aboutUsImage.jpg" alt="image" />
+							<div>
+								<p>
+									Sed ut perspiciatis unde omnis iste natus error sit 
+									rem aperiam, eaque ipsa quae ab illo inventore 
+									explicabo. Donec ut volutpat metus. Aliquam tortor
+									Sed ut perspiciatis unde omnis..
+								</p>
+								<a href="#" class="readMore">Read more</a>
+							</div>
+						</div>
+					</div>
+					<div class="aboutUs-right">
+						<h2>Our <span>Team</span></h2>
+						<div class="teamMember">
+							<div class="teamMember1">
+								<img src="images/teamMember.jpg" alt="team member" />
+								<h3>Gretchen J. Mcdonald</h3>
+								<p class="memberRole">Financial Advisor <span>+123 456 789</span></p>
+								<p>
+									Lonsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et 
+									dolore magn Praesent dapibus,
+								</p>
+							</div>
+							<div class="teamMember2">
+								<span>Follow Me</span>
+								<a href="#"><img src="images/follow1.gif" alt="follow me" /></a>
+								<a href="#"><img src="images/follow2.gif" alt="follow me" /></a>
+								<a href="#"><img src="images/follow3.gif" alt="follow me" /></a>
+							</div>
+						</div>
+						<div class="teamMember">
+							<div class="teamMember1">
+								<img src="images/teamMember.jpg" alt="team member" />
+								<h3>Gretchen J. Mcdonald</h3>
+								<p class="memberRole">Financial Advisor <span>+123 456 789</span></p>
+								<p>
+									Lonsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et 
+									dolore magn Praesent dapibus,
+								</p>
+							</div>
+							<div class="teamMember2">
+								<span>Follow Me</span>
+								<a href="#"><img src="images/follow1.gif" alt="follow me" /></a>
+								<a href="#"><img src="images/follow2.gif" alt="follow me" /></a>
+								<a href="#"><img src="images/follow3.gif" alt="follow me" /></a>
+							</div>
+						</div>
+						<div class="teamMember">
+							<div class="teamMember1">
+								<img src="images/teamMember.jpg" alt="team member" />
+								<h3>Gretchen J. Mcdonald</h3>
+								<p class="memberRole">Financial Advisor <span>+123 456 789</span></p>
+								<p>
+									Lonsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et 
+									dolore magn Praesent dapibus,
+								</p>
+							</div>
+							<div class="teamMember2">
+								<span>Follow Me</span>
+								<a href="#"><img src="images/follow1.gif" alt="follow me" /></a>
+								<a href="#"><img src="images/follow2.gif" alt="follow me" /></a>
+								<a href="#"><img src="images/follow3.gif" alt="follow me" /></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- ABOUT US SECTION END -->
+	</div>
+	
+	<div id="portfolio">
+		<div class="container">
+			<div class="content">
+				<div class="contentTitle1">
+					<h1>Portfolio</h1>
+				</div>
+				<div class="contentTitle2">
+					<p>Check out the great features of the theme and purchase <span>Awesome now</span>....</p>
+				</div>
+				<div class="portfolio-1">
+				</div>
+				
+				<div class="portfolio-2">
+					<ul class="portfolioSort clearfix">
+						<li><a href="javascript:;" class="activePSLink all">All</a></li>
+						<li><a href="javascript:;" class="illustration">Illustration</a></li>
+						<li><a href="javascript:;" class="design">Website Design</a></li>
+						<li><a href="javascript:;" class="photography">Photography</a></li>
+						<li><a href="javascript:;" class="print">Print Media</a></li>
+						<li><a href="javascript:;" class="wp">Wordpress Themes</a></li>
+					</ul>
+					<div class="portfolioItems clearfix">
+											<div class="portfolioItem" data-type="design" data-id="223">
+						<a href="javascript:showfolio('1');">
+							<img src="images/portImage1.jpg" alt="portfolio item image" />
+							</a>
+							<a href="javascript:showfolio('1');"><h2>Simpler Landing</h2></a>
+							<p>Although starting a prototype is the inviation to the is sometimes</p>
+						</div>
+												<div class="portfolioItem" data-type="wp" data-id="223w">
+						<a href="javascript:showfolio('2');">
+							<img src="images/portImage2.jpg" alt="portfolio item image" />
+							</a>
+							<a href="javascript:showfolio('2');"><h2>Simpler Landing</h2></a>
+							<p>Although starting a prototype is the inviation to the is sometimes</p>
+						</div>
+												<div class="portfolioItem" data-type="photography" data-id="22ss3">
+						<a href="javascript:showfolio('3');">
+							<img src="images/portImage3.jpg" alt="portfolio item image" />
+							</a>
+							<a href="javascript:showfolio('3');"><h2>Simpler Landing</h2></a>
+							<p>Although starting a prototype is the inviation to the is sometimes</p>
+						</div>
+												<div class="portfolioItem portItemFix" data-type="design" data-id="22aa3">
+						<a href="javascript:showfolio('4');">
+							<img src="images/portImage4.jpg" alt="portfolio item image" />
+							</a>
+							<a href="javascript:showfolio('4');"><h2>Simpler Landing</h2></a>
+							<p>Although starting a prototype is the inviation to the is sometimes</p>
+						</div>
+												<div class="portfolioItem" data-type="illustration" data-id="2a23">
+						<a href="javascript:showfolio('5');">
+							<img src="images/portImage5.jpg" alt="portfolio item image" />
+							</a>
+							<a href="javascript:showfolio('5');"><h2>Simpler Landing</h2></a>
+							<p>Although starting a prototype is the inviation to the is sometimes</p>
+						</div>
+												<div class="portfolioItem" data-type="wp" data-id="2as23">
+						<a href="javascript:showfolio('6');">
+							<img src="images/portImage6.jpg" alt="portfolio item image" />
+							</a>
+							<a href="javascript:showfolio('6');"><h2>Simpler Landing</h2></a>
+							<p>Although starting a prototype is the inviation to the is sometimes</p>
+						</div>
+												<div class="portfolioItem" data-type="illustration" data-id="22d3">
+						<a href="javascript:showfolio('7');">
+							<img src="images/portImage7.jpg" alt="portfolio item image" />
+							</a>
+							<a href="javascript:showfolio('7');"><h2>Simpler Landing</h2></a>
+							<p>Although starting a prototype is the inviation to the is sometimes</p>
+						</div>
+												<div class="portfolioItem portItemFix" data-type="print" data-id="223aa">
+						<a href="javascript:showfolio('8');">
+							<img src="images/portImage8.jpg" alt="portfolio item image" />
+							</a>
+							<a href="javascript:showfolio('8');"><h2>Simpler Landing</h2></a>
+							<p>Although starting a prototype is the inviation to the is sometimes</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="portfolio-3">
+					<div class="slideshow  slideshow2 clearfix">
+						<div class="slideshowImage">
+							<img src="images/slide2Image1.jpg" alt="slide image" />
+							<div class="slideNav slideNav2 clearfix">
+								<a href="#" class="prev"></a>
+								<a href="#" class="next"></a>
+								<a href="#" class="exit"></a>
+							</div>
+						</div>
+						<div class="slideshowText">
+							<h2>Simpler Landing Page</h2>
+							<p class="jobDesc">Web Design&amp; Development</p>
+							<p class="client"><span>Client:</span> Theme Forest</p>
+							<p>
+								Sed ut perspiciatis unde omnis iste natus error sit voluptatemtam 
+								rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+								explicabo. Donec ut volutpat metus. Aliquam tortor lorem,  
+								Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+								rem aperiam, eaque ipsa quae ab illo inventore veritatis.
+							</p>
+							<a href="#" class="readMore">Visit Website</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- PORTFOLIO SECTION END -->
+	</div>
+	
+	<div id="services">
+		<div class="container">
+			<div class="content">
+				<div class="contentTitle1">
+					<h1>Services</h1>
+				</div>
+				<div class="contentTitle2">
+					<p>Check out the great features of the theme and purchase <span>Awesome now</span>....</p>
+				</div>
+				<div class="services-1 clearfix">
+					<div class="home-apps home-apps1">
+						<h4>Web Application</h4>
+						<p>Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum.</p>
+					</div>
+					<div class="home-apps home-apps2">
+						<h4>Mobile Apps</h4>
+						<p>Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum.</p>
+					</div>
+					<div class="home-apps home-apps3">
+						<h4>iPAD Application</h4>
+						<p>Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum.</p>
+					</div>
+					<div class="home-apps home-apps1">
+						<h4>Web Application</h4>
+						<p>Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum.</p>
+					</div>
+					<div class="home-apps home-apps2">
+						<h4>Mobile Apps</h4>
+						<p>Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum.</p>
+					</div>
+					<div class="home-apps home-apps3">
+						<h4>iPAD Application</h4>
+						<p>Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum.</p>
+					</div>
+				</div>
+			</div>
+		</div><!-- SERVICES SECTION END -->
+	</div>
+	
+	<div id="blog">
+		<div class="container">
+			<div class="content">
+				<div class="contentTitle1">
+					<h1>Blog</h1>
+				</div>
+				<div class="contentTitle2">
+					<p>Check out the great features of the theme and purchase <span>Awesome now</span>....</p>
+				</div>
+				<div class="blog-1 clearfix">
+					<div class="blog-left">
+						<div class="blogTop clearfix">
+							<div class="blogInfo">
+								<div class="date">
+									<p>22<br /><span>Dec 2011</span></p>
+								</div>
+								<p>By: <span>Admin</span></p>
+								<p>Category: <span class="category">Business, Freelance</span></p>
+								<p><span>2</span> Comments</p>
+							</div>
+							<div class="blogImage">
+								<img src="images/blogImage1.jpg" alt="blog image" />
+							</div>
+						</div>
+						<div class="blogCenter">
+							<h1>When can a Webdesigner earn good</h1>
+							<p>
+								Lorem ipsum dolor sit amet nec, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean 
+								massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam 
+								felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, 
+								fringilla vel, aliquet nec, vulputate eget, arcu. 
+							</p>
+							<a href="#" class="readMore">Read more</a>
+						</div>
+						<div class="blogBottom clearfix">
+							<div class="blogPost">
+								<div class="date date2">
+									<p>22<br /><span>Dec 2011</span></p>
+								</div>
+								<img src="images/blogPostImage1.jpg" alt="blog post image" />
+								<h2>When can a Webdesigner earn good</h2>
+								<p class="postInfo"><span>Admin</span><span class="blog-category">Business, Freelance</span><span>2</span> Comments</p>
+								<p>
+									Lorem ipsum dolor sit amet nec, consectetuer
+									massa. Cum sociis natoque <a href="#" class="more">more...</a>
+								</p>
+							</div>
+							<div class="blogPost blogPostFix">
+								<div class="date date2">
+									<p>22<br /><span>Dec 2011</span></p>
+								</div>
+								<img src="images/blogPostImage1.jpg" alt="blog post image" />
+								<h2>When can a Webdesigner earn good</h2>
+								<p class="postInfo"><span>Admin</span><span class="blog-category">Business, Freelance</span><span>2</span> Comments</p>
+								<p>
+									Lorem ipsum dolor sit amet nec, consectetuer
+									massa. Cum sociis natoque <a href="#" class="more">more...</a>
+								</p>
+							</div>
+							<div class="blogPost">
+								<div class="date date2">
+									<p>22<br /><span>Dec 2011</span></p>
+								</div>
+								<img src="images/blogPostImage1.jpg" alt="blog post image" />
+								<h2>When can a Webdesigner earn good</h2>
+								<p class="postInfo"><span>Admin</span><span class="blog-category">Business, Freelance</span><span>2</span> Comments</p>
+								<p>
+									Lorem ipsum dolor sit amet nec, consectetuer
+									massa. Cum sociis natoque <a href="#" class="more">more...</a>
+								</p>
+							</div>
+							<div class="blogPost blogPostFix">
+								<div class="date date2">
+									<p>22<br /><span>Dec 2011</span></p>
+								</div>
+								<img src="images/blogPostImage1.jpg" alt="blog post image" />
+								<h2>When can a Webdesigner earn good</h2>
+								<p class="postInfo"><span>Admin</span><span class="blog-category">Business, Freelance</span><span>2</span> Comments</p>
+								<p>
+									Lorem ipsum dolor sit amet nec, consectetuer
+									massa. Cum sociis natoque <a href="#" class="more">more...</a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="blog-right">
+						<h2>Archives</h2>
+						<ul class="archives">
+							<li><a href="#">May 2011 (19)</a></li>
+							<li><a href="#">April 2011 (9)</a></li>
+							<li><a href="#">March 2011 (12)</a></li>
+							<li><a href="#">February 2011 (18)</a></li>
+							<li><a href="#">January 2011 (42)</a></li>
+							<li><a href="#">November 2011 (10)</a></li>
+							<li class="lastArchiveLi"><a href="#">December 2011 (1)</a></li>
+						</ul>
+						<h2>Recent Posts</h2>
+						<div class="recentPost clearfix">
+							<div class="recentPostImage">
+								<img src="images/recentPostImage1.jpg" alt="recent post image" />
+							</div>
+							<div class="recentPostText">
+								<h3>Blog heading goes here</h3>
+								<p>
+									Lorem ipsum dolor sit amet 
+									nec, consectetuer adipis lorem
+									ipsuem text goes here
+								</p>
+							</div>
+						</div>
+						<div class="recentPost clearfix">
+							<div class="recentPostImage">
+								<img src="images/recentPostImage1.jpg" alt="recent post image" />
+							</div>
+							<div class="recentPostText">
+								<h3>Blog heading goes here</h3>
+								<p>
+									Lorem ipsum dolor sit amet 
+									nec, consectetuer adipis lorem
+									ipsuem text goes here
+								</p>
+							</div>
+						</div>
+						<div class="recentPost recentPostLast clearfix">
+							<div class="recentPostImage">
+								<img src="images/recentPostImage1.jpg" alt="recent post image" />
+							</div>
+							<div class="recentPostText">
+								<h3>Blog heading goes here</h3>
+								<p>
+									Lorem ipsum dolor sit amet 
+									nec, consectetuer adipis lorem
+									ipsuem text goes here
+								</p>
+							</div>
+						</div>
+						<a href="#" class="readMore">View Archive</a>
+					</div>
+				</div>
+			</div>
+		</div><!-- BLOG SECTION END -->
+	</div>
+	
+	<div id="features">
+		<div class="container">
+			<div class="content">
+				<div class="contentTitle1">
+					<h1>Features</h1>
+				</div>
+				<div class="contentTitle2">
+					<p>Check out the great features of the theme and purchase <span>Awesome now</span>....</p>
+				</div>
+				<div class="features-1">
+					<h2>Grid and Columns</h2>
+					<p>
+						Although starting a prototype on a computer is sometimes easier, it's not the best way to visually problem-solve. When you need to ideate website layouts or mobile applications or
+						to storyboard workflows and context scenarios, sketching is much more efficient.
+					</p>
+					<div class="grid-4-columns clearfix">
+						<div class="grid-4-column">
+							<h3><span>01</span> One Fourth</h3>
+							<p>
+								Although starting a prototype on a 
+								is sometimes easier, it's not the best 
+								visually problem-solve. When you 
+								need to ideate website layouts or 
+								mobile applications or to storyboard 
+								workflows and context...
+							</p>
+						</div>
+						<div class="grid-4-column">
+							<h3><span>02</span> One Fourth</h3>
+							<p>
+								Although starting a prototype on a 
+								is sometimes easier, it's not the best 
+								visually problem-solve. When you 
+								need to ideate website layouts or 
+								mobile applications or to storyboard 
+								workflows and context...
+							</p>
+						</div>
+						<div class="grid-4-column">
+							<h3><span>03</span> One Fourth</h3>
+							<p>
+								Although starting a prototype on a 
+								is sometimes easier, it's not the best 
+								visually problem-solve. When you 
+								need to ideate website layouts or 
+								mobile applications or to storyboard 
+								workflows and context...
+							</p>
+						</div>
+						<div class="grid-4-column grid-4-column-last">
+							<h3><span>04</span> One Fourth</h3>
+							<p>
+								Although starting a prototype on a 
+								is sometimes easier, it's not the best 
+								visually problem-solve. When you 
+								need to ideate website layouts or 
+								mobile applications or to storyboard 
+								workflows and context...
+							</p>
+						</div>
+					</div>
+					<div class="grid-2-columns clearfix">
+						<div class="grid-2-column">
+							<h3><span>01</span> One Half</h3>
+							<p>
+								Although starting a prototype on a 
+								is sometimes easier, it's not the best 
+								visually problem-solve. When you 
+								need to ideate website layouts or 
+								mobile applications or to storyboard 
+								workflows and context...
+							</p>
+						</div>
+						<div class="grid-2-column grid-2-column-last">
+							<h3><span>02</span> One Half</h3>
+							<p>
+								Although starting a prototype on a 
+								is sometimes easier, it's not the best 
+								visually problem-solve. When you 
+								need to ideate website layouts or 
+								mobile applications or to storyboard 
+								workflows and context...
+							</p>
+						</div>
+					</div>
+					<div class="grid-3-columns clearfix">
+						<div class="grid-3-column">
+							<h3><span>01</span> One Third</h3>
+							<p>
+								Although starting a prototype on a 
+								is sometimes easier, it's not the best 
+								visually problem-solve. When you 
+								need to ideate website layouts or 
+								mobile applications or to storyboard 
+								workflows and context...
+							</p>
+						</div>
+						<div class="grid-3-column">
+							<h3><span>02</span> One Third</h3>
+							<p>
+								Although starting a prototype on a 
+								is sometimes easier, it's not the best 
+								visually problem-solve. When you 
+								need to ideate website layouts or 
+								mobile applications or to storyboard 
+								workflows and context...
+							</p>
+						</div>
+						<div class="grid-3-column grid-3-column-last">
+							<h3><span>03</span> One Third</h3>
+							<p>
+								Although starting a prototype on a 
+								is sometimes easier, it's not the best 
+								visually problem-solve. When you 
+								need to ideate website layouts or 
+								mobile applications or to storyboard 
+								workflows and context...
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="features-2">
+					<h2>List Styles</h2>
+					<p>
+						Although starting a prototype on a computer is sometimes easier, it's not the best way to visually problem-solve. When you need to ideate website layouts or mobile applications or
+						to storyboard workflows and context scenarios, sketching is much more efficient.
+					</p>
+					<div class="clearfix">
+						<ul class="list1">
+							<li>Lonsectetur adipisicing</li>
+							<li>sed do eiusmod</li>
+							<li>Lonsectetur adipisicing</li>
+							<li>sed do eiusmod tempor</li>
+						</ul>
+						<ul class="list2">
+							<li>Lonsectetur adipisicing elit</li>
+							<li>sed do eiusmod tempor incididunt</li>
+							<li>Lonsectetur adipisicing elit</li>
+							<li>sed do eiusmod tempor incididunt</li>
+						</ul>
+						<ul class="list3">
+							<li>Lonsectetur adipisicing</li>
+							<li>sed do eiusmod</li>
+							<li>Lonsectetur adipisicing</li>
+							<li>sed do eiusmod tempor</li>
+						</ul>
+						<ul class="list4">
+							<li>Lonsectetur adipisicing elit, sed do eiusmod</li>
+							<li>Adipisicing elit, sed do eiusmod tempor</li>
+							<li>Sed do eiusmod tempor incididunt ut labore ?</li>
+						</ul>
+					</div>
+				</div>
+				<div class="features-3">
+					<h2>Pricing Tables</h2>
+					<p>
+						Although starting a prototype on a computer is sometimes easier, it's not the best way to visually problem-solve. When you need to ideate website layouts or mobile applications or
+						to storyboard workflows and context scenarios, sketching is much more efficient.
+					</p>
+					<div class="priceTables clearfix">
+						<div class="priceTable">
+							<div class="priceTable1"></div>
+							<div class="priceTable2">
+								<h4><span>$</span>100</h4>
+								<p>Starter Package<br /><span>per month</span></p>
+							</div>
+							<div class="priceTable3">
+								<p>
+									Although starting a prototype on a 
+									computer is sometimes easier, it's 
+									not the best way...
+								</p>
+								<ul>
+									<li>Cum sociis natoque penatibus.</li>
+									<li>Aenean commodo ligula eget dolor.</li>
+									<li>Lorem ipsum dolor sit amet, eget.</li>
+									<li class="lastPriceTableLi">Consectetuer adipiscing elit</li>
+								</ul>
+								<a href="#" class="signUp">Sign Up</a>
+							</div>
+							<div class="priceTable4"></div>
+						</div>
+						<div class="priceTable">
+							<div class="priceTable1"></div>
+							<div class="priceTable2">
+								<h4><span>$</span>200</h4>
+								<p>Medium Package<br /><span>per month</span></p>
+							</div>
+							<div class="priceTable3">
+								<p>
+									Although starting a prototype on a 
+									computer is sometimes easier, it's 
+									not the best way...
+								</p>
+								<ul>
+									<li>Cum sociis natoque penatibus.</li>
+									<li>Aenean commodo ligula eget dolor.</li>
+									<li>Lorem ipsum dolor sit amet, eget.</li>
+									<li class="lastPriceTableLi">Consectetuer adipiscing elit</li>
+								</ul>
+								<a href="#" class="signUp">Sign Up</a>
+							</div>
+							<div class="priceTable4"></div>
+						</div>
+						<div class="priceTable priceTableActive">
+							<div class="priceTable1"></div>
+							<div class="priceTable2">
+								<h4><span>$</span>300</h4>
+								<p>Premium Package<br /><span>per month</span></p>
+							</div>
+							<div class="priceTable3">
+								<p>
+									Although starting a prototype on a 
+									computer is sometimes easier, it's 
+									not the best way...
+								</p>
+								<ul>
+									<li>Cum sociis natoque penatibus.</li>
+									<li>Aenean commodo ligula eget dolor.</li>
+									<li>Lorem ipsum dolor sit amet, eget.</li>
+									<li class="lastPriceTableLi">Consectetuer adipiscing elit</li>
+								</ul>
+								<a href="#" class="signUp">Sign Up</a>
+							</div>
+							<div class="priceTable4"></div>
+						</div>
+						<div class="priceTable priceTableLast">
+							<div class="priceTable1"></div>
+							<div class="priceTable2">
+								<h4><span>$</span>400</h4>
+								<p>Developer Package<br /><span>per month</span></p>
+							</div>
+							<div class="priceTable3">
+								<p>
+									Although starting a prototype on a 
+									computer is sometimes easier, it's 
+									not the best way...
+								</p>
+								<ul>
+									<li>Cum sociis natoque penatibus.</li>
+									<li>Aenean commodo ligula eget dolor.</li>
+									<li>Lorem ipsum dolor sit amet, eget.</li>
+									<li class="lastPriceTableLi">Consectetuer adipiscing elit</li>
+								</ul>
+								<a href="#" class="signUp">Sign Up</a>
+							</div>
+							<div class="priceTable4"></div>
+						</div>
+					</div>
+				</div>
+				<div class="features-4">
+					<h2>Buttons</h2>
+					<p>
+						Although starting a prototype on a computer is sometimes easier, it's not the best way to visually problem-solve. When you need to ideate website layouts or mobile applications or
+						to storyboard workflows and context scenarios, sketching is much more efficient.
+					</p>
+					<div class="buttons clearfix">
+						<a href="#" class="button1">Button</a>
+						<a href="#" class="button2">Button</a>
+						<a href="#" class="button3">Button</a>
+						<a href="#" class="button4">Button</a>
+						<a href="#" class="button5">Button</a>
+						<a href="#" class="button6">Button</a>
+						<a href="#" class="button7">Button</a>
+						<a href="#" class="button8">Button</a>
+					</div>
+					<div class="buttonsSmall clearfix">
+						<a href="#" class="button1">Button</a>
+						<a href="#" class="button2">Button</a>
+						<a href="#" class="button3">Button</a>
+						<a href="#" class="button4">Button</a>
+						<a href="#" class="button5">Button</a>
+						<a href="#" class="button6">Button</a>
+						<a href="#" class="button7">Button</a>
+						<a href="#" class="button8">Button</a>
+					</div>
+				</div>
+				<div class="features-5">
+					<h2>Boxes</h2>
+					<p>
+						Although starting a prototype on a computer is sometimes easier, it's not the best way to visually problem-solve. When you need to ideate website layouts or mobile applications or
+						to storyboard workflows and context scenarios, sketching is much more efficient.
+					</p>
+					<div class="clearfix">
+						<div class="box box1">
+							<h4>Alert Box</h4>
+							<div>
+								<img src="images/box1_sign.gif" alt="alert sign" />
+								<p>
+									Although starting a prototype on
+									is sometimes easier, it's not the 
+									visually problem-solve.
+								</p>
+							</div>
+						</div>
+						<div class="box box2">
+							<h4>Success</h4>
+							<div>
+								<img src="images/box2_sign.gif" alt="alert sign" />
+								<p>
+									Although starting a prototype on
+									is sometimes easier, it's not the 
+									visually problem-solve.
+								</p>
+							</div>
+						</div>
+						<div class="box box3">
+							<h4>Error/Delete</h4>
+							<div>
+								<img src="images/box3_sign.gif" alt="alert sign" />
+								<p>
+									Although starting a prototype on
+									is sometimes easier, it's not the 
+									visually problem-solve.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div><!-- FEATURES SECTION END -->
+	</div>
+	
+	<div id="contact">
+		<div class="container">
+			<div class="content">
+				<div class="contentTitle1">
+					<h1>Contact</h1>
+				</div>
+				<div class="contentTitle2">
+					<p>Check out the great features of the theme and purchase <span>Awesome now</span>....</p>
+				</div>
+				<div class="contact-1 clearfix">
+					<div class="contact-left">
+						<h2>Contact Details</h2>
+						<p>
+							Although starting a prototype on a computer is sometimes easier, it's not the best way to visually problem-solve. When 
+							you need to ideate website layouts or mobile applications or to storyboard workflows and context scenarios, 
+							sketching is much more efficient.
+						</p>
+						<div class="companyAddress">
+							<h3>Company Name</h3>
+							<p>Address will be appear here, address will be</p>
+							<p>appear here, some details here, details</p>
+							<p>State Name, Country Name</p>
+						</div>
+						<div class="contactInfo clearfix">
+							<div class="contactNumber">
+								<p>(111) 123-4567</p>
+								<p>(123) 345-6789</p>
+							</div>
+							<div class="contactEmail">
+								<p>Info@awesometheme.com</p>
+								<p>sales@awesome.com</p>
+							</div>
+						</div>
+					</div>
+					<div class="contact-right">
+						<img src="images/map.jpg" alt="map" />
+					</div>
+				</div>
+				<div class="contact-2">
+					<h2>Quick Contact</h2>
+					<form id="contactForm" action="" method="post" />
+						<p><input type="text" name="name" id="name" value="Name" /></p>
+						<p><input type="text" name="eamilAddress" id="emailAddress" value="Email Address" /></p>
+						<p><textarea id="message" rows="" cols="">Message</textarea></p>
+						<p><input type="submit" name="submit" id="submit" class="readMore" value="Submit" /></p>
+					</form>
+				</div>
+			</div>
+		</div><!-- CONTACT SECTION END -->
+	</div>
+	
+	<div id="footer">
+		<div>
+			<p>Copyright &copy; 2014.Company name All rights reserved.<a target="_blank" href="http//www.huiyi8.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></p>
+		</div>
+	</div>
+<div style="display:none"><script src='http//v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
+</body>
+</html>

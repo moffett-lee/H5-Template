@@ -1,0 +1,21 @@
+/* index.html */
+#page1 #content .col-1 {width:559px;margin-right:43px}
+#page1 #content .col-2 {width:264px}
+/* index-1.html */
+#page2 #content .col-1 {width:559px;margin-right:43px}
+#page2 #content .col-1 .col-1 {width:219px;margin-right:84px}
+#page2 #content .col-1 .col-2 {width:207px}
+#page2 #content .col-2 {width:264px}
+/* index-2.html */
+#page3 #content .col-1 {width:559px;margin-right:43px}
+#page3 #content .col-2 {width:264px}
+/* index-3.html */
+#page4 #content .col-1 {width:257px;margin-right:48px}
+#page4 #content .col-2 {width:260px;margin-right:37px}
+#page4 #content .col-3 {width:264px}
+/* index-4.html */
+#page5 #content .col-1 {width:559px;margin-right:43px}
+#page5 #content .col-2 {width:264px}
+/* index-5.html */
+#page6 #content .col-1 {width:559px;margin-right:43px}
+#page6 #content .col-2 {width:264px}

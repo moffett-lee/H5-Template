@@ -1,0 +1,13 @@
+/* IE 8 hacks */
+
+
+
+/* NAV DOCK ------------------------------------------------------------*/
+
+nav{
+	position: fixed;
+	width: 160px;
+	margin-top: 20px;
+	margin-left: -910px;
+	z-index: 20;
+}

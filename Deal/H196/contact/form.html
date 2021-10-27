@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http//www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http//www.w3.org/1999/xhtml" dir="ltr" lang="en-US"
+ xmlns:og='http//opengraphprotocol.org/schema/'
+ xmlns:fb='http//www.facebook.com/2008/fbml'>
+<head profile="http//gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="" />
+<title>HTML Form</title>
+<script type="text/javascript" src="http//ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.slickforms.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function($){
+	$('.forms').dcSlickForms();
+});
+</script>
+</head>
+<body>
+<div class="form-container">
+	<form class="forms" action="form.html" method="post">
+		<fieldset>
+			<ol>
+				<li class="form-row text-input-row">
+					<label>Text Field</label>
+					<input type="text" name="text-field" value="" class="text-input required" title="" />
+				</li>
+				<li class="form-row text-input-row">
+					<label>Email</label>
+					<input type="text" name="email" value="" class="text-input required email" title="" />
+				</li>
+				<li class="form-row password-row">
+					<label>Password</label>
+					<input type="password" name="password" value="" class="password" />
+				</li>
+				<li class="form-row radio-row">
+					<label>Radio</label>
+					<input type="radio" name="radio" value="true" class="radio" checked="checked" />
+				</li>
+				<li class="form-row checkbox-row">
+					<label>Checkbox</label>
+					<input type="checkbox" name="checkbox" value="" class="checkbox" checked="checked" />
+				</li>
+				<li class="form-row text-area-row">
+					<label>Text Area</label>
+					<textarea name="text-area" class="text-area"></textarea>
+				</li>
+				<li class="form-row hidden-row">
+					<input type="hidden" name="hidden" value="" />
+				</li>
+				<li class="form-row select-row">
+					<label>Select List</label>
+					<select name="select-list" class="select" title="">
+						<option value="1">Option 1</option>
+						<option value="2">Option 2</option>
+					</select>
+				</li>
+				<li class="nocomment">
+					<label for="nocomment">Leave This Field Empty</label>
+					<input id="nocomment" value="" name="nocomment" />
+				</li>
+				<li class="button-row">
+					<input type="submit" value="Submit" name="submit" class="btn-submit" />
+				</li>
+			</ol>
+			<input type="hidden" name="emailsubject" value="Email Subject" />
+			<input type="hidden" name="v_error" id="v-error" value="Required" />
+			<input type="hidden" name="v_email" id="v-email" value="Enter a valid email" />
+		</fieldset>
+	</form>
+	<div class="response"></div>
+</div>
+</body>
+</html>

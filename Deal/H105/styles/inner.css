@@ -1,0 +1,265 @@
+/* 
+
+Green Hotel - CSS File
+
+USE THIS STYLE SHEET FOR INNER PAGE
+
+*/
+
+/* Page Navi*/
+.pagenavi {
+    clear: both;
+    padding: 0;
+}
+.pagenavi a, .pagenavi a:visited {
+    background: #dfddc7;
+    display: inline-block;
+    margin: 0 8px 0 0;
+    padding: 3px 10px;
+	color:#727272;
+}
+.pagenavi a:hover {
+    background: #dfddc7;
+    display: inline-block;
+    margin: 0 8px 0 0;
+    padding: 3px 10px;
+	color:#b03121;
+	text-decoration:none;
+}
+.pagenavi .current {
+    background: #dfddc7;
+    display: inline-block;
+    margin: 0 8px 0 0;
+    padding: 3px 10px;
+	color:#b03121;
+}
+.pagenavi .pages {
+    background: #dfddc7;
+    display: inline-block;
+    margin: 0 8px 0 0;
+    padding: 3px 10px;
+}
+
+#breadcrumb{ text-align:right; margin-bottom:34px;  clear:right;}
+
+/* BLOG */
+.post{margin-bottom:30px; padding-bottom:30px; clear:both; border-bottom:1px solid #dfddc7;}
+.post img{ padding:5px; background:#d2d0ba; width:590px; height:236px;}
+.single{padding-bottom:20px;}
+.postimg{margin-bottom:20px;}
+.posttitle{margin:0 0 5px 0}
+.posttitle, .posttitle a{font-size:18px; color:#3f4432;}
+.posttitle a:hover{text-decoration:none;}
+
+.entry-text{overflow:hidden; padding-left:30px;}
+.entry-text h2{ padding-top:5px;}
+.entry-content {margin:0; padding:12px 0 5px 0;}
+.entry-date{float:left; text-align:center; font-size:18px;
+	width: 56px;
+	height:48px;
+	padding-top:8px;
+	line-height:normal;
+	-moz-border-radius: 56px;
+	-webkit-border-radius: 56px;
+	-khtml-border-radius: 56px;
+	border-radius: 56px;
+	background:#3f4432; color:#f1efda;
+	display: block;
+}
+
+.month{ font-size:11px; display:block;}
+
+.entry-utility{padding:20px 0px 0px; font-size:11px; font-style:italic;}
+
+.single .entry-utility{padding:0px 0px 0px;}
+
+#comment h2{
+	margin-bottom:25px; text-transform:uppercase; font-size:14px;	
+}
+.commentlist{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+}
+.commentlist ol{
+	list-style-type:none;
+	padding:30px 0 0 90px;
+	margin:0;
+}
+
+.commentlist li{
+	position:relative;
+	padding:0 0 30px 0;
+}
+.commentlist li li{
+	position:relative;
+	padding:0;
+}
+
+.avatar{
+	position:absolute;
+	top:0;
+	left:0;
+}
+.fn{font-size:12px; font-style:normal;}
+.tdate{padding-left:30px;}
+.tdate, .reply{ font-size:11px; color:#a6a6a6; font-style:italic; }
+
+.comment-body{margin:0 0 0 90px; padding:20px; background:#f7f5e3;}
+.comment-body p{ margin-bottom:5px; margin-top:10px;}
+.comment-body .more{ padding:0px 0px;}
+#commentform{margin-bottom:15px;}
+#commentform label{display:block}
+#commentform .text-input{
+	margin-bottom:8px;
+	padding:8px 5px;
+	vertical-align:middle;
+}
+#commentform .textarea{
+	margin-bottom:20px;
+	padding:8px 5px;
+	vertical-align:top;
+	width:90%
+}
+
+
+/* TS GALLERY */
+.ts-gallery-img img{
+	max-width: 100%;
+	padding:0;
+	margin: 0 auto;
+}
+.ts-gallery-clear{clear:both; height:1px !important; line-height:1px !important; float:none!important}
+.ts-gallery ul{ list-style-type:none; margin:0 0 0px 0; padding:0; clear:both;}
+.ts-gallery ul li.nomargin{margin-right:0;}
+
+.ts-gallery-text{padding:3px 0px; text-align:center;}
+.ts-gallery-text h2{ font-size:13px; color:#3f4432; margin-bottom:20px; font-weight:600; font-family: 'Open Sans', sans-serif;}
+.no-gallery-text{display:none;}
+
+.ts-gallery-img{
+	background:#d2d0ba;
+	padding:5px;
+	position: relative;
+	line-height:normal;
+}
+.ts-gallery-img:hover{ background:#3f4432;}
+.ts-gallery-img a.image{
+	display: block;
+	position:relative;
+	overflow:hidden;
+	line-height:normal;
+	
+}
+.ts-gallery-img a .rollover{
+	background:url(../images/hover-zoom.png);
+	background-color:#000;
+	background-repeat:no-repeat;
+	background-position:center;
+	display:block;
+    position:absolute;
+	z-index:10;
+	display:none;
+	cursor:pointer;
+}
+
+.ts-gallery-img a .rollover.gotopost{
+	background:url(../images/hover-doc.png);
+	background-color:#000;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+/*=== TS Gallery 4 Column ===*/
+.ts-gallery-col4{list-style-type:none; padding:0; margin:0;}
+.ts-gallery-col4 li{
+	list-style-type:none; 
+	padding:0; 
+	margin:0 20px 0 0; 
+	width:220px;
+	float:left;
+	
+}
+
+.ts-gallery-col4 li.nomargin{margin-right:0;}
+
+.ts-gallery-col4 .ts-gallery-img{
+	width:210px;
+	height:81px;
+}
+
+.ts-gallery-col4 .ts-gallery-img img{
+	width:210px;
+	height:81px;
+}
+
+.ts-gallery-col4 .ts-gallery-img a.image{
+	width:210px;
+	height:81px;
+	display:block;
+	position:relative;
+}
+.ts-gallery-col4 .ts-gallery-img a .rollover{
+	width:210px;
+	height:81px;
+}
+
+
+/*======= Accommodation 3 Column =======*/
+.ts-gallery-col3{list-style-type:none; padding:0; margin:0;}
+.ts-gallery-col3 li{list-style-type:none; padding:0 0 0 0; margin:0 20px 25px 0; width:300px;  float:left; }
+.ts-gallery-col3 li.nomargin{margin-right:0;}
+.ts-gallery-col3 h2{margin:0 0 5px 0!important;}
+
+.ts-gallery-col3 .ts-gallery-img{
+	width:290px;
+	height:115px;
+}
+.ts-gallery-col3 .ts-gallery-img img{
+	width:290px;
+	height:115px;
+}
+.ts-gallery-col3  .ts-gallery-img a.image{
+	width:290px;
+	height:115px;
+	display:block;
+	position:relative;
+}
+
+.ts-gallery-col3 .ts-gallery-img a .rollover{
+	width:290px;
+	height:115px;	
+}
+
+.ts-gallery-col3 .ts-gallery-text{padding:5px 0 0 0;}
+
+/* CONTACT */
+form{margin:0; padding:0;}
+fieldset{border:0px;}
+#contactform{margin:0 auto; position:relative; }
+#contactform h4{ text-transform:uppercase; margin-bottom:20px;}
+#contactform label{display:block; width:100%; float:left; padding-bottom:5px;}
+span.required{ color:#888;}
+span.error{color:red;text-align:left; font-size:11px; padding-bottom:15px; display:block;}
+#contactform input.text-input{
+	margin-bottom:15px;
+	vertical-align:middle;
+	width:60%;
+	float:left;
+	font-style:italic;
+	padding:8px;
+	color:#727272;
+	font-size:11px;
+	
+}
+#contactform textarea{ width:95%; float:left; font-style:italic; color:#727272; font-size:11px; font-family:Arial, Helvetica, sans-serif} 
+#message{ margin-left:0px; font-weight:bold; color:#ff0000}
+#message h2	{}
+#message p{margin:6px 0px; }
+.note{ color:#d45454;}
+#contactform .button{
+	cursor:pointer;
+	margin-top:20px;
+	clear:both;
+	float:left;
+ }

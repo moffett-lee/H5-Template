@@ -1,0 +1,11 @@
+.navbar_ .nav-collapse_ , .navbar_ collapse {
+    overflow: visible;
+  }
+  body {
+  	min-width: 980px;
+  }
+h3{font-size:22px;letter-spacing:-1px;line-height:26px}
+.list-soc li a img{filter:alpha(opacity=100);}
+.list-soc li a:hover img{filter:alpha(opacity=70);}
+
+/*******/

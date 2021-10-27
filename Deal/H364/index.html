@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>仿Cooffee微官网手机wap微信网站模板首页-3v3手机WAP网站微信模板下载【3v3.cc】</title>
+<meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1">
+<link type="text/css" rel="stylesheet" href="wiying/Tpl/Wap/wiying/Index/M-coffee/default/index.css" />
+<script type="text/javascript" src="wiying/Tpl/Wap/wiying/common/jquery.js"></script>
+<script type="text/javascript" src="wiying/Tpl/Wap/wiying/common/jquery-1.2.6.pack.js"></script>
+<script type="text/javascript" src="wiying/Tpl/Wap/wiying/common/g.base.js"></script>
+<script type="text/javascript" src="wiying/Tpl/Wap/wiying/common/iscroll.js"></script>
+<script type="text/javascript" src="wiying/Tpl/Wap/wiying/common/alert.js"></script>
+<script type="text/javascript" src="wiying/Tpl/Wap/wiying/common/common.js"></script>
+<script type="text/javascript">
+    var myScroll;
+    function loaded() {
+        myScroll = new iScroll('wrapper', {
+            snap: true,
+            momentum: false,
+            hScrollbar: false,
+            onScrollEnd: function() {
+                document.querySelector('#indicator > li.active').className = '';
+                document.querySelector('#indicator > li:nth-child(' + (this.currPageX + 1) + ')').className = 'active';
+            }
+        });
+    }
+    document.addEventListener('DOMContentLoaded', loaded, false);
+</script>
+</head>
+
+<body>
+<header>
+    <div class="banner">
+        <div id="wrapper" style="overflow: hidden; ">
+            <div id="scroller">
+                <ul id="thelist">
+                    <li><p> </p><a href="#"><img src="upload/img/20131004/13808508548914.jpg" /></a></li><li><p></p><a href="#"><img src="upload/img/20131010/13814083294048.jpg" /></a></li>                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="nav">
+        <div id="prev" onclick="javascript:myScroll.scrollToPage('prev', 0);"></div>
+        <ul id="indicator">
+            <li class="active"></li><li ></li>        </ul>
+        <div id="next" onclick="javascript:myScroll.scrollToPage('next', 0, 400, 2);"></div>
+    </div>
+    <div class="clr"></div>
+</header>
+<script>
+    var count = document.getElementById("thelist").getElementsByTagName("img").length;
+    for (i = 0; i < count; i++) {
+        document.getElementById("thelist").getElementsByTagName("img").item(i).style.cssText = " width:" + document.body.clientWidth + "px";
+    }
+    document.getElementById("scroller").style.cssText = " width:" + document.body.clientWidth * count + "px";
+    setInterval(function() {
+        myScroll.scrollToPage('next', 0, 400, count);
+    }, 3500);
+    window.onresize = function() {
+        for (i = 0; i < count; i++) {
+            document.getElementById("thelist").getElementsByTagName("img").item(i).style.cssText = " width:" + document.body.clientWidth + "px";
+        }
+        document.getElementById("scroller").style.cssText = " width:" + document.body.clientWidth * count + "px";
+    };
+</script>
+<div class="content">
+    <a href="index.php@g=Wap&m=Index&a=content&token=luoshangkun&id=74&pid=4&wecha_id=o0LVquEUQZAJWEkbfRgk47XcQIUk&loveU=mp.weixin.qq.com" data-role="none">
+        <div class="img" style="background:url(upload/img/20131004/13808513679078.png) center no-repeat; background-size:contain;"></div>
+        <div class="text">
+            <h2>关于我们</h2>
+            <p>空中森林<br>咖啡时光<br>尽情享受</p>
+        </div>
+    </a><a href="index.php@g=Wap&m=Index&a=content&token=luoshangkun&id=75&pid=4&wecha_id=o0LVquEUQZAJWEkbfRgk47XcQIUk&loveU=mp.weixin.qq.com" data-role="none">
+        <div class="img" style="background:url(upload/img/20131004/13808516215543.png) center no-repeat; background-size:contain;"></div>
+        <div class="text">
+            <h2>小店印象</h2>
+            <p>三层楼<br>玻璃房<br>小资情调</p>
+        </div>
+    </a><a href="index.php@g=Wap&m=Index&a=content&token=luoshangkun&id=76&pid=4&wecha_id=o0LVquEUQZAJWEkbfRgk47XcQIUk&loveU=mp.weixin.qq.com" data-role="none">
+        <div class="img" style="background:url(upload/img/20131004/13808516836066.png) center no-repeat; background-size:contain;"></div>
+        <div class="text">
+            <h2>经典饮品</h2>
+            <p>蓝莓慕斯<br>蜂蜜拿铁<br>美式咖啡</p>
+        </div>
+    </a><a href="index.php@g=Wap&m=Index&a=content&token=luoshangkun&id=77&pid=4&wecha_id=o0LVquEUQZAJWEkbfRgk47XcQIUk&loveU=mp.weixin.qq.com" data-role="none">
+        <div class="img" style="background:url(upload/img/20131004/13808517312860.png) center no-repeat; background-size:contain;"></div>
+        <div class="text">
+            <h2>特色菜肴</h2>
+            <p>意大利面<br>特色牛扒<br>烤海鲈鱼</p>
+        </div>
+    </a><a href="index.php@g=Wap&m=Index&a=lists&classid=266&token=luoshangkun&wecha_id=o0LVquEUQZAJWEkbfRgk47XcQIUk&loveU=mp.weixin.qq.com" data-role="none">
+        <div class="img" style="background:url(upload/img/20131004/13808517751032.png) center no-repeat; background-size:contain;"></div>
+        <div class="text">
+            <h2>优惠活动</h2>
+            <p>店面优惠<br>水果达人<br>会员卡</p>
+        </div>
+    </a><a href="index.php@g=Wap&m=Index&a=content&token=luoshangkun&id=78&pid=4&wecha_id=o0LVquEUQZAJWEkbfRgk47XcQIUk&loveU=mp.weixin.qq.com" data-role="none">
+        <div class="img" style="background:url(upload/img/20131004/13808517948568.png) center no-repeat; background-size:contain;"></div>
+        <div class="text">
+            <h2>联系我们</h2>
+            <p>一键联系<br>地址导航<br>欢迎光临</p>
+        </div>
+    </a></div>
+<div class="footer">
+<p class="footer-top">&COPY;Cooffee</p>
+<p class="footer-bottom" data-role="none">
+    温馨提示：本信息仅供提供演示方便链接，与原网站无关！ <a href="index.html">首页</a>  <a href="zhengwen.html">正文页</a>  <a href="liebiao.html">列表页</a>
+</p>
+</div>
+</body>
+</html>

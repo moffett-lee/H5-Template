@@ -1,0 +1,63 @@
+﻿
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="html5,本地存储" />
+    <meta name="description" content="Helloweba演示平台，演示XHTML、CSS、jquery、PHP案例和示例" />
+    <title>微信大转盘源码</title>
+    <link rel="stylesheet" type="text/css" href="../css/main.css" />
+    <style type="text/css">
+    .demo{width:509px; height:509px; position:relative;margin: 50px auto;}
+    #disk{width:509px; height:509px; background:url(luck/zp.png) no-repeat;position:absolute;top:0;left:0}
+    #start{width:163px; height:320px; position:absolute; cursor: pointer;top:95px;left:172px;}
+    #start img{cursor: pointer;position: absolute;top:0;left:0;*left:-107px}
+    </style>
+    <script type="text/javascript" src="luck/jquery.js"></script>
+    <script type="text/javascript" src="luck/jQueryRotate.2.2.js"></script>
+    <script type="text/javascript" src="luck/jquery.easing.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("#startbtn").click(function () {
+                lottery();
+            });
+        });
+        function lottery() {
+
+            var mes = "100|你的中奖提示语,其中指针停靠的位置需你写程序控制"; //从后台通过ajax获取的数据
+            var a = parseInt(mes.split("|")[0]); //角度 
+            var p = mes.split("|")[1]; //奖项 
+            $("#startbtn").rotate({
+                duration: 5000, //转动时间 
+                angle: 0,
+                animateTo: 1441 + a, //转动角度 
+                easing: $.easing.easeOutSine,
+                callback: function () {
+                    alert(p);
+                }
+            });
+
+        }
+    </script>
+</head>
+<body>
+
+    <div id="header">
+   
+</div>
+
+<div id="main">
+   <div class="msg"></div>
+   <div class="demo">
+        <div id="disk"></div>
+        <div id="start"><img src="luck/start.png" id="startbtn"></div>
+   </div>
+   
+</div>
+
+
+<div id="footer">
+    
+</div>
+
+</body>
+</html>

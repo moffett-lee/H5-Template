@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+
+--------------------------------------------------------------------*/
+
+body{
+	background:#f2f2f2;
+	font-size:12px;
+	line-height:1.8;
+
+}
+
+/* heading
+--------------------------------------------------------------------*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "宋体","新宋体",Arial,Helvetica,sans-serif;
+	font-size: 1em;
+}
+
+h1 strong,
+h1 em,
+h2 strong,
+h2 em,
+h3 strong,
+h3 em,
+h4 strong,
+h4 em,
+h5 strong,
+h5 em,
+h6 strong,
+h6 em {
+	font-weight: inherit;
+	_font-weight: expression(this.parentNode.currentStyle.fontWeight);
+	*font-weight: expression(this.parentNode.currentStyle.fontWeight);
+}
+
+/* normal block
+--------------------------------------------------------------------*/
+
+p {
+	text-align: justify;
+	text-justify: distribute;
+}
+
+/* anchor
+--------------------------------------------------------------------*/
+
+a:link {
+ color:#3c3c3c;
+
+	text-decoration: none;
+}
+
+a:visited {
+ color:#333333;
+
+	text-decoration: none;
+}
+
+a:hover {
+ color:#333333;
+	text-decoration: none;
+}
+
+a:active {
+}
+
+/* table
+--------------------------------------------------------------------*/
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* default-rollover
+--------------------------------------------------------------------*/
+
+/*a:hover img {
+	opacity : 0.2;
+	filter: alpha(opacity=20);
+}
+
+*/

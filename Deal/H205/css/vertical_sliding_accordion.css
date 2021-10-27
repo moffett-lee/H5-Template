@@ -1,0 +1,111 @@
+.va-container {
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.va-nav {
+  position: absolute;
+  right: -50px;
+  bottom: 30px;
+  height: 80px;
+  width: 35px;
+  z-index: 50;
+}
+
+.va-nav span {
+  display: none;
+  position: absolute;
+  left: 0;
+  width: 35px;
+  height: 35px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  text-indent: -9999px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50% 50% 50% 50%;
+  -moz-border-radius: 50% 50% 50% 50%;
+  -webkit-border-radius: 50% 50% 50% 50%;
+  background-color: #7f7b79;
+}
+
+.va-nav span:hover { background-color: #413f3d;}
+
+.va-nav-prev {
+  top: 0;
+  background-image: url('../images/verticalslider/v_prev.png');
+  background-repeat: no-repeat;
+  background-position: 50% 45%;
+}
+
+.va-nav-next {
+  bottom: 0;
+  background-image: url('../images/verticalslider/v_next.png');
+  background-repeat: no-repeat;
+  background-position: 50% 55%;
+}
+
+.va-wrapper {
+  background: #000;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.va-slice {
+  cursor: pointer;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+}
+
+.va-slice h3 {
+  font-size: 14px;
+  color: #fff;
+  line-height: 25px !important;
+  margin: 20px 0 0 20px;
+  float: left;
+  padding: 3px 10px;
+  font-weight: bold;
+  font-family: 'OpenSans_SB';
+  background: url('../images/slider_text_bg_r.png');
+}
+
+.va-content { height: 360px; position: relative;}
+.va-content p {
+  clear: both;
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  width: 540px;
+  padding: 10px 15px;
+  margin: 0;
+  color: #e3e2df;
+  cursor: default;
+  background: url('../images/slider_text_bg_r.png');
+}
+
+.va-content .more { font-style: italic; font-size: 11px; text-decoration: none;}
+.va-content .more:hover { color: #52585d;}
+
+.va-slice-1 { background: #000 url("../images/demo/image_10.jpg") no-repeat center center;}
+.va-slice-2 { background: #000 url("../images/demo/image_11.jpg") no-repeat center center;}
+.va-slice-3 { background: #000 url("../images/demo/image_12.jpg") no-repeat center center;}
+.va-slice-4 { background: #000 url("../images/demo/image_13.jpg") no-repeat center center;}
+.va-slice-5 { background: #000 url("../images/demo/image_14.jpg") no-repeat center center;}
+.va-slice-6 { background: #000 url("../images/demo/image_15.jpg") no-repeat center center;}
+
+.Boulder #nav_side, .Boulder .va-nav span:hover { background-color: #7f7b79;}
+.Santa_Fe #nav_side, .Santa_Fe .va-nav span:hover { background-color: #b47555;}
+.Hillary #nav_side, .Hillary .va-nav span:hover { background-color: #afa38a;}
+.Green_Smoke #nav_side, .Green_Smoke .va-nav span:hover { background-color: #97ac7b;}
+.Husk #nav_side, .Husk .va-nav span:hover { background-color: #b6a44d;}
+.Cinnabar #nav_side, .Cinnabar .va-nav span:hover { background-color: #e34e48;}
+.Di_Serria #nav_side, .Di_Serria .va-nav span:hover { background-color: #dda268;}
+.East_Side #nav_side, .East_Side .va-nav span:hover { background-color: #bc8acc;}
+.Mauvelous #nav_side, .Mauvelous .va-nav span:hover { background-color: #f386a1;}
+.Viking #nav_side, .Viking .va-nav span:hover{ background-color: #63cae1;}
+.Gulf_Stream #nav_side, .Gulf_Stream .va-nav span:hover{ background-color: #85adae;}
+.Manatee #nav_side, .Manatee .va-nav span:hover{ background-color: #83849f;}

@@ -1,0 +1,86 @@
+/* root element for tabs  */
+.tabs { 
+	list-style:none; 
+	margin:0 !important;
+	padding: 0px;	
+	height: 33px;
+}
+
+body.home .tabs { 
+	padding: 0px 30px;
+
+}
+
+/* single tab */
+ul.tabs li { 
+	display: block;
+	float:left;	 
+	text-indent:0;
+	padding:0;
+	margin: 2px 5px 0px 0px !important;
+	list-style-image: none !important; 
+	border-top: 1px solid #484848;
+	border-right: 1px solid #484848;
+	border-left: 1px solid #484848;
+}
+
+/* link inside the tab. uses a background image */
+ul.tabs a { 
+	display:block;
+	font-size:12px;
+	height: 30px;  
+	line-height:30px;
+	text-align:center;	
+	text-decoration:none;
+	padding: 0px 0px 0px 10px;	
+	position:relative;
+	top:0px;
+}
+
+ul.tabs a span{ 
+	display:block;
+	height: 100%;
+	padding-right: 10px;
+}
+
+#posts ul.tabs a{
+	text-decoration: none;
+	color: #484848;
+}
+
+ul.tabs a:active {
+	outline:none;
+}
+
+/* when mouse enters the tab move the background image */
+
+
+#posts ul.tabs li:hover a,
+#posts ul.tabs a.current{ 
+	background: #484848;
+	color: #ece9e2;
+}
+
+/* active tab uses a class name "current". its highlight is also done by moving the background image. */
+ul.tabs a.current,
+#posts ul.tabs a.current:hover,
+ul.tabs li.current a {	
+	cursor:default !important; 
+	color:#ece9e2 !important;
+	display: block;
+	text-decoration: none;
+}
+
+
+/* initially all panes are hidden */ 
+.panes .pane {
+	display:none;	
+}
+
+.panes>div {
+   display: none;
+   min-height: 200px;
+   border: 1px solid #484848;
+   padding: 15px;
+}
+

@@ -1,0 +1,115 @@
+/* CSS Public */
+body,td,th {font-family:"宋体";font-size:12px;	margin:0px 0px 0px 0px;}
+img{border:0px;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}
+input{font-size:12px;border:1px solid #aaaaaa;padding-left:3px;}
+select {  font-size: 12px; border-width:1px}
+form {margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}
+a:link, a:visited  {  color: #000000;text-decoration:none}
+a:hover, a:active {  color: #000000; text-decoration:underline}
+
+/****Common******/
+.hand {	cursor:hand;}/**手型**/
+/***forward****/
+.left{ text-align:left}
+.right{ text-align:right}
+.center{ text-align:center}
+.top{ vertical-align:top}
+.middle{ vertical-align:middle}
+.bottom { vertical-align:bottom}
+/****Common Font****/
+.title{color:#002576;font-size:16px;font-weight:normal}/**标题**/
+.titleLine{color:#002576;font-size:16px;font-weight:normal;background-color:#dcebfe;border-bottom:1px solid #7d95b3;height:35px;text-align:center}/**添加修改的标题***/
+.titleLine td{text-align:center}/**添加修改的标题***/
+
+.deleteline {color: #878787;	text-decoration:line-through;}/***删除线***/
+.overflowtext{ FLOAT: left; OVERFLOW: hidden; WIDTH: 120px; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis ;cursor:hand}/***控制文本长度***/
+/****Button********/
+.btnNormal {font-family: "Tahoma", "宋体";font-size: 12px; color: #000000; border: 0px #000000 solid; background-color: #AAC7E7; background-image:url('../button/btnBgImg.jpg'); CURSOR: hand;width:70px;height:24px;letter-spacing:10px;text-align:center;vertical-align:middle;}
+.inputNormal{height:20px;border:1px solid #aaaaaa;width:120px;padding-left:3px}
+.inputFile{height:20px;border:1px solid #aaaaaa;width:330px;}/***上传文件**/
+.inputLine{height:20px;border-bottom:1px solid #666666;border-top:0px solid #000000;border-left:0px solid #000000;border-right:0px solid #000000;width:120px;padding-left:3px}
+/****border*******/
+.tdborder{border:1px solid #cccccc;}
+.tdbottom{border-bottom:1px solid #666666;}
+/*****filter*****/
+.tdfilter{FILTER: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#96909D', endColorStr='#E5DFDF', gradientType='1')}/***渐变效果***/
+.tdfilterpage{FILTER: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#a8c4dc', endColorStr='#F7f7f7', gradientType='0')}/***渐变效果***/
+/****font justify*****/
+.textadjust{text-align:justify;text-justify:inter-ideograph}/**二端对齐**/
+.textbreak{word-break : break-all;word-wrap:break-word; width:200px}/**强制换行**/
+/******boby background*******/
+.bgfixed{BACKGROUND-ATTACHMENT: fixed; background-repeat: no-repeat; background-position: top;background-image:url('../images/bg2.jpg')}/***固定背景**/
+/****display******/
+.displayblock{display:block}
+.displaynone{display:none}
+/****标识样式*****/
+#markdot{color:#FF0000}
+.mark{color:#FF0000}/**标识**/
+/****特殊效果*****/
+/*****输入框mouseover则选中，背景色变换，移开则还原*****/
+/*input{ star : expression(onmouseover=function(){this.style.backgroundColor="#99ccff";this.focus();},onmouseout=function(){this.style.backgroundColor="#FFFFFF";this.blur()}, onfocus=function(){this.style.backgroundColor="#99ccff";}, onblur=function(){this.style.backgroundColor="#FFFFFF";}) }
+input{ star : expression(onmouseover=function(){this.style.backgroundColor="#99ccff";},onmouseout=function(){this.style.backgroundColor="#FFFFFF";}) }*/
+
+/**href start**/
+a.nav:link, a.nav:visited {color:#000000;text-decoration:none;}/**导航条***/
+a.nav:hover,a.nav:active{color:#000000;text-decoration:underline; }
+
+a.footer:link,a.footer:visited {color:#ff0000;text-decoration:none;}/***底部链接***/
+a.footer:hover, a.footer:active{color:#ff0000;text-decoration:underline; }
+
+a.header:link, a.header:visited {color:#ff0000;text-decoration:none;}/***头部链接***/
+a.header:hover, a.header:active{color:#ff0000;text-decoration:underline; }
+
+a.menu:link, a.menu:visited{color:#ff0000;text-decoration:none;}/***栏目链接***/
+a.menu:hover,a.menu:active{color:#ff0000;text-decoration:underline; }
+
+a.submenu:link, a.submenu:visited{color:#ff0000;text-decoration:none;}/***二级栏目链接***/
+a.submenu:hover,a.submenu:active{color:#ff0000;text-decoration:underline; }
+
+a.highlight:link, a.highlight:visited { color:red; text-decoration:none }
+a.highlight:hover { color:red; text-decoration:underline }
+/**href end**/
+
+/**font start**/
+
+/**绑定数据标题alter#dcebfe**/
+.fontbtn{font-size:12px;color:#000000;background-color:#dcebfe;border-bottom:1px solid #7d95b3;height:35px;}
+.fontbtntitlte{color:#7d95b3;font-size:16px;background-color:#dcebfe;border-bottom:1px solid #7d95b3;height:35px;text-align:center}
+.fonttitle{font-size:12px;font-weight:bold;color:#000000;background-color:#cfe4fe;border-bottom:1px solid #e4e4e4;height:22px;text-align:left}
+.fontitem{font-size:12px;color:#000000;background-color:#FFFFFF;border-top:0px solid #e4e4e4;border-bottom:1px solid #e4e4e4;text-align:left;height:22px;}
+.fontalter{font-size:12px;color:#000000;background-color:#FFFFFF;border-left:0px solid #e4e4e4;border-bottom:1px solid #e4e4e4;height:22px;text-align:left}
+/**font end**/
+/**通常表格样式***/
+.tableNormal { width:100%;border:1px solid #9EB8DB;border-bottom:0px}
+.tableNormal th { background-color: #FFFFFF; border-bottom: 1px #b3c7ea solid;}
+.tableNormal td { background-color:expression((this.parentElement.sectionRowIndex%2==0)?'#ffffff':'#E8F3FF'); background-color:'#E8F3FF'; border-bottom:'1px #b3c7ea solid';}
+/**通常表格样式***/
+.tableNormalOrder { width:100%;border:1px solid #dcebfe}
+.tableNormalOrder th { background-color: #FFFFFF; border-bottom: 1px #b3c7ea solid;height:20px}
+.tableNormalOrder td { border-bottom:'1px #b3c7ea solid';}
+
+
+.textareaupload{	font-family:"宋体";	font-size:12px;	width:300px;	height:80px;	overflow:auto;}
+
+/**通常绑定数据表格样式***/	
+#DivBindData{border: 1px #b3c7ea solid;}
+
+.DataHead { width:800;border-bottom: 1px #b3c7ea solid;background-color: #b3c7ea;}
+.DataHead th { background-color: #DFEDFA; font-weight:bold}
+.DataHead td { background-color:#FFFFFF;font-weight:bold}
+.DataHead .mark{color:#FF0000}/**标识**/
+
+.DataItem { width:100%;border-bottom: 1px #b3c7ea solid;}
+.DataItem th { background-color: #DFEDFA;  font-weight:bold}
+.DataItem td { background-color:#FFFFFF; }
+.DataItem .mark{color:#FF0000}/**标识**/
+
+.tableAdd { width:800;border: 1px #b3c7ea solid;background-color: #b3c7ea;}
+.tableAdd th { background-color: #FFFFFF; border-bottom: 1px #b3c7ea solid;}
+.tableAdd td {  background-color:#FFFFFF; border-bottom: 1px #b3c7ea solid;}
+
+/**表格切换选中样式***/	
+.tduncheck {font-size:13px;	color:#aaaaaa;	border-bottom:1px solid #679800;}
+.tduncheck a:link, .tduncheck a:visited{font-size:13px;	color:#666666;}
+.tdcheck {font-size:13px;color:#ff0000;	font-weight:bold;	background:url(../images/j12.jpg) #78AF02;	border:1px solid #679800;}
+.tdcheck a:link, .tdcheck a:visited{font-size:14px;	color:#ffffff;	font-weight:bold;}

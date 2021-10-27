@@ -1,0 +1,114 @@
+
+
+/* ----------------------------------------------------------------
+    Content Areas Background Colors
+-----------------------------------------------------------------*/
+
+
+#top-area { background-color: #333333; }
+
+
+#top-bar { background-color: #444444; }
+
+
+#primary-menu,
+#primary-menu ul ul { background-color: #444444; }
+
+
+#footer { background-color: #444444; }
+
+
+#copyrights { background-color: #333333; }
+
+
+/* ----------------------------------------------------------------
+    Colors
+-----------------------------------------------------------------*/
+
+
+a,
+.portfolio-item:hover .portfolio-desc a,
+.home-post-content h5 a:hover,
+.faq-category h4:hover a { color: #D20C0C; }
+
+
+/* ----------------------------------------------------------------
+    Background Colors
+-----------------------------------------------------------------*/
+
+
+.top-area-wrap a:hover,
+a#top-area-trigger,
+.pagination a:hover,
+#portfolio-filter li a,
+#home-portfolio-pagination a.selected,
+.entry_date:hover,
+.home-post-img a:hover,
+img.alignleft:hover,
+img.alignnone:hover,
+img.aligncenter:hover,
+img.alignright:hover,
+.wp-caption img:hover,
+.faq-category h4:hover a span,
+.classic-button:hover,
+#gotoTop,
+a.twitter-follow-me,
+.tagcloud a:hover,
+#footer .tagcloud a:hover { background-color: #D20C0C; }
+
+
+/* ----------------------------------------------------------------
+    Border Colors
+-----------------------------------------------------------------*/
+
+
+.portfolio-item:hover .portfolio-image,
+.portfolio-item:hover .portfolio-desc,
+.related-projects a:hover,
+.entry_image a:hover,
+input:active,
+textarea:active,
+select:active,
+input:focus,
+textarea:focus,
+select:focus,
+.flickr-widget-wrap .flickr_badge_image img:hover,
+.posts-widget li .post_image img:hover,
+#footer .flickr_badge_image img:hover,
+#footer .posts-widget li .post_image img:hover { border-color: #D20C0C; }
+
+
+#top-bar,
+#primary-menu > ul > li.current,
+#primary-menu > ul > li.current-menu-ancestor,
+#primary-menu > ul > li.current-menu-parent,
+#primary-menu > ul > li.current-menu-item,
+#primary-menu > ul > li.current_page_parent,
+.slide .slide-caption { border-top-color: #D20C0C; }
+
+
+/* ----------------------------------------------------------------
+    Box Shadow Colors
+-----------------------------------------------------------------*/
+
+
+input:active,
+textarea:active,
+select:active,
+input:focus,
+textarea:focus,
+select:focus {
+    box-shadow: 0px 0px 4px #D20C0C;
+    -moz-box-shadow: 0px 0px 4px #D20C0C;
+	-webkit-box-shadow: 0px 0px 4px #D20C0C;
+}
+
+
+/* ----------------------------------------------------------------
+    Selection Colors
+-----------------------------------------------------------------*/
+
+
+::selection,
+::-moz-selection,
+::-webkit-selection { background-color: #D20C0C; }

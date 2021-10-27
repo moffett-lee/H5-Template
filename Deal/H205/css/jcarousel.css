@@ -1,0 +1,20 @@
+.scroller { padding: 0 21px; position: relative; margin: 0 19px 20px;}
+.jCarouselLite ul { padding: 0 !important;}
+.jCarouselLite ul li { margin-right: 17px;}
+.jCarouselLite ul li img {
+  margin: 0 !important;
+  width: 100px;
+  height: 100px;
+}
+
+.scroller .next,
+.scroller .prev {
+  position: absolute;
+  top: 0;
+  width: 6px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.scroller .next { right: 0; background: url('../images/jcarusel/b_next.gif') no-repeat 50% 50%;}
+.scroller .prev { left: 0; background: url('../images/jcarusel/b_prev.gif') no-repeat 50% 50%;}

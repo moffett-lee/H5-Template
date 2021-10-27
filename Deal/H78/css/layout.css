@@ -1,0 +1,32 @@
+.col1, .col2, .col3, .col4, .cols {float:left}
+.col1 {width:285px}
+.cols {width:210px}
+.col2 {width:440px}
+.col3 {width:430px}
+.col4 {width:195px}
+/* index.html */
+#page1 .body1 {background: url(../images/bg_top.gif) top repeat-x #0e0b06}
+#page1 header {height:614px}
+/* index-1.html */
+#page2 .dropcap1 {font-size:39px;line-height:1.2em}
+#page2 .dropcap1 span {margin-top:3px}
+#page2 #content2 .cols {width:200px}
+#page2 #content2 .pad_left1 {padding-left:40px}
+#page2 #content2 {padding-bottom:36px}
+/* index-2.html */
+#page3 .marg_right1 {margin-right:30px}
+#page3 #content .dropcap1 {font-size:39px;line-height:1.2em}
+#page3 #content .dropcap1 span {margin-top:3px}
+#page3 #content .pad_left1 {padding-left:40px}
+#page3 #content2 {padding-bottom:22px}
+/* index-3.html */
+#page4 header {height:157px}
+#page4 #content2 {padding-bottom:22px;padding-top:12px}
+#page4 #content2 .cols {width:280px}
+#page4 #content2 .pad_left1 {padding-left:40px}
+#page4 #content2 {padding-bottom:44px}
+/* index-4.html */
+#page5 header {height:157px}
+#page5 #content2 {padding-bottom:22px;padding-top:12px}
+#page5 .cols {width:600px}
+#page5 .marg_right1 {margin-right:30px}

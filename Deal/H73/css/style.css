@@ -1,0 +1,194 @@
+/*
+Free Html5 Responsive Templates
+Author: Kimmy
+Author URI: http//www.zerotheme.com/
+*/
+/* -------------------------------------------- */
+/* ------------------Reset--------------------- */
+a,abbr,acronym,address,applet,article,aside,audio,b,blockquote,big,body,center,canvas,caption,cite,code,command,datalist,dd,del,details,dfn,dl,div,dt,em,embed,fieldset,figcaption,figure,font,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,keygen,label,legend,li,meter,nav,object,ol,output,p,pre,progress,q,s,samp,section,small,span,source,strike,strong,sub,sup,table,tbody,tfoot,thead,th,tr,tdvideo,tt,u,ul,var{background:transparent;border:0 none;font-size:100%;margin:0;padding:0;border:0;outline:0;vertical-align:top;}ol, ul {list-style:none;}blockquote, q {quotes:none;}table, table td {padding:0;border:none;border-collapse:collapse;}img {vertical-align:top;}embed {vertical-align:top;}
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {display:block;}
+mark, rp, rt, ruby, summary, time {display:inline;}
+input, textarea {border:0; padding:0; margin:0; outline: 0;}
+iframe {border:0; margin:0; padding:0;}
+input, textarea, select {margin:0; padding:0px;}
+
+/* -------------------------------------------- */
+/* ------------------Font---------------------- */
+
+@font-face {
+  font-family: 'Yanone Kaffeesatz';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Yanone Kaffeesatz Bold'), local('YanoneKaffeesatz-Bold'), url("../font/We_iSDqttE3etzfdfhuPRWwXwFHHZlCwprwJOQ-Se7k.woff") format('woff');
+}
+
+@font-face {
+	font-family: 'DeliciousBold';
+	src: url('../font/Delicious-Bold.eot');
+	src: local('?'), url('../font/Delicious-Bold.otf') format('opentype');
+}
+
+/* -------------------------------------------- */
+/* ------------------Style--------------------- */
+html, body {width:100%; padding:0; margin:0;}
+body {background: #E9EDEF url("../images/bg.jpg") repeat-x;color: #474747;font: 12px/25px Arial, Helvetica, sans-serif;}
+
+a{color: #474747; text-decoration: none;}
+a:hover {color: #DB5705; text-decoration: none;}
+
+a.button{cursor: pointer;color: #ffffff;line-height: 14px;font-family: Arial, Helvetica, sans-serif;font-size: 14px;font-weight: bold;	background: #DB5705;border:1px solid #ffffff; -webkit-border-radius: 4px;-moz-border-radius: 4px;-khtml-border-radius: 4px;border-radius: 4px;}
+a.button {display: inline-block;text-decoration: none;padding: 6px 12px 6px 12px;}
+a.button:hover{}
+
+.clear{content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+
+/* -------------------------------------------- */
+/* ------------------Header-------------------- */
+header {background:#E9EDEF; margin-top:40px;}
+header .wrap-header{height: 130px;}
+
+header #logo {position:absolute; top:30px; padding:5px; width: 100%;}
+
+nav {}
+nav .wrap-nav{position:absolute; top:50px; right:0px; height: 37px; -webkit-border-radius: 10px;-moz-border-radius: 10px;-khtml-border-radius: 10px;border-radius: 10px;  background:#333; padding:0px 10px;}
+
+.menu ul {list-style: none;margin: 0;padding: 0;}
+.menu  ul li {position: relative;float: left;padding: 6px 5px 0px 5px;}
+.menu  ul li:hover {background-color:#DB5705;}
+.menu  ul li a {font-size: 14px; line-height:14px;color: #CCC;display: block;padding: 6px 10px;margin-bottom: 5px;z-index: 6;position: relative;font-weight:bold; text-transform:uppercase; font-family: 'Passion One',cursive;}
+.menu  ul li:hover a {color:#ffffff;}
+
+.minimenu{display:none;}
+.minimenu{position: relative;margin: 0px;background:#333333;}
+.minimenu div{overflow: hidden;position: relative;font: 18px/37px 'PT Sans Narrow';color: #fff;text-align:center;text-transform:uppercase;font-weight:bold;}
+.minimenu select{position: absolute;top: 0px;left: 0px;width: 100%;height: 100%; opacity: 0;filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);	cursor: pointer;}
+
+/* -------------------------------------------- */
+/* ------------------Content------------------- */
+.featured{margin:20px auto 0px auto;}
+.featured .wrap-featured{}
+
+.featured p{ font-size:41px; text-transform:uppercase; line-height:50px; color:#ffffff; font-weight:bold; font-family: 'Passion One',cursive; padding:20px 0px;}
+
+.featured a {
+	position: relative;
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+    background-color: rgba(219,87,5,1);
+    font-family: 'Yanone Kaffeesatz';
+    font-weight: 700;
+    font-size: 3em;
+    display: block;
+    padding: 12px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+    -moz-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+    box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+    margin: 10px 0px;
+	width: 250px;
+	text-align: center;
+	
+	-webkit-transition: all .1s ease;
+	-moz-transition: all .1s ease;
+	-ms-transition: all .1s ease;
+	-o-transition: all .1s ease;
+	transition: all .1s ease;
+}
+
+.featured a:active {
+    -webkit-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+    -moz-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+    box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+    position: relative;
+    top: 6px;
+}
+
+#content {}
+#content .wrap-content{background-color:#FFF; border:1px solid #CCC; margin-top: 30px;}
+
+.block01 {text-align:center; background:url(../images/spacer.gif) no-repeat bottom center; padding-bottom:30px;}
+.block01 img{border:5px solid #CCCCCC;}
+.block01 h2{font-size:20px; line-height:30px; font-family: 'Passion One',cursive;}
+.block01 p{}
+
+.block02 {margin:10px; background:url(../images/spacer.gif) no-repeat bottom center;}
+.block02 p { padding:30px; font-size:24px; text-align:center; line-height:30px;}
+.block02 a {color:#DA251D;}
+
+.block03 {margin-top:50px;}
+.block03 .col-1-3 .wrap-col{border-right:1px solid #CCC;}
+.block03 .col-1-3 h2{font-size:22px; font-weight:normal; padding-bottom:10px;  font-family: 'Passion One',cursive;}
+.block03 .col-1-3 p{padding:10px;}
+.block03 .col-2-3 img{float:left; margin-right:10px;}
+.block03 .col-2-3 h2{font-size:18px; font-family: 'Passion One',cursive;}
+
+.block04{ margin:10px;}
+
+#main-content{}
+#main-content article{clear: both; width: auto; font-size:14px; margin:10px 0 20px 0;}
+#main-content article .heading{}
+#main-content article .content{}
+#main-content article h2{font-size:32px; line-height:30px; font-family: DeliciousBold,Helvetica,Arial,Sans-serif; letter-spacing: -0.5px;}
+#main-content article .info{font-style:italic; font-size:12px;}
+#main-content article .info a{ text-decoration:underline;}
+#main-content article img{float:left; margin:10px;}
+#main-content article p{margin-bottom:10px; }
+#main-content article .more{float:right; margin-bottom: 30px;}
+
+#main-content .gallery{ text-align:center; padding:5px; background:#E9EDEF;  -webkit-border-radius: 4px;-moz-border-radius: 4px;-khtml-border-radius: 4px;border-radius: 4px; border:1px solid #DFDFDF;}
+#main-content .gallery p{ font-weight:bold;}
+
+#main-content .comment{ font-weight:bold; margin:50px 0px; width: auto;}
+#main-content .comment div{margin-bottom: 20px; vertical-align:middle; }
+#main-content .comment input{border: 2px solid #999999;padding: 8px 10px;width:250px;}
+#main-content .comment textarea{border: 2px solid #999999;padding: 8px 10px;width:95%;}
+#main-content .comment input[type="submit"] {cursor: pointer; width:100px; float:right;
+	background: -webkit-linear-gradient(top, #efefef, #ddd);background: -moz-linear-gradient(top, #efefef, #ddd);
+	background: -ms-linear-gradient(top, #efefef, #ddd);background: -o-linear-gradient(top, #efefef, #ddd);
+	background: linear-gradient(top, #efefef, #ddd);
+	color: #333;text-shadow: 0px 1px 1px rgba(255,255,255,1);	border: 2px solid #999999;}
+#main-content .comment input[type="submit"]:hover {
+	background: -webkit-linear-gradient(top, #eee, #ccc);	background: -moz-linear-gradient(top, #eee, #ccc);
+	background: -ms-linear-gradient(top, #eee, #ccc);	background: -o-linear-gradient(top, #eee, #ccc);
+	background: linear-gradient(top, #eee, #ccc);	border: 2px solid #bbb;}
+#main-content .comment input[type="submit"]:active {
+	background: -webkit-linear-gradient(top, #ddd, #aaa);	background: -moz-linear-gradient(top, #ddd, #aaa);
+	background: -ms-linear-gradient(top, #ddd, #aaa);	background: -o-linear-gradient(top, #ddd, #aaa);
+	background: linear-gradient(top, #ddd, #aaa);	border: 2px solid #999;}
+
+#sidebar{}
+#sidebar .box{margin-bottom:20px;}
+#sidebar .heading{ padding:5px; border-bottom:3px double #333333;}
+#sidebar .heading h2{font-size:22px; font-weight:normal; display:inline; padding:0 10px; font-family: 'Passion One',cursive;}
+#sidebar .content{padding:15px}
+#sidebar .content ul{ font-size:14px; list-style-type:circle; margin-left:20px;}
+#sidebar .content ul li{border-bottom: 1px solid #E1E1E1; padding:5px;}
+#sidebar .content .post {margin-bottom: 20px;}
+#sidebar .content .post h4{ font-size:14px; font-weight:normal;}
+#sidebar .content .post img{ float:left; padding:5px; border:1px solid #CCC; margin-right:10px;}
+#sidebar .content .post p{color:#A3A3A3; font-style:italic;}
+
+
+#pagi{ clear: both; margin: 30px auto;padding: 0;list-style: none;width: 180px;}
+#pagi li {float: left;margin-right: 10px;}
+#pagi li a {display: block;	text-decoration: none; color: #717171;font: bold 11px Arial, sans-serif;padding: 5px 8px;
+	-webkit-border-radius: 3px;	-moz-border-radius: 3px;	border-radius: 3px;	background: #ffffff;}
+#pagi li a.current, #pagi li a:hover {color: #ffffff;	background: #DB5705;}
+
+/* -------------------------------------------- */
+/* ------------------Footer-------------------- */
+footer {background-color:#333; margin-top:30px;}
+footer .wrap-footer{padding:10px 0px; color:#ffffff;}
+footer .box{}
+footer .heading{ padding:5px; border-bottom:3px solid #DB5705;}
+footer .heading h2{font-size:22px; font-weight:normal; display:inline; padding:0 5px; font-family: 'Passion One',cursive;}
+footer .content{padding:5px}
+footer .content a{color:#DB5705; text-decoration:none;}
+footer .content .gallery img{ float:left; padding:5px; border:1px solid #CCC; margin:5px;}
+footer .content .social ul {list-style: none;margin: 0;padding: 0;}
+footer .content .social ul li {position: relative;float: left;padding: 6px 5px 0px 5px;}
+
+.copyright{text-align:center; margin-top:20px;}
+.copyright a{color:#ffffff; text-decoration:underline;}

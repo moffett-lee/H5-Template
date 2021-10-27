@@ -1,0 +1,64 @@
+body {
+  color: #666666; /* Text color */
+}
+h1,
+h2,
+h3,
+h4 {
+  color: #333333; /* Headings color */
+}
+a,
+a:visited,
+a:focus {
+  color: #003399; /* Links color */
+}
+a:hover {
+  color: #0044cc; /* Links color, lighten 10% */
+}
+header nav ul li a:hover,
+header nav ul li a:visited:hover,
+header nav ul li a.selected,
+header nav ul li a:visited.selected {
+  color: #003399; /* Theme color */
+}
+.call_to_action p {
+  color: #333333; /* Headings color */
+}
+ul.articles li h3 a,
+ul.articles li h3 a:visited {
+  color: #003399; /* Theme color */
+}
+article h3 a {
+  color: #003399; /* Links color */
+}
+.pricing table th h2 {
+  color: #003399; /* Theme color */
+}
+.filter ul li a:hover,
+.filter ul li a.selected {
+  color: #003399; /* Theme color */
+}
+footer .copyright nav ul li a:hover,
+footer .copyright nav ul li a.selected {
+  color: #003399; /* Theme color */
+}
+.theme_button {
+  background-color: #1d57a8;
+  background-image: url('../img/brushed_alu_button.png');
+  background-image: url('../img/brushed_alu_button.png'), -webkit-gradient(linear, 0% 0%, 0% 100%, from(#3e80dd), to(#1d57a8));
+  background-image: url('../img/brushed_alu_button.png'), -webkit-linear-gradient(top, #3e80dd, #1d57a8);
+  background-image: url('../img/brushed_alu_button.png'), -moz-linear-gradient(top, #3e80dd, #1d57a8);
+  background-image: url('../img/brushed_alu_button.png'), -ms-linear-gradient(top, #3e80dd, #1d57a8);
+  background-image: url('../img/brushed_alu_button.png'), -o-linear-gradient(top, #3e80dd, #1d57a8);
+}
+.theme_button:hover,
+.theme_button:focus {
+  background-color: #0052c5;
+  background: url('../img/brushed_alu_button.png'), #1c7aff;
+  background-image: url('../img/brushed_alu_button.png');
+  background-image: url('../img/brushed_alu_button.png'), -webkit-gradient(linear, 0% 0%, 0% 100%, from(#1c7aff), to(#0052c5));
+  background-image: url('../img/brushed_alu_button.png'), -webkit-linear-gradient(top, #1c7aff, #0052c5);
+  background-image: url('../img/brushed_alu_button.png'), -moz-linear-gradient(top, #1c7aff, #0052c5);
+  background-image: url('../img/brushed_alu_button.png'), -ms-linear-gradient(top, #1c7aff, #0052c5);
+  background-image: url('../img/brushed_alu_button.png'), -o-linear-gradient(top, #1c7aff, #0052c5);
+}

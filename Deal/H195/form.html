@@ -1,0 +1,163 @@
+<!doctype html>
+	<head>
+	<link rel="stylesheet" href="./css/reset.css" />
+	<link rel="stylesheet" href="./css/960.css" />
+
+	<!-- Fonts -->
+	<link href='http//fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css' />
+	<link href='http//fonts.googleapis.com/css?family=Droid+Serif:400,400italic' rel='stylesheet' type='text/css' />
+	<link href='http//fonts.googleapis.com/css?family=Share' rel='stylesheet' type='text/css' />
+	
+		<!-- html 5 shim + modernizer -->
+		<script src="./js/modernizr.js"></script>
+	
+		<!--[if lt IE 9]>
+		<script src="http//css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+		<![endif]-->
+	
+	
+	
+	<style>
+body{width:300px;overflow:hidden;}
+.footer_contact{padding-left:38px;position:relative;}
+.submit_button {
+  background: url("http//www.transforms.web2treat.com/abelo/img/send_footer.png") no-repeat scroll right center transparent;
+  border: 0 none;
+  color: #63A69F;
+  float: right;
+  font-size: 15px;
+  height: 47px;
+  margin-top: -40px;
+  text-transform: uppercase;
+  width: 85px;
+  margin-right:-60px;
+}
+
+.input_block{width:200px;}
+.input_block textarea{width:180px;height:49px;overflow:hidden;}
+.input_block label{margin-bottom:5px;margin-top:5px;float:left;color:#fff;font-family:Droid Sans;
+font-size:14px;line-height:21px;}
+.input_block input {width:180px;height:20px;}
+h3{ color:#fff; margin-left:30px;}
+
+.c_forms{
+width:100%;
+height:100%;
+}
+</style>
+	
+	
+		<!--[if lt IE 9]>
+<style>
+.footer_contact iframe {
+margin-top:0;
+}
+
+
+
+.submit_button {
+float: left;
+margin-left:180px;
+}	
+
+.c_forms{
+overflow:visible;
+}
+
+.footer_contact{
+margin-top:20px;
+margin-left:-30px;
+float:left;
+}
+
+</style>
+<![endif]-->
+	<script src="./js/jquery.js"></script>
+
+	<script>
+	$(function(){
+	
+/*
+Contact Page
+----------------------------------------*/
+// Contact Form
+
+	$('#send_message').click(function(e){
+	
+        e.preventDefault();
+        var error = false;
+        var name = $('#name').val();
+        var email = $('#email').val();
+        var subject = $('#subject').val();
+        var message = $('#message').val();
+
+        if(name.length == 0){
+			error = true;
+            $('#name').css("border", "solid #e44b3d 1px");
+        }else{
+			 $('#name').css("border", "solid #f2f2f2 1px");
+        }
+        if(email.length == 0 || email.indexOf('@') == '-1'){
+			error = true;
+            $('#email').css("border", "solid #e44b3d 1px");
+        }else{
+			$('#email').css("border", "solid #f2f2f2 1px");
+        }
+
+        if(message.length == 0){
+			error = true;
+            $('#message').css("border", "solid #e44b3d 1px");
+        }else{
+			$('#message').css("border", "solid #f2f2f2 1px");
+        }
+
+        if(error == false){
+			$('#send_message').attr({'disabled' : 'true', 'value' : 'Wait' });
+
+            /* using the jquery's post(ajax) function and a lifesaver
+            function serialize() which gets all the data from the form
+            we submit it to send_email.php */
+            $.post("./js/send_email.php.html", $("#contact_form").serialize(),function(result){
+				if(result == 'sent'){
+				$('#send_message').attr({'disabled' : 'true', 'value' : 'Sent' });
+                }else{
+				$('#message').attr('value', 'Server Error <br/> Try again');                   
+				$('#send_message').removeAttr('disabled').attr('value', 'Send');
+                }
+            });
+        }
+    });
+
+});
+	
+</script>
+
+</head>
+	
+<body style="background:transparent">
+
+	<section class="grid_4 footer_contact">
+		<form action="js/send_email.php" method="post" id="contact_form" class="c_forms" />
+
+					<p class="input_block">
+						<label for="name">Your Name: </label>
+						<input type="text" name="name" id="name" size="22" />
+
+					</p>
+	
+					<p class="input_block">
+						<label for="email">Your Email: </label>
+						<input type="text" name="email" id="email" size="22" />
+						
+					</p>
+					<p class="input_block">
+					<label for="message" class="message_label">Message: </label>
+					<textarea name="message" id="message"></textarea>	
+					</p>	
+							
+					<input type="submit" id="send_message" class="submit_button" value="Send" />
+				
+		</form>
+		
+	</section>
+</body>

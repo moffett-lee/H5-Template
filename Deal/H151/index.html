@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Splash</title>
+		<meta charset="UTF-8" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/slider.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery-1.4.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/loopedslider.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" charset="utf-8">
+	$(function(){
+		$('#slider').loopedSlider({
+			autoStart: 5000,
+			restart: 4000
+		});
+
+	});
+
+</script>
+<style type="text/css">
+<!--
+
+body {
+	background-image: url(images/bg.jpg);
+	background-repeat: repeat;
+}
+-->
+</style>
+
+</head>
+ <!--[if IE]>
+<script src="http//ie7-js.googlecode.com/svn/version/2.1(beta4)/IE7.js"></script>
+
+<script src="http//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!--[if IE 6]>
+<script src="js/belatedPNG.js"></script>
+<script>
+	DD_belatedPNG.fix('*');
+</script>
+<![endif]-->
+<body>
+<div id="container">
+<div id="main">
+  <header>
+  <div class="logo"><img src="images/logo.png" alt="Logo here" /></div>
+ <div class="social"><a href="#"><img src="images/twitter-32x32.png" alt="Follows on Twitter" width="32" height="32" /></a><a href="#"><img src="images/stumbleupon-32x32.png" alt="Stumbleoupon" /></a><a href="#"><img src="images/delicious-32x32.png" alt="Delicious" /></a></div>
+  <nav>
+  <h1 class="cursivebig"> &#9988; Lorem ipsum Venalit quatium sarem</h1>
+  <p> &#10004; Cras congue congue malesuada. Aenean pharetra enim et lectus pretium interdum. Sed convallis erat enim, cursus </p>
+  <div class="divider"></div>
+  </nav>
+</header>
+ <div class="start"><a href="#"><img src="images/application.png" alt="Appication" /></a></div>
+    <div class="start"><a href="#"><img src="images/web.png" alt="Desin" /></a></div> 
+    <div class="start"><a href="#"><img src="images/firefox_oldschool.png" alt="Download" /></a></div>
+    <div class="start"><a href="#"><img src="images/weather.png" alt="Time" /></a></div>
+      <div class="divider"></div>        
+<div id="slider">
+  <div class="container">
+  
+    <ul class="slides">
+      <li>
+        <div class="thumbholder"><img src="images/f7.png" width="350" height="220" alt="I Mac Immagine Disegno" /></div>
+        <div class="txtholder">
+          <h3 class="cursive">Imediacreatives - Cras congue congue malesuada. Aenean pharetra enim et lectus pretium interdum. Sed convallis erat enim, cursus fermentum &#10004;</h3>
+        </div>
+      </li>
+      <li>
+        <div class="thumbholder"><img src="images/f2.png" width="350" height="220" alt="First Image" /></div>
+        <div class="txtholder">
+          <h3 class="cursive">You certainly Cras congue congue malesuada. Aenean pharetra enim et lectus pretium interdum. Sed convallis erat enim, cursus fermentum</h3>
+        </div>
+      </li>
+      <li>
+        <div class="thumbholder"><img src="images/f1.png" width="350" height="220" alt="First Image" /></div>
+        <div class="txtholder">
+          <h3 class="cursive">&#8220; Cras congue congue malesuada. Aenean pharetra enim et lectus pretium interdum. Sed convallis erat enim, cursus fermentum. </h3>
+        </div>
+      </li>
+      <li>
+        <div class="thumbholder"><img src="images/f5.png" width="350" height="220" alt="First Image" /></div>
+        <div class="txtholder">
+          <h3 class="cursive">Cras congue congue malesuada. Aenean pharetra enim et lectus pretium interdum. Sed convallis erat enim, cursus fermentum. </h3>
+        </div>
+      </li>
+      <li>
+        <div class="thumbholder"><img src="images/p1.png" width="350" height="220" alt="First Image" /></div>
+        <div class="txtholder">
+          <h3 class="cursive">Cras congue congue malesuada. Aenean pharetra enim et lectus pretium interdum. Sed convallis erat enim, cursus fermentum </h3>
+        </div>
+      </li>
+    </ul>
+    <ul class="pagination">
+      <li><a href="#">1</a></li>
+      <li><a href="#">2</a></li>
+      <li><a href="http//www.imediacreatives.it/logofolio.html">3</a></li>
+      <li><a href="#">4</a></li>
+    </ul>
+  </div>
+</div>
+ <footer> 
+   <div class="home"><a href="#"><img src="images/agt_home.png" alt="Home Page" width="64" height="64" /></a>
+     <p class="cursive">Home Page</p>
+   </div>
+   <div class="about"><a href="#"><img src="images/info.png" alt="About Us" width="62" height="63" /></a>
+     <p class="cursive">About Us</p>
+   </div>
+   <div class="portfolio"><a href="#"><img src="images/graphic_design.png" alt="Portfolio" width="64" height="64" /></a>
+     <p class="cursive">Porfolio</p>
+   </div>
+   <div class="contact"><a href="#"><img src="images/email_send.png" alt="Contact  us" width="67" height="61" /></a>
+     <p class="cursive">Contact Us</p>
+   </div>
+  <newsletter>   
+<script language="Javascript" type="text/javascript">
+var fieldstocheck = new Array();
+fieldnames = new Array();
+function checkform() {
+for (i=0;i<fieldstocheck.length;i++) {
+if (eval("document.subscribeform.elements['"+fieldstocheck[i]+"'].value") == "") {
+alert("Please enter your "+fieldnames[i]);
+eval("document.subscribeform.elements['"+fieldstocheck[i]+"'].focus()");
+return false;
+}
+}
+return true;
+}
+function addFieldToCheck(value,name) {
+fieldstocheck[fieldstocheck.length] = value;
+fieldnames[fieldnames.length] = name;
+}
+</script>
+<form method="post" action="http//www.yourdomain.com/" name="subscribeform">
+<input type="text" name="email" value = "" />Email:
+<script language="Javascript" type="text/javascript">addFieldToCheck("email","Email Address");</script>
+<input type="text" name="attribute2" value = "" />
+<script language="Javascript" type="text/javascript">addFieldToCheck("attribute2","Name");</script>
+Name: 
+<input type="hidden" name="list[1]" value="signup" />
+<input type="submit" name="subscribe" value="Subscribe" onClick="return checkform();" />
+</form>
+</newsletter>
+<details>
+<p>Coder & Design<a href="http//www.imediacreatives.it" target="_blank"> Imediacreatives </a></p>
+</details>
+ </footer>   
+    </div>      
+</div>
+</div>
+<!-- Free template distributed by http//bestmoban.com -->
+</body>
+</html>

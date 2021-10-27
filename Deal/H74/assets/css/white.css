@@ -1,0 +1,25 @@
+::-moz-selection{background: #EEECD5; color: #333;}
+::selection {background: #EEECD5; color: #333;} 
+body {color: #333; background: url('../img/bg1920-white.jpg') no-repeat fixed 0 0 transparent; text-shadow: none;}
+section p {color: #8f8e8b;}
+.button {background-color: #EEECD5; color: #333;}
+.button:hover {color: #333;}
+.button-dark {color: #eeecd5;}
+#brand-inner {background-color: #EEECD5;}
+#brand-inner h1 a {color: #333;}
+#brand-inner h2 {color: #333;}
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {border-bottom: 6px solid #EEECD5;}
+.navbar .nav-social li a:hover {background-color: #EEECD5;}
+#testimonials .container {background: url('../img/blackdot.png') repeat scroll 0 0 transparent;}
+.ribbon span {color: #EEECD5; text-decoration: underline;}
+.ribbon {color: #EEECD5;}
+.circle-container:hover .circle, .circle-active {background-color: #EEECD5;}
+.circle-text h3 {border-bottom: 1px solid #333; color: #333;}
+.circle-text p {color: #333;}
+#testimonials .comment-author {color: #EEECD5 !important;}
+#contact .container {background: url('../img/blackdot.png') repeat scroll 0 0 transparent;}
+#contact .brand-circle {background-color: #EEECD5; color: #333;}
+#contact textarea {background: url('../img/bg-textarea-green.png') repeat scroll 0 -16px transparent;}
+#testimonials .comment p {color: #8F8E8B;}
+#contact p {color: #8F8E8B;}
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {color: #EEECD5;}

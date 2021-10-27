@@ -1,0 +1,51 @@
+
+ul.list1 li .drop, .socials a {
+	behavior: url(js/PIE.htc);
+	position: relative;
+}
+
+.camera_pie {
+	display: none !important;
+}
+
+.camera_bar {
+	position: relative;
+}
+
+#pie_0 {
+	top: 0px !important;
+	height: 6px !important;
+	background-color: #009B97 !important;
+}
+
+.socials a {
+	margin-right: 9px;
+}
+
+
+#form .invalid .error-message, #form .empty .empty-message {
+	display: block;
+}
+
+#form .error-message, #form .empty-message {
+	display: none;
+}
+
+a.gal:hover img { 
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=20);
+
+}
+
+.camera_prev, 
+.camera_next,
+.camera_play, 
+.camera_stop {
+	display: none;
+}
+
+#camera_wrap:hover .camera_prev,
+#camera_wrap:hover .camera_next,
+#camera_wrap:hover .camera_play, 
+#camera_wrap:hover .camera_stop  {
+	display: block;
+}

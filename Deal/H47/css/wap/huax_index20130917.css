@@ -1,0 +1,91 @@
+﻿@charset "utf-8";html,body,button,input,select,textarea{color:#444;font-family:微软雅黑,"Microsoft YaHei",Tahoma, Arial;font-size:14px;line-height:23px;margin:0;-webkit-text-size-adjust:none;padding:0}
+a{text-decoration: none;color:#444}
+a:hover{text-decoration:none;color:#298cda}
+ol,ul,li,dl,dt,dd,h1,h2,h3,p,form,em,span,i,img{border:none;padding:0;margin:0;list-style:none;font-style:normal}
+
+#top{height:52px;background:#12A8EB;width:100%;}
+.logo{width:320px;height:52px;background:url(../../images/huaxwap/huax2.gif) no-repeat;overflow:hidden;float:left}
+.nav{background:url(../../images/huaxwap/huaxline.gif) repeat-x;line-height:24px;padding:8px 0;clear:both;width:100%;height:100%;overflow:auto}
+/*.nav a{margin:0 6px;display:block;width:65px;float:left;height:26px;color:#fff}*/
+.nav a{display:block;float:left;line-height:26px;color:#fff;word-break:keep-all;overflow:hidden; margin:0; width:25%; text-align:center; font-size:14px}
+.more_nav{height:39px;border-bottom:1px solid #E6E6E6;line-height:39px;}
+.more_nav a{margin:0 11px}
+.actions{background:#E7F2F9 url(../../images/huaxwap/huaxline.gif) repeat-x bottom;padding:6px 0 9px;overflow:hidden;line-height:23px;clear:both;float:left;width:100%;margin-bottom:6px}
+.actions a{padding:0 8px}
+.aleft{float:left;color:#3164cd;margin-left:5px}.aleft a{color:#3164cd}
+.aright{float:right}
+a.orange{color:#f60}
+.secarch{background:#eeefef;padding:10px 14px;overflow:hidden;border-top:#dcdcdc 1px solid;border-bottom:#dcdcdc 1px solid;position:relative}
+.secarch .input{width:95%;height:27px;line-height:27px;border:#ddd 1px solid}
+.secarch .wrap_input{padding-right:70px;overflow:hidden}
+.secarch .button{height:31px;line-height:27px;overflow:hidden;border:#ddd 1px solid;position:absolute;top:10px;right:14px;width:62px;background:url(../../images/huaxwap/huaxline.gif) repeat-x 0 -93px}
+.con .mtitle{line-height:34px;padding:8px 0 0 0;overflow:hidden;clear:both;width:100%;background:url(../../images/huaxwap/huaxline.gif) repeat-x 0 -93px}
+.con .mtitle h3{float:left;overflow:hidden;line-height:23px;font-size:16px;padding:0 0 10px 15px;background:url(../../images/huaxwap/huax2.gif) no-repeat 0 -65px}
+.con .mtitle a.more{padding:0 17px 0 0;line-height:23px;display:inline-block;float:right;overflow:hidden;color:#aaa;font-size:14px;background:url(../../images/huaxwap/huax2.gif) no-repeat 32px -150px}
+.con .mtitle h3.tops{background-position:-156px -65px;padding-left:34px}
+.con .mtitle h3.msg{background-position:0 -112px;padding-left:34px}
+.con .mcontainer{overflow:hidden;padding:14px 14px 8px}
+.pictext{margin:8px 0}
+.pictext a img{float:left;margin:0 10px 10px 0}
+.pictext a{color:#777;line-height:18px}
+.pictext a.pt_tit{color:#3164cd;font-size:16px;line-height:17px;display:block;margin-bottom:5px}
+.list{clear:both;}
+.list li{line-height:30px; width:50% ; float:left}
+.wrapper-index .list li{height:26px;overflow:hidden;}
+.wrapper-index .list li a{font-size:16px}
+.topsl{text-align:left;line-height:27px;padding-left:0;padding-right:0;border-bottom:#ddd 1px solid;padding-bottom:15px;color:#aaa}
+.topsl a{display:inline-block;padding:0 12px;color:#06C}
+a.red{color:#c00;}
+
+.no1 div{width:86px;height:108px;position:relative;float:left;margin-right:8px}
+.no1 div small{display:block;width:36px;height:36px;position:absolute;top:0;left:0;background:url(../../images/huaxwap/huax2.gif) no-repeat -90px -157px}
+.no1 div a img{padding:2px;border:1px solid #ddd}
+.top10{width:100%;background:url(../../images/huaxwap/listtop.gif) no-repeat 0 -22px;clear:both;margin-top:8px;float:left}
+.top10 li{height:26px;line-height:26px;padding:1px 0 0 25px;font-size:16px;}
+
+.download{background:#f7f6f6;padding:10px 0 0 0;overflow:hidden;border-top:#dcdcdc 1px solid;line-height:50px\9;text-align:center;overflow:hidden}
+.download a{display:inline-block;height:48px;overflow:hidden;margin-right:6px;}
+.download a i{display:inline-block;float:left;height:49px;width:49px;overflow:hidden;margin-right:6px;background:url(../../images/huaxwap/huax2.gif);}
+.download a span{display:inline-block;float:left;line-height:20px;padding-top:2px;text-align:left;font-size:14px}
+.download a i.huax{background-position:-273px -101px}
+
+.footer{width:100%;height:30px;line-height:30px;background:#5cb6eb;text-align:center;color:#fff}
+.footer i{font-style:normal;font-size:16px}
+.footer a:link,.footer a:visited{color:#fff}
+
+.app_d{background:#f7f6f6;padding:10px 0;overflow:hidden;border-top:#dcdcdc 1px solid;text-align:center;overflow:hidden;width:100%}
+.app_d a{display:inline-block;height:48px;overflow:hidden;margin:0 6px}
+.app_d a i{display:inline-block;float:left;height:48px;width:45px;overflow:hidden;margin-right:6px}
+.app_d a span{display:inline-block;float:left;line-height:20px;padding-top:2px;text-align:left;font-size:12px;margin-left:5px}
+.app_d a i{background:url(http//m.hongxiu.com/img/iphico.gif) no-repeat}
+.app_d a i.hx{background-position:0 -79px}
+.app_d a i.hxw{background-position:0 -143px}
+.app_d a i.hxi{background-position:0 -382px}
+.tips{background-color:#fff9d9;border:1px solid #fc3;color:#F60;overflow:auto}
+#tip_download{position:fixed;bottom:0;z-index:99;width:100%;display:none;padding:8px 0 8px 0}
+#tip_download a{padding-left:12px}#tip_download span{padding-right:12px}
+.fn-left,.fn-right{display:inline}.fn-left{float:left}.fn-right{float:right}
+.fc2{color:#666!important}
+
+
+.navs{color:#fff;background:#08a0e1;height:40px; line-height:40px; padding:0}
+
+
+.navs a{color:#fff;word-break:keep-all;display:block; width:33%; text-align:center; float:left; font-size:16px ;}
+.navs a.on{width:31%; background-color:#FFF; color:#f7732f;height:33px;margin-top:7px; line-height:30px; margin-left:7px; font-weight:bold}
+.navs a:hover{color:#000}
+.navs3 ul{display:inline-block;width:100%;font-size:16px; font-weight:bold;}
+
+
+.top li{ float:left; overflow:hidden; position:relative; padding-left:22px; width:42%}
+.top li i{ display:block; width:19px;  float:left;height:19px; position:absolute;  left:0; top:6px; overflow:hidden; background:url(../../images/huaxwap/num.gif);text-indent:-1000px; }
+.top li i.num1{ background-position:0 0}
+.top li i.num2{ background-position:-19px 0 }
+.top li i.num3{ background-position:-40px 0}
+.top li i.num4{ background-position:-60px 0}
+.top li i.num5{ background-position:-80px 1px}
+.top li i.num6{ background-position:-100px 1px}
+.top li i.num7{ background-position:-120px 1px}
+.top li i.num8{ background-position:0 -19px}
+.top li i.num9{ background-position:-20px -19px}
+.top li i.num10{ background-position:-40px -19px}

@@ -1,0 +1,91 @@
+
+#fancybox-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1100;
+}
+
+#fancybox-tmp {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	overflow: auto;
+	display: none;
+}
+
+#fancybox-wrap {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1101;
+	outline: none;
+	display: none;
+}
+
+#fancybox-outer {
+	position: relative;
+	width: 100%;
+	background:#fff;
+}
+#fancybox-content {
+	width: 0;
+	height: 0;
+	padding: 0;
+	outline: none;
+	position: relative;
+	overflow: hidden;
+	z-index: 1102;
+	
+}
+
+#fancybox-title {
+	z-index: 1102;
+}
+.fancybox-title-over {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* IE6, IE7, IE8 */
+
+.fancybox-ie .fancybox-bg { background: transparent !important; }
+
+#fancybox-close {
+    background: url(../images/close.jpg) 0 0 no-repeat transparent !important;
+    cursor: pointer;
+    display: none;
+    height: 36px;
+    position: absolute;
+    right: 0px;
+    top:0px;
+    width: 36px;
+    z-index: 1103;
+}
+#fancybox-left {
+    background: url(../images/portfolio-prev.jpg) 0 0 no-repeat;
+    top: 180px;
+	left:0;
+    cursor: pointer;
+    display: none;
+    height: 36px;
+    outline: medium none;
+    position: absolute;
+    width: 36px;
+    z-index: 1102;
+}
+#fancybox-right {
+    background: url(../images/portfolio-next.jpg) 0 0 no-repeat;
+    top: 180px;
+	right:0;
+    cursor: pointer;
+    display: none;
+    height: 36px;
+    outline: medium none;
+    position: absolute;
+    width: 36px;
+    z-index: 1102;
+}
+#fancybox-right:hover, #fancybox-left:hover {background-position:0 bottom;}

@@ -1,0 +1,284 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http//www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http//www.w3.org/1999/xhtml">
+<head>
+<base target="_blank">
+<meta http-equiv="Content-Type" content="text/html; charset=GB2312" />
+<title>仿成都新东方烹饪学校手机wap学校网站模板学校新闻页-3v3手机模板资源【www.zjf88.com】</title>
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0"/>
+<meta name="keywords" content="成都新东方烹饪学校,学校新闻" />
+<meta name="description" content="成都新东方烹饪学校的学校新闻是有效记录校园内发生的所有事件,其中包括校园节假日新闻,校园活动新闻,校园颁奖新闻,校园一系列报告会的新闻等." />
+<link href="../css/sj_index.css" rel="stylesheet" type="text/css">
+<style>
+<!--
+.ulone {width:100%;}
+.ulone li{ width:15%; text-align:center;height: 30px;border-radius: 5px;border: #d8e0e4 1px solid;line-height: 30px;background: #f9fafa; margin-bottom:5px;}
+-->
+</style>
+</head>
+<body>
+<div id="wapwidth">
+<!--导航-->
+<div id="sj_header_xszp">
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "../../hm.baidu.com/hm.js@cd35e5dc02dea99adf9b7eb16bff5aaf";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script> 
+  <!-----logo--------------------->
+<div id="logo"><a href="../sitemap/index.shtml"><img src="../images/xdf_index_header.gif" alt="成都新东方烹饪学校" usemap="#Map" title="成都新东方烹饪学校" border="0">
+    <map name="Map" id="Map">
+      <area shape="rect" coords="234,4,321,31" href="../../weibo.com/scxdf" />
+      <area shape="rect" coords="233,33,321,56" href="../../t.qq.com/sccdxdf" />
+    </map>
+</a></div>
+<!-----------daohang------------>
+<div id="daohang">
+   <div id="daohang_top">
+     <ul>
+       <li  class="lin"><a href="../default.htm">首&nbsp;&nbsp;&nbsp;&nbsp;页</a></li>
+       <li><a href="../xxjj/xxjj.shtml">学校简介</a></li>
+       <li><a href="index.shtml">学校新闻</a></li>
+       <li><a href="../news/xxhj/default.htm">校园环境</a></li>
+     </ul>
+   </div>
+   <div id="daohang_top">
+     <ul>
+       <li  class="lin"><a href="../zysz/zysz.shtml">专业介绍</a></li>
+       <li><a href="../news/msfc/default.htm">名师风采</a></li>
+       <li><a href="../jybz/jybz.shtml">就业保障</a></li>
+       <li><a href="../news/jyxx/default.htm">就业信息</a></li>
+     </ul>
+   </div>
+      <div id="daohang_top">
+     <ul>
+       <li  class="lin"><a href="../news/rxxz/default.htm">入学须知</a></li>
+       <li><a href="../news/cgxz/default.htm">成功学子</a></li>
+       <li><a href="../news/xszp/default.htm">学生作品</a></li>
+       <li><a href="../zxlx/zxbm.shtml">咨询报名</a></li>
+     </ul>
+   </div>
+ </div></div>
+
+<!---------------------->
+<div id="zysz_rm">
+   <div id="zysz_rm_left"><a href="#"><img src="../images/xdf_index_dhlico.png" alt="新闻" width="12" height="12">&nbsp;学校新闻</a></div>
+</div>
+<div class="listbig">  
+                <div class="listbox">
+  <div class="divimg"><a href='14023.html' class='preview'><img src='../../www.scxdf.com/uploads/allimg/131104/13-131104112A9251.jpg' alt='校企携手结硕果 品牌优势铸辉煌' /></a></div>
+  <div class="divlist"><a href="14023.html" class="title">校企携手结硕果 品牌优势铸辉煌</a> <br />
+  <span class="info"> <small>日期：</small>2013-11-04 11:29:05</span>
+                 <span class="intro"> 随着国内餐饮行业发展迅猛，极大地带动了行业对烹饪人才的......</span>
+                 </div>
+                 </div><div class="listbox">
+  <div class="divimg"><a href='14017.html' class='preview'><img src='../../www.scxdf.com/uploads/allimg/131104/13-1311040RK5X9.jpg' alt='消防安全知识进校园' /></a></div>
+  <div class="divlist"><a href="14017.html" class="title">消防安全知识进校园</a> <br />
+  <span class="info"> <small>日期：</small>2013-11-04 08:33:58</span>
+                 <span class="intro"> 为切实增强学生用火、防火、逃生等消防安全知识，提高学生......</span>
+                 </div>
+                 </div><div class="listbox">
+  <div class="divimg"><a href='13958.html' class='preview'><img src='../../scxdf.com//uploads/allimg/131029/11-13102ZU410132.jpg' alt='学子唐仕明：放弃大学 偏爱厨师' /></a></div>
+  <div class="divlist"><a href="13958.html" class="title">学子唐仕明：放弃大学 偏爱厨师</a> <br />
+  <span class="info"> <small>日期：</small>2013-10-29 08:53:00</span>
+                 <span class="intro"> 2011年，唐仕明成为了成都新东方烹饪学校双流校区川菜金牌......</span>
+                 </div>
+                 </div><div class="listbox">
+  <div class="divimg"><a href='13951.html' class='preview'><img src='../../scxdf.com//uploads/allimg/131028/11-13102Q40945114.jpg' alt='学什么技术好？' /></a></div>
+  <div class="divlist"><a href="13951.html" class="title">学什么技术好？</a> <br />
+  <span class="info"> <small>日期：</small>2013-10-28 14:08:30</span>
+                 <span class="intro"> 成都新东方烹饪学校作为中国川菜烹饪知名教育品牌、新东方......</span>
+                 </div>
+                 </div><div class="listbox">
+  <div class="divimg"><a href='13942.html' class='preview'><img src='../../www.scxdf.com/images/defaultpic.gif' alt='毕业季 新东方学子就业无压力' /></a></div>
+  <div class="divlist"><a href="13942.html" class="title">毕业季 新东方学子就业无压力</a> <br />
+  <span class="info"> <small>日期：</small>2013-10-25 16:29:41</span>
+                 <span class="intro"> 当一批批学子心怀梦想走进成都新东方烹饪学校的时候，又有......</span>
+                 </div>
+                 </div><div class="listbox">
+  <div class="divimg"><a href='13926.html' class='preview'><img src='../../scxdf.com//uploads/allimg/131024/11-131024140001460.jpg' alt='成都新东方进行就业回访' /></a></div>
+  <div class="divlist"><a href="13926.html" class="title">成都新东方进行就业回访</a> <br />
+  <span class="info"> <small>日期：</small>2013-10-24 13:58:18</span>
+                 <span class="intro"> 为详细了解成都新东方毕业学子就业信息，掌握学生在企业工......</span>
+                 </div>
+                 </div><div class="listbox">
+  <div class="divimg"><a href='13907.html' class='preview'><img src='../../www.scxdf.com/uploads/allimg/131023/13-131023102039513.jpg' alt='成都新东方户外拉练砺“精兵”' /></a></div>
+  <div class="divlist"><a href="13907.html" class="title">成都新东方户外拉练砺“精兵”</a> <br />
+  <span class="info"> <small>日期：</small>2013-10-23 10:26:39</span>
+                 <span class="intro"> 为了丰富同学们的业余生活，磨练同学们的意志，锻炼身体，......</span>
+                 </div>
+                 </div><div class="listbox">
+  <div class="divimg"><a href='13903.html' class='preview'><img src='../../www.scxdf.com/uploads/allimg/131023/13-1310230ZZ1963.jpg' alt='成都新东方2013秋篮球赛举行' /></a></div>
+  <div class="divlist"><a href="13903.html" class="title">成都新东方2013秋篮球赛举行</a> <br />
+  <span class="info"> <small>日期：</small>2013-10-23 09:21:25</span>
+                 <span class="intro"> 10月22日，成都新东方烹饪学校龙泉校区2013年秋校园篮球擂......</span>
+                 </div>
+                 </div><div class="listbox">
+  <div class="divimg"><a href='13899.html' class='preview'><img src='../../scxdf.com//uploads/allimg/131023/11-1310230R52D36.jpg' alt='眉州东坡定向班隆重成立' /></a></div>
+  <div class="divlist"><a href="13899.html" class="title">眉州东坡定向班隆重成立</a> <br />
+  <span class="info"> <small>日期：</small>2013-10-23 08:26:07</span>
+                 <span class="intro"> 10月22日，新一届成都新东方-眉州东坡酒楼校企合作定向班......</span>
+                 </div>
+                 </div><div class="listbox">
+  <div class="divimg"><a href='13876.html' class='preview'><img src='../../scxdf.com/uploads/allimg/131021/11-131021104K1C2.jpg' alt='毕业学子唐楠：酒店里的小厨师' /></a></div>
+  <div class="divlist"><a href="13876.html" class="title">毕业学子唐楠：酒店里的小厨师</a> <br />
+  <span class="info"> <small>日期：</small>2013-10-21 10:47:28</span>
+                 <span class="intro"> 学于新东方，工作在菲尔顿凯莱的唐楠，已是酒店里公认的小......</span>
+                 </div>
+                 </div>
+       </div>
+       
+<ul class="ulone"><li>首页</li>
+<li class="thisclass">1</li>
+<li><a href='index_2.html'>2</a></li>
+<li><a href='index_3.html'>3</a></li>
+<li><a href='index_11.html'>末页</a></li>
+<li><select name='sldd' style='width:42px' onchange='location.href=this.options[this.selectedIndex].value;'>
+<option value='index_1.html' selected>1</option>
+<option value='index_2.html'>2</option>
+<option value='index_3.html'>3</option>
+<option value='index_4.html'>4</option>
+<option value='index_5.html'>5</option>
+<option value='index_6.html'>6</option>
+<option value='index_7.html'>7</option>
+<option value='index_8.html'>8</option>
+<option value='index_9.html'>9</option>
+<option value='index_10.html'>10</option>
+<option value='index_11.html'>11</option>
+</select></li>
+</ul>
+<div style="clear:both;"></div>
+<!----------foot--------------->
+<div id="f"><script type="text/javascript">
+function showLocale(objD)
+{
+	var str,colorhead,colorfoot;
+	var yy = objD.getYear();
+	if(yy<1900) yy = yy+1900;
+	var MM = objD.getMonth()+1;
+	if(MM<10) MM = '0' + MM;
+	var dd = objD.getDate();
+	if(dd<10) dd = '0' + dd;
+	var hh = objD.getHours();
+	if(hh<10) hh = '0' + hh;
+	var mm = objD.getMinutes();
+	if(mm<10) mm = '0' + mm;
+	var ss = objD.getSeconds();
+	if(ss<10) ss = '0' + ss;
+	str = yy + "年" + MM + "月" + dd +"日"+ hh + "时" + mm+"分" ;
+	return(str);
+}
+function tick()
+{
+	var today;
+	today = new Date();
+	document.getElementById("timeer").value = showLocale(today);
+	
+}
+</script>
+<base target="_blank">
+<!----------foot--------------->
+<div id="f"><!-----------在线报名----------->
+<div id="zysz_rm">
+   <div id="zysz_rm_left"><a href="../zxlx/zxbm.shtml"><img src="../images/xdf_index_dhlico.png" alt="在线报名" width="12" height="12">&nbsp;在线报名</a></div>
+</div>
+<div class="Fform">
+         <form action="http//www.scxdf.com/plus/diy2.php" enctype="multipart/form-data" id="zxbmform" name="zxbmform" method="post">
+         <input type="hidden" name="action" value="post" />
+          <input type="hidden" name="diyid" value="2" />
+          <input type="hidden" name="do" value="2" /> 
+<table width="100%" border="0" class="ad" cellpadding="0" cellspacing="1" id="testTable">
+	<tr>
+		<td align="right" width="30%" style="padding-left: 5px; padding-top: 4px; padding-bottom: 4px; padding-right: 18px;">
+		我的姓名
+		</td>
+		<td width="70%" align="left" style="padding-top: 4px; padding-bottom: 4px; padding-right: 18px;">
+		<input type='text' name='name' id='name' reg="^[\u4e00-\u9fa5]+$" tip="只允许中文字符"/>
+		</td>
+	</tr>
+	<tr>
+		<td align="right" width="30%" style="padding-left: 5px; padding-top: 4px; padding-bottom: 4px; padding-right: 18px;">
+		我的电话
+		</td>
+		<td align="left" width="70%" style="padding-top: 4px; padding-bottom: 4px; padding-right: 18px;">
+		<input type='text' name='tel' id='tel' reg="^\d{3}-\d{8}$|^\d{4}-\d{7}$|^\d{11}$" tip="国内电话号码，格式: 028-86112666、0832-4405222 或 13282634503"/>
+		</td>
+	</tr>
+	<tr>
+		<td align="right"  width="30%" style=" padding-top: 4px; padding-bottom: 4px; padding-right: 18px;">
+		我的QQ
+		</td>
+		<td align="left" width="70%" style="padding-top: 4px; padding-bottom: 4px; padding-right: 18px;">
+		<input type='text' name='qqmsn' id='qqmsn' tip="QQ号，六位至11位，如：14578932" />
+		</td>
+	</tr>
+	<tr>
+		<td align="right"  width="30%" style="padding-top: 4px; padding-bottom: 4px; padding-right: 18px;">我要报读
+		</td>
+		<td align="left" width="70%" style="padding-left: 5px; padding-top: 4px; padding-bottom: 4px; padding-right: 18px;">
+        <select id="specialty" name="specialty" reg="[^0]" tip="一定要选择哟" style=" width:150px;">
+            <option value='川菜金牌大厨专业'>川菜金牌大厨专业</option>    
+            <option value='川菜大厨专业'>川菜大厨专业</option>   
+            <option value='西点全能专业'>西点全能专业</option>    
+            <option value='川菜精英专业'>川菜精英专业</option>    
+            <option value='川菜专修班'>川菜专修班</option>   
+            <option value='川菜强化班'>川菜强化班</option>         
+            <option value='中式面点特色班'>中式面点特色班</option>           
+            <option value='食品雕刻特色班'>食品雕刻特色班</option>          
+            <option value='精品火锅特色班'>精品火锅特色班</option>                   
+            <option value='考证辅导班'>考证辅导班</option>        
+            </select> 
+        <span name="easyTip"></span>
+		</td>
+	</tr>
+    <tr>
+		<td align="right"  width="30%" style=" padding-top: 4px; padding-bottom: 4px; padding-right: 18px;">
+		报名时间
+		</td>
+		<td align="left" width="70%" style="padding-top: 4px; padding-bottom: 4px; padding-right: 18px;">
+		<input type='text' name='timeer' id='timeer' class='intxt' value='' onclick="tick()" />
+		</td>
+	</tr>
+	<tr>
+	<td colspan="2" align="center" style="padding-top: 4px; padding-bottom: 4px;">
+    <input type="submit" name="submit" value="提 交" class='coolbg' />&nbsp;<input type="reset" name="reset" value="重 置" class='coolbg' /> 
+	</td>
+	</tr>
+</table>
+<input type="hidden" name="dede_fields" value="name,text;sex,radio;age,select;deg,select;adde,text;tel,text;qqmsn,int;specialty,select;bz,multitext;timeer,text" />
+    
+    <input type="hidden" name="dede_fieldshash" value="812d776617c420d45d20757358f75cb0" />
+</form>
+</div>
+
+
+<div id="foot">
+    <a href="../zxlx/tel.shtml#qyqq"><img src="../images/xdf_index_foot01.png" alt="企业QQ"></a>
+    <a href="../zxlx/tel.shtml"><img src="../images/xdf_index_foot02.png" alt="电话咨询"></a>
+</div>
+<section class="reTop">
+			<a href="javascript:window.scrollTo(0,0);" class="btn btn1">返回顶部▲</a>
+</section> 
+<footer class="site">
+		<nav class="foo">
+		<a href="../default.htm">网站首页</a>
+		<a href="../tel.html#qyqq">企业QQ</a>
+		<a href="../sitemap/index.shtml#rmzt">热门专题</a>
+		<a href="../sitemap/index.shtml">网站地图</a>
+		</nav>
+			<p class="cop">温馨提示：本信息仅供提供演示方便链接，与原网站无关！ <a href="index.html">首页</a>  <a href="/xxjj/xxjj.shtml">学校简介页</a>  <a href="/xxxw/index.shtml">新闻页列表</a>  <a href="/xxxw/14023.html">正文页</a>  <a href="/zxlx/zxbm.shtml">咨询报名页</a>  <a href="/zysz/zysz.shtml">专业介绍页</a>
+                <span>
+                </span>
+			</p>
+
+</footer>
+<script type="text/javascript" src="../css/jquery-1.4.2.min.js"></script>
+
+</div>
+</div>
+
+</body>
+</html>

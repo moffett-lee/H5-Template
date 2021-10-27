@@ -1,0 +1,145 @@
+/*
+Template Name: Ost Magazine
+File: Featured Slider CSS
+Author: OS Templates
+Author URI: http//www.os-templates.com/
+Licence: <a href="http//www.os-templates.com/template-terms">Website Template Licence</a>
+*/
+
+#featured_slide {
+	position:relative;
+	margin:0 auto 0;
+	display:block;
+	width:960px;
+	height:390px;
+	overflow:hidden;
+	font-size:13px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	background:url("../images/trans_top.png") top left no-repeat #E3E5E5;
+	}
+
+#featured_slide a, #featured_slide ul, #featured_slide img, #featured_slide p{
+	margin:0;
+	padding:0;
+	border:none;
+	outline:none;
+	list-style:none;
+	text-decoration:none;
+	line-height:normal;
+	}
+
+#featured_slide h1, #featured_slide h2, #featured_slide h3, #featured_slide h4, #featured_slide h5, #featured_slide h6{
+	margin:0 0 8px 0;
+	padding:0;
+	line-height:normal;
+	font-size:14px;
+	font-weight:bold;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	border-bottom:none;
+	}
+
+/* ----------------------------------------------Content-------------------------------------*/
+
+.featured_box{
+	position:relative;
+	display:block;
+	width:930px;
+	height:375px;
+	margin:15px 0 0 15px;
+	}
+
+.featured_box img{
+	width:930px;
+	height:375px;
+	}
+
+.featured_box .floater{
+	position:absolute;
+	bottom:30px;
+	width:590px;
+	height:60px;
+	margin:0 0 0 30px;
+	padding:3px 5px;
+	overflow:hidden;
+	background:url("../images/fs_txt_trans_bg.png");
+	}
+
+#featured_slide p.readmore{
+	position:absolute;
+	bottom:30px;
+	right:30px;
+	margin:0 0 25px 0;
+	}
+
+#featured_slide p.readmore a{
+	color:#FFFF00;
+	background:url("../images/fs_txt_trans_bg.png");
+	padding:25px;
+	}
+
+/* ----------------------------------------------Navigation Buttons-------------------------------------*/
+
+/*
+
+Navigation dynamically created using: jquery.cycle.setup.js and jquery.cycle.min.js
+
+HTML Output:
+
+<div id="fsn">
+  <ul id="fs_pagination">
+    <li><a href="javascript:void()">1</a></li>
+    <li><a href="javascript:void()">2</a></li>
+    <li><a href="javascript:void()">3</a></li>
+    <li><a href="javascript:void()">4</a></li>
+    <li><a href="javascript:void()">5</a></li>
+  </ul>
+</div>
+
+*/
+
+#fsn{
+	position:relative;
+	margin:0 auto 0;
+	display:block;
+	width:960px;
+	height:44px;
+	text-align:center;
+	color:#666666;
+	background:url("../images/trans.png") #E3E5E5;
+	z-index:1000;
+	}
+
+#fsn ul{
+	position:relative;
+	margin:0 auto 0;
+	display:block;
+	width:200px;
+	height:20px;
+	padding:12px 0 0 0;
+	overflow:hidden;
+	list-style:none;
+	}
+
+#fsn ul li, #fsn ul li a{
+	display:block;
+	float:left;
+	width:20px;
+	height:20px;
+	margin:0 20px 0 0;
+	padding:0;
+	}
+
+#fsn ul li a{
+	float:none;
+	border:none;
+	margin:0;
+	outline:none;
+	text-indent:-5000px;
+	text-decoration:none;
+	background:url("../images/slide.png") 50% 50% no-repeat;
+	}
+
+#fsn .activeSlide{
+	background:url("../images/slide.png") 0% 50% no-repeat;
+	}

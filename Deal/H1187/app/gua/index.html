@@ -1,0 +1,232 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width,minimum-scale=1,user-scalable=no,maximum-scale=1,initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no">
+  <link href="../../assets/favicon.ico" rel="shortcut icon">
+  <title>微信刮刮卡</title>
+  <meta name="keywords"  content="微客来"/>
+  <meta name="description"  content="微客来"/>
+
+  <link href="../../stylesheets/app/common.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="../../stylesheets/app/jquery.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="../../stylesheets/app/alertify.css" media="screen" rel="stylesheet" type="text/css" /><script src="../../javascripts/app/gua.js" type="text/javascript"></script><script src="../../javascripts/app/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="../../javascripts/app/wScratchPad.js" type="text/javascript"></script>
+<script src="../../javascripts/app/jquery.mobile-1.2.0.min.js" type="text/javascript"></script>
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="SAyz8svvbGW2z4j0U368faGIPp2zUnC/xU93aobG7U8=" name="csrf-token" />
+</head>
+<body id="page">
+  <div class="html">
+    <div class="main">
+      
+<style type="text/css">
+#list_page {
+	padding: 15px 10px 0;
+	position: relative;
+	height: 100%;
+	color: #444;
+	font-family: Microsoft YaHei, Helvetica, STHeiti STXihei, Microsoft JhengHei, Tohoma, Arial;
+	background: url(../../assets/app/mobile_bg1.png) no-repeat 0px 0px;
+	background-color: #e5e5e5;
+}
+#page-url-link{
+	font-family: Microsoft YaHei,Helvitica,Verdana,Tohoma,Arial,san-serif;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 2.5;
+	text-decoration: none;
+	text-shadow: 0 1px white;
+	-webkit-text-shadow: 0 1px #ffffff;
+	-moz-text-shadow: 0 1px #ffffff;
+	color: #CACACA;
+}
+  .cover {
+    width: 320px;
+    max-width: 480px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .cover img {
+    width: 320px;
+  }
+  #scratchpad, #prize {
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    top: 110px;
+    right: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+  }
+  .btn-cont {
+    position: absolute;
+    bottom: 3px;
+    right: 3px;
+    display: none;
+  }
+  .content {
+    margin-top: 20px;
+    padding: 0 15px;
+  }
+  .content .desc {
+    font-weight: bold;
+    border-bottom: 1px dashed #000;
+    padding: 12px 0px;
+  }
+  p {
+    margin: 0 0 10px;
+    font-size: 14px;
+  }
+  .loading-mask {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 100;
+    left: 0px;
+    top: 0px;
+  }
+</style>
+
+<div id="panelLottery" data-role="page">
+  <div class="cover"> <img src="../../assets/app/gua.jpg" style="min-height:208px">
+    <div id="prize"></div>
+    <div id="scratchpad"></div>
+    <div style="display: none;" class="btn-cont" onClick="getPrize();" id="get_prize"> <a class="ui-btn ui-shadow ui-btn-corner-all ui-btn-up-c" data-theme="c" data-wrapperels="span" data-iconshadow="true" data-shadow="true" data-corners="true" href="javascript:;" id="opendialog" data-role="button" data-rel="dialog"><span class="ui-btn-inner ui-btn-corner-all"> <span class="ui-btn-text">我要领奖</span></span></a> </div>
+  </div>
+  <div class="content">
+      <p class="desc"> 兑奖说明<span style="color: red;">（亲，中奖后请务必点击"我要领奖"输入您的手机号或牢记您的SN码，否则可能无法领奖喔！）</span></p>
+    <p> 一等奖：1000元抵用券。奖品数量：5000000</p>
+    <p> 二等奖：500元抵用券。奖品数量：5000000</p>
+    <p> 三等奖：200元抵用券。奖品数量：500000000</p>
+    
+  </div>
+</div>
+<!--弹出框-->
+<div id="promptMsg" class="ui-dialog-contain ui-corner-all ui-overlay-shadow" style="display: none">
+  <div class="ui-corner-top ui-header ui-bar-d"> <a title="Close" class="ui-btn-left ui-btn ui-shadow ui-btn-corner-all ui-btn-icon-notext ui-btn-up-d" href="#"><span class="ui-btn-inner ui-btn-corner-all"><span class="ui-btn-text">Close</span> <span class="ui-icon ui-icon-delete ui-icon-shadow">&nbsp;</span> </span> </a>
+    <h3 class="ui-title"> 恭喜你！中奖了</h3>
+  </div>
+  <div class="ui-corner-bottom ui-content ui-body-c">
+    <p style="font-weight: bold;"> 你中的是<span id="prizetype">二等奖</span>，兑奖SN码：<span id="sncode">62382392</span> </p>
+    <p> 请留下您的手机号码，我们的工作人员会联系你发奖</p>
+    <div class="form-inline">
+      <label> 您的手机号：</label>
+      <input class="ui-input-text ui-body-c ui-corner-all ui-shadow-inset" id="tel" name="tel" type="text">
+      <div>
+        <div class="ui-btn ui-shadow ui-btn-corner-all ui-submit ui-btn-up-b"> <span class="ui-btn-inner ui-btn-corner-all"><span class="ui-btn-text">提交</span> </span>
+          <button class="ui-btn-hidden" id="save-btn" type="submit" onClick="this.disabled=true;submitMobile();"> 提交</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<section id="alertEle" class="alertify-dialog is-alertify-dialog-showing" style="display: none;">
+  <div class="alertify-dialog-inner">
+    <article class="alertify-inner">
+      <p class="alertify-message" id="alertEleMsg"></p>
+      <nav class="alertify-buttons">
+        <button id="alertify-ok" class="alertify-button alertify-button-ok" type="button" role="button" onClick="document.getElementById(&#39;alertEle&#39;).style.display=&#39;none&#39;;">确定</button>
+      </nav>
+    </article>
+    <a href="12938@anid=3788&wxmuid=10063&wxuid=69233&source=submit&prize_title=_25E4_25BA_258C_25E7_25AD_2589_25E5_25A5_2596" class="alertify-resetFocus" id="alertify-resetFocus">Reset Focus</a></div>
+  </section>
+  
+  <script type="text/javascript">
+    document.getElementById("save-btn").disabled = false;
+    var prize = '二等奖';
+    var isGua = false; //是否已经刮奖
+    $(function () {
+      var useragent = window.navigator.userAgent.toLowerCase();
+      $("#scratchpad").wScratchPad({
+        width: 150,
+        height: 40,
+        color: "#a9a9a7",
+        scratchMove: function () {
+          if (useragent.indexOf("android 4") > 0) {
+            if ($("#scratchpad").css("color").indexOf("51") > 0) {
+              $("#scratchpad").css("color", "rgb(50,50,50)");
+            } else if ($("#scratchpad").css("color").indexOf("50") > 0) {
+              $("#scratchpad").css("color", "rgb(51,51,51)");
+            }
+          }
+          isGua = true;
+          if(false){
+            $('#scratchpad').hide();
+            $('#get_prize').hide();
+            $('#prize').hide();
+            alert_t('');
+          }else{
+            $(".btn-cont").fadeIn();
+            document.getElementById('prize').innerHTML = prize;
+          }
+        }
+      });
+    });
+    function getPrize() {
+      var iswin = true;
+      if(!isGua){
+        alert_t('请将刮奖区域刮开');
+        return;
+      }
+      if(iswin){
+        document.getElementById('promptMsg').style.display = 'block';
+        document.getElementById('panelLottery').style.display = 'none';
+      }
+      else{
+        alert_t('您本次没有中奖');
+      }
+    }
+
+    //提交手机号码
+    function submitMobile() {
+      var mobile = document.getElementById('tel').value;
+      var winid = '';
+      if (!(/^1[3|4|5|8][0-9]\d{8}$/.test(mobile))) {
+        alert_t('请输入正确的手机号码');
+        document.getElementById("save-btn").disabled = false;
+        return;
+      }
+      $.ajax({
+        type: "GET",
+        contentType: "application/json",
+        url: 'draw_prize@sn=62382392&acid=62437&anid=3788&wxmuid=10063&wxuid=69233&aid=12938' + '&mobile=' + mobile + '&' + Math.random(),
+        dataType: 'json',
+        timeout:30000,
+        success: function (data) {
+          //alert(JSON.stringify(data))
+          alert_t('信息提交成功，我们的工作人员稍后会联系您，请牢记您的SN码');
+          document.getElementById('alertify-ok').onclick = function () {
+            window.location.href = "12938@anid=3788&wxmuid=10063&wxuid=69233&source=submit&prize_title=_25E4_25BA_258C_25E7_25AD_2589_25E5_25A5_2596";
+          };
+        },
+        error: function(e){
+          //alert(JSON.stringify(e))
+        }
+      });
+
+    }
+    function alert_t(msg){
+      document.getElementById('alertEleMsg').innerHTML = msg;
+      document.getElementById('alertEle').style.display='block';
+    };
+    if(false){
+      $('#scratchpad').hide();
+      $('#get_prize').hide();
+      $('#prize').text(prize);
+    }
+  </script>
+
+
+    </div>
+  </div>
+
+
+</body>
+</html>

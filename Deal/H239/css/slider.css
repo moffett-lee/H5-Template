@@ -1,0 +1,27 @@
+/*--------- slider ---------*/
+#slide {width:100%;  
+		height:706px; 
+		overflow:hidden; 
+		z-index:777;
+		margin:0 auto;
+		position: relative;
+		background:#fff;}
+
+.slider {width:1680px; 
+		height:668px;
+		overflow:hidden; 
+		position:relative; 
+		left:50%;
+		margin-left:-840px;}
+		
+.items { display:none;}
+
+.pagination { position:absolute; bottom:49px; left:50%; margin-left:-473px; display:inline-block; z-index:10;}
+.pagination li {float:left; margin-right:11px;  position:relative;	}
+.pagination a { display:inline-block;}
+.pagination li span {position:absolute; border:#fff 5px solid; top:0; left:0; width:220px; height:90px; display:none; z-index:999; }
+.pagination li.current span, .pagination li:hover span {display:block;}
+
+.next {position:absolute; bottom:8px; right:50%; margin-right:-23px; width:13px; height:23px; background:url(../images/next.gif) 0 0 no-repeat; display:block; z-index:999;}
+.prev {position:absolute; bottom:8px; left:50%; margin-left:-20px; width:13px; height:23px; background:url(../images/prev.gif) 0 0 no-repeat;display:block; z-index:999;}
+.next:hover, .prev:hover {background-position:0 bottom;}

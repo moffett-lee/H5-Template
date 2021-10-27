@@ -1,0 +1,66 @@
+.tweet, .query {
+   }
+  
+.tweet .tweet_list,
+.query .tweet_list {
+    -webkit-border-radius: .5em;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+     }
+
+.tweet .tweet_list .awesome,
+.tweet .tweet_list .epic,
+.query .tweet_list .awesome,
+.query .tweet_list .epic {
+      text-transform: uppercase; }
+
+.tweet .tweet_list li,
+.query .tweet_list li {
+      overflow-y: auto;
+      overflow-x: hidden;
+      padding: 0px 5px 10px 22px;
+      margin-bottom: 10px;
+      background: url("../img/tweet-quotes.png") no-repeat 0px 3px transparent;
+      border-bottom: 1px solid #373737;
+}
+
+.tweet .tweet_list li:last-child,
+.query .tweet_list li:last-child {
+      border-bottom: none;
+}
+
+
+#footer .tweet .tweet_list li a,
+.query .tweet_list li a {
+        color: #ccc;
+        text-decoration: none;
+        border-bottom: 1px dotted #333;
+}
+
+
+#footer .tweet .tweet_list li a:hover,
+.query .tweet_list li a:hover {
+        color: #fff;
+        border-bottom: 1px dotted #7D7D7D;
+}
+
+
+.tweet .tweet_list .tweet_avatar,
+.query .tweet_list .tweet_avatar {
+      padding-right: .5em;
+      float: left; }
+
+.tweet .tweet_list .tweet_avatar img,
+.query .tweet_list .tweet_avatar img {
+        vertical-align: middle; }
+
+#footer-cols .tweet .tweet_list .tweet_time a{
+	font-style: italic;
+	color: #515151;
+}
+
+#footer-cols .tweet .tweet_list .tweet_text{
+	color: #7D7D7D;
+}

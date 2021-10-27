@@ -1,0 +1,1410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <script type="text/javascript" src="js/jquery-1.4.2.min.js" ></script>
+  <script type="text/javascript" src="js/cufon-yui.js"></script>
+  <script type="text/javascript" src="js/DIN_1451_Mittelschrift_Alt_400.font.js"></script>
+  <script type="text/javascript" src="js/cufon-replace.js"></script>
+  <script type="text/javascript" src="js/jqFancyTransitions.1.8.js"></script>
+  <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+  <script type="text/javascript" src="js/loader.js"></script>
+  <script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+  <script type="text/javascript" src="js/jquery.jplayer.settings.js"></script>
+  <!--[if lt IE 7]>
+  	<script type="text/javascript" src="http//info.template-help.com/files/ie6_warning/ie6_script_other.js"></script>
+  <![endif]-->
+  <!--[if lt IE 9]>
+  	<script type="text/javascript" src="js/html5.js"></script>
+  <![endif]-->
+  <style>
+  a, abbr, acronym, address, applet, article, aside, audio,
+b, blockquote, big, body,
+center, canvas, caption, cite, code, command,
+datalist, dd, del, details, dfn, dl, div, dt, 
+em, embed,
+fieldset, figcaption, figure, font, footer, form, 
+h1, h2, h3, h4, h5, h6, header, hgroup, html,
+i, iframe, img, ins,
+kbd, 
+keygen,
+label, legend, li, 
+meter,
+nav,
+object, ol, output,
+p, pre, progress,
+q, 
+s, samp, section, small, span, source, strike, strong, sub, sup,
+table, tbody, tfoot, thead, th, tr, tdvideo, tt,
+u, ul, 
+var{
+    background: transparent;
+    border: 0 none;
+    font-size: 100%;
+    margin: 0;
+		padding: 0;
+		border: 0;
+		outline: 0;
+    vertical-align: top; }
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+table, table td { 
+	padding:0;
+	border:none;
+	border-collapse:collapse;
+}
+img {
+	vertical-align:top; 
+}
+embed { 
+	vertical-align:top;
+}
+
+
+/* Getting the new tags to behave */
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video{ display: block; }
+mark, rp, rt, ruby, summary, time{ display: inline }
+
+/* Global properties ======================================================== */
+body { 
+	background:url(images/body-bg.gif) top center no-repeat #141414;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:100%; 
+	line-height:1em;
+	color:#dadada;
+}
+html { min-width:520px;}
+html, body {}
+/* Global Structure ============================================================= */
+.container {
+	margin: 0 auto;
+	position: relative;
+	width: 520px;
+	font-size:.75em;
+}
+
+	/* Header */
+	header{
+		height:407px;
+		overflow:hidden;
+	}
+/*=====*/
+/* Left & Right alignment */
+
+.fleft { float:left;}
+.fright { float:right;}
+.clear { clear:both;}
+
+.col-1, .col-2, .col-3 { float:left;}
+
+.alignright { text-align:right;}
+.aligncenter { text-align:center;}
+
+.wrapper { 
+	width:100%;
+	overflow:hidden;
+}
+
+/* The inside class provides consistent padding. To be used often! */
+.inside{ padding: 20px; }
+/*----- form defaults -----*/
+input, select, textarea { 
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:1em;
+	vertical-align:middle;
+	font-weight:normal;
+}
+
+/*----- other -----*/
+.img-indent { 
+	margin:0 20px 0 0; 
+	float:left;
+}
+.img-box { 
+	width:100%; 
+	overflow:hidden; 
+	padding-bottom:20px;
+}
+	.img-box img { 
+		float:left; 
+		margin:0 20px 0 0;
+	}
+
+.extra-wrap { 
+	overflow:hidden;
+}
+
+p {margin-bottom:16px;}
+.p1 { margin-bottom:8px;}
+.p2 { margin-bottom:16px;}
+.p3 { margin-bottom:24px;
+}
+
+
+/*----- txt, links, lines, titles -----*/
+a {
+	color:#fff; 
+	outline:none;
+}
+a:hover{
+	text-decoration:none;
+}
+
+h2 {
+	font-size:22px;
+	font-weight:normal;
+	line-height:1.2em;
+	color:#fff;
+	text-transform:uppercase;
+	text-indent:20px;
+	margin-bottom:15px;
+	padding-top:4px;
+	letter-spacing:-1px;
+}
+	.h2-pad {
+		padding:0;
+		margin-top:-4px;
+	}
+	.h2-pad1 {
+		padding-top:30px;
+	}
+h3 {
+	font-size:16px;
+	color:#dadada;
+	line-height:1.2em;
+	border-bottom:1px solid #2b2b2b;
+	padding:0 0 4px 0;
+	margin-bottom:1em;
+}
+
+h4 {
+	font-size:12px;
+	line-height:1.2307em;
+	color:#525252;
+	padding:0 0 13px 0;
+	text-transform:uppercase;
+}
+
+h5 {
+	font-size:16px;
+	line-height:1.2307em;
+	color:#dadada;
+	padding:8px 0 4px 0;
+	border-bottom:1px solid #252525;
+	margin-bottom:20px;
+}
+/*===== header =====*/
+header .slider {
+	background:url(images/slider-bg.gif) no-repeat 0 0;
+	position:absolute;
+	left:21px;
+	top:88px;
+	width:497px;
+	height:330px;
+}
+	header .slider .indent {
+		padding:15px 0 0 13px;
+	}
+	
+	#slideshowHolder {
+		width:451px;
+		height:259px;
+		overflow:hidden;
+	}
+		#slideshowHolder .ft-prev {
+			width:74px;
+			height:43px;
+			left:155px;
+			top:197px;
+			background:url(images/prev.png) no-repeat 0 0;
+			text-indent:-9999em;
+		}
+		#slideshowHolder .ft-next {
+			width:74px;
+			height:43px;
+			left:229px;
+			top:197px;
+			background:url(images/next.png) no-repeat 0 0;
+			text-indent:-9999em;
+		}
+		#ft-buttons-slideshowHolder {
+			display:none;
+		}
+		
+header h1 {
+	position:absolute;
+	left:33px;
+	top:29px;
+	font-size:30px;
+	line-height:1.2em;
+	color:#fff;
+	font-weight:normal;
+	letter-spacing:-1px;
+}
+	header h1 a {
+		color:#fff;
+		text-decoration:none;
+		text-transform:uppercase;
+	}
+	header h1 a span {
+		color:#f0ff00;
+	}
+
+
+header nav {
+	position:absolute;
+	right:52px;
+	top:36px;
+}
+	header nav li {
+		float:left;
+		padding-left:26px;
+	}
+		header nav li a {
+			float:left;
+			font-size:16px;
+			line-height:1.2em;
+			color:#606060;
+			text-decoration:none;
+			text-transform:uppercase;
+		}
+		header nav li a:hover, header nav li a.current {
+			color:#fff;
+			text-decoration:none;
+			border-bottom:4px solid #f0ff00;
+		}
+
+.header-indent {
+	padding:0 0 0 12px
+}
+/*==================boxes====================*/
+.box-top {
+	background:url(images/box-top-bg.gif) left top no-repeat;
+	width:100%;
+	padding-top:20px;
+}
+.box-bottom {
+	background:url(images/box-bottom-bg.png) left top no-repeat;
+	height:24px;
+	width:100%;
+}
+.box {
+	background:url(images/box-bg.png) repeat;
+	width:100%;
+}
+	.box .inside {
+		padding:0px 13px 0 13px;
+	}
+	.pad {
+		padding-top:0
+	}
+	.box .padding {
+		padding-bottom:14px;
+	}
+	.box .padding1 {
+		padding-bottom:22px;
+	}
+/*----*/
+/*---- box1 ---*/
+.box1-top {
+	background:url(images/box1-top-bg.png) left top no-repeat;
+	height:22px;
+}
+.box1-bottom {
+		background:url(images/box1-bottom-bg.png) left bottom no-repeat;
+		height:23px;
+	}
+	.box1 {
+		background:#191919;
+		padding:0px 18px 26px 18px;
+		font-size:11px;
+		line-height:1.4545em;
+	}
+		.box-pad {
+			padding:0 18px 14px 18px;
+			margin-top:-2px;
+		}
+		.box-pad1 {
+			padding:20px 18px 0px 18px;
+			margin-top:-2px;
+		}
+/*-----*/
+
+/*----- box2 ----*/
+.box2 {
+	background:#242424;
+	padding:24px 18px 7px 18px;
+	font-size:11px;
+	line-height:1.4545em;
+}
+.box2-pad {
+		padding:20px 18px 18px 18px;
+	}
+	.box2-bottom {
+		background:url(images/box2-bottom-bg.png) left bottom no-repeat;
+		height:21px;
+	}
+
+/*------*/
+.facebook-link {
+	display:inline-block;
+	background:url(images/icon-facebook-alt.png) left top no-repeat;
+	padding:4px 0 4px 34px;
+	color:#ffffff;
+	text-decoration:none;
+}
+	.facebook-link:hover {
+		text-decoration:underline;
+	}
+
+/*===== content =====*/
+	.loader {
+		background:url(images/ajax-loader.gif) 50% 50% no-repeat;
+	}
+	.wrap {
+		display:block;
+		position:relative;
+		width:100%;
+	}
+		.wrap span.play {
+			display:block;
+			width:63px;
+			height:63px;
+			position:absolute;
+			left:50%;
+			top:50%;
+			margin-left:-32px;
+			margin-top:-32px;
+			z-index:2;
+			background:url(images/play.png) no-repeat 0 0;
+		}
+		.wrap:hover span.play {
+			background-position:0 -63px;
+		}
+		.wrap img {
+			position:relative;
+			z-index:1;
+		}
+	article {padding-bottom:46px;}
+	article.last {padding-bottom:0;}
+	
+	dl dt {color:#f0ff00;}
+	dl dd {margin-bottom:16px;}
+	dl dd a {color:#dadada; text-decoration:none; display:block;}
+	dl dd a:hover {color:#999;}
+
+.album-box {
+	text-align:center;
+	font-size:13px;
+}
+	.album-box a {
+		color:#f0ff00;
+	}
+	.album-box h3 {
+		border-bottom:none;
+		font-size:16px;
+		color:#dadada;
+		padding-bottom:0;
+		margin-bottom:6px;
+	}
+		.album-box h3 span {
+			color:#f0ff00;
+		}
+	.album-box strong {
+		display:block;
+		font-size:18px;
+		line-height:1.2em;
+		text-transform:uppercase;
+		margin-bottom:12px;
+	}
+/*-----cols-----*/
+.col-1 {
+	width:159px;
+	padding-left:19px;
+}
+.col-2 {
+	width:125px;
+}
+.col-3 {
+	width:160px;
+}
+.col-4 {
+	float:left;
+	width:130px;
+}
+#page4 .col-1 {
+	width:147px
+}
+#page4 .col-3 {
+	width:147px;
+}
+#page4 .col-4 {
+	width:140px;
+}
+#page4 .col-5 {
+	float:left;
+	width:230px;
+}
+/*------*/
+
+/*---- other ---*/
+.inside1 {
+	padding:0 22px 0 21px;
+}
+.color {
+	color:#fff;
+}
+.title {
+	font-size:18px;
+	color:#f0ff00;
+	line-height:1.2307em;
+	display:block;
+	padding:8px 0 17px 0;
+	font-weight:normal;
+}
+.indent1 {
+	padding:0 18px 0 18px;
+}
+
+.indent2 {
+	padding:0 0px 0 18px;
+}
+
+.socials a {
+	display:inline-block;
+	margin-right:10px
+}
+
+.pad1 {
+	padding-top:10px;
+}
+.pad2 {
+	padding-top:60px;
+}
+
+.border {
+	border-right:1px solid #272726;
+	width:238px;
+	height:24px;
+}
+/*----*/
+/* links */
+.link {
+	color:#868687;
+	display:inline-block;
+	font-size:13px;
+	margin:18px 20px 0 0
+}
+.link1 {
+	color:#f0ff00;
+	font-size:12px;
+	display:inline-block;
+	margin-top:12px;
+}
+/*-*/
+
+
+/*-- column structure ---*/
+#left-side {
+	float:left;
+	width:225px;
+	border-right:1px solid #272726;
+}
+	#left-side .indent {
+		padding:20px 40px 15px 18px;
+	}
+
+	
+#right-side {
+	float:left;
+	width:198px;
+}
+	#right-side .indent {
+		padding:20px 0 15px 30px;
+	}
+/*----*/
+
+/*--- list ---*/
+.list2 li {
+	background:url(images/marker1.png) no-repeat 0 0;
+	padding:2px 0 2px 30px;
+	margin-bottom:11px;
+}
+	.list2 li a {
+		color:#dadada;
+		text-decoration:none;
+	}
+	.list2 li a:hover {
+		color:#fff;
+		text-decoration:underline;
+	}
+/*----*/
+
+/*===== footer =====*/
+footer {
+	color:#505050;
+	text-align:center;
+}
+	footer .inside {
+		padding:12px 0 44px 0;
+		font-size:11px;
+	}
+		footer a {
+			color:#505050;
+		}
+
+
+/*----- forms -----*/
+#search-form fieldset {
+	border:none;
+	padding:5px 0 5px 0;
+}
+	#search-form label {
+		height:33px;
+		background:url(images/input-bg.png) left top no-repeat;
+		display:inline-block;
+	}
+	#search-form input[type=text] {
+		width:124px;
+		margin-right:2px;
+		padding:8px 0 8px 5px;
+		line-height:1.2307em;
+		color:#fff;
+		border:none;
+		background:none;
+	}
+/*============ prettyphoto ============*/
+/* ------------------------------------------------------------------------
+	This you can edit.
+------------------------------------------------------------------------- */
+
+	div.light_rounded .pp_top .pp_left { background: url(images/prettyPhoto/light_rounded/sprite.png) -88px -53px no-repeat; } /* Top left corner */
+	div.light_rounded .pp_top .pp_middle { background: #fbfbfb; } /* Top pattern/color */
+	div.light_rounded .pp_top .pp_right { background: url(images/prettyPhoto/light_rounded/sprite.png) -110px -53px no-repeat; } /* Top right corner */
+	
+	div.light_rounded .pp_content .ppt { color: #000; }
+	div.light_rounded .pp_content_container .pp_left,
+	div.light_rounded .pp_content_container .pp_right { background: #fbfbfb; }
+	div.light_rounded .pp_content { background-color: #fbfbfb; } /* Content background */
+	div.light_rounded .pp_next:hover { background: url(images/prettyPhoto/light_rounded/btnNext.png) center right  no-repeat; cursor: pointer; } /* Next button */
+	div.light_rounded .pp_previous:hover { background: url(images/prettyPhoto/light_rounded/btnPrevious.png) center left no-repeat; cursor: pointer; } /* Previous button */
+	div.light_rounded .pp_expand { background: url(images/prettyPhoto/light_rounded/sprite.png) -31px -26px no-repeat; cursor: pointer; } /* Expand button */
+	div.light_rounded .pp_expand:hover { background: url(images/prettyPhoto/light_rounded/sprite.png) -31px -47px no-repeat; cursor: pointer; } /* Expand button hover */
+	div.light_rounded .pp_contract { background: url(images/prettyPhoto/light_rounded/sprite.png) 0 -26px no-repeat; cursor: pointer; } /* Contract button */
+	div.light_rounded .pp_contract:hover { background: url(images/prettyPhoto/light_rounded/sprite.png) 0 -47px no-repeat; cursor: pointer; } /* Contract button hover */
+	div.light_rounded .pp_close { width: 75px; height: 22px; background: url(images/prettyPhoto/light_rounded/sprite.png) -1px -1px no-repeat; cursor: pointer; } /* Close button */
+	div.light_rounded #pp_full_res .pp_inline { color: #000; } 
+
+	div.light_rounded .pp_arrow_previous { background: url(images/prettyPhoto/light_rounded/sprite.png) 0 -71px no-repeat; } /* The previous arrow in the bottom nav */
+		div.light_rounded .pp_arrow_previous.disabled { background-position: 0 -87px; cursor: default; }
+	div.light_rounded .pp_arrow_next { background: url(images/prettyPhoto/light_rounded/sprite.png) -22px -71px no-repeat; } /* The next arrow in the bottom nav */
+		div.light_rounded .pp_arrow_next.disabled { background-position: -22px -87px; cursor: default; }
+
+	div.light_rounded .pp_bottom .pp_left { background: url(images/prettyPhoto/light_rounded/sprite.png) -88px -80px no-repeat; } /* Bottom left corner */
+	div.light_rounded .pp_bottom .pp_middle { background: #fbfbfb; } /* Bottom pattern/color */
+	div.light_rounded .pp_bottom .pp_right { background: url(images/prettyPhoto/light_rounded/sprite.png) -110px -80px no-repeat; } /* Bottom right corner */
+
+	div.light_rounded .pp_loaderIcon { background: url(images/prettyPhoto/light_rounded/loader.gif) center center no-repeat; } /* Loader icon */
+	
+	/* ----------------------------------
+		Dark Rounded Theme
+	----------------------------------- */
+	
+	div.dark_rounded .pp_top .pp_left { background: url(images/prettyPhoto/dark_rounded/sprite.png) -88px -53px no-repeat; } /* Top left corner */
+	div.dark_rounded .pp_top .pp_middle { background: url(images/prettyPhoto/dark_rounded/contentPattern.png) top left repeat; } /* Top pattern/color */
+	div.dark_rounded .pp_top .pp_right { background: url(images/prettyPhoto/dark_rounded/sprite.png) -110px -53px no-repeat; } /* Top right corner */
+	
+	div.dark_rounded .pp_content_container .pp_left { background: url(images/prettyPhoto/dark_rounded/contentPattern.png) top left repeat-y; } /* Left Content background */
+	div.dark_rounded .pp_content_container .pp_right { background: url(images/prettyPhoto/dark_rounded/contentPattern.png) top right repeat-y; } /* Right Content background */
+	div.dark_rounded .pp_content { background: url(images/prettyPhoto/dark_rounded/contentPattern.png) top left repeat; } /* Content background */
+	div.dark_rounded .pp_next:hover { background: url(images/prettyPhoto/dark_rounded/btnNext.png) center right  no-repeat; cursor: pointer; } /* Next button */
+	div.dark_rounded .pp_previous:hover { background: url(images/prettyPhoto/dark_rounded/btnPrevious.png) center left no-repeat; cursor: pointer; } /* Previous button */
+	div.dark_rounded .pp_expand { background: url(images/prettyPhoto/dark_rounded/sprite.png) -31px -26px no-repeat; cursor: pointer; } /* Expand button */
+	div.dark_rounded .pp_expand:hover { background: url(images/prettyPhoto/dark_rounded/sprite.png) -31px -47px no-repeat; cursor: pointer; } /* Expand button hover */
+	div.dark_rounded .pp_contract { background: url(images/prettyPhoto/dark_rounded/sprite.png) 0 -26px no-repeat; cursor: pointer; } /* Contract button */
+	div.dark_rounded .pp_contract:hover { background: url(images/prettyPhoto/dark_rounded/sprite.png) 0 -47px no-repeat; cursor: pointer; } /* Contract button hover */
+	div.dark_rounded .pp_close { width: 75px; height: 22px; background: url(images/prettyPhoto/dark_rounded/sprite.png) -1px -1px no-repeat; cursor: pointer; } /* Close button */
+	div.dark_rounded .currentTextHolder { color: #c4c4c4; }
+	div.dark_rounded .pp_description { color: #fbfbfb; }
+	div.dark_rounded #pp_full_res .pp_inline { color: #fbfbfb; } 
+
+	div.dark_rounded .pp_arrow_previous { background: url(images/prettyPhoto/dark_rounded/sprite.png) 0 -71px no-repeat; } /* The previous arrow in the bottom nav */
+		div.dark_rounded .pp_arrow_previous.disabled { background-position: 0 -87px; cursor: default; }
+	div.dark_rounded .pp_arrow_next { background: url(images/prettyPhoto/dark_rounded/sprite.png) -22px -71px no-repeat; } /* The next arrow in the bottom nav */
+		div.dark_rounded .pp_arrow_next.disabled { background-position: -22px -87px; cursor: default; }
+
+	div.dark_rounded .pp_bottom .pp_left { background: url(images/prettyPhoto/dark_rounded/sprite.png) -88px -80px no-repeat; } /* Bottom left corner */
+	div.dark_rounded .pp_bottom .pp_middle { background: url(images/prettyPhoto/dark_rounded/contentPattern.png) top left repeat; } /* Bottom pattern/color */
+	div.dark_rounded .pp_bottom .pp_right { background: url(images/prettyPhoto/dark_rounded/sprite.png) -110px -80px no-repeat; } /* Bottom right corner */
+
+	div.dark_rounded .pp_loaderIcon { background: url(images/prettyPhoto/dark_rounded/loader.gif) center center no-repeat; } /* Loader icon */
+	
+	
+	/* ----------------------------------
+		Dark Square Theme
+	----------------------------------- */
+	
+	div.dark_square .pp_left ,
+	div.dark_square .pp_middle,
+	div.dark_square .pp_right,
+	div.dark_square .pp_content { background: url(images/prettyPhoto/dark_square/contentPattern.png) top left repeat; }
+	div.dark_square .currentTextHolder { color: #c4c4c4; }
+	div.dark_square .pp_description { color: #fbfbfb; }
+	div.dark_square .pp_loaderIcon { background: url(images/prettyPhoto/dark_rounded/loader.gif) center center no-repeat; } /* Loader icon */
+	
+	div.dark_square .pp_content_container .pp_left { background: url(images/prettyPhoto/dark_rounded/contentPattern.png) top left repeat-y; } /* Left Content background */
+	div.dark_square .pp_content_container .pp_right { background: url(images/prettyPhoto/dark_rounded/contentPattern.png) top right repeat-y; } /* Right Content background */
+	div.dark_square .pp_expand { background: url(images/prettyPhoto/dark_square/sprite.png) -31px -26px no-repeat; cursor: pointer; } /* Expand button */
+	div.dark_square .pp_expand:hover { background: url(images/prettyPhoto/dark_square/sprite.png) -31px -47px no-repeat; cursor: pointer; } /* Expand button hover */
+	div.dark_square .pp_contract { background: url(images/prettyPhoto/dark_square/sprite.png) 0 -26px no-repeat; cursor: pointer; } /* Contract button */
+	div.dark_square .pp_contract:hover { background: url(images/prettyPhoto/dark_square/sprite.png) 0 -47px no-repeat; cursor: pointer; } /* Contract button hover */
+	div.dark_square .pp_close { width: 75px; height: 22px; background: url(images/prettyPhoto/dark_square/sprite.png) -1px -1px no-repeat; cursor: pointer; } /* Close button */
+	div.dark_square #pp_full_res .pp_inline { color: #fbfbfb; } 
+	
+	div.dark_square .pp_arrow_previous { background: url(images/prettyPhoto/dark_square/sprite.png) 0 -71px no-repeat; } /* The previous arrow in the bottom nav */
+		div.dark_square .pp_arrow_previous.disabled { background-position: 0 -87px; cursor: default; }
+	div.dark_square .pp_arrow_next { background: url(images/prettyPhoto/dark_square/sprite.png) -22px -71px no-repeat; } /* The next arrow in the bottom nav */
+		div.dark_square .pp_arrow_next.disabled { background-position: -22px -87px; cursor: default; }
+	
+	div.dark_square .pp_next:hover { background: url(images/prettyPhoto/dark_square/btnNext.png) center right  no-repeat; cursor: pointer; } /* Next button */
+	div.dark_square .pp_previous:hover { background: url(images/prettyPhoto/dark_square/btnPrevious.png) center left no-repeat; cursor: pointer; } /* Previous button */
+
+
+	/* ----------------------------------
+		Light Square Theme
+	----------------------------------- */
+	
+	div.light_square .pp_left ,
+	div.light_square .pp_middle,
+	div.light_square .pp_right,
+	div.light_square .pp_content { background: #fbfbfb; }
+	
+	div.light_square .pp_content .ppt { color: #000; }
+	div.light_square .pp_expand { background: url(images/prettyPhoto/light_square/sprite.png) -31px -26px no-repeat; cursor: pointer; } /* Expand button */
+	div.light_square .pp_expand:hover { background: url(images/prettyPhoto/light_square/sprite.png) -31px -47px no-repeat; cursor: pointer; } /* Expand button hover */
+	div.light_square .pp_contract { background: url(images/prettyPhoto/light_square/sprite.png) 0 -26px no-repeat; cursor: pointer; } /* Contract button */
+	div.light_square .pp_contract:hover { background: url(images/prettyPhoto/light_square/sprite.png) 0 -47px no-repeat; cursor: pointer; } /* Contract button hover */
+	div.light_square .pp_close { width: 75px; height: 22px; background: url(images/prettyPhoto/light_square/sprite.png) -1px -1px no-repeat; cursor: pointer; } /* Close button */
+	div.light_square #pp_full_res .pp_inline { color: #000; } 
+	
+	div.light_square .pp_arrow_previous { background: url(images/prettyPhoto/light_square/sprite.png) 0 -71px no-repeat; } /* The previous arrow in the bottom nav */
+		div.light_square .pp_arrow_previous.disabled { background-position: 0 -87px; cursor: default; }
+	div.light_square .pp_arrow_next { background: url(images/prettyPhoto/light_square/sprite.png) -22px -71px no-repeat; } /* The next arrow in the bottom nav */
+		div.light_square .pp_arrow_next.disabled { background-position: -22px -87px; cursor: default; }
+	
+	div.light_square .pp_next:hover { background: url(images/prettyPhoto/light_square/btnNext.png) center right  no-repeat; cursor: pointer; } /* Next button */
+	div.light_square .pp_previous:hover { background: url(images/prettyPhoto/light_square/btnPrevious.png) center left no-repeat; cursor: pointer; } /* Previous button */
+
+
+	/* ----------------------------------
+		Facebook style Theme
+	----------------------------------- */
+	
+	div.facebook .pp_top .pp_left { background: url(images/prettyPhoto/facebook/sprite.png) -88px -53px no-repeat; } /* Top left corner */
+	div.facebook .pp_top .pp_middle { background: url(images/prettyPhoto/facebook/contentPatternTop.png) top left repeat-x; } /* Top pattern/color */
+	div.facebook .pp_top .pp_right { background: url(images/prettyPhoto/facebook/sprite.png) -110px -53px no-repeat; } /* Top right corner */
+	
+	div.facebook .pp_content .ppt { color: #000; }
+	div.facebook .pp_content_container .pp_left { background: url(images/prettyPhoto/facebook/contentPatternLeft.png) top left repeat-y; } /* Content background */
+	div.facebook .pp_content_container .pp_right { background: url(images/prettyPhoto/facebook/contentPatternRight.png) top right repeat-y; } /* Content background */
+	div.facebook .pp_content { background: #fbfbfb; } /* Content background */
+	div.facebook .pp_expand { background: url(images/prettyPhoto/facebook/sprite.png) -31px -26px no-repeat; cursor: pointer; } /* Expand button */
+	div.facebook .pp_expand:hover { background: url(images/prettyPhoto/facebook/sprite.png) -31px -47px no-repeat; cursor: pointer; } /* Expand button hover */
+	div.facebook .pp_contract { background: url(images/prettyPhoto/facebook/sprite.png) 0 -26px no-repeat; cursor: pointer; } /* Contract button */
+	div.facebook .pp_contract:hover { background: url(images/prettyPhoto/facebook/sprite.png) 0 -47px no-repeat; cursor: pointer; } /* Contract button hover */
+	div.facebook .pp_close { width: 22px; height: 22px; background: url(images/prettyPhoto/facebook/sprite.png) -1px -1px no-repeat; cursor: pointer; } /* Close button */
+	div.facebook #pp_full_res .pp_inline { color: #000; } 
+	div.facebook .pp_loaderIcon { background: url(images/prettyPhoto/facebook/loader.gif) center center no-repeat; } /* Loader icon */
+	
+	div.facebook .pp_nav .pp_arrow_previous { background: url(images/prettyPhoto/facebook/sprite.png) 0 -71px no-repeat; height: 22px; margin-top: 0; width: 22px; } /* The previous arrow in the bottom nav */
+		div.facebook .pp_arrow_previous.disabled { background-position: 0 -96px; cursor: default; }
+	div.facebook .pp_nav .pp_arrow_next { background: url(images/prettyPhoto/facebook/sprite.png) -32px -71px no-repeat; height: 22px; margin-top: 0; width: 22px; } /* The next arrow in the bottom nav */
+		div.facebook .pp_arrow_next.disabled { background-position: -32px -96px; cursor: default; }
+	div.facebook .pp_nav { margin-top: 0; }
+	div.facebook .pp_nav p { font-size: 15px; padding: 0 3px 0 4px; }
+	
+	div.facebook .pp_next:hover { background: url(images/prettyPhoto/facebook/btnNext.png) center right no-repeat; cursor: pointer; } /* Next button */
+	div.facebook .pp_previous:hover { background: url(images/prettyPhoto/facebook/btnPrevious.png) center left no-repeat; cursor: pointer; } /* Previous button */
+	
+	div.facebook .pp_bottom .pp_left { background: url(images/prettyPhoto/facebook/sprite.png) -88px -80px no-repeat; } /* Bottom left corner */
+	div.facebook .pp_bottom .pp_middle { background: url(images/prettyPhoto/facebook/contentPatternBottom.png) top left repeat-x; } /* Bottom pattern/color */
+	div.facebook .pp_bottom .pp_right { background: url(images/prettyPhoto/facebook/sprite.png) -110px -80px no-repeat; } /* Bottom right corner */
+
+
+/* ------------------------------------------------------------------------
+	DO NOT CHANGE
+------------------------------------------------------------------------- */
+
+	div.pp_pic_holder a:focus { outline:none; }
+
+	div.pp_overlay {
+		background: #000;
+		display: none;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+		z-index: 9500;
+	}
+	
+	div.pp_pic_holder {
+		display: none;
+		position: absolute;
+		width: 100px;
+		z-index: 10000;
+	}
+		
+		.pp_top {
+			height: 20px;
+			position: relative;
+			overflow:hidden;
+		}
+			* html .pp_top { padding: 0 20px; }
+		
+			.pp_top .pp_left {
+				height: 20px;
+				left: 0;
+				position: absolute;
+				width: 20px;
+			}
+			.pp_top .pp_middle {
+				height: 20px;
+				left: 20px;
+				position: absolute;
+				right: 20px;
+			}
+				* html .pp_top .pp_middle {
+					left: 0;
+					position: static;
+				}
+			
+			.pp_top .pp_right {
+				height: 20px;
+				left: auto;
+				position: absolute;
+				right: 0;
+				top: 0;
+				width: 20px;
+			}
+		
+		.pp_content { height: 40px; }
+		
+		.pp_content .ppt {
+			left: auto;
+			margin-bottom: 5px;
+			position: relative;
+			top: auto;
+		}
+		
+		.pp_fade { display: none; }
+		
+		.pp_content_container {
+			position: relative;
+			text-align: left;
+			width: 100%;
+		}
+		
+			.pp_content_container .pp_left { padding-left: 20px; }
+			.pp_content_container .pp_right { padding-right: 20px; }
+		
+			.pp_content_container .pp_details {
+				margin: 10px 0 2px 0;
+				height:22px;
+				overflow:hidden;
+			}
+				.pp_description {
+					display: none;
+					margin: 0 0 5px 0;
+					color:#000;
+				}
+				
+				.pp_nav {
+					clear: left;
+					float: left;
+					margin: 3px 0 0 0;
+				}
+				
+					.pp_nav p {
+						float: left;
+						margin: 2px 4px;
+					}
+				
+					.pp_nav a.pp_arrow_previous,
+					.pp_nav a.pp_arrow_next {
+						display: block;
+						float: left;
+						height: 15px;
+						margin-top: 3px;
+						overflow: hidden;
+						text-indent: -10000px;
+						width: 14px;
+					}
+		
+		.pp_hoverContainer {
+			position: absolute;
+			top: 0;
+			width: 100%;
+			z-index: 2000;
+		}
+		
+		a.pp_next {
+			background: url(images/prettyPhoto/light_rounded/btnNext.png) 10000px 10000px no-repeat;
+			display: block;
+			float: right;
+			height: 100%;
+			text-indent: -10000px;
+			width: 49%;
+		}
+			
+		a.pp_previous {
+			background: url(images/prettyPhoto/light_rounded/btnNext.png) 10000px 10000px no-repeat;
+			display: block;
+			float: left;
+			height: 100%;
+			text-indent: -10000px;
+			width: 49%;
+		}
+		
+		a.pp_expand,
+		a.pp_contract {
+			cursor: pointer;
+			display: none;
+			height: 20px;	
+			position: absolute;
+			right: 30px;
+			text-indent: -10000px;
+			top: 10px;
+			width: 20px;
+			z-index: 20000;
+		}
+			
+		a.pp_close {
+			display: block;
+			float: right;
+			text-indent: -10000px;
+		}
+		
+		.pp_bottom {
+			height: 20px;
+			position: relative;
+		}
+			* html .pp_bottom { padding: 0 20px; }
+			
+			.pp_bottom .pp_left {
+				height: 20px;
+				left: 0;
+				position: absolute;
+				width: 20px;
+			}
+			.pp_bottom .pp_middle {
+				height: 20px;
+				left: 20px;
+				position: absolute;
+				right: 20px;
+			}
+				* html .pp_bottom .pp_middle {
+					left: 0;
+					position: static;
+				}
+				
+			.pp_bottom .pp_right {
+				height: 20px;
+				left: auto;
+				position: absolute;
+				right: 0;
+				top: 0;
+				width: 20px;
+			}
+		
+		.pp_loaderIcon {
+			display: block;
+			height: 24px;
+			left: 50%;
+			margin: -12px 0 0 -12px;
+			position: absolute;
+			top: 50%;
+			width: 24px;
+			zoom:1;
+		}
+		
+		#pp_full_res {
+			line-height: 1 !important;
+		}
+		
+			#pp_full_res .pp_inline {
+				text-align: left;
+			}
+			
+				#pp_full_res .pp_inline p { margin: 0 0 15px 0; }
+	
+		div.ppt {
+			color: #fbfbfb;
+			display: none;
+			font-size: 17px;
+			left: 0;
+			position: absolute;
+			top: 0;
+			z-index: 9999;
+		}
+
+/* ------------------------------------------------------------------------
+	Miscellaneous
+------------------------------------------------------------------------- */
+
+	.clearfix:after {
+	    content: "."; 
+	    display: block; 
+	    height: 0; 
+	    clear: both; 
+	    visibility: hidden;
+	}
+
+	.clearfix {display: inline-block;}
+
+	/* Hides from IE-mac \*/
+	* html .clearfix {height: 1%;}
+	.clearfix {display: block;}
+	/* End hide from IE-mac */
+
+/*=======*/
+/*======= Jplayer =====*/
+/*
+ * Skin for jPlayer Plugin (jQuery JavaScript Library)
+ * http//www.happyworm.com/jquery/jplayer
+ *
+ * Skin Name: Blue Monday
+ *
+ * Copyright (c) 2010 Happyworm Ltd
+ * Dual licensed under the MIT and GPL licenses.
+ *  - http//www.opensource.org/licenses/mit-license.php
+ *  - http//www.gnu.org/copyleft/gpl.html
+ *
+ * Author: Silvia Benvenuti
+ * Skin Version: 2.1
+ * Date: 13th May 2010
+ */
+
+div.jp-single-player,
+div.jp-playlist-player {
+
+	/* Edit the font-size to counteract inherited font sizing.
+	 * Eg. 1.25em = 1 / 0.8em
+	 */
+
+	font-size:1em; /* No parent CSS that can effect the size in these demos */
+
+	line-height:1.6;
+	color: #666;
+	position:relative;
+}
+div.jp-interface {
+	position: relative;
+	width:451px;
+	height:193px;
+	margin-bottom:30px;
+	padding:0;
+	background:url(images/jplayer-bg.png) no-repeat 0 0;
+	
+}
+	div.jp-interface .indent {
+		padding:20px 20px 20px 10px !important;
+	}
+	div.jp-interface h3 {
+		font-size:14px;
+		line-height:1.2em;
+		color:#f0ff00;
+		border-bottom:none;
+		text-transform:uppercase;
+		text-indent:6px;
+	}
+div.jp-single-player div.jp-interface {
+	border-bottom:none;
+}
+div.jp-playlist-player div.jp-interface {
+}
+
+div.jp-interface ul.jp-controls {
+	list-style-type:none;
+	padding:0;
+	margin: 0;
+}
+div.jp-interface ul.jp-controls li {
+	position: absolute;
+}
+div.jp-interface ul.jp-controls a {
+	position: absolute;
+	overflow:hidden;
+	text-indent:-9999px;
+}
+a.jp-play,
+a.jp-pause {
+	top:28px;
+	width:44px;
+	height:44px;
+}
+div.jp-single-player a.jp-play,
+div.jp-single-player a.jp-pause {
+	left:40px;
+}
+div.jp-playlist-player a.jp-play,
+div.jp-playlist-player a.jp-pause {
+	left:20px;
+}
+a.jp-play {
+	background:url(images/jplayer-play.gif) no-repeat 0 0;
+}
+a.jp-pause {
+	background:url(images/jplayer-pause.gif) no-repeat 0 0;
+	display: none;
+}
+a.jp-pause:hover {
+	background:url(images/jplayer-pause.gif) no-repeat 0 0;
+}
+a.jp-stop {
+	top:26px;
+	background: url(images/jplayer.blue.monday.jpg) 0 -83px no-repeat;
+	width:28px;
+	height:28px;
+}
+div.jp-single-player a.jp-stop {
+	left:90px;
+}
+div.jp-playlist-player a.jp-stop {
+	left:126px;
+}
+a.jp-stop:hover {
+	background: url(images/jplayer.blue.monday.jpg) -29px -83px no-repeat;
+}
+a.jp-previous {
+	width:85px;
+	left:80px;
+	top:61px;
+	background:url(images/jplayer-prev.gif) no-repeat 0 2px;
+	padding:1px 0 0 19px;
+	text-indent:0 !important;
+	font-size:9px;
+	line-height:1.2307em;
+	text-transform:uppercase;
+	color:#5b5b5b;
+	text-decoration:none;
+	white-space:nowrap;
+	
+}
+a.jp-previous:hover {
+	color:#fff;
+}
+a.jp-next {
+	width:58px;
+	left:338px;
+	top:61px;
+	background:url(images/jplayer-next.gif) no-repeat 100% 2px;
+	padding-right:14px;
+	text-indent:0 !important;
+	font-size:9px;
+	text-transform:uppercase;
+	color:#5b5b5b;
+	text-decoration:none;
+	white-space:nowrap;
+}
+a.jp-next:hover {
+	color:#fff;
+}
+
+a.jplayer_more {
+	width:100px;
+	left:202px;
+	top:61px;
+	padding-right:19px;
+	text-indent:0 !important;
+	font-size:9px;
+	text-transform:uppercase;
+	color:#5b5b5b;
+	text-decoration:none;
+	white-space:nowrap;
+}
+a.jplayer_more:hover {
+	color:#fff;
+}
+
+
+div.jp-progress {
+	position: absolute;
+	overflow:hidden;
+	top:32px;
+	background-color: #fff;
+	width:332px;
+	height:5px;
+}
+div.jp-single-player div.jp-progress {
+	left:130px;
+}
+div.jp-playlist-player div.jp-progress {
+	left:90px;
+	top:101px;
+}
+div.jp-load-bar {
+	background:#fff;
+	width:0px;
+	height:5px;
+	cursor: pointer;
+	overflow:hidden;
+}
+div.jp-play-bar {
+	background:#f0ff00;
+	width:0px;
+	height:5px;
+	overflow:hidden;
+}
+a.jp-volume-min {
+	top:32px;
+	background: url(images/jplayer.blue.monday.jpg) 0 -170px no-repeat;
+	width:18px;
+	height:15px;
+}
+div.jp-single-player a.jp-volume-min {
+	left:274px;
+}
+div.jp-playlist-player a.jp-volume-min {
+	left:296px;
+}
+a.jp-volume-min:hover {
+	background: url(images/jplayer.blue.monday.jpg) -19px -170px no-repeat;
+}
+a.jp-volume-max {
+	top:32px;
+	background: url(images/jplayer.blue.monday.jpg) 0 -186px no-repeat;
+	width:18px;
+	height:15px;
+}
+div.jp-single-player a.jp-volume-max {
+	left:346px;
+}
+div.jp-playlist-player a.jp-volume-max {
+	left:368px;
+}
+a.jp-volume-max:hover {
+	background: url(images/jplayer.blue.monday.jpg) -19px -186px no-repeat;
+}
+
+div.jp-volume-bar {
+	position: absolute;
+	overflow:hidden;
+	top:37px;
+	background: url(images/jplayer.blue.monday.jpg) 0 -250px repeat-x;
+	width:46px;
+	height:5px;
+	cursor: pointer;
+}
+div.jp-single-player div.jp-volume-bar {
+	left:292px;
+}
+div.jp-playlist-player div.jp-volume-bar {
+	left:314px;
+}
+div.jp-volume-bar-value {
+	background: url(images/jplayer.blue.monday.jpg) 0 -256px repeat-x;
+	width:0px;
+	height:5px;
+}
+div.jp-play-time,
+div.jp-total-time {
+	position: absolute;
+	top:49px;
+	width:339px;
+	font-style:oblique;
+}
+div.jp-total-time {
+	text-align: right;
+}
+div.jp-single-player div.jp-play-time,
+div.jp-single-player div.jp-total-time {
+	left:130px;
+}
+div.jp-playlist-player div.jp-play-time,
+div.jp-playlist-player div.jp-total-time {
+	left:164px;
+}
+div.jp-playlist {
+	width:418px;
+	position:absolute;
+	top:65px;
+	left:86px;
+	font-size:24px;
+	line-height:1.2em;
+	color:#fff;
+}
+div.jp-playlist ul{
+	
+}
+div.jp-single-player div.jp-playlist li {
+	
+}
+div.jp-playlist-player div.jp-playlist li {
+	position:absolute;
+	left:0;
+	top:0;
+	display:none;
+}
+div.jp-playlist-player div.jp-playlist li.jplayer_playlist_item_last {
+	
+}
+div.jp-playlist-player div.jp-playlist li.jplayer_playlist_current {
+	display:block;
+}
+div.jp-playlist-player div.jp-playlist a {
+	color: #fff;
+	text-decoration: none;
+}
+div.jp-playlist-player div.jp-playlist a:hover {
+	
+}
+div.jp-playlist-player div.jp-playlist a.jplayer_playlist_current {
+	
+}
+
+a.external-link {
+	display:block;
+	position:absolute;
+	right:18px;
+	top:154px;
+	font-size:13px;
+	line-height:18px;
+}
+
+/**/
+</style>
+</head>
+
+<body id="page2">
+	<!-- header -->
+	<header>
+		<div class="container">
+			<div class="header-indent">
+				<h1><a href="index.html"><span>UN</span>icorns</a></h1>
+				<nav>
+					<ul>
+						<li><a href="index.html">home</a></li>
+						<li><a href="index-1.html" class="current">news</a></li>
+						<li><a href="index-2.html">tour</a></li>
+						<li><a href="index-3.html">music</a></li>
+					</ul>
+				</nav>
+				<!-- .slider -->
+				<section class="slider">
+					<div class="indent">
+						<div id="slideshowHolder">
+							<img src="images/slide1.jpg" alt="">
+							<img src="images/slide2.jpg" alt="">
+							<img src="images/slide3.jpg" alt="">
+							<img src="images/slide4.jpg" alt="">
+						</div>
+					</div>
+				</section>
+				<!-- /.slider -->
+			</div>
+		</div>
+	</header>
+	<!-- content -->
+	<section id="content">
+		<div class="container">
+			<div class="inside1">
+				<!-- .box -->
+				<div class="box">
+					<div class="box-top pad">
+						<div class="inside">
+							<div class="wrapper">
+								<div id="left-side">
+									<div class="indent">
+										<article>
+											<h3>New Album</h3>
+											<!-- .album-box -->
+											<div class="album-box">
+												<p class="loader" style="margin:0 auto 16px auto;"><a href="#"><img src="images/1page-img1.jpg" alt="" height="133" width="133"></a></p>
+												<h3><span>Unicorns</span> - Unicorns</h3>
+												<strong>in stores now!</strong>
+												<a href="#">Buy Online</a>
+											</div>
+											<!-- /.album-box -->
+										</article>
+										<article>
+											<h3 class="pad1">Watch New Video</h3>
+											<p class="p1 wrap loader"><a href="video/video_AS3.swf?width=455&amp;height=275&amp;fileVideo=temp_video.flv" rel="prettyPhoto[video]" title="Unicorns - Unicorns"><img src="images/1page-img2.jpg" alt="" title="Unicorns - Unicorns" height="152" width="166"><span class="play"></span></a></p>
+											<div class="alignright pad1"><a href="#">More Videos</a></div>
+										</article>
+										<h3>Newsletter</h3>
+										<form id="search-form">
+											<fieldset>
+													<label><input type="text" /></label><input type="image" src="images/input-img.png" alt="" />
+											</fieldset>
+										</form>	
+									</div>
+								</div>
+								<div id="right-side">
+									<div class="indent">
+										<article class="last">
+											<h3>Latest Photos</h3>
+											<p class="p1 loader"><a href="images/slide2.jpg" rel="prettyPhoto[foto]" title="Unicorns - Unicorns"><img src="images/1page-img3.jpg" alt="" title="Unicorns - Unicorns" height="126" width="166"></a></p>
+											<div class="alignright"><a href="#">View Gallery</a></div>
+										  </article>
+											<h3 class="pad2">Featured News</h3>
+											<dl>
+												<dt>3/24/2010</dt>
+											  <dd><a href="#">Unicorns premieres "Black Plant" music video</a></dd>
+											  <dt>3/22/2010</dt>
+											  <dd><a href="#">Unicorns announces Talking Unicorns  Gadget v. 2!</a></dd>
+											  <dt>3/11/2010</dt>
+											  <dd><a href="#">Unicorns to play San Diego show in honor of Cheslea's Light</a></dd>
+											  <dt>3/2/2010</dt>
+											  <dd><a href="#">Unicorns’s "The Technicolor Phase" featured on "Alice In Wonderland" companion piece out now!</a></dd>
+											  <dt>3/22/2010</dt>
+											  <dd><a href="#">Unicorns announces Talking Unicorns  Gadget v. 2!</a></dd>
+
+											</dl>
+											<div class="alignright">
+											  <a href="#">More News</a>
+											</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="box-bottom">
+				<div class="border">
+				</div>
+				</div>
+				<!-- /.box -->
+			</div>
+		</div>  
+	</section>
+    <!-- footer -->
+    <footer>
+      <div class="container">
+        <div class="inside">
+          <a href="http//www.html5xcss3.com" target="_blank">Free Html5 Templates</a> &nbsp;| &nbsp;Unicorns &copy; 2011 | <a href="index-4.html">Privacy Policy</a> <!-- {%FOOTER_LINK} -->
+        </div>
+      </div>
+    </footer>
+  <script>
+		$(function(){
+			$('#slideshowHolder').jqFancyTransitions({ 
+				effect: 'wave',																			 
+				width: 451,
+				height: 259,
+				navigation: true,
+				strips: 4
+			});
+			
+			//prettyphoto init
+			$("a[rel^='prettyPhoto']").prettyPhoto({theme:'facebook'});
+		});
+	</script>
+  <script type="text/javascript"> Cufon.now(); </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+
+.tweet .tweet_list li,
+.query .tweet_list li {
+      overflow-y: auto;
+      overflow-x: hidden;
+      padding: 0px 5px 10px 19px;
+      margin-bottom: 10px;
+      background: url("../img/quotes-tweet-dark.png") no-repeat 0px 3px transparent;
+}
+
+
+.tweet .tweet_list .tweet_time a{
+	font-style: italic;
+	color: #ccc;
+}
+
+.tweet .tweet_list .tweet_text{
+	color: #f1f1f1;
+}
+
+.tweet .tweet_list li a,
+.query .tweet_list li a { color: #f97dfe; }
+
+.tweet .tweet_list li a:hover,
+.query .tweet_list li a:hover {
+        border-bottom: 1px dotted #f97dfe;
+}

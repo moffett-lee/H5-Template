@@ -1,0 +1,23 @@
+.menu-v ul li ul{
+	border: 1px solid #4e5c68;
+}
+
+#sidebar ul.share li {
+	display: inline;
+}
+
+.pricing .featured {
+    top: -1px;
+}
+
+.interval {
+	padding-top: 10px;
+}
+
+#filtering-nav {
+	overflow: hidden;
+}
+
+.follow-me {
+	display: none;
+}

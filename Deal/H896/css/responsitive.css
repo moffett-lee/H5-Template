@@ -1,0 +1,492 @@
+
+@media only screen
+and (max-width : 1024px){
+
+header{
+height:90px;
+position:fixed;
+z-index:999;
+}
+
+header nav{
+width:949px;
+height:45px;
+padding:25px 50px;
+}
+
+header nav #logo{
+float:left;
+padding:0px;
+}
+
+header nav #logo h1{
+font-size:34px;
+color:#5a4c44;
+}
+
+header nav #menu ul{
+padding:10px 100px 5px 0px;
+margin-right:75px;
+}
+
+header nav #menu ul li a{
+font-size:12px;
+padding:20px 30px 0px 0px;
+font-weight:700;
+}
+
+header nav #menu ul li a.active:after{
+bottom:-6px;
+left:0px;
+height:1px;
+width:25px;
+}
+
+section#slider{
+width:100%;
+height:500px;
+overflow:hidden;
+}
+
+section#slider h2{
+padding:0px 0px 7px 0px;
+font-weight:400;
+}
+
+section#slider h3{
+font-size:16px;
+}
+
+section#slider p{
+font-size:11px;
+line-height:20px;
+font-weight:400;
+}
+
+.content{
+width:900px;
+margin:0px auto;
+padding:50px 0px 100px 50px;
+}
+
+.content .title{
+width:860px;
+margin:85px 0px 50px 0px;
+}
+
+.content .title h1{
+font-size:60px;
+letter-spacing:1px;
+}
+
+.content .title h1 img{
+top:5px;
+}
+
+.content .title h1 span{
+font-size:15px;
+top:-15px;
+padding:0px 0px 0px 20px;
+}
+
+.content .title .description{
+width:300px;
+}
+
+.content .subtitle{
+margin:10px 0px 30px 0px;
+}
+
+.column-half{
+width:410px;
+margin:0px 15px 30px 0px;
+}
+
+.column-half.last{
+margin:0px 0px 30px 15px;
+}
+
+.column-one-forth{
+width:210px;
+float:left;
+margin:0px 15px 30px 0px;
+}
+
+.column-one-forth.last{
+margin:0px 0px 30px 15px;
+}
+
+article.portfolio ul li{
+width:280px;
+height:320px;
+margin:0px 20px 20px 0px;
+padding:0px;
+}
+
+article.portfolio ul li .thumb{
+width:280px;
+height:250px;
+}
+
+article.portfolio ul li img{
+height:250px;
+margin:0px -10px;
+}
+
+article.portfolio ul li .info{
+padding:10px 10px;
+width:260px;
+}
+
+article.portfolio ul li .info h3{
+font-size:14px;
+line-height:16px;
+}
+
+article.portfolio ul li .info p{
+font-size:11px;
+}
+
+#filter{
+margin:20px 0px;
+}
+
+#filter a{
+font-size:11px;
+padding:3px 20px 3px 5px;
+margin:0px 0px 0px 5px;
+}
+
+/*Blog*/
+
+.post{
+width:420px;
+margin:0px 0px 30px 0px;
+}
+
+.post figure{
+width:220px;
+padding:25px;
+}
+
+.post figure img{
+width:220px;
+}
+
+.post  figcaption{
+width:120px;
+font-size:14px;
+padding:20px 15px;
+left:-15px;
+top:5px;
+}
+
+.formblock .txt{
+height:25px;
+font-size:14px;
+padding:5px 10px;
+margin:0px 20px 0px 0px;
+width:360px;
+}
+
+.formblock .txtarea{
+font-size:14px;
+padding:5px 5px;
+height:235px;
+width:390px;
+}
+
+.subbutton {
+font-size:14px;
+padding:7px 25px;
+margin:0px 1px 4px 1px;
+width:200px;
+height:75px;
+}
+
+.footer p{
+width:960px;
+}
+
+.shot{
+float:left;
+position:relative;
+width:210px;
+margin:0px 10px 10px 0px;
+}
+
+.shot.medium{
+width:410px;
+}
+
+.flickr-shot img{
+width:65px;
+height:65px;
+}
+
+.flickr-shot:after{
+background-image:url(../images/icons/flickr-small.png);
+width:16px;
+height:16px;
+bottom:10px;
+right:10px;
+}
+
+}
+
+
+@media only screen
+and (max-width :768px){
+
+header{
+height:90px;
+position:fixed;
+z-index:999;
+}
+
+header nav{
+width:680px;
+height:45px;
+padding:25px 50px;
+}
+
+header nav #logo{
+float:left;
+padding:0px;
+}
+
+header nav #logo h1{
+font-size:34px;
+color:#5a4c44;
+}
+
+header nav #menu ul{
+padding:10px 50px 5px 0px;
+margin-right:25px;
+}
+
+header nav #menu ul li a{
+font-size:12px;
+padding:20px 20px 0px 0px;
+font-weight:700;
+}
+
+header nav #menu ul li a.active:after{
+bottom:-6px;
+left:0px;
+height:1px;
+width:25px;
+}
+
+
+section#slider .info{
+height:180px;
+width:180px;
+}
+
+section#slider  h2{
+font-size:30px;
+margin-top:50px;
+margin-bottom:10px;
+}
+
+
+section#slider .info p{
+font-size:12px;
+margin:0px 20px;
+}
+
+section#slider .more{
+width:100px;
+padding:10px 10px;
+font-size:14px;
+}
+
+#content-slider{
+height:300px;
+}
+
+#content-slider img{
+min-height:320px;
+}
+
+.content{
+width:640px;
+margin:0px auto;
+padding:50px 0px 100px 0px;
+}
+
+.content .title{
+width:640px;
+margin:85px 0px 50px 0px;
+}
+
+.content .title h1{
+font-size:60px;
+letter-spacing:1px;
+}
+
+.content .title h1 img{
+top:5px;
+}
+
+.content .title h1 span{
+font-size:15px;
+top:-15px;
+padding:0px 0px 0px 20px;
+}
+
+.content .title .description{
+width:300px;
+}
+
+.content .subtitle{
+margin:10px 0px 30px 0px;
+}
+
+.column-half{
+width:640px;
+margin:0px 0px 30px 0px;
+}
+
+.column-half.last{
+margin:0px 0px 30px 0px;
+}
+
+.column-one-forth{
+width:300px;
+float:left;
+margin:0px 15px 30px 0px;
+}
+
+.column-one-forth.last{
+margin:0px 0px 30px 15px;
+}
+
+article.portfolio ul li{
+width:300px;
+height:320px;
+margin:0px 20px 20px 0px;
+padding:0px;
+}
+
+article.portfolio ul li .thumb{
+width:300px;
+height:250px;
+}
+
+article.portfolio ul li img{
+height:270px;
+margin:0px -10px;
+}
+
+article.portfolio ul li .info{
+padding:10px 10px;
+width:260px;
+}
+
+article.portfolio ul li .info h3{
+font-size:14px;
+line-height:16px;
+}
+
+article.portfolio ul li .info p{
+font-size:11px;
+}
+
+#filter{
+margin:20px 0px;
+}
+
+#filter a{
+font-size:11px;
+padding:3px 20px 3px 5px;
+margin:0px 0px 0px 5px;
+}
+
+/*Blog*/
+
+.post{
+width:640px;
+margin:0px 0px 30px 0px;
+}
+
+.post figure{
+width:420px;
+padding:25px;
+}
+
+.post figure img{
+width:420px;
+}
+
+.post figure .video{
+width:420px;
+height:240px;
+}
+
+.post  figcaption{
+width:140px;
+font-size:14px;
+padding:20px 15px;
+left:-15px;
+top:5px;
+}
+
+.flexslider{
+min-height:320px;
+}
+
+.formblock .txt{
+height:25px;
+font-size:14px;
+padding:5px 10px;
+margin:0px 20px 0px 0px;
+width:580px;
+}
+
+.formblock .txtarea{
+font-size:14px;
+padding:5px 5px;
+height:235px;
+width:600px;
+}
+
+.subbutton {
+font-size:14px;
+padding:7px 25px;
+margin:0px 1px 4px 1px;
+width:200px;
+height:75px;
+}
+
+.footer p{
+width:200px;
+}
+
+.shot{
+float:left;
+position:relative;
+width:200px;
+margin:0px 10px 10px 0px;
+}
+
+.shot.medium{
+width:200px;
+margin:0px 10px 10px 0px;
+}
+
+.flickr-shot img{
+width:63px;
+height:63px;
+}
+
+.flickr-shot:after{
+background-image:url(../images/icons/flickr-small.png);
+width:16px;
+height:16px;
+bottom:10px;
+right:10px;
+}
+
+}

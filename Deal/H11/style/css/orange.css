@@ -1,0 +1,164 @@
+/* ======================================= Main Primary Color ======================================= */
+
+a:hover { color: #D93D04; }
+
+a.button:hover,
+.forms fieldset #btn-submit:hover,
+.comment-form #btn-submit:hover,
+.page-navi ul li a:hover,
+.page-navi ul li a.current {
+    background: #D93D04
+}
+
+.top-wrapper {
+    background: #D93D04;
+}
+
+footer {
+    background: #D93D04;
+}
+
+.tp-caption.navy-bg {
+    background: #D93D04;
+}
+
+
+/* ======================================= Footer Color ======================================= */
+/*
+Must be a darker color paired with primary color
+*/
+.subfooter {
+    background: #b73101;
+}
+
+.social a i {
+    color: #b73101;
+	}
+
+/* ======================================= Base Secondary Color ======================================= */
+
+a { color: #F2B705; }
+
+h2.post-title a:hover { color: #F2B705; }
+
+a.button,
+.forms fieldset #btn-submit,
+.comment-form #btn-submit,
+.page-navi ul li a {
+    background-color: #F2B705;
+	color:#FFFFFF;
+}
+
+a.button.navy:hover { background: #F2B705; }
+
+ul.unordered li:before { color: #F2B705; }
+
+.lite1 {
+    color: #F2B705;
+    border-bottom: 1px dotted #F2B705;
+}
+
+footer a:hover,
+.subfooter a:hover {
+    color: #F2B705
+}
+
+.menu ul li a:hover {
+    color: #F2B705;
+}
+
+.menu ul li.active a,
+.menu ul li.current-menu-item a,
+.menu ul li a.selected {
+    color: #F2B705;
+}
+
+.menu ul li ul li,
+.menu ul li.active li,
+.menu ul li.current-menu-item li {
+    color: #F2B705;
+}
+
+.menu ul li.active ul li a:hover,
+.menu ul li.current-menu-item ul li a:hover,
+.menu ul li ul li a:hover {
+    color: #F2B705
+}
+
+.tp-caption.red-bg { background: #F2B705; }
+
+.tp-caption i { color: #F2B705; }
+
+.tp-bullets.simplebullets.round .bullet.selected,
+.tp-bullets.simplebullets.round .bullet:hover {
+    background-color: #F2B705
+}
+
+.tparrows:hover { background-color: #F2B705; }
+
+.items li .info h4 a:hover {color: #F2B705; }
+
+.filter li a:hover {background: #F2B705; }
+
+.filter li a.active {
+    background: #F2B705;
+    border-color: #F2B705 transparent; /* changed hover value */
+}
+
+.sidebox.widget .post-list li a:hover { color: #F2B705; }
+
+i.contact { color: #F2B705; }
+
+
+#twitter em a:hover { color: #F2B705; }
+
+
+#twitter ul li:before { color: #F2B705; }
+
+
+.tab a:hover { background: #F2B705; }
+
+
+.tab a.active {
+    background: #F2B705;
+    border-color: #F2B705 transparent; /* changed hover value */
+}
+
+
+.toggle h4.title:hover,
+.toggle h4.title.active {
+    background-color: #F2B705;
+    color: #FFF;
+}
+
+
+ul.latest li .info .date { background-color: #F2B705; }
+
+
+ul.latest li .info .date:before { border-bottom: 5px solid #F2B705; }
+
+
+ul.latest li .text h4 a:hover { color: #F2B705; }
+
+
+.post .post-content .meta a:hover { color: #F2B705; }
+
+
+.post h2 a:hover { color: #F2B705 }
+
+
+.navigation a i { background-color: #F2B705; }
+
+
+#comments .info h2 a:hover { color: #F2B705 }
+
+
+#comments a.reply-link:hover { color: #F2B705 }
+
+
+
+
+/* ======================================= Image Overlay/Hover Color ======================================= */
+.overlay a .more {
+    background: rgba(242, 183, 5, 0.92);
+}

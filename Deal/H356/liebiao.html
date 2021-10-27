@@ -1,0 +1,271 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/> 
+<title>仿手机版有问必答网之经验分享频道wap网站模板列表页_3V3手机模板资源【3v3.cc】</title>
+<meta name="description" content="妇科/产科、健康经验、快速问医生、有问必答"/> 
+<meta name="keywords" content="妇科/产科 健康经验 快速问医生 有问必答"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" /> 
+<meta content="yes" name="apple-mobile-web-app-capable" /> <meta content="black" name="apple-mobile-web-app-status-bar-style" /> <meta content="telephone=no" name="format-detection" /> 
+<link rel="stylesheet" href="css/jy_list.css" />
+</head>
+<body>
+<header class="s_header">
+	<nav>
+		<a href="#" class="bg">
+			<span>健康经验</span>
+		</a>
+		<span class="more"><i class="bg" id="more"></i></span>
+	</nav>
+</header>
+<style>
+.s_header i{margin:11px 12px 0 0;}
+.s_header nav .more{text-align: center;cursor: pointer;}
+.s_header nav .more{float:right;width:50px;height:41px;margin:-6px 0;text-align:center;cursor:pointer;}
+.s_header nav .moreclick{background-color: #369914;}
+.box{display:-moz-box;display:-webkit-box;display:box;-moz-box:pack:center;-webkit-box-pack:center;box-pack:center;-moz-box-align:center;-webkit-box-align:center;box-align:center;box-sizing:border-box;}textarea{border-radius:0;}
+/*下拉框start*/
+#toplistwrap{display:none;}
+.s_toplist-n{background-color:#369914;z-index:99999;display:block;box-shadow:0 2px 3px #6D766A;display:none;position:fixed;width:100%;}
+.s_topwrap-n{padding:8px 0;}
+.s_topwrap-n div{-webkit-box-flex:1;width:100%;-moz-box-flex:1;box-flex:1;height:30px;line-height:30px;}
+.s_topwrap-n a,.s_topbottom-n a{display:block;height:39px;line-height:39px;color:#FFF;width:84px;text-align:center;-webkit-box-flex:1;color:#fff;font-size:16px;font-weight:bold;-moz-box-flex:1;}
+.s_topbottom-n a{height:45px;line-height:45px;}
+.s_topline-n{border-top:1px solid #248909;border-bottom:1px solid #55A63F;content: "";margin:0 10px;height:auto;margin-top:5px;}
+.s_topbottom-n{width:100%;}
+.up-n i{background:url(http//cdn.120askimages.com/ask/m/css/img/up_slide.png) no-repeat;-webkit-background-size:57px 27px;-moz-background-size:57px 27px;background-size:57px 27px;display:inline-block;width:57px;height:27px;position: absolute;left:50%;margin-left:-29px;top:0px;cursor:pointer;z-index:1;}
+/*下拉框end*/
+</style>
+<div id="toplistwrap" style="height:215px;">
+	<div class="s_toplist-n" id="toplist">
+		<div class="s_topwrap-n">
+			<div class="box">
+				<a href="#">疾病</a>
+				<a href="#">症状</a>
+				<a href="#">药品</a>
+				<a href="#">检查</a>
+				<a href="#">手术</a>
+			</div>
+
+			<div class="box">
+				<a href="#">医院</a>
+				<a href="#">医生</a>
+				<a href="#">药店</a>
+				<a href="#">急救</a>
+				<a href="#">偏方</a>
+			</div>
+
+			<div class="box">
+				<a href="#">经验</a>
+				<a href="#">焦点</a>
+				<a href="#">育儿</a>
+				<a href="#">心理</a>
+				<a href="#">美食</a>							
+			</div>
+
+			<div class="box">
+				<a href="#">分享</a>	
+				<a href="#">互助</a>
+				<a href="#">男人</a>
+				<a href="#">女人</a>
+				<a href="#">夜话</a>
+				
+			</div>
+		</div>
+		<div class="s_topline-n">	
+		</div>
+		<div class="box s_topbottom-n">
+			<a href="#">首页</a><a href="#">快速咨询</a><a href="#">个人中心</a><a href="#">客户端</a>
+		</div>
+		<div class="up-n pr">
+			<i></i>
+		</div>
+	</div>
+</div>
+<script src="http//pp.120askimages.com/web/m120ask/js/jquery-2.0.0.min.js"></script>
+<script type="text/javascript">
+$(function() {
+	 var a = $("#toplist");
+	 var b = $("#toplistwrap");
+	$(".more").click(function() {
+		a.is(":hidden") ? ($(this).addClass("moreclick"),b.slideDown(300),a.slideDown(300)) : ($(this).removeClass("moreclick"), a.slideUp(300),b.slideUp(300))
+	}), $(".up-n i").click(function() {
+		a.slideUp(300),b.slideUp(300),$(".more").removeClass("moreclick")
+	})
+});
+</script>
+<div class="s_experience">
+	<b class="title">妇科/产科<i></i></b>
+	<div id="s_tab" class="cube">
+	<div class="clears s_exper2" id="toplist">
+		<a href="#">内科</a>
+		<a href="#">妇产科</a>
+		<a href="#">传染科</a>
+		<a href="#" class="s_a5">整形美容</a>
+		<a href="#">外科</a>
+		<a href="#">五官科</a>
+		<a href="#">肝病科</a>
+		<a href="#" class="s_a5">心理健康</a>
+		<a href="#">男科</a>
+		<a href="#">肿瘤科</a>
+		<a href="#">皮肤科</a>
+		<a href="#" class="s_a5">母婴育儿</a>
+		<a href="#">生活</a>
+	</div>
+</div>
+
+<script>
+	var more = document.getElementsByClassName('title')[0];
+	var toplistwrap = document.getElementById('s_tab');
+	var toplist = document.getElementById('toplist');
+	var oHeight = toplist.offsetHeight + 12;
+	more.ontouchstart=function(){		
+		if(toplistwrap.style.display == 'none'){
+			toplistwrap.style.display = 'block';
+		}else{
+			toplistwrap.style.display = 'none';
+		}
+		
+	
+	/*more.onclick=function(){
+		if(toplistwrap.offsetHeight=="0"){
+			toplistwrap.style.height=oHeight+"px";
+		}else{
+			toplistwrap.style.height=0+"px";
+		}*/
+	}
+</script>
+</div>
+<section class="s_content">
+	<table>
+		<tbody>			
+			<tr><td><a href="#" >妇科</a></td><td><a href="#" >产科</a></td><td><a href="#" >不孕不育</a></td><td><a href="#" >计划生育</a></td></tr><tr><td><a href="#" >乳腺疾病</a></td></tr>		
+		</tbody>
+	</table>
+</section>
+<section class="s_list img">
+			
+		<a href="#">
+			<dl>		
+				<dt><img src="img/jkjy_13748434786893.jpg" alt="" width="56" height="40"></dt>
+				<dd><b>更年期要注意？</b></dd>
+				<dd>更年期的话主要是在女性的身上表现的比较明显的，而且我的妈妈正...</dd>
+			</dl>
+		</a>
+			
+		<a href="http//m.120ask.com/jingyan/130868">
+			<dl>		
+				<dt><img src="img/jkjy_13748411906768.jpg" alt="" width="56" height="40"></dt>
+				<dd><b>什么样的原因会导致女性闭经呢</b></dd>
+				<dd>闭经会使女性很担心，闭经的危害性也很大，会直接导致女性不排卵...</dd>
+			</dl>
+		</a>
+			
+		<a href="http//m.120ask.com/jingyan/130849">
+			<dl>		
+				<dt><img src="img/jkjy_13748407192872.jpg" alt="" width="56" height="40"></dt>
+				<dd><b>女性出现闭经要怎么办呢</b></dd>
+				<dd>目前不少的女性都因为提早的出现闭经而担忧，闭经大多数是因为妇...</dd>
+			</dl>
+		</a>
+			
+		<a href="http//m.120ask.com/jingyan/130847">
+			<dl>		
+				<dt><img src="img/jkjy_13748404717707.jpg" alt="" width="56" height="40"></dt>
+				<dd><b>预防阴道炎应该注意些什么呢？</b></dd>
+				<dd>阴道炎对于女性朋友来说，是比较的常见的，对身体的危害也是比较...</dd>
+			</dl>
+		</a>
+			
+		<a href="http//m.120ask.com/jingyan/130830">
+			<dl>		
+				<dt><img src="img/jkjy_13748403637626.jpg" alt="" width="56" height="40"></dt>
+				<dd><b>少女闭经的常见原因都有哪些呢</b></dd>
+				<dd>闭经本来是属于绝经期的女性会出现的情况，生理性闭经也是正常的...</dd>
+			</dl>
+		</a>
+			
+		<a href="http//m.120ask.com/jingyan/130815">
+			<dl>		
+				<dt><img src="img/jkjy_13748397362246.jpg" alt="" width="56" height="40"></dt>
+				<dd><b>女性附件炎的典型症状都有哪些呢</b></dd>
+				<dd>女性附件一定要保护好，特别是未生育时期的女性要注意卫生，避免...</dd>
+			</dl>
+		</a>
+			
+
+		<div id="s-load_more">查看更多</div></section>
+<script src="http//pp.120askimages.com/web/public/js/zepto_min.js"></script>
+<script>
+var status = 0;
+$("#s-load_more").click(function(){
+	return load_list();
+});
+var total_page = '600';
+var curr_page = 1;
+
+function load_list(){
+	if(status != 0)
+    {
+        return false;
+    }
+    curr_page++;
+	var iCid = '3';
+	status = 1;
+    $("#s-load_more").html("加载中...");
+    $.post('/ylxx/jingyan/ls',{'page':curr_page, 'cid':iCid},function(data){
+        var strList = "";
+        if(data['code'] == 200)
+        {
+	        for(var i in data['list'])
+	        {
+	        	strList += '<a href="http//m.120ask.com/jingyan/'+ data['list'][i].id+'"><dl>';        	
+	        	strList += '<dt><img src="'+data['list'][i].pic+'" alt="'+data['list'][i].title+'" width="56" height="40"></dt>';			     
+	        	strList += '<dd><b>'+data['list'][i].title+'</b></dd><dd>'+data['list'][i].content+'</dd></dl></a>';            
+	        }	        
+	        $("#s-load_more").before(strList);
+	        status = 0;
+	        if(total_page <= curr_page)
+	        {
+	        	status = 2;
+	            $("#s-load_more").remove();
+	        }
+	        else
+	        {
+	        	$("#s-load_more").html("查看更多");
+	        }
+        }
+        else
+        {
+        	status = 2;
+        	$("#s-load_more").remove();
+        }
+    },"json");   
+}
+</script>
+
+
+<style>
+	p{-webkit-text-size-adjust:none;margin:0}
+	.s-m-footer{font-size:12px;color:#333;font-family:"微软雅黑",Tahoma,Arial,sans-serif;display:-webkit-box;-webkit-box-pack:center;box-pack:center;padding:17px 0;background-color: #fff;border-top:1px solid #CFCFCF;margin-top:15px;}
+	.s-m-footer div:first-child{background:url(http//cdn.120askimages.com/ask/m/images/logo.png) no-repeat;width:36px;height:36px;text-indent:-9990px;overflow:hidden;-webkit-background-size:36px 36px;background-size:36px 36px;margin-right:25px;}
+	.s-m-footer div a{color:#4b4b4b;margin:0 6px;font-weight:bold;}
+	.s-m-footer div a:first-child{margin-left:2px;}
+	.s-m-footer div p:nth-of-type(1){padding-bottom:10px;color:#dcdcdc;}
+	.s-m-footer div p:nth-of-type(2){font-size:9px;color:#999;}
+	.s-m-footer div p:nth-of-type(2) span{margin-left:15px;}
+</style>
+<footer class="s-m-footer">
+	<div>
+		快速问医生
+	</div>
+	<div>
+		<p><a href="#">登录</a>|<a href="#">注册</a>|<a href="#">客户端下载</a>|<a href="http//m.120ask.com/user/feedback">反馈</a></p>
+		<p>[京060906]京ICP备06050389号<span>m.120ask.com</span></p>
+	</div>
+</footer>
+<script src="http//w.cnzz.com/c.php?id=30040410" language="JavaScript"></script>
+</body>
+</html>
+温馨提示：本信息仅供提供演示方便链接，与原网站无关！ <a href="index.html">首页</a>  <a href="liebiao.html">列表页演示图</a>  <a href="zhengwen.html">文章页演示图</a>

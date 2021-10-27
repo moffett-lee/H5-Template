@@ -1,0 +1,288 @@
+/* Created by http//freehtml5templates.com */
+
+/* basics */
+
+/* reset */
+* {
+margin: 0;
+padding: 0;
+}
+
+/* render html5 elements as block */
+header, footer, section, aside, nav, article {
+display: block;
+}
+
+/* standard body */
+body {
+margin: 0 auto;
+width: 960px;
+font: 14px/20px "Trebuchet MS", Verdana, Helvetica, Arial, sans-serif;
+background: #ccad95;
+}
+
+/* standard alignments */
+.alignleft {
+float: left;
+}
+
+img.alignleft {
+margin: 5px 10px 0 0; 
+}
+
+.alignright {
+float: right;
+}
+
+img.alignright {
+margin: 5px 0 0 10px; 
+}
+
+.center {
+text-align: center;
+}
+
+/* Hx tags */
+
+h1 {
+font-size: 40px;
+font-family: Garamond, Georgia, Times, "Times New Roman", serif;
+padding: 20px 0;
+}
+
+h2 {
+font-size: 24px;
+padding: 20px 0;
+}
+
+h2 a {
+color: #213458;
+}
+
+h2 a:hover {
+color: #000;
+}
+
+h3 {
+font-size: 18px;
+color: #213458;
+padding-bottom: 3px;
+border-bottom: #213458 1px solid;
+margin-bottom: 10px;
+}
+
+p {
+padding-bottom: 20px;
+}
+
+/* header */
+
+header {
+margin-top: 10px;
+background: #F0E7D4 url("images/introimage.jpg");
+height: 200px; /* for IE */
+min-height: 200px; /* for not-IE */
+-webkit-box-shadow: 3px 3px 7px #777;
+-moz-box-shadow: 3px 3px 7px #777;
+}
+
+header h1 {
+position: relative;
+z-index: 9999;
+width: 940px;
+}
+
+header h1 {
+padding-top: 30px;
+text-align: center;
+color: #213458;
+}
+
+header h1 a {
+color: #213458;
+text-decoration: none;
+}
+
+header h1 a:hover {
+text-decoration: underline;
+}
+
+/* nav */
+
+nav {
+background: #213458;
+margin: 0 auto;
+width: 960px;
+display: block;
+float: left;
+-webkit-box-shadow: 3px 3px 7px #777;
+-moz-box-shadow: 3px 3px 7px #777;
+}
+
+nav .menu {
+font-size: 16px;
+font-weight: bold;
+margin-left: 12px;
+}
+
+nav .menu ul {
+list-style: none;
+margin: 0;
+}
+
+nav .menu li {
+float: left;
+position: relative;
+}
+
+nav .menu a {
+display: block;
+text-decoration: none;
+color: #F0E7D4;
+padding: 0 30px;
+line-height: 38px;
+}
+
+nav .menu a:hover {
+color: #213458;
+}
+
+/* nav 1-level dropdowns */
+nav .menu li ul { 
+display: none; 
+}
+
+nav .menu ul li a {
+display: block;
+text-decoration: none;
+color: #F0E7D4;
+background: #213458;
+margin-left: 1px;
+white-space: nowrap;
+}
+nav .menu ul li a:hover { 
+background: #a0acc3; 
+}
+
+nav .menu li:hover ul {
+display: block;
+position: absolute;
+}
+
+nav .menu li:hover li {
+float: none;
+}
+
+nav .menu li:hover a { 
+background: #a0acc3; 
+}
+
+nav .menu li:hover li a:hover { 
+background: #a0acc3; 
+}
+
+/* content and sidebar layout */
+
+#content {
+float: left; 
+width: 610px; 
+margin: 0 0 10px 0; 
+padding: 30px 20px 5px 20px;
+background-color: #F0E7D4;
+-webkit-box-shadow: 3px 3px 7px #777;
+-moz-box-shadow: 3px 3px 7px #777;
+}
+
+aside {
+float: right;
+text-align: left; 
+width: 300px; 
+margin:0; 
+padding:0;
+}
+
+/* article */
+
+article {
+float: left;
+width: 620px;
+height: 200px;
+margin-bottom: 30px;
+}
+
+article .thumb {
+float: left;
+width: 200px;
+height: 200px;
+/* curved border radius */
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+}
+
+article .title {
+float: right;
+width: 400px;
+font-size: 22px;
+font-weight: bold;
+margin-bottom: 10px;
+color: #213458;
+}
+
+article .story {
+float: right;
+width: 400px;
+}
+
+/* sidebar */
+aside section {
+margin: 0 0 10px 0;
+padding: 30px 15px;
+background-color: #F0E7D4;
+-webkit-box-shadow: 3px 3px 7px #777;
+-moz-box-shadow: 3px 3px 7px #777;
+}
+
+aside section ul {
+margin: 0 0 0 20px;
+list-style-image: url(images/arrow.gif);
+color: #213458;
+}
+
+aside section ul li a {
+display: block;
+text-decoration: none;
+color: #000;
+}
+
+aside section ul li a:hover {
+background-color: #a0acc3;
+color: #213458;
+}
+
+/* footer */
+footer {
+clear: both;
+float: left;
+background: #213458;
+width: 960px;
+color: #F0E7D4;
+margin-bottom: 10px;
+-webkit-box-shadow: 3px 3px 7px #777;
+-moz-box-shadow: 3px 3px 7px #777;
+}
+
+footer p {
+text-align: right;
+font-size: 11px;
+padding-right: 20px;
+}
+
+footer a {
+color: #999;
+}
+
+footer a:hover {
+color: #F0E7D4;
+text-decoration: none;
+}
+

@@ -1,0 +1,227 @@
+
+/*=========================================================================
+ Portfolio
+========================================================================= */
+
+/* ------------- filter bar ------------- */
+
+#filter { display: block; margin-top: 20px; position: relative; width:100%; float: left; }
+
+#filter li { float: left; margin: 0px 5px 0px 0px; padding: 0; height: 25px; line-height: 25px; margin-bottom: 0px; overflow: hidden; }
+
+#filter a { text-decoration: none; color: #5b5b5d; display: block; background:#f5f5f5; outline: none; height: 25px; padding: 0 10px 0 10px; border-radius: 4px 4px 4px 4px; -moz-border-radius: 4px 4px 4px 4px; -webkit-border-radius: 4px 4px 4px 4px; behavior: url(js/PIE.htc); }
+
+#filter a:hover { background:#666666; color:#fff; }
+
+#filter a:active, #filter .active a { background: #51A351; outline:none; color:#fff; text-decoration: none; }
+
+/*=========================================================================
+ Portfolio Column Layout
+========================================================================= */
+
+#stage { margin:0; padding:0; display: inline-block; margin-bottom: 30px; width:100%; height:auto; }
+
+.boxcaption { float:left; position: absolute; background: url("../images/caption-bg.png") repeat scroll left top transparent; cursor:pointer; z-index: 9; }
+
+.img-border-port { background: #fff; display: inline-block; padding:5px; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; -webkit-box-shadow: 0 0 0 1px #e7e7e7 inset; -moz-box-shadow: 0 0 0 1px #e7e7e7 inset; box-shadow: 0 0 0 1px #e7e7e7 inset; behavior: url(js/PIE.htc); }
+
+.project-name { float:left; width:100%; }
+
+.project-name h5 { color:#fff; font-size:12px; font-family:Arial, sans-serif; text-shadow: 0 -1px 0 #333333; text-transform: uppercase; }
+
+.project-text { float:left; width:100%; }
+
+.project-text a.textlink { background:url("../images/caption-link.png") no-repeat left 8px; margin-right: 25px; padding-left:24px; font-style:italic; }
+
+.project-text a:hover { }
+
+.project-text p { line-height:18px; color:#fcfcfc; margin-bottom: 10px; }
+
+.project-text a { float:left; font-size:12px; color:#fcfcfc; }
+
+.project-text a.small { float:left; font-size:10px; margin-top:16px; margin-right:5px; }
+
+.project-divider { background: url("../images/divider.png") repeat-x scroll left bottom transparent; height: 1px; margin: 20px 0 0; }
+
+/* ------------- Portfolio 2 column  ---------------- */
+.portfolio-2column { position: relative; width: 960px; margin: 0 auto; padding: 0; }
+
+.portfolio-2column li { float: left; margin-left: 10px; margin-right: 10px; margin-top:20px; overflow:hidden; position:relative; }
+
+.portfolio-2column li { width: 460px; }
+
+.portfolio-2column li .boxcaption { bottom: -147px; left: 5px; }
+
+.portfolio-2column li .box_2 { width: 410px; height:175px; padding:10px 20px; }
+
+.portfolio-2column .project-name h5 { margin-bottom: 43px; }
+
+/* ------------- Portfolio 3 column  ---------------- */
+.portfolio-3column { position: relative; width: 960px; margin: 0 auto; padding: 0; }
+
+.portfolio-3column li { float: left; margin-left: 10px; margin-right: 10px; margin-top:20px; overflow:hidden; position:relative; }
+
+.portfolio-3column li { width: 300px; }
+
+.portfolio-3column li .boxcaption { bottom: -115px; left: 5px; }
+
+.portfolio-3column li .box_2 { width: 250px; height:143px; padding:10px 20px; }
+
+.portfolio-3column .project-name h5 { margin-bottom: 28px; }
+
+/* ------------- Portfolio 4 column  ---------------- */
+.portfolio-4column { position: relative; width: 960px; margin: 0 auto; padding: 0; }
+
+.portfolio-4column li { float: left; margin-left: 10px; margin-right: 10px; margin-top:20px; overflow:hidden; position:relative; }
+
+.portfolio-4column li { width: 220px; }
+
+.portfolio-4column li .boxcaption { bottom: -70px; left: 5px; }
+
+.portfolio-4column li .box_2 { width: 170px; height: 98px; padding:10px 20px; }
+
+.portfolio-4column .project-name h5 { margin-bottom: 28px; }
+ @media only screen and (min-width: 768px) and (max-width: 959px) {
+/* ------------- Portfolio 2 column  ---------------- */
+.portfolio-2column {
+width: 768px;
+}
+.portfolio-2column li {
+margin-left: 10px;
+margin-right: 10px;
+}
+.portfolio-2column li {
+width: 364px;
+}
+.portfolio-2column li .box_2 {
+width: 314px;
+}
+
+/* ------------- Portfolio 3 column  ---------------- */
+.portfolio-3column {
+width: 768px;
+}
+.portfolio-3column li {
+margin-left: 10px;
+margin-right: 10px;
+}
+.portfolio-3column li {
+width: 364px;
+}
+.portfolio-3column li .box_2 {
+width: 314px;
+}
+
+/* ------------- Portfolio 4 column  ---------------- */
+.portfolio-4column {
+width: 768px;
+}
+.portfolio-4column li {
+margin-left: 10px;
+margin-right: 10px;
+}
+.portfolio-4column li {
+width: 364px;
+}
+.portfolio-4column li .box_2 {
+width: 314px;
+}
+}
+@media only screen and (max-width: 767px) {
+/* ------------- Portfolio 2 column  ---------------- */
+.portfolio-2column {
+width:300px;
+}
+.portfolio-2column li {
+margin-left: 0;
+margin-right: 0;
+margin-top:20px;
+}
+.portfolio-2column li {
+width:300px;
+}
+.portfolio-2column li .box_2 {
+width: 250px;
+}
+
+/* ------------- Portfolio 3 column  ---------------- */
+.portfolio-3column {
+width:300px;
+}
+.portfolio-3column li {
+margin-left: 0;
+margin-right: 0;
+margin-top:20px;
+}
+.portfolio-3column li {
+width:300px;
+}
+.portfolio-3column li .box_2 {
+width: 250px;
+}
+
+/* ------------- Portfolio 4 column  ---------------- */
+.portfolio-4column {
+width:300px;
+}
+.portfolio-4column li {
+margin-left: 0;
+margin-right: 0;
+margin-top:20px;
+}
+.portfolio-4column li {
+width:300px;
+}
+.portfolio-4column li .box_2 {
+width: 250px;
+}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+/* ------------- Portfolio 2 column  ---------------- */
+.portfolio-2column {
+width: 420px;
+}
+.portfolio-2column li {
+margin-left: 0;
+margin-right: 0;
+margin-top:20px;
+}
+.portfolio-2column li {
+width: 420px;
+}
+.portfolio-2column li .box_2 {
+width: 370px;
+}
+
+/* ------------- Portfolio 3 column  ---------------- */
+.portfolio-3column {
+width: 420px;
+}
+.portfolio-3column li {
+margin-left: 0;
+margin-right: 0;
+margin-top:20px;
+}
+.portfolio-3column li {
+width: 420px;
+}
+.portfolio-3column li .box_2 {
+width: 370px;
+}
+
+/* ------------- Portfolio 4 column  ---------------- */
+.portfolio-4column {
+width: 420px;
+}
+.portfolio-4column li {
+margin-left: 0;
+margin-right: 0;
+margin-top:20px;
+}
+.portfolio-4column li {
+width: 420px;
+}
+.portfolio-4column li .box_2 {
+width: 370px;
+}
+}

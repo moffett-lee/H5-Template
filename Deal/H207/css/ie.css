@@ -1,0 +1,4 @@
+*+html{overflow:auto;}
+nav, nav>div, ul.menu li.home-page, #slide, .box-shadow, .form-search, .img-border, a.button, #form input, #form textarea {behavior:url(js/PIE.htc); position:relative;}
+.pagination {behavior:url(js/PIE.htc);}
+ 

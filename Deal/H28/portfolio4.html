@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <title>Portfolio 4 columns - Moderna</title>
+    <meta name="description" content="Moderna Responsive HTML5 Template" />
+    <meta name="author" content="pixel-industry" />
+
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+    <meta name="viewport" content="width=device-width" />
+
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/960_12_col.css" media="screen" />
+    <link rel="stylesheet" href="css/reset.css" media="screen" />
+    <link rel="stylesheet" href="css/style.css" media="screen" />
+    <link rel="stylesheet" href="css/prettyPhoto.css" media="screen" />
+    <link rel="stylesheet" title="activestyle" href="css/default-blue.css" media="screen" /> <!--default blue color style-->  
+    <link rel="stylesheet" href="style-switcher/styleSwitcher.css" media="screen" />
+    
+    <!--[if IE 7]>
+    <link rel="stylesheet" href="css/ie7.css" media="screen" />
+    <![endif]-->
+    <!--[if IE 8]>
+    <link rel="stylesheet" href="css/ie8.css" media="screen" />
+    <![endif]-->
+    <!--[if IE 9]>
+    <link rel="stylesheet" href="css/ie9.css" media="screen" />
+    <![endif]-->
+    
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- google web fonts -->
+    <link href='http//fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css' />
+    <link href='http//fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css' />
+
+    <!-- js files -->
+    <script src="js/jquery-1.7.2.js"></script> <!-- jQuery 1.7.2 -->
+    <script src="js/portfolio.js"></script> <!-- portfolio custom options -->
+    <script src="js/quicksand.js"></script> <!-- quicksand filter -->
+    <script src="js/jquery.prettyPhoto.js"></script> <!-- prettyPhoto lightbox -->
+    <script src="js/jquery.tweetscroll.js"></script> <!-- jQuery tweetscroll plugin -->
+    <script src="js/socialstream.jquery.js"></script> <!-- Social Networks Feeds -->
+    <script src="js/jquery.placeholder.min.js"></script><!-- jQuery Placeholder plugin -->
+    <script src="js/include.js"></script> <!-- jQuery custom options -->
+    <script src="style-switcher/styleSwitcher.js"></script><!-- Style Switcher plugin -->
+</head>
+
+<body>
+    <!-- style switcher start -->
+    <section id="style-switcher">
+        <section id="styles-container">
+            <section>
+                <h6>Color Style</h6>
+                <ul class="styles-list">
+                    <li class="default-blue">1</li>
+                    <li class="chocolate">2</li>
+                    <li class="dark-blue">3</li>
+                    <li class="dark-green">4</li>
+                    <li class="green">5</li>
+                    <li class="orange">6</li>
+                    <li class="pink">7</li>
+                    <li class="purple">8</li>
+                    <li class="red">9</li>
+                    <li class="yellow">10</li>
+                </ul>
+            </section>
+            <section>
+                <h6>Skin</h6>
+                <ul class="skin-list">
+                    <li class="streched active"><a href="#">Stretched</a></li>
+                    <li class="boxed"><a href="../Boxed/portfolio4.html">Boxed</a></li>
+                </ul>
+            </section>
+            <section>
+                <h6>Pattern</h6>
+                <select id="pattern-list">
+                    <option value="pattern1" />Dark Sketch
+                    <option value="pattern2" />Dark Wood
+                    <option value="pattern3" />Light Sketch
+                    <option value="pattern4" />Light Dust
+                    <option value="pattern5" />Light Wood
+                    <option value="pattern6" />Subtle Dots
+                    <option value="pattern7" />Concrete Wall
+                    <option value="pattern8" />Cross Scratch
+                    <option value="pattern9" />Dark Denim
+                    <option value="pattern10" />Grid Noise
+                    <option value="pattern11" />Light Mesh
+                    <option value="pattern12" />Geometric
+                    <option value="pattern13" />Subtle Net
+                    <option value="pattern14" />Light brick
+                    <option value="pattern15" />Always Grey
+                </select>
+            </section>
+        </section>
+        <a href="#" id="styles-button"><div id="switcher-logo"></div></a>
+    </section><!-- style switcher end -->
+
+    <!-- header wrapper start -->
+    <section id="header-wrapper">
+
+        <!-- header start -->
+        <header id="header" class="clearfix">
+            <!-- logo start -->
+            <section id="logo">
+                <a href="index.html">
+                    logo
+                </a>
+            </section><!-- logo end -->
+
+            <!-- social icons start -->
+            <ul class="social">
+                <li class="dribble">
+                    <a href="#">dribble</a>
+                </li>
+
+                <li class="facebook">
+                    <a href="#">facebook</a>
+                </li>
+
+                <li class="pinterest">
+                    <a href="#">pinterest</a>
+                </li>
+
+                <li class="twitter">
+                    <a href="#">twitter</a>
+                </li>
+            </ul><!-- social icons end -->
+
+            <!-- main navigation container start -->
+            <section id="nav-container">
+                <!-- main navigation start  -->
+                <nav id="nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li>
+                            <a href="#">About</a>
+                            <ul>
+                                <li> <a href="about.html">About us</a></li>
+                                <li><a href="services.html">Our services</a></li>
+                            </ul>
+                        </li>
+                        <li class="active">
+                            <a href="#">Portfolio</a>
+                            <ul>
+                                <li><a href="portfolio2.html">Portfolio 2 col</a></li>
+                                <li><a href="portfolio3.html">Portfolio 3 col</a></li>
+                                <li><a href="portfolio4.html">Portfolio 4 col</a></li>
+                                <li><a href="portfoliosingleshowcase.html">Portfolio with showcase</a></li>
+                                <li><a href="portfoliosingle2.html">Portfolio single</a></li>
+                                <li><a href="portfoliosingle.html">Portfolio single simple</a></li>
+
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                            <ul>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="blogsingle.html">Blog single</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Features</a>
+                            <ul>
+                                <li><a href="columns.html">Columns</a></li>
+                                <li><a href="elements.html">Elements</a></li>
+                                <li><a href="media.html">Media</a></li>
+                                <li><a href="">Example Of</a>
+                                    <ul>
+                                        <li><a href="#">Third Level</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                            <ul>
+                                <li><a href="contact-wide.html">Contact wide map</a></li>
+                                <li><a href="contact-short.html">Contact short map</a></li>
+                                <li><a href="contact.html">Contact no map</a></li>
+                            </ul>
+                        </li>
+                    </ul> 
+                </nav><!-- main navigation end -->
+
+                <!-- responsive navigation start -->
+                <select id="nav-responsive">
+                    <option selected="" value="" />Site Navigation...
+                    <option value="index.html" />Home
+                    <option value="about.html" />About
+                    <option value="about.html" />- About us
+                    <option value="services.html" />- Services
+                    <option value="portfolio3.html" />Portfolio
+                    <option value="portfolio2.html" />- Portfolio 2 col
+                    <option value="portfolio3.html" />- Portfolio 3 col
+                    <option value="portfolio4.html" />- Portfolio 4 col
+                    <option value="portfoliosingleshowcase.html" />- Portfolio with showcase
+                    <option value="portfoliosingle.html" />- Portfolio single
+                    <option value="portfoliosingle2.html" />- Portfolio single simple
+                    <option value="blog.html" />Blog
+                    <option value="blog.html" />- Blog
+                    <option value="blogsingle.html" />- Blog single
+                    <option value="elements.html" />Features
+                    <option value="columns.html" />- Columns
+                    <option value="elements.html" />- Elements
+                    <option value="media.html" />- Media
+                    <option value="contact-wide.html" />Contact
+                    <option value="contact-wide.html" />- Contact wide map
+                    <option value="contact-short.html" />- Contact short map
+                    <option value="contact.html" />- Contact no map
+                </select> <!-- responsive navigation end -->
+
+                <!-- search start -->
+                <section id="search">
+                    <form action="#" method="get" />
+                        <input id="search-bkg" type="text" placeholder="Search..." />
+                        <input id="search-submit" type="submit" />
+                    </form>
+                </section><!-- search end -->
+
+            </section><!-- main navigation end -->
+        </header><!-- header end -->
+
+        <!-- page-title start -->
+        <section id="page-title">
+            <h1>Checkout Our Work</h1>
+        </section><!-- page-title end -->
+
+    </section><!-- header wrapper end -->
+
+    <!-- content wrapper start -->
+    <section id="content-wrapper">
+
+        <!-- container_12 start -->
+        <section class="container_12">
+
+            <!-- section title start -->
+            <section class="grid_12 section-title">
+
+                <!-- title start -->
+                <h5>portfolio</h5><!-- title end -->
+
+                <!-- portfolio quicksand filter start -->
+                <ul id="portfolio-filter">
+                    <li><a class="photography" href="#">Photography</a></li>
+                    <li><a class="webdesign" href="#">Web Design</a>/</li>
+                    <li><a class="graphicdesign" href="#">Graphic design</a>/</li>
+                    <li><a class="motiongraphics" href="#">Motion Graphics</a>/</li>
+                    <li class="active"><a class="all" href="#">All</a>/</li>
+                </ul><!-- portfolio quicksand filter end -->
+
+            </section><!-- section title end -->
+
+        </section><!-- container_12 end -->
+
+        <!-- portfolio items list start -->
+        <ul id="filter-item" class="container_12">
+
+            <!-- portfolio item start -->
+            <li data-id="id-1" class="grid_3" data-type="webdesign">
+
+                <!-- portfolio figure with animation start-->
+                <figure class="img-styled sliding">
+                    <div class="img-container">                   
+                        <!-- img start -->
+                        <img src="img/portfolio/thumb/portfolio1.jpg" width="220" alt="Black and white" /><!-- img end -->
+
+                        <!-- img hover effect and lightbox start -->
+                        <ul class="img-hover">
+                            <li class="title">
+                                <a href="portfoliosingle.html">Black and White</a>
+                            </li>
+                            <li class="portfolio-single">
+                                <a href="portfoliosingle.html">single</a>
+                            </li>
+                            <li class="portfolio-zoom">
+                                <a class="thumb" href="img/portfolio/large/portfolio1.jpg" data-gal="prettyPhoto[pp_gallery]">zoom</a>
+                            </li>
+                        </ul><!-- img hover effect and lightbox end -->
+                    </div>
+
+                    <!-- portfolio image description start -->
+                    <figcaption>
+                        <p>Web Design</p>
+                    </figcaption><!-- portfolio image description end -->
+                </figure>
+            </li><!-- portfolio item end -->
+
+            <!-- portfolio item start -->
+            <li data-id="id-2" class="grid_3" data-type="photography">
+                <!-- portfolio figure with animation start-->
+                <figure class="img-styled sliding">
+                    <div class="img-container">                   
+                        <!-- img start -->
+                        <img src="img/portfolio/thumb/portfolio2.jpg" width="220" alt="Future Cars" /><!-- img end -->
+
+                        <!-- img hover effect and lightbox start -->
+                        <ul class="img-hover">
+                            <li class="title">
+                                <a href="portfoliosingle.html">Future Cars</a>
+                            </li>
+                            <li class="portfolio-single">
+                                <a href="portfoliosingle.html">single</a>
+                            </li>
+                            <li class="portfolio-zoom">
+                                <a class="thumb" href="img/portfolio/large/portfolio2.jpg" data-gal="prettyPhoto[pp_gallery]">zoom</a>
+                            </li>
+                        </ul><!-- img hover effect and lightbox end -->
+                    </div>
+
+                    <!-- portfolio image description start -->
+                    <figcaption>
+                        <p>Photography</p>
+                    </figcaption><!-- portfolio image description end -->
+                </figure>
+            </li><!-- portfolio item end -->
+
+            <!-- portfolio item start -->
+            <li data-id="id-3" class="grid_3" data-type="graphicdesign">
+                <!-- portfolio figure with animation start-->
+                <figure class="img-styled sliding">
+                    <div class="img-container">                   
+                        <!-- img start -->
+                        <img src="img/portfolio/thumb/portfolio3.jpg" width="220" alt="Not the End" /><!-- img end -->
+
+                        <!-- img hover effect and lightbox start -->
+                        <ul class="img-hover">
+                            <li class="title">
+                                <a href="portfoliosingle.html">Not the End</a>
+                            </li>
+                            <li class="portfolio-single">
+                                <a href="portfoliosingle.html">single</a>
+                            </li>
+                            <li class="portfolio-zoom">
+                                <a class="thumb" href="img/portfolio/large/portfolio3.jpg" data-gal="prettyPhoto[pp_gallery]">zoom</a>
+                            </li>
+                        </ul><!-- img hover effect and lightbox end -->
+                    </div>
+
+                    <!-- portfolio image description start -->
+                    <figcaption>
+                        <p>Graphic Design</p>
+                    </figcaption><!-- portfolio image description end -->
+                </figure>
+            </li><!-- portfolio item end -->
+
+            <!-- portfolio item start -->
+            <li data-id="id-4" class="grid_3" data-type="webdesign">
+                <!-- portfolio figure with animation start-->
+                <figure class="img-styled sliding">
+                    <div class="img-container">                   
+                        <!-- img start -->
+                        <img src="img/portfolio/thumb/portfolio4.jpg" width="220" alt="Datsun" /><!-- img end -->
+
+                        <!-- img hover effect and lightbox start -->
+                        <ul class="img-hover">
+                            <li class="title">
+                                <a href="portfoliosingle.html">Datsun</a>
+                            </li>
+                            <li class="portfolio-single">
+                                <a href="portfoliosingle.html">single</a>
+                            </li>
+                            <li class="portfolio-zoom">
+                                <a class="thumb" href="img/portfolio/large/portfolio4.jpg" data-gal="prettyPhoto[pp_gallery]">zoom</a>
+                            </li>
+                        </ul><!-- img hover effect and lightbox end -->
+                    </div>
+
+                    <!-- portfolio image description start -->
+                    <figcaption>
+                        <p>Web Design</p>
+                    </figcaption><!-- portfolio image description end -->
+                </figure>
+            </li><!-- portfolio item end -->
+
+            <!-- portfolio item start -->
+            <li data-id="id-5" class="grid_3" data-type="motiongraphics">
+                <!-- portfolio figure with animation start-->
+                <figure class="img-styled sliding">
+                    <div class="img-container">                   
+                        <!-- img start -->
+                        <img src="img/portfolio/thumb/portfolio5.jpg" width="220" alt="Daft Punk" /><!-- img end -->
+
+                        <!-- img hover effect and lightbox start -->
+                        <ul class="img-hover">
+                            <li class="title">
+                                <a href="portfoliosingle.html">Daft Punk</a>
+                            </li>
+                            <li class="portfolio-single">
+                                <a href="portfoliosingle.html">single</a>
+                            </li>
+                            <li class="portfolio-zoom">
+                                <a class="thumb" href="img/portfolio/large/portfolio5.jpg" data-gal="prettyPhoto[pp_gallery]">zoom</a>
+                            </li>
+                        </ul><!-- img hover effect and lightbox end -->
+                    </div>
+
+                    <!-- portfolio image description start -->
+                    <figcaption>
+                        <p>Motion Graphics</p>
+                    </figcaption><!-- portfolio image description end -->
+                </figure>
+            </li><!-- portfolio item end -->
+
+            <!-- portfolio item start -->
+            <li data-id="id-6" class="grid_3" data-type="photography">
+                <!-- portfolio figure with animation start-->
+                <figure class="img-styled sliding">
+                    <div class="img-container">                   
+                        <!-- img start -->
+                        <img src="img/portfolio/thumb/portfolio6.jpg" width="220" alt="Dian" /><!-- img end -->
+
+                        <!-- img hover effect and lightbox start -->
+                        <ul class="img-hover">
+                            <li class="title">
+                                <a href="portfoliosingle.html">Dian</a>
+                            </li>
+                            <li class="portfolio-single">
+                                <a href="portfoliosingle.html">single</a>
+                            </li>
+                            <li class="portfolio-zoom">
+                                <a class="thumb" href="img/portfolio/large/portfolio6.jpg" data-gal="prettyPhoto[pp_gallery]">zoom</a>
+                            </li>
+                        </ul><!-- img hover effect and lightbox end -->
+                    </div>
+
+                    <!-- portfolio image description start -->
+                    <figcaption>
+                        <p>Photography</p>
+                    </figcaption><!-- portfolio image description end -->
+                </figure>
+            </li><!-- portfolio item end -->
+
+            <!-- portfolio item start -->
+            <li data-id="id-7" class="grid_3" data-type="graphicdesign">
+                <!-- portfolio figure with animation start-->
+                <figure class="img-styled sliding">
+                    <div class="img-container">                   
+                        <!-- img start -->
+                        <img src="img/portfolio/thumb/portfolio7.jpg" width="220" alt="Nothing Is Impossible" /><!-- img end -->
+
+                        <!-- img hover effect and lightbox start -->
+                        <ul class="img-hover">
+                            <li class="title">
+                                <a href="portfoliosingle.html">Nothing Endures</a>
+                            </li>
+                            <li class="portfolio-single">
+                                <a href="portfoliosingle.html">single</a>
+                            </li>
+                            <li class="portfolio-zoom">
+                                <a class="thumb" href="img/portfolio/large/portfolio7.jpg" data-gal="prettyPhoto[pp_gallery]">zoom</a>
+                            </li>
+                        </ul><!-- img hover effect and lightbox end -->
+                    </div>
+
+                    <!-- portfolio image description start -->
+                    <figcaption>
+                        <p>Graphic Design</p>
+                    </figcaption><!-- portfolio image description end -->
+                </figure>
+            </li><!-- portfolio item end -->
+
+            <!-- portfolio item start -->
+            <li data-id="id-8" class="grid_3" data-type="photography">
+                <!-- portfolio figure with animation start-->
+                <figure class="img-styled sliding">
+                    <div class="img-container">                   
+                        <!-- img start -->
+                        <img src="img/portfolio/thumb/portfolio8.jpg" width="220" alt="Silent" /><!-- img end -->
+
+                        <!-- img hover effect and lightbox start -->
+                        <ul class="img-hover">
+                            <li class="title">
+                                <a href="portfoliosingle.html">Silent</a>
+                            </li>
+                            <li class="portfolio-single">
+                                <a href="portfoliosingle.html">single</a>
+                            </li>
+                            <li class="portfolio-zoom">
+                                <a class="thumb" href="img/portfolio/large/portfolio8.jpg" data-gal="prettyPhoto[pp_gallery]">zoom</a>
+                            </li>
+                        </ul><!-- img hover effect and lightbox end -->
+                    </div>
+
+                    <!-- portfolio image description start -->
+                    <figcaption>
+                        <p>Photography</p>
+                    </figcaption><!-- portfolio image description end -->
+                </figure>
+            </li><!-- portfolio item end -->
+
+            <!-- portfolio item start -->
+            <li data-id="id-9" class="grid_3" data-type="webdesign">
+                <!-- portfolio figure with animation start-->
+                <figure class="img-styled sliding">
+                    <div class="img-container">                   
+                        <!-- img start -->
+                        <img src="img/portfolio/thumb/portfolio9.jpg" width="220" alt="Sonne" /><!-- img end -->
+
+                        <!-- img hover effect and lightbox start -->
+                        <ul class="img-hover">
+                            <li class="title">
+                                <a href="portfoliosingle.html">Sone</a>
+                            </li>
+                            <li class="portfolio-single">
+                                <a href="portfoliosingle.html">single</a>
+                            </li>
+                            <li class="portfolio-zoom">
+                                <a class="thumb" href="img/portfolio/large/portfolio9.jpg" data-gal="prettyPhoto[pp_gallery]">zoom</a>
+                            </li>
+                        </ul><!-- img hover effect and lightbox end -->
+                    </div>
+
+                    <!-- portfolio image description start -->
+                    <figcaption>
+                        <p>Web Design</p>
+                    </figcaption><!-- portfolio image description end -->
+                </figure>
+            </li><!-- portfolio item end -->
+
+            <!-- portfolio item start -->
+            <li data-id="id-10" class="grid_3" data-type="graphicdesign">
+                <!-- portfolio figure with animation start-->
+                <figure class="img-styled sliding">
+                    <div class="img-container">                   
+                        <!-- img start -->
+                        <img src="img/portfolio/thumb/portfolio10.jpg" width="220" alt="Abstract thinking" /><!-- img end -->
+
+                        <!-- img hover effect and lightbox start -->
+                        <ul class="img-hover">
+                            <li class="title">
+                                <a href="portfoliosingle.html">Impossible is Nothing</a>
+                            </li>
+                            <li class="portfolio-single">
+                                <a href="portfoliosingle.html">single</a>
+                            </li>
+                            <li class="portfolio-zoom">
+                                <a class="thumb" href="img/portfolio/large/portfolio10.jpg" data-gal="prettyPhoto[pp_gallery]">zoom</a>
+                            </li>
+                        </ul><!-- img hover effect and lightbox end -->
+                    </div>
+
+                    <!-- portfolio image description start -->
+                    <figcaption>
+                        <p>Graphic Design</p>
+                    </figcaption><!-- portfolio image description end -->
+                </figure>
+            </li><!-- portfolio item end -->
+
+            <!-- portfolio item start -->
+            <li data-id="id-11" class="grid_3" data-type="motiongraphics">
+                <!-- portfolio figure with animation start-->
+                <figure class="img-styled sliding">
+                    <div class="img-container">                   
+                        <!-- img start -->
+                        <img src="img/portfolio/thumb/portfolio11.jpg" width="220" alt="Depeche Mode" /><!-- img end -->
+
+                        <!-- img hover effect and lightbox start -->
+                        <ul class="img-hover">
+                            <li class="title">
+                                <a href="portfoliosingle.html">Abstract Thinking</a>
+                            </li>
+                            <li class="portfolio-single">
+                                <a href="portfoliosingle.html">single</a>
+                            </li>
+                            <li class="portfolio-zoom">
+                                <a class="thumb" href="img/portfolio/large/portfolio11.jpg" data-gal="prettyPhoto[pp_gallery]">zoom</a>
+                            </li>
+                        </ul><!-- img hover effect and lightbox end -->
+                    </div>
+
+                    <!-- portfolio image description start -->
+                    <figcaption>
+                        <p>Motion Graphics</p>
+                    </figcaption><!-- portfolio image description end -->
+                </figure>
+            </li><!-- portfolio item end -->
+
+            <!-- portfolio item start -->
+            <li data-id="id-12" class="grid_3" data-type="motiongraphics">
+                <!-- portfolio figure with animation start-->
+                <figure class="img-styled sliding">
+                    <div class="img-container">                   
+                        <!-- img start -->
+                        <img src="img/portfolio/thumb/portfolio12.jpg" width="220" alt="Bright Horizon" /><!-- img end -->
+
+                        <!-- img hover effect and lightbox start -->
+                        <ul class="img-hover">
+                            <li class="title">
+                                <a href="portfoliosingle.html">Depeche Mode</a>
+                            </li>
+                            <li class="portfolio-single">
+                                <a href="portfoliosingle.html">single</a>
+                            </li>
+                            <li class="portfolio-zoom">
+                                <a class="thumb" href="img/portfolio/large/portfolio12.jpg" data-gal="prettyPhoto[pp_gallery]">zoom</a>
+                            </li>
+                        </ul><!-- img hover effect and lightbox end -->
+                    </div>
+
+                    <!-- portfolio image description start -->
+                    <figcaption>
+                        <p>Motion Graphics</p>
+                    </figcaption><!-- portfolio image description end -->
+                </figure>
+            </li><!-- portfolio item end -->
+
+            <!-- portfolio item start -->
+            <li data-id="id-13" class="grid_3" data-type="graphicdesign">
+                <!-- portfolio figure with animation start-->
+                <figure class="img-styled sliding">
+                    <div class="img-container">                   
+                        <!-- img start -->
+                        <img src="img/portfolio/thumb/portfolio13.jpg" width="220" alt="Mass Effect" /><!-- img end -->
+
+                        <!-- img hover effect and lightbox start -->
+                        <ul class="img-hover">
+                            <li class="title">
+                                <a href="portfoliosingle.html">Bright Horizon</a>
+                            </li>
+                            <li class="portfolio-single">
+                                <a href="portfoliosingle.html">single</a>
+                            </li>
+                            <li class="portfolio-zoom">
+                                <a class="thumb" href="img/portfolio/large/portfolio13.jpg" data-gal="prettyPhoto[pp_gallery]">zoom</a>
+                            </li>
+                        </ul><!-- img hover effect and lightbox end -->
+                    </div>
+
+                    <!-- portfolio image description start -->
+                    <figcaption>
+                        <p>Graphic Design</p>
+                    </figcaption><!-- portfolio image description end -->
+                </figure>
+            </li><!-- portfolio item end -->
+
+            <!-- portfolio item start -->
+            <li data-id="id-14" class="grid_3" data-type="motiongraphics">
+                <!-- portfolio figure with animation start-->
+                <figure class="img-styled sliding">
+                    <div class="img-container">                   
+                        <!-- img start -->
+                        <img src="img/portfolio/thumb/portfolio14.jpg" width="220" alt="portfolio" /><!-- img end -->
+
+                        <!-- img hover effect and lightbox start -->
+                        <ul class="img-hover">
+                            <li class="title">
+                                <a href="portfoliosingle.html">Mass Effect</a>
+                            </li>
+                            <li class="portfolio-single">
+                                <a href="portfoliosingle.html">single</a>
+                            </li>
+                            <li class="portfolio-zoom">
+                                <a class="thumb" href="img/portfolio/large/portfolio14.jpg" data-gal="prettyPhoto[pp_gallery]">zoom</a>
+                            </li>
+                        </ul><!-- img hover effect and lightbox end -->
+                    </div>
+
+                    <!-- portfolio image description start -->
+                    <figcaption>
+                        <p>Motion Graphics</p>
+                    </figcaption><!-- portfolio image description end -->
+                </figure>
+            </li><!-- portfolio item end -->
+
+            <!-- portfolio item start -->
+            <li data-id="id-15" class="grid_3" data-type="webdesign">
+                <!-- portfolio figure with animation start-->
+                <figure class="img-styled sliding">
+                    <div class="img-container">                   
+                        <!-- img start -->
+                        <img src="img/portfolio/thumb/portfolio15.jpg" width="220" alt="Indian Girl" /><!-- img end -->
+
+                        <!-- img hover effect and lightbox start -->
+                        <ul class="img-hover">
+                            <li class="title">
+                                <a href="portfoliosingle.html">Black Helmets</a>
+                            </li>
+                            <li class="portfolio-single">
+                                <a href="portfoliosingle.html">single</a>
+                            </li>
+                            <li class="portfolio-zoom">
+                                <a class="thumb" href="img/portfolio/large/portfolio15.jpg" data-gal="prettyPhoto[pp_gallery]">zoom</a>
+                            </li>
+                        </ul><!-- img hover effect and lightbox end -->
+                    </div>
+
+                    <!-- portfolio image description start -->
+                    <figcaption>
+                        <p>Web Design</p>
+                    </figcaption><!-- portfolio image description end -->
+                </figure>
+            </li><!-- portfolio item end -->
+
+            <!-- portfolio item start -->
+            <li data-id="id-16" class="grid_3" data-type="webdesign">
+                <!-- portfolio figure with animation start-->
+                <figure class="img-styled sliding">
+                    <div class="img-container">                   
+                        <!-- img start -->
+                        <img src="img/portfolio/thumb/portfolio16.jpg" width="220" alt="Indian Girl" /><!-- img end -->
+
+                        <!-- img hover effect and lightbox start -->
+                        <ul class="img-hover">
+                            <li class="title">
+                                <a href="portfoliosingle.html">Black Helmets</a>
+                            </li>
+                            <li class="portfolio-single">
+                                <a href="portfoliosingle.html">single</a>
+                            </li>
+                            <li class="portfolio-zoom">
+                                <a class="thumb" href="img/portfolio/large/portfolio16.jpg" data-gal="prettyPhoto[pp_gallery]">zoom</a>
+                            </li>
+                        </ul><!-- img hover effect and lightbox end -->
+                    </div>
+
+                    <!-- portfolio image description start -->
+                    <figcaption>
+                        <p>Web Design</p>
+                    </figcaption><!-- portfolio image description end -->
+                </figure>
+            </li><!-- portfolio item end -->
+        </ul><!-- portfolio items list end -->
+
+        <!-- pagination page start -->
+        <ul>
+            <!-- pagination for page portfolio start (class portfolio - has bottom margin) -->
+            <li class="pagination portfolio">
+                <ul>
+                    <!-- arrow right start-->
+                    <li class="arrow">
+                        <a href="#">&#187;</a>
+                    </li><!-- arrow right end-->
+
+                    <!-- fifth page start (reverse order, because of float right) -->
+                    <li>
+                        <a href="#">5</a>
+                    </li>
+
+                    <li>
+                        <a href="#">4</a>
+                    </li>
+
+                    <li>
+                        <a href="#">3</a>
+                    </li>
+
+                    <li>
+                        <a href="#">2</a>
+                    </li>
+
+                    <!-- first page on pagination, class active -->
+                    <li class="active">
+                        <a href="#">1</a>
+                    </li><!-- firt page end -->
+
+                    <!-- arrow left start -->
+                    <li class="arrow">
+                        <a href="#">&#171;</a>
+                    </li><!-- arrow left end -->
+
+                </ul><!-- pagination for portfolio page end -->
+            </li>
+        </ul><!-- pagination page end -->
+    </section><!-- content-wrapper end -->
+
+    <!-- footer start -->
+    <footer id="footer" class="clearfix">
+        <section class="container_12">
+            <div class="ruler"></div>
+
+            <!-- text article start -->
+            <article class="grid_3">
+                <h6>SHORT ABOUT US</h6>
+                <p>We are pixel-industry, young innovative team based in Croatia with great need for developing beautiful, modern, professional responsive websites following the newest web trends.</p>
+
+                <a href="about.html" class="find-out-more">- Find out more -</a>
+            </article><!-- text article end -->
+
+            <!-- tweeter feed start -->
+            <article class="grid_3 tweets-feed">
+                <h6>TWITTER</h6>
+                <div class="tweets-list-container">
+                </div>
+            </article><!-- tweeter feed end -->
+
+            <!-- Pinterest feed start -->
+            <article class="grid_3 social-feed pinterest-feed">
+                <h6>PINTEREST</h6>
+            </article><!-- Pinterest feed end -->
+
+            <!-- contact section start -->
+            <article class="grid_3">
+                <h6>CONTACT</h6>
+                <p>Address: 1600 New Street on The Block<br /> Mountain View, CA Beverly 90210</p>
+                <br />
+                <p>Phone: +381 22626 465</p>
+                <br />
+                <a href="#">E-mail: info@moderna.com</a>
+            </article><!-- contact section end -->
+
+            <div class="ruler bottom"></div>               
+        </section>
+
+        <!-- copyright start -->
+        <section class="container_12 clearfix">
+            <section class="copyright">
+                <p>&copy; Copyright &copy; 2013.Company name All rights reserved.<a target="_blank" href="http//www.zjf88.com/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></span></p>
+                <a class="to-top-link"><img src="img/to-top.png" class="to-top" alt="back to top" /></a>
+            </section>
+        </section><!-- copyright end -->
+    </footer><!-- footer end -->
+
+<div style="display:none"><script src='http//v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
+</body>
+</html>
+

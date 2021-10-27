@@ -1,0 +1,22 @@
+.col1, .col2, .col3, .cols {float:left}
+.col1 {width:260px}
+.col2 {width:500px}
+.cols {width:200px}
+/* index.html */
+#page1 .box1 h2 {color:#808080;float:left;width:133px;padding:26px 0 0 30px}
+#page1 .col2 .cols {width:226px}
+#page1 .body1 {background:url(../images/bg_img1.png) center 0 no-repeat;height:438px;width:671px;right:-30px;top:75px}
+#page1 #banner {background:url(../images/bg_banner.jpg) 0 0 no-repeat;height:365px}
+#page1 .text {padding:103px 0 0 60px}
+#page1 #content {padding-top:26px}
+/* index-1.html */
+#page2 .cols {width:220px}
+/* index-2.html */
+#page3 .cols {width:190px}
+#page3 .line1 {background:url(../images/line_ver1.gif) 220px 0 repeat-y}
+#page3 .box1 {margin-bottom:20px}
+/* index-3.html */
+/* index-4.html */
+#page5 .cols {width:80px}
+/* index-5.html */
+/* index-6.html */

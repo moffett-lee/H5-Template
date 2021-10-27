@@ -1,0 +1,11 @@
+.date {
+-webkit-border-radius: 75px;
+-moz-border-radius: 75px;
+border-radius: 75px; 
+}
+
+.carousel ul li img, #prev, #next, .jquery-slider-slide img, .col4 img, .items img, ul.popular-posts li img, .sidebox ul.popular-posts li img, .post img, a.button, .forms fieldset .btn-submit, #filtering-nav li a, .page-navi ul li a, .map iframe, .text-input, .text-area, .form-container .response, .overlay, ul#button_quotes button, ul.tabs li a, .tab_container, h2.trigger, .togglebox, pre, .download-box, .warning-box, .info-box, .note-box, .round, .jta-tweet-list-controls-button {
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+}

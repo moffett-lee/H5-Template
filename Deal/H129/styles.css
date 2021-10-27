@@ -1,0 +1,241 @@
+/* Created by http//freehtml5templates.com */
+
+/* reset */
+* {
+margin: 0;
+padding: 0;
+}
+
+/* render html5 elements as block */
+header, footer, section, aside, nav, article {
+display: block;
+}
+
+body {
+line-height: 1;
+background: #bbb;
+font-family: Garamond, Georgia, Times, "Times New Roman", serif;
+color: #666;
+font-size: 16px;
+line-height: 18px;
+}
+	
+/* layout */
+
+#wrapper {
+width: 940px;
+margin: 0 auto;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+
+nav {
+width: 940px;
+height: 50px;
+margin: 0 auto;
+background: #6B3507;
+}
+
+header {
+width: 940px;
+height: 200px;
+margin: 0 auto;
+background: #ddd url(images/headerimg.jpg) no-repeat left top;
+}
+
+#main {
+width: 940px;
+margin: 0 auto;
+padding-top: 30px;
+background: #FFF url(images/colbg.png) repeat-y;
+overflow: hidden;
+}
+
+#content {
+float: left;
+width: 450px;
+margin-left: 40px;
+}
+
+#sidebar1 {
+float: left;
+padding-left: 20px;
+width: 180px;
+}
+
+#sidebar2 {
+float: right;
+padding-right: 30px;
+width: 180px;
+}
+
+footer {
+width: 940px;
+margin: 0 auto;
+clear: both;
+}
+
+/* basics */
+
+h1,h2,h3,h4,h5,h6 {
+font-weight: bold;
+clear: both;
+}
+
+h2, h3 {
+border-bottom: 2px dotted #ddd;
+color: #6B3507;
+}
+
+a:link, a:visited {
+color:#333;
+text-decoration: none;
+}
+
+a:hover, a:active {
+color: #6B3507;
+text-decoration: underline;
+}
+
+p {
+margin-bottom: 18px;
+}
+
+li {
+padding-left: 5px;
+}
+
+/* nav */
+
+nav .menu {
+font-size: 18px;
+font-weight: bold;
+}
+
+nav .menu ul {
+margin: 0;
+padding: 17px 0 0 20px;
+list-style: none;
+line-height: normal;
+}
+
+nav .menu li {
+display: block;
+float: right;
+}
+
+nav .menu a {
+display: block;
+float: left;
+margin-right: 5px;
+padding: 0px 25px;
+color: #ddd;
+}
+
+/** HEADER */
+
+header h1 {
+margin: 0;
+padding: 0 0 0 10px;
+line-height: normal;
+float: left;
+padding-top: 2px;
+}
+
+header h1 a:link, header h1 a:visited {
+text-decoration: none;
+color: #6B3507;
+font-size: 48px;
+}
+
+header h1 a:hover { 
+text-decoration: underline; 
+}
+
+/** ARTICLES **/
+
+article {
+padding-right: 15px;
+}
+
+article img {
+border: none;
+-webkit-box-shadow: 3px 3px 7px #777;
+-moz-box-shadow: 3px 3px 7px #777;
+}
+
+#content p, ul, ol, hr {
+margin-bottom: 24px;
+}
+
+#content ul ul, ol ol, ul ol, ol ul {
+margin-bottom: 0;
+}
+
+#content h1, h2, h3, h4, h5, h6 {
+margin: 0 0 20px 0;
+line-height: 1.5em;
+}
+
+.alignleft, img.alignleft {
+display: inline;
+float: left;
+margin-right: 12px;
+}
+
+.alignright, img.alignright {
+display: inline;
+float: right;
+margin-left: 12px;
+}
+
+.aligncenter, img.aligncenter {
+clear: both;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+img.alignleft, img.alignright, img.aligncenter {
+margin-bottom: 12px;
+}
+
+/* sidebar and footer widget blocks */
+
+aside h3 {
+color: #6B3507;
+font-size: 20px;
+}
+
+aside ul {
+list-style: inside url(images/arrow.gif);
+}
+
+#footer-area {
+background: #6B3507;
+color: #ddd;
+font-size: 90%;
+padding: 18px 0;
+overflow: hidden;
+}
+
+.footer-segment {
+float: left;
+margin-right: 20px;
+margin-left: 20px;
+width: 190px;
+}
+
+footer aside h4 {
+color: #ddd;
+font-size: 18px;
+line-height: 1.5em;
+}
+
+footer a:link, footer a:visited {
+color: #ddd;
+}
+
+footer a:hover { 
+text-decoration: underline; 
+}

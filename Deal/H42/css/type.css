@@ -1,0 +1,258 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body, form, fieldset, p, div, h1, h2, h3, h4, h5, h6 {
+    -webkit-text-size-adjust:none;
+}
+
+p{
+	line-height:20px;
+	color:#5b5b5b;
+	font-size:12px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	color:#5b5b5b;
+	padding-bottom:10px;
+}
+
+.image-heading{
+	padding-bottom:10px;
+	padding-top:5px;
+}
+
+a{
+	color:#24adef;
+	text-decoration:none;
+}
+
+.shadow{
+	text-shadow:0px 1px 0px #ffffff;
+}
+
+.navigation a{
+	width:20%;
+	float:left;
+	color:#696969;
+	text-decoration:none;
+	text-align:center;
+	padding-top:3px;
+	padding-bottom:3px;
+}
+
+.under-icon-text{
+	margin-top:-5px;
+	font-family:'PT-Sans', sans-serif;
+	display:block;
+	font-size:10px;
+	font-style:normal;
+}
+
+.selected{
+	background-color:rgba(255,255,255,0.1);
+}
+
+.under-slider-heading{
+	font-family:'PT-Sans', sans-serif;
+	width:100%;
+	text-align:center;
+	font-size:14px;
+	font-weight:bold;
+	color:#5b5b5b;
+	margin-bottom:10px;
+}
+
+.under-slider-description{
+	font-family:'PT-Sans', sans-serif;
+	color:#5b5b5b;
+	width:100%;
+	text-align:center;
+	font-style:italic;
+	font-size:12px;
+	line-height:20px;
+	margin-bottom:20px;
+}
+
+.column{
+	padding-bottom:20px;
+}
+
+.column-text{
+	float:left;
+	padding-bottom:20px;
+}
+
+
+.column-text strong{
+	margin-top:-20px;
+	display:block;
+	padding-top:20px;
+	padding-bottom:5px;
+	font-size:15px!important;	
+}
+
+.full-width{
+	width:100%;
+	padding-bottom:20px;
+}
+
+/*////////////*/
+/*Twitter Feed*/
+/*////////////*/
+
+p.tweet_link_0{	color:#f7f9f6;	font-size:12px;}
+p.tweet_link_1{	color:#f7f9f6;	font-size:12px;}
+p.tweet_link_2{	color:#f7f9f6;	font-size:12px;}
+p.tweet_link_3{	color:#f7f9f6;	font-size:12px;}
+p.tweet_link_4{	color:#f7f9f6;	font-size:12px;}
+small {	font-style:italic; 	display:none; }
+#tweet_link_0{	color:#86b901;}
+
+
+#tweets li {
+	list-style:none;
+	background-image:url(../images/icon/twitter.png);
+	background-position:0px 3px;
+	background-repeat:no-repeat;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:35px;
+	color:#000000;
+	border-bottom-style:dotted;
+	border-bottom-width:1px;
+	border-bottom-color:#5b5b5b;
+}
+
+#tweets li.tweet_content_0 {border-top:0px none;}
+#tweets .hash { color:#86b901; } 
+#tweets .reply { color:#FFF; } 
+
+
+.copyright{
+	font-size:10px;
+	text-align:center;
+	padding-bottom:10px;
+	padding-top:10px;
+	color:#FFFFFF!important;
+}
+
+/*/////*/
+/*Lists*/
+/*/////*/
+
+.icon-list{
+	color:#5b5b5b;
+	padding-top:5px;/*Corectional value for each icon being moved to suit the background icon*/
+}
+
+li.list-info{
+	list-style:none;
+	font-size:12px;
+	padding-bottom:17px;
+	padding-top:3px;
+	background-image:url(../images/lists/list-info.png);
+	background-repeat:no-repeat;
+	background-position:0px 3px;
+	padding-left:30px;
+	margin-top:-2px;
+}
+li.list-heart{
+	list-style:none;
+	font-size:12px;
+	padding-bottom:17px;
+	padding-top:2px;
+	background-image:url(../images/lists/list-heart.png);
+	background-repeat:no-repeat;
+	background-position:0px 3px;
+	padding-left:30px;
+
+}
+li.list-attention{
+	list-style:none;
+	font-size:12px;
+	padding-bottom:17px;
+	padding-top:3px;
+	background-image:url(../images/lists/list-attention.png);
+	background-repeat:no-repeat;
+	background-position:0px 3px;
+	padding-left:30px;
+
+}
+li.list-cross{
+	list-style:none;
+	font-size:12px;
+	padding-bottom:17px;
+	padding-top:4px;
+	background-image:url(../images/lists/list-cross.png);
+	background-repeat:no-repeat;
+	background-position:0px 3px;
+	padding-left:30px;
+
+}
+li.list-arrow{
+	list-style:none;
+	font-size:12px;
+	padding-bottom:17px;
+	padding-top:3px;
+	background-image:url(../images/lists/list-arrow.png);
+	background-repeat:no-repeat;
+	background-position:0px 3px;
+	padding-left:30px;
+}
+li.list-plus{
+	list-style:none;
+	font-size:12px;
+	padding-bottom:17px;
+	padding-top:3px;
+	background-image:url(../images/lists/list-plus.png);
+	background-repeat:no-repeat;
+	background-position:0px 2px;
+	padding-left:30px;
+}
+li.list-warning{
+	list-style:none;
+	font-size:12px;
+	padding-bottom:17px;
+	padding-top:3px;
+	background-image:url(../images/lists/list-warning.png);
+	background-repeat:no-repeat;
+	background-position:0px 2px;
+	padding-left:30px;
+
+}
+
+li.list-tick{
+	list-style:none;
+	font-size:12px;
+	padding-bottom:17px;
+	padding-top:3px;
+	background-image:url(../images/lists/list-tick.png);
+	background-repeat:no-repeat;
+	background-position:0px 2px;
+	padding-left:30px;
+}
+
+.last-item{
+	padding-bottom:0px!important;
+	margin-bottom:0px!important;
+}
+
+
+/*/////////////////////////*/
+/*Highlights and Selections*/
+/*/////////////////////////*/
+
+/*Orange Highlights And Selections*/
+
+.highlight{
+	padding-bottom:15px;	
+}
+
+.highlight-orange{ 	background-color:#e34e47;	color:#FFFFFF;	text-shadow:none;	margin-top:5px; padding:2px;}
+.highlight-green{ 	background-color:#518900;	color:#FFFFFF;	text-shadow:none;	margin-top:5px; padding:2px;}
+.highlight-yellow{ 	background-color:#ffd100;	text-shadow:none;					margin-top:5px; padding:2px;}
+.highlight-gray{ 	background-color:#424242;	color:#FFFFFF;	text-shadow:none;	margin-top:5px; padding:2px;}
+
+
+
+

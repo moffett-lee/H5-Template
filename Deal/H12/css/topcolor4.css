@@ -1,0 +1,91 @@
+/* ----------------------------------------------------------------
+    Images
+-----------------------------------------------------------------*/
+
+#topbar { background: none repeat scroll 0 0 #fa8e7f; border-bottom: 1px solid #F7F7F7; }
+
+#topbar .vcard span, #topbar .vcard a { color: #fff; }
+
+
+
+/* ----------------------------------------------------------------
+    Images
+-----------------------------------------------------------------*/
+
+.twitter-team a, .facebook-team a, .dribbble-team a, .skype-team a {
+    background-image: url("../img/social_icons/social-sprite-team-4.png") !important;
+}
+.breadcrumb-wrapper {
+    background: url("../img/4.jpg") repeat-x scroll 50% top #da6064 !important;
+}
+
+/* ----------------------------------------------------------------
+    Colors
+-----------------------------------------------------------------*/
+
+.nav-collapse_ .nav > li.sfHover > a, .nav-collapse_ .nav > li.sfHover > a:hover, .nav-collapse_ .nav > li > a:hover, .nav-collapse_ .nav > li.active > a, .nav-collapse_ .nav > li.active > a:hover, .price-tag .price-value, .se-slope:nth-child(2n) .se-content h3, .section-2 span, .list-style-2 li a:hover, .port-filters a:hover, .block-404 h1, .section-3 ul.list li a:hover {
+    color: #F96E5B !important;
+}
+
+.se-slope:nth-child(2n) i, .info-box-2 h4, #treecontrol a {
+    color: #d95240 !important;
+}
+/* ----------------------------------------------------------------
+    Background Colors
+-----------------------------------------------------------------*/
+
+.portfolio-overlay-content h2 {
+    background: none repeat scroll 0 0 rgba(249, 110, 91, 0.8) !important;
+}
+
+
+.toggle-button, #panel, .header-social-icon li .icon:hover, .nav-collapse_ .nav ul li a:hover, .header-social-icon li .icon:hover, ul.left-tab-links a:hover, .tp-caption.big_colorbg, .post-holder .date .month, .post-holder-sm .date .month, .video-page a:hover, .link-page a:hover, .zoom-effect a:hover, .img-slidecontrol li a.next, .img-slidecontrol li a.prev, .price-column-featured h4, .se-container, .se-slope:nth-child(2n+1) .se-content h3, .se-slope:nth-child(2n), .portfolio-shape .boxcaption, .nav-list > .active > a, .nav-list > .active > a:hover {
+    background-color: #F96E5B !important;
+}
+
+
+.carousel__formats .es-nav span:hover, .price-column .button:hover, .blog-comments .parent a.reply:link, .parent a.reply:visited {
+    background-color: #d95240 !important;
+}
+
+
+
+/* ----------------------------------------------------------------
+    Border Colors
+-----------------------------------------------------------------*/
+
+.nav-collapse_ .nav ul, .nav-collapse_ .nav ul li ul, .our-clients li:hover { border-color: #F96E5B !important; }
+
+.post-holder .date .month, .post-holder-sm .date .month { border-color: #d95240 !important;  }
+
+.home-page .header-block, .inner-page .header-block  {  border-top-color: #F96E5B !important; }
+.se-slope:nth-child(2n+1) .se-content h3:before, .se-slope:nth-child(2n+1) .se-content h3:after  {  border-left-color: #F96E5B !important; }
+.se-slope:nth-child(2n+1) .se-content h3:before, .se-slope:nth-child(2n+1) .se-content h3:after  {  border-right-color: #F96E5B !important; }
+
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus { border-color: #F96E5B !important; }
+
+
+/* ----------------------------------------------------------------
+    Box Shadow
+-----------------------------------------------------------------*/
+
+.ui-slider-tabs-list-wrapper .selected a {
+    -webkit-box-shadow: 3px 0 0 #F96E5B inset !important;
+    -moz-box-shadow: 3px 0 0 #F96E5B inset !important;
+    box-shadow: 3px 0 0 #F96E5B inset !important;
+}
+
+
+
+/* ----------------------------------------------------------------
+    Selection Colors
+-----------------------------------------------------------------*/
+
+::selection {
+background:#F96E5B !important;
+color:#FFF !important;
+}
+::-moz-selection {
+background:#F96E5B !important;
+color:#FFF !important;
+}

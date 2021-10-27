@@ -1,0 +1,141 @@
+/*
+Credit: http//www.templatemo.com
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #606776;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 12px;
+	line-height: 1.4em; 
+	background-color: #495364;
+	background-image: url(../images/templatemo_body.png);
+	background-repeat: repeat;
+}
+
+a, a:link, a:visited { color: #e5bb58; font-weight: normal; text-decoration: none }
+a:hover { text-decoration: underline; }
+
+a.gototop { clear: both; display:block; float: right; margin-top: 40px; height: 20px; line-height: 20px; font-size: 11px; color: #485163; font-weight: 700; padding-left: 15px; background: url(../images/go_to_top.png) scroll 0 3px no-repeat }
+
+p { margin: 0 0 10px 0; padding: 0; }
+img { border: none; }
+em { color: #fff }
+blockquote { font-style: italic; margin: 0 0 20px 0}
+cite { font-weight: bold; color:#e5bb58; }
+cite a, cite a:link, cite a:visited  { font-size: 12px; text-decoration: none; font-style: normal }
+cite span { font-weight: 400; color: #606776; }
+
+h1, h2, h3, h4, h5, h6 { color: #bac9ee; font-weight: normal; }
+h1 { font-size: 36px; margin: 0 0 30px; padding: 5px 0 }
+h2 { font-size: 24px; margin: 0 0 25px; padding: 5px 0 }
+h3 { font-size: 20px; margin: 0 0 20px; padding: 0; }
+h4 { font-size: 16px; margin: 0 0 15px; padding: 0; }
+h5 { font-size: 14px; margin: 0 0 10px; padding: 0;  }
+h6 { font-size: 12px; margin: 0 0 5px; padding: 0; font-weight: 700 }
+
+.cleaner { clear: both }
+.h10 { height: 10px }
+.h20 { height: 20px }
+.h30 { height: 30px }
+.h40 { height: 40px }
+.h50 { height: 50px }
+.divider { margin-bottom: 40px; padding-bottom: 20px; background: url(../images/templatemo_divider.png) repeat-x bottom }
+
+.float_l { float: left }
+.float_r { float: right }
+
+
+.tmo_list { margin: 10px 0 10px 30px; padding: 0; list-style: decimal-leading-zero }
+.tmo_list li { color:#606776; margin: 0 0 10px 0; padding: 0 5px 0 0; background: url(../images/templatemo_list.png) no-repeat scroll 0 5px  }
+.tmo_list li a { color: #606776; font-weight: normal }
+.tmo_list li a:hover { color: #606776 }
+
+#templatemo_wrapper {
+	width: 860px;
+	margin: 0 auto;
+}
+
+#templatemo_header {
+	padding: 40px 0 10px;
+}
+
+#templatmeo_menu {
+	height: 50px;
+	padding: 10px 0;
+	background: url(../images/templatemo_menu_bg.png) no-repeat
+}
+
+#templatemo_main {
+	padding: 30px;
+	background: url(../images/templatemo_main.png) repeat-y
+}
+
+#templatemo_footer {
+	padding: 40px 0 20px;
+	text-align: center;
+	color: #000;
+	background: url(../images/templatemo_footer.png) no-repeat top center
+}
+
+#site_title { display: block; width: 218px; margin: 0 auto; }
+#site_title a { display: block; width: 218px; height: 50px; text-indent: -10000px; background: url(../images/templatemo_logo.png) no-repeat }
+
+#templatmeo_menu ul { margin: 0; padding: 0; list-style: none }
+#templatmeo_menu ul li { margin: 0; padding: 0; }
+#templatmeo_menu ul li a { display: block; position: relative; float: left; margin-left: 10px; width: 160px; height: 49px }
+#templatmeo_menu ul li a span { position: absolute; width: 30px; height: 30px; top: 8px; left: 10px; }
+#templatmeo_menu ul li a.home { background: url(../images/btn_home.png) }
+#templatmeo_menu ul li a.home span { background: url(../images/icon_home.png) }
+#templatmeo_menu ul li a.home:hover span {  background: url(../images/icon_home_hover.png) }
+
+#templatmeo_menu ul li a.about { background: url(../images/btn_about.png) }
+#templatmeo_menu ul li a.about span { background: url(../images/icon_about.png) }
+#templatmeo_menu ul li a.about:hover span {  background: url(../images/icon_about_hover.png) }
+
+#templatmeo_menu ul li a.portfolio { background: url(../images/btn_portfolio.png) }
+#templatmeo_menu ul li a.portfolio span { background: url(../images/icon_portfolio.png) }
+#templatmeo_menu ul li a.portfolio:hover span {  background: url(../images/icon_portfolio_hover.png) }
+
+#templatmeo_menu ul li a.services { background: url(../images/btn_services.png) }
+#templatmeo_menu ul li a.services span { background: url(../images/icon_services.png) }
+#templatmeo_menu ul li a.services:hover span {  background: url(../images/icon_services_hover.png) }
+
+#templatmeo_menu ul li a.contact { background: url(../images/btn_contact.png) }
+#templatmeo_menu ul li a.contact span { background: url(../images/icon_contact.png) }
+#templatmeo_menu ul li a.contact:hover span {  background: url(../images/icon_contact_hover.png) }
+
+#templatemo_main h1 {padding: 10px 0 10px 25px; font-size: 28px; background: url(../images/header.png) no-repeat left center }
+
+.main_box { min-height: 600px; padding: 30px 0; margin-bottom: 30px; background: url(../images/divider.png) repeat-x bottom }
+.main_box h1 .templatemo_link,
+.main_box h1 .templatemo_link:hover{cursor: text;color: #bac9ee; text-decoration: none;}
+
+.img_float_l { float: left; margin: 3px 30px 5px 0 }
+.img_float_r { float: right; margin: 3px 0 5px 30px } 
+.img_frame { border: 1px solid #2f323b; background: #15171d; padding: 9px; margin-bottom: 10px  }
+
+#gallery { margin: 0; padding: 0; list-style: none }
+#gallery li { margin: 0; padding: 0; }
+#gallery li a { display: block; float: left; margin: 0 5px 5px 0; border: 6px solid #181b21  }
+#gallery li a.no_margin_right { margin-right: 0 }
+
+#services h3 { margin-bottom: 30px }
+#services p { margin-bottom: 30px }
+
+#contact_form { padding: 0; width: 380px }
+#contact_form form { margin: 0px; padding: 0px; }
+#contact_form form .input_field { width: 250px; padding: 5px; color: #ffffff; font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; font-size: 12px; border: 1px solid #15171d;  background: #30333c; }
+#contact_form form label { display: block;font-size: 11px }
+#contact_form form textarea { width: 369px; height: 160px; padding: 5px; font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; color: #ffffff; font-size: 12px; border: 1px solid #15171d;  background: #30333c;  }
+#contact_form form .submit_btn { font-size: 11px; background: #15171d; color: #fff; cursor:pointer; border: 1px solid #30333c; padding: 4px 10px; }
+
+.twitter_post { margin: 0; padding: 0; list-style: none }
+.twitter_post li { margin: 0 0 20px }
+
+.col { float: left; margin-right: 40px }
+.col_12 { width: 380px }
+.col_13 { width: 240px }
+.col_23 { width: 520px }
+.no_margin_right { margin-right: 0 }

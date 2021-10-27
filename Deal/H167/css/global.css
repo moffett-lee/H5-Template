@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*主要样式*/
+body{font:12px/18px Verdana, Simsun, Helvetica, "宋体", Arial, sans-serif;color:#555;}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td, button{padding:0;margin:0;}
+ul{list-style:none;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+img{ vertical-align:top;border:0;}
+fieldset, img{border:0;}
+input, label, select, option, textarea, button, fieldset, legend{font:12px/18px Verdana, Simsun, Helvetica, Arial, sans-serif;}
+table{border-collapse:collapse;border-spacing:0;font:12px/18px Verdana, Simsun, Helvetica, Arial, sans-serif;}
+
+/*公共*/
+.clear{ clear:both}
+.dis{ display:none}
+.left{ float:left}
+.right{ float:right}
+.red{color:#cd0000;}
+.boder1px{ border:1px solid #e4e4e4}
+.position_rel{ position:relative}
+
+a{color:#1a2c55;text-decoration:none;}
+a:hover{
+	text-decoration:underline;
+	color: #FF0000;
+}

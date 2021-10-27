@@ -1,0 +1,727 @@
+﻿
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta name="format-detection" content="telephone=no" />
+<link rel="apple-touch-startup-image" href="../../../www.100bt.com/qq/zn/icon.png" />
+<link rel="apple-touch-icon" href="../../../www.100bt.com/qq/zn/icon57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="../../../www.100bt.com/qq/zn/icon72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="../../../www.100bt.com/qq/zn/icon114.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="../../../www.100bt.com/qq/zn/icon144.png" />
+<link href="www.100bt.com/qq/zn/style/common.css" rel="Stylesheet" type="text/css" />
+<link href="www.100bt.com/qq/zn/style/list.css" rel="Stylesheet" type="text/css" />
+<title>仿百田网discuz手机wap网站模板列表页-懒人模板【www.lanrenmb.com】</title>
+<meta name="keywords" content="星座圈,百田圈圈" />
+<meta name="description" content="百田星座圈提供星座交流平台。星座迷们可以在里面讨论星座，心理测试等，尽情分享你们的创意想法。"/>
+</head>
+<body>
+<!--头部-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="www.100bt.com/qq/zn/script/zepto.min.js"></script>
+<script type="text/javascript" src="www.100bt.com/qq/zn/script/common.js"></script>
+<div id="dd_more">
+	<a href="../all.html" class="dd_bt1 dd_bt">全部圈子</a>
+	<a rel="nofollow" href="../Home.html" class="dd_bt2 dd_bt">我的圈圈</a>
+	<a rel="nofollow" href="../MyFollower.html" class="dd_bt3 dd_bt">我的好友</a>
+	<a rel="nofollow" href="../LoginOut.html" class="dd_bt4 dd_bt">退出登陆</a>
+</div>
+<div id="dd_msg">
+	
+		<script type="text/javascript" src="www.100bt.com/qq/zn/script/msg.js"></script>
+	
+	<div class="msgLoading"></div>
+	<p class="tC"><a href="../ShowMessage.html">查看更多&gt;</a></p>
+</div>
+<header id="header" class="ch m">
+	
+	
+		<a class="logo" href="../../zn" title="百田圈圈"></a>
+	
+	
+	
+	<!--未登录-->
+	
+		<div class="nolog">
+			<a rel="nofollow" href="../LoginPage.html">登录</a>
+			|
+			<a rel="nofollow" href="../RegisterPage.html">注册</a>
+		</div>
+	
+	<!--已经登录-->
+	
+</header>
+
+<section id="main" class="m">
+	<!--圈子信息-->
+	<div id="qms">
+		<img src="www.100bt.com/qq/channel/logo/xzQ.gif" class="ico"/>
+		<span class="m1">星座圈(32786)人</span>
+		<span class="m2">昨日话题:5558&nbsp;|&nbsp;今日话题:3844</span>
+		<!--是圈圈公务圈,则不显示加入和签到按钮-->
+		
+			
+				<a class="b1 collect" href="javascript:void(0);" data-url="http//m.100bt.com/JoinToCategory.action?ttqId=20"></a>
+				<a href="javascript:void(0);" data-url="http//m.100bt.com/CheckIn.action?ttqId=20" class="b1 sign hid"></a>
+			
+			
+		
+	</div>
+	<!--话题筛选-->
+	<div id="op">
+		<a href="default.htm" class="sx wb">
+			<span class="txt">筛选话题</span>
+			<img src="www.100bt.com/qq/zn/img/up.png" />
+			<!--<img src="img/down.png" />-->
+		</a>
+		<!--展开的内容-->
+		<div class="h2 hid">
+			<a href="20_0_0_0.html" class="tab tab_on">全部话题</a>
+			<a href="20_0_1_0.html" class="tab">精华话题</a>
+			<a href="20_0_2_0.html" class="tab">投票话题</a>
+			<br class="c"/>
+		</div>
+		<ul class="cnt hid">
+			<li>
+				<a rel="nofollow" href="20_0_0_0.html"class="current" >
+					全部话题
+				</a>
+			</li>
+			
+				<li>
+					<a rel="nofollow" href="20_55_0_0.html" >
+						星座物语
+					</a>
+				</li>
+			
+				<li>
+					<a rel="nofollow" href="20_56_0_0.html" >
+						心理测试
+					</a>
+				</li>
+			
+				<li>
+					<a rel="nofollow" href="20_57_0_0.html" >
+						随便聊聊
+					</a>
+				</li>
+			
+		</ul>
+		<!--END 展开的内容-->
+	</div>
+	<!--数据列表,通过AJAX请求回来-->
+	<div id="ajaxList">
+		
+
+
+
+
+
+
+
+
+
+
+
+
+<ul class="list">
+	
+		<li>
+			
+			
+				<em class="at">全站置顶</em>
+			
+			
+			<a href="../TopicInfo/10889630_0_0.html" class="tx">【手机圈圈】体验活动第二波，奥币大奖等你拿！</a>
+			
+			
+			
+				<em class="huo">火</em>
+			
+			<br/>
+			<div class="tR">
+				<span class="qq l">377</span>
+				
+				
+					<a class="sd" href="../Home/1806745.html">小编燕子</a>
+				
+				&nbsp;|&nbsp;
+				<span class="tm">
+				
+				
+					<a href="../Home/15045622.html">147716445</a>
+				&nbsp;&nbsp;刚刚
+				</span>
+			</div>
+		</li>
+	
+		<li>
+			
+			
+				<em class="at">全站置顶</em>
+			
+			
+			<a href="../TopicInfo/1763358_0_0.html" class="tx">【圈圈大招募】王者之战，最强工作室选拔赛！</a>
+			
+			
+			
+			<br/>
+			<div class="tR">
+				<span class="qq l">751</span>
+				
+				
+					<a class="sd" href="../Home/1806745.html">小编燕子</a>
+				
+				&nbsp;|&nbsp;
+				<span class="tm">
+				
+				
+					<a href="../Home/27614943.html">岛是海的心&deg;</a>
+				&nbsp;&nbsp;刚刚
+				</span>
+			</div>
+		</li>
+	
+		<li>
+			
+				<em class="t">置顶</em>
+			
+			
+			
+			<a href="../TopicInfo/1746952_0_0.html" class="tx">[水泽]新人孩子们不要顾着排名,和我一起了解下家史可好</a>
+			
+			
+			
+			<br/>
+			<div class="tR">
+				<span class="qq l">406</span>
+				
+				
+					<a class="sd" href="../Home/1808520.html">水泽</a>
+				
+				&nbsp;|&nbsp;
+				<span class="tm">
+				
+				
+					<a href="../Home/1686708.html">高端大气上档次</a>
+				&nbsp;&nbsp;1小时前
+				</span>
+			</div>
+		</li>
+	
+		<li>
+			
+				<em class="t">置顶</em>
+			
+			
+			
+			<a href="../TopicInfo/10884605_0_0.html" class="tx">【圈务】12月申精&amp;举报贴</a>
+			
+			
+			
+			<br/>
+			<div class="tR">
+				<span class="qq l">25</span>
+				
+				
+					<a class="sd" href="../Home/1806745.html">小编燕子</a>
+				
+				&nbsp;|&nbsp;
+				<span class="tm">
+				
+				
+					<a href="../Home/2372933.html">smile、夏弥&deg;</a>
+				&nbsp;&nbsp;2小时前
+				</span>
+			</div>
+		</li>
+	
+		<li>
+			
+			
+			
+			<a href="../TopicInfo/10899608_0_0.html" class="tx">【小Q】=半转=关于你亲爱的同桌，你敢答么~</a>
+			
+			
+			
+			<br/>
+			<div class="tR">
+				<span class="qq l">227</span>
+				
+				
+					<a class="sd" href="../Home/10978502.html">久伴@</a>
+				
+				&nbsp;|&nbsp;
+				<span class="tm">
+				
+				
+					<a href="../Home/48226453.html">438914833</a>
+				&nbsp;&nbsp;刚刚
+				</span>
+			</div>
+		</li>
+	
+		<li>
+			
+			
+			
+			<a href="../TopicInfo/10899981_0_0.html" class="tx">十二星座那些事.......</a>
+			
+			
+			
+			<br/>
+			<div class="tR">
+				<span class="qq l">4</span>
+				
+				
+					<a class="sd" href="../Home/755355.html">95912180</a>
+				
+				&nbsp;|&nbsp;
+				<span class="tm">
+				
+				
+					<a href="../Home/755355.html">95912180</a>
+				&nbsp;&nbsp;刚刚
+				</span>
+			</div>
+		</li>
+	
+		<li>
+			
+			
+			
+			<a href="../TopicInfo/10899226_0_0.html" class="tx">来测测你的动漫形象~~0 0</a>
+			
+			
+			
+			<br/>
+			<div class="tR">
+				<span class="qq l">14</span>
+				
+				
+					<a class="sd" href="../Home/29429949.html">迷路、</a>
+				
+				&nbsp;|&nbsp;
+				<span class="tm">
+				
+				
+					<a href="../Home/29429949.html">迷路、</a>
+				&nbsp;&nbsp;刚刚
+				</span>
+			</div>
+		</li>
+	
+		<li>
+			
+			
+			
+			<a href="../TopicInfo/10899809_0_0.html" class="tx">【莫子】二次元</a>
+			
+			
+			
+			<br/>
+			<div class="tR">
+				<span class="qq l">24</span>
+				
+				
+					<a class="sd" href="../Home/255222.html">嗲妹</a>
+				
+				&nbsp;|&nbsp;
+				<span class="tm">
+				
+				
+					<a href="../Home/1692542.html">☪我是阿起</a>
+				&nbsp;&nbsp;刚刚
+				</span>
+			</div>
+		</li>
+	
+		<li>
+			
+			
+			
+			<a href="../TopicInfo/1677416_0_0.html" class="tx">趣味测试：手指测试你心中最要的人？</a>
+			
+			
+			
+			<br/>
+			<div class="tR">
+				<span class="qq l">83</span>
+				
+				
+					<a class="sd" href="../Home/3040110.html">小编町子</a>
+				
+				&nbsp;|&nbsp;
+				<span class="tm">
+				
+				
+					<a href="../Home/8294252.html">229132183</a>
+				&nbsp;&nbsp;刚刚
+				</span>
+			</div>
+		</li>
+	
+		<li>
+			
+			
+			
+			<a href="../TopicInfo/1766889_0_0.html" class="tx">星座最全的秘密，戳进！！！</a>
+			
+			
+			
+			<br/>
+			<div class="tR">
+				<span class="qq l">39</span>
+				
+				
+					<a class="sd" href="../Home/3198599.html">浅唱灬幸福</a>
+				
+				&nbsp;|&nbsp;
+				<span class="tm">
+				
+				
+					<a href="../Home/3198599.html">浅唱灬幸福</a>
+				&nbsp;&nbsp;刚刚
+				</span>
+			</div>
+		</li>
+	
+		<li>
+			
+			
+			
+			<a href="../TopicInfo/1773432_0_0.html" class="tx">【原点】周年回忆之人物篇</a>
+			
+			
+			
+			<br/>
+			<div class="tR">
+				<span class="qq l">46</span>
+				
+				
+					<a class="sd" href="../Home/295673.html">原 点</a>
+				
+				&nbsp;|&nbsp;
+				<span class="tm">
+				
+				
+					<a href="../Home/14852120.html">翔幽</a>
+				&nbsp;&nbsp;刚刚
+				</span>
+			</div>
+		</li>
+	
+		<li>
+			
+			
+			
+			<a href="../TopicInfo/1754709_0_0.html" class="tx">【子白】=转=电梯里的十大禁忌！不能不看！</a>
+			
+			
+			
+			<br/>
+			<div class="tR">
+				<span class="qq l">80</span>
+				
+				
+					<a class="sd" href="../Home/1999158.html">故人归。</a>
+				
+				&nbsp;|&nbsp;
+				<span class="tm">
+				
+				
+					<a href="../Home/2239121.html">☪我是阿肖</a>
+				&nbsp;&nbsp;刚刚
+				</span>
+			</div>
+		</li>
+	
+		<li>
+			
+			
+			
+			<a href="../TopicInfo/1698382_0_0.html" class="tx">【浅浅】一天一种花 365天你的生日是哪天</a>
+			
+			
+				<em class="jh">精</em>
+			
+			
+			<br/>
+			<div class="tR">
+				<span class="qq l">635</span>
+				
+				
+					<a class="sd" href="../Home/34695329.html">夜夜夜夜未央、</a>
+				
+				&nbsp;|&nbsp;
+				<span class="tm">
+				
+				
+					<a href="../Home/118609.html">Strx 高傲-╰＇</a>
+				&nbsp;&nbsp;刚刚
+				</span>
+			</div>
+		</li>
+	
+		<li>
+			
+			
+			
+			<a href="../TopicInfo/1756232_0_0.html" class="tx">【阿昱】十二星座的各种性格，超 准！</a>
+			
+			
+			
+			<br/>
+			<div class="tR">
+				<span class="qq l">233</span>
+				
+				
+					<a class="sd" href="../Home/12934107.html">阿昱♫阿双</a>
+				
+				&nbsp;|&nbsp;
+				<span class="tm">
+				
+				
+					<a href="../Home/25826503.html">318884320</a>
+				&nbsp;&nbsp;刚刚
+				</span>
+			</div>
+		</li>
+	
+		<li>
+			
+			
+			
+			<a href="../TopicInfo/1773491_0_0.html" class="tx">【小小】恐怖童谣，你看懂了吗？</a>
+			
+			
+			
+			<br/>
+			<div class="tR">
+				<span class="qq l">12</span>
+				
+				
+					<a class="sd" href="../Home/45991490.html">筱筱滴、小小</a>
+				
+				&nbsp;|&nbsp;
+				<span class="tm">
+				
+				
+					<a href="../Home/45991490.html">筱筱滴、小小</a>
+				&nbsp;&nbsp;1分钟前
+				</span>
+			</div>
+		</li>
+	
+		<li>
+			
+			
+			
+			<a href="../TopicInfo/1761951_0_0.html" class="tx">星座控。世界最准的星座排名！截进来！！</a>
+			
+			
+			
+			<br/>
+			<div class="tR">
+				<span class="qq l">112</span>
+				
+				
+					<a class="sd" href="../Home/1785420.html">艾莎尔&middot;铁塔</a>
+				
+				&nbsp;|&nbsp;
+				<span class="tm">
+				
+				
+					<a href="../Home/1785420.html">椅子</a>
+				&nbsp;&nbsp;2分钟前
+				</span>
+			</div>
+		</li>
+	
+		<li>
+			
+			
+			
+			<a href="../TopicInfo/1766152_0_0.html" class="tx">【小染】星座们  匹配的  花</a>
+			
+			
+			
+			<br/>
+			<div class="tR">
+				<span class="qq l">150</span>
+				
+				
+					<a class="sd" href="../Home/33342186.html">小染</a>
+				
+				&nbsp;|&nbsp;
+				<span class="tm">
+				
+				
+					<a href="../Home/441692.html">溅溅丶</a>
+				&nbsp;&nbsp;2分钟前
+				</span>
+			</div>
+		</li>
+	
+		<li>
+			
+			
+			
+			<a href="../TopicInfo/10884536_0_0.html" class="tx">【木测】你拥有哪种潜在超能力？</a>
+			
+			
+				<em class="jh">精</em>
+			
+			
+			<br/>
+			<div class="tR">
+				<span class="qq l">315</span>
+				
+				
+					<a class="sd" href="../Home/12141164.html">下一道_彩虹</a>
+				
+				&nbsp;|&nbsp;
+				<span class="tm">
+				
+				
+					<a href="../Home/6168949.html">113227002</a>
+				&nbsp;&nbsp;4分钟前
+				</span>
+			</div>
+		</li>
+	
+		<li>
+			
+			
+			
+			<a href="../TopicInfo/1692773_0_0.html" class="tx">【月弦】你认为你的星座是最顶尖的吗？一戳见分晓。</a>
+			
+			
+				<em class="jh">精</em>
+			
+			
+			<br/>
+			<div class="tR">
+				<span class="qq l">481</span>
+				
+				
+					<a class="sd" href="../Home/1682135.html">Baek    Hyun</a>
+				
+				&nbsp;|&nbsp;
+				<span class="tm">
+				
+				
+					<a href="../Home/2377431.html">初々『柔』</a>
+				&nbsp;&nbsp;5分钟前
+				</span>
+			</div>
+		</li>
+	
+		<li>
+			
+			
+			
+			<a href="../TopicInfo/10882849_0_0.html" class="tx">十二星座专属的物品</a>
+			
+			
+			
+			<br/>
+			<div class="tR">
+				<span class="qq l">298</span>
+				
+				
+					<a class="sd" href="../Home/14320118.html">习惯社、冰蓝</a>
+				
+				&nbsp;|&nbsp;
+				<span class="tm">
+				
+				
+					<a href="../Home/6168949.html">113227002</a>
+				&nbsp;&nbsp;6分钟前
+				</span>
+			</div>
+		</li>
+	
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+		
+		
+			<div class="jiazai">
+				
+					<a class="wb changeb" href="javascript:void(0);" data-url="http//m.100bt.com/zn/LoadCategoryTopic.html?ttqId=20&blockId=0&topicStyle=0&offset=20">点击加载更多</a>
+				
+			</div>
+		
+	
+
+
+
+	</div>
+	<!--END 数据列表-->
+</section>
+
+
+
+<footer id="footer">
+	温馨提示：本信息仅供提供演示方便链接，与原网站无关！ <a href="index.html">首页</a>  <a href="liebiao.html">文章列表页</a>  <a href="zhengwen.html">正文页</a>
+</footer>
+<a href="#header" id="bTop" title="返回顶部"></a>
+
+</body>
+<script type="text/javascript" src="www.100bt.com/qq/zn/script/category.js"></script>
+<!-- 发表话题的引导脚本 -->
+
+<!-- 每天签到的引导脚本 -->
+
+
+<!--平台的统计-->
+<script tpye="text/javascript" src="../../../dc.100bt.com/js/dc.js"></script>
+<!--百度统计-->
+<script tpye="text/javascript" src="www.100bt.com/resource/js/lib/bdStatistic.js"></script>
+
+</html>

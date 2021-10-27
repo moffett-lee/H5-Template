@@ -1,0 +1,40 @@
+.main-menu li a {border-left: 1px solid #00a877}
+.main-menu li:last-child a { border-right: 1px solid #00a877}
+.main-menu li li a {border-left: none}
+.main-menu li li:last-child a { border-right: none}
+#main-navigation {background: #00ba84}
+#header-links { border-top: 4px solid #00ba84}
+.button.color, .button.grey:hover { background: #00ba84; border-bottom: 1px solid #00a877;}
+.ls-fullwidth .ls-nav-prev:hover {background: #00ba84 url("../../images/slider-prev.png") 50% 50% no-repeat}
+.ls-fullwidth .ls-nav-next:hover {background: #00ba84 url("../../images/slider-next.png") 50% 50% no-repeat}
+.flex-direction-nav li .flex-next:hover { background-color: #00ba84}
+.flex-direction-nav li .flex-prev:hover { background-color: #00ba84} 
+.portfolio-item, .blog-item,.button.color-alt,.button.simple-grey:hover,.home-intro,a.product-item-preview:hover,.ui-slider .ui-slider-range,.tp-caption.large_title,.comment-author span.reply a:hover,
+.comment-author span.reply a:hover i,.pagination ul li a:hover,.pagination .current, .sidebar  ul.popular-tags li a:hover,.flex-control-nav li a:hover,.flex-control-nav li a.flex-active,li.carousel-active-tab,table.simple-table th,#filterable li a:hover,
+#filterable li a.active,.plan-name.color,.plan-price.color,.bar_graph li span,.footer-call-to-action,.feature-block-icon,.feature-block-icon  span,.ls_large_text_03 {background: #00ba84!important}
+.jcarousel-next-disabled, .jcarousel-next-disabled:hover, .jcarousel-next-disabled:focus, .jcarousel-next-disabled:active, .jcarousel-prev-disabled, .jcarousel-prev-disabled:hover, 
+.jcarousel-prev-disabled:focus, .jcarousel-prev-disabled:active {background-color: #acacac!important; border-bottom: 1px solid #909090!important; cursor: auto;}
+ul.accordion li.accordion-item.selected .accordion-switch .togglegfx {background: #00ba84 url('../../images/accordion-toggle.png') no-repeat left bottom; border-bottom: 1px solid #00a877;}
+.portfolio-item-title a:hover,.large_heading_01,.permalink a:hover, ul.post-meta li a:hover{ color: #00ba84}
+.jcarousel-next:hover,.jcarousel-next:focus,.jcarousel-next:active,.jcarousel-prev:hover,.jcarousel-prev:focus,.jcarousel-prev:active { background-color: #00ba84;}
+ul.sidebar-nav li a.active,ul.sidebar-nav li a.active i,.tabs-nav li.active a i,.feature-block-center h6,a.all-items:hover,a.all-items:hover i,#amount,.portfolio-item-title a,.pdf a,
+ ul.sidebar-nav li a:hover,ul.sidebar-nav li a:hover i,ul.accordion li a,.main-menu ul a:hover ,.team-member h4 a:hover ,.feature-block i:hover,ul.accordion li.accordion-item.selected .accordion-switch,
+  .dropcap ,.happy-clients-author,ul.simple-list li i,.main-menu ol a:hover,.main-menu ol a:hover i,.ls_large_text_01 ,.feature-block-title h6,.tabs-nav li.active a,ul.team-member-links li a:hover i { color: #00ba84!important }
+ .flex-control-nav li a.flex-active,.flex-caption,.pagination .current,.pagination ul li a:hover,#filterable li a.active,.bar_graph li span,.jcarousel-next:hover,.jcarousel-next:focus,
+.jcarousel-next:active,.jcarousel-prev:hover,.jcarousel-prev:focus,.jcarousel-prev:active,.jcarousel-next,.jcarousel-prev,#filterable li a:hover  {  border-bottom: 1px solid #00a877; }
+.jcarousel-next,.jcarousel-prev { background: #00ba84 url("../../images/carousel-prev-next.png") 110% 50% no-repeat;  }
+.jcarousel-prev { background: #00ba84 url("../../images/carousel-prev-next.png") -10% 50% no-repeat }
+.flickr-widget li a span { background: #00ba84 url("../../images/search-bg.png") 50% 0% no-repeat }
+.flickr-widget li a:hover span,.flickr-widget.inner li a:hover span { background: #00ba84 url("../../images/search-bg.png") 50% 50% no-repeat }
+ul.accordion li.accordion-item.selected .accordion-switch .togglegfx { background: #00ba84 url('../../images/accordion-toggle.png') no-repeat left bottom }
+.modern-notice .avatar img { border: 4px solid #00ba84 }
+.feature-block i:hover { border-color: #00ba84;  }
+ul.team-member-links li a:hover { border-color: #00ba84 }
+.testimonial h5,.service-item h1 i, .chart span, .plan-features ul  li a:hover,ul.simple-list li a:hover{ color:#00ba84; }
+ .ui-slider .ui-slider-range {border-bottom:1px solid #00a877!important;}
+ ul.main-menu.alternative li a#current{ background-color: #00ba84;color:#FFF;}
+  ul.main-menu.alternative.four li a#current{background-color: #FFF;border:2px solid #00ba84 ;}
+  ul.slidecontrols li a.prev:hover,ul.slidecontrols li a.next:hover{background-color: #00ba84;border-bottom:1px solid #00a877;}
+   .tp-leftarrow:hover,.tp-rightarrow:hover { background-color:#00ba84   }
+.bullet.selected  { background-color:#00ba84!important   }
+.flex-small-caption{background:#00ba84 }

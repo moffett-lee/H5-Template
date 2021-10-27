@@ -1,0 +1,209 @@
+/* iPad 1024px to fix Retina Header Image */
+@media only screen and (max-width: 1024px) {
+
+	/* Move stuff around so it fits nicely on an iPad (or equivelent) screen */
+	#logo { width: 263px; top:5px; position:relative; }
+	#logo img { width:100%; }
+	#slider .elements { margin-right:-316px; top:-52px; }
+	.text-slider { margin-left:-449px; top:31px }
+	#slider .flex-direction-nav { margin-right:90px; }
+	.shell { width:900px; }
+	#testimonials .shell { width:722px; }
+	#testimonials .flex-direction-nav { margin-left:391px; }
+	.top-image h1 { width:900px; }
+	#slider { height:450px; }
+	#slider li { background-size:auto 450px; }
+	#slider .flex-direction-nav { top:374px; }
+	
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+
+	.contact-widget .socials li + li { padding-left:5px; }
+	.contact-widget .socials a { background-size:150px 25px; width:25px; height:25px; }
+	.contact-widget .facebook a { background-position: 0 0; }
+	.contact-widget .twitter a { background-position: -25px 0; }
+	.contact-widget .linkedin a { background-position: -50px 0; }
+	.contact-widget .vimeo a { background-position: -75px 0; }
+	.contact-widget .youtube a { background-position: -100px 0; }
+	.contact-widget .rss a { background-position: -125px 0; }
+
+	#testimonials { width:90%; padding:32px 5%; }
+	.shell { width:90%; padding:0 5%; }
+	
+	#testimonials .shell { width:80%; padding:0 0 0 20%; }
+	#testimonials .slides li img { width:15%; }
+	#testimonials .flex-direction-nav { margin-left: 0; position: absolute; right: 5%; display: block; left:auto; }
+	
+	.upcoming-widget .caroufredsel_wrapper > ul > li { overflow-x:hidden; height:47px; }
+	.upcoming-widget .caroufredsel_wrapper > ul > li a { font-size:12px; }
+	
+	#logo { position:absolute; z-index:100; }
+	
+	header { position:relative; }
+	#wrap { margin:0; }
+	#footer-push { display: block; height: 0; font-size: 0; line-height: 0; text-indent: -9999px; clear: both; }
+	header #mobile-nav { display:block; position:relative; padding:90px 0 0 0; }
+	header nav { display:none; }
+	
+	#features .button { display:block; margin:0 0 10px; text-align:center; }
+	#features .button + .button { margin-left:0; }
+	
+	header #mobile-nav ul { display:none; padding-bottom:15px; }
+	header #mobile-nav li { float:none; display:block; text-align:center; }
+	header #mobile-nav li a { color:#000; display:block; padding:10px 0; font-size:20px; border-top:1px solid #eee; }
+	header #mobile-nav li.current a { color:#fff; border-color:#fff; }
+	header #mobile-nav li.current ul { padding-top:15px; }
+	header #mobile-nav li.current li a { color:#888; background:none; }
+	header #mobile-nav li li.current a { padding:5px 0; margin:0 0 5px; }
+	header #mobile-nav li ul { margin-bottom:10px; }
+	header #mobile-nav li ul li a { color:#888; font-size:14px; padding:0 0 5px; border:none; }
+	
+	header #mobile-nav .phone { border-top:1px solid #eee; padding:15px 0; text-align:center; display:block; font-size: 25px; }
+	header #mobile-nav .phone a { padding:0; border:none; color:#000; text-decoration:none; }
+	header #mobile-nav .mobile-nav-toggle {
+		display:block;
+		font-family:sans-serif;
+		font-weight:bold;
+		text-align:center;
+		font-size:27px;
+		color:#fff;
+		line-height:34px;
+		width:18px;
+		position:absolute;
+		top:26px;
+		right:0;
+		-moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px;
+		padding:0 11px 4px; }
+	
+	header #mobile-nav .mobile-nav-toggle.active { background:#888; }
+	
+	#slider .text-slider { left:50px; margin:0; }
+	#slider .elements { margin:0; left:-335px; right:auto; }
+	#slider .elements .white-box { left:385px; right:auto; }
+	#slider .elements .bottom-corner { left:390px; }
+	#slider .elements .top-corner { left:674px; }
+	#slider .flex-direction-nav { left:353px; right:auto; }
+	
+	.top-image { height:130px; }
+	.top-image h1 {
+		width: 90%;
+		padding: 0;
+		margin: 3% 5%;
+		font-size: 48px;
+	}
+	
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (max-width: 767px) {
+
+	#logo { width:195px; top:16px; }
+	#wrap { margin:0; }
+	
+	.one_half,.one_third,.two_third,.three_fourth,.one_fourth,.one_fifth,.two_fifth,.three_fifth,.four_fifth,.one_sixth,.five_sixth {
+		float:none;
+		display:block;
+		width:100%;
+		padding:0;
+		margin:0 0 9% 0;
+	}
+	
+	#content blockquote { width:100%; float:none; padding:15px 0 0 0; margin:0 0 5%; border:none; border-top:1px solid #ddd; }
+	
+	.upcoming-widget .caroufredsel_wrapper > ul > li a { font-size:13px; }
+	
+	.shell { width:86%; padding:0 7%; }
+	
+	#testimonials { width:86%; padding:32px 7%; }
+	#testimonials .shell { width:100%; padding:0 0 40px; min-height: 1px; }
+	#testimonials .slides li img { display:none; }
+	#testimonials h3 { font-size:21px; line-height:29px; }
+	
+	#features { padding:36px 0 0; }
+	#features .button { display:inline-block; margin:0; text-align:left; }
+	#features .button + .button { margin-left:10px; }
+	
+	footer { height:auto; }
+	footer .top .shell { height:auto; padding-bottom:0; }
+	footer .bottom { height:auto; }
+	footer .bottom p { font-size:12px; }
+	
+	#slider { background: #f2f2f2 url(./images/loading.gif) center 330px no-repeat; }
+	#slider .image-slider li { -webkit-background-size: auto 230px;	-moz-background-size: auto 230px; -o-background-size: auto 230px; background-size: auto 230px; }
+	#slider .elements { margin:0; background:none; position:relative; left:0; top:0; right:auto; }
+	#slider .elements .white-box,
+	#slider .elements .bottom-corner,
+	#slider .elements .top-corner { display:none !important; }
+	#slider .flex-direction-nav { left: auto; right: 7%; margin: 0; top: 270px; }
+	#slider .text-slider { background:#fff; width:100%; left:0; right:auto; top:230px; display:block; }
+	#slider .text-slider ul { width:100%; margin:0; padding:0; }
+	#slider .text-slider li { width:86%; padding:0 7%; left:0; right:auto; height:auto; }
+	
+	#filters span { display:block; width:93%; float:none; margin:0 0 5px; }
+	
+	.top-image { height:110px; }
+	
+	#content .gallery a img,
+	#content .gallery a:hover img {
+		-webkit-transition: none; -moz-transition: none; -o-transition: none; transition: none;
+		width:100%;
+		zoom:1;
+		-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+		filter: alpha(opacity=100);
+		-moz-opacity:1;
+		-khtml-opacity: 1;
+		opacity: 1;
+		position:relative;
+		top:3px;
+	}
+	
+	table.calendar, #filters.cal-filters { display:none; }
+	.mobile-calendar { display:block; }
+
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+
+	.one_half,.one_third,.two_third,.three_fourth,.one_fourth,.one_fifth,.two_fifth,.three_fifth,.four_fifth,.one_sixth,.five_sixth {
+		float:none;
+		display:block;
+		width:100%;
+		padding:0;
+		margin:0 0 12% 0;
+	}
+	
+	.top-image h1 {
+		font-size: 38px;
+	} 
+	
+	#content h1 { font-size:30px; line-height:35px; }
+	#content h2 { font-size:25px; line-height:30px; }
+	#content h3 { font-size:20px; line-height:27px; }
+	
+	.gmap.full, .gmap.full iframe { height:150px; }
+	
+	#filters span { width:95%; }
+	#content .gallery { width:100%; }
+	#content .gallery .item { float:none; margin:0 0 5%; display:block; width:100%; }
+	
+	#slider { background: #f2f2f2 url(./images/loading.gif) center 300px no-repeat; }
+	#slider .image-slider  li { -webkit-background-size: auto 180px; -moz-background-size: auto 180px; -o-background-size: auto 180px; background-size: auto 180px; }
+	#slider .flex-direction-nav { top: 135px; }
+	#slider .text-slider { top:180px; }
+	
+	#features .button, .button { display:block; margin:0 0 10px; text-align:center; }
+	#features .button + .button, .button + .button { margin-left:0; }
+	
+	.top-image { height:100px; }
+	
+	.news-feed { padding-bottom:30px; }
+	.news-feed .one_fourth, .news-feed .one_fourth img,
+	.comments .one_fifth, .comments .one_fifth img { display:none; }
+	.comments .four_fifth { margin:0 0 6%; padding-bottom:5px; border-bottom:1px solid #ddd; }
+	.comments { padding-top: 20px; }
+	#content.news-feed h4 { border:0; padding-top:0; margin-top:0; }
+
+}

@@ -1,0 +1,11 @@
+.info{
+	top: 6px;
+}
+
+.headerLeft h1{
+	background: url(../images/logo.gif) no-repeat;
+	width: 135px;
+	height: 27px;
+	text-indent: -9999px;
+	margin-top: 40px;
+}

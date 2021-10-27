@@ -1,0 +1,8 @@
+.menu-v ul li ul{
+	border: 1px solid #4e5c68;
+}
+
+.searchform input {
+	padding: 9px 10px 6px;
+	height: 16px;
+}

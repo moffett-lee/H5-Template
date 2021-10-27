@@ -1,0 +1,28 @@
+/*
+Free Html5 Responsive Templates
+Author: Kimmy
+Author URI: http//www.zerotheme.com/
+*/
+html {
+   -webkit-text-size-adjust: none;
+}
+.video embed,
+.video object,
+.video iframe {
+   width: 100%;
+   height: auto;
+}
+img{
+	max-width:100%;
+	height: auto;
+   	width: auto\9; /* ie8 */
+}
+
+@media only screen and (max-width: 804px) {
+	.header{
+		display: none;
+	}
+	h1{
+		padding-top: 10px;
+	}
+}

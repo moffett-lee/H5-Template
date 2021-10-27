@@ -1,0 +1,40 @@
+html,body {margin:0;height:100%}
+a{text-decoration:none;color:#333}
+a:hover{color:#f00;text-decoration:none}
+body,font{line-height:18px;color:#333}
+ul,li,dl,dt,dd,p,form,em,span,i{margin:0;padding:0;list-style:none;color:#000;font-style:normal}
+
+#scr{color: #999;height: 26px;padding: 3px 0 0 5px;}
+.box a{height:90px;overflow:hidden;background:#FAFAF8 url(../../images/huaxwap/huaxlistbgnew.gif) repeat-x 0 bottom; width:auto; display:block; line-height:28px; padding:4px 8px 0 0}
+.box a img{ float:left; padding:2px;border:1px solid #ccc; margin:6px 10px 0 6px}
+.box a span{font-size:18px;font-weight:bold;color:#298cda; text-decoration:none; padding:10px 0;}
+.box a i{color:#000;font-style:normal; text-decoration:none; padding-left:3px}
+.box a em{ margin-top:6px; color:#888}
+
+#htmlPage{margin-left:8px}
+.page{padding:20px 0}.page tr td{height:36px;color:#666}.page tr td a{padding:4px;line-height:30px;margin:0 9px}
+.org{color:#f60;padding-left:12px}
+
+.footer{width:100%;height:30px;line-height:30px;background:#5cb6eb;text-align:center;color:#fff}
+.footer i{font-style:normal;font-size:16px; color:#fff}
+.footer a:link,.footer a:visited{color:#fff}
+
+.npage{width:94%;height:48px;background:#f0f0f0;overflow:hidden;-moz-border-radius: 5px;-khtml-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px;margin:10px auto;border:1px solid #cecece;}
+.npage div{width:13%;float:left;margin-left:1px}
+.npage div.np_4{width:18%;line-height:48px;text-align:center;font-size:18px}/*’‚¿Ô £”‡øÌ∂»4%*/
+.npage div a{display:block;width:25px;height:46px;background:url(../../images/huaxwap/npage.gif) no-repeat;margin:auto}
+.npage div.np_1 a{background-position:0 12px}
+.npage div.np_2 a{background-position:0 -26px}
+.npage div.np_3 a{background-position:0 -63px}
+.npage div.np_5 a{background-position:0 -106px}
+.npage div.np_6 a{background-position:0 -150px}
+.npage div.np_7 a{background-position:0 -195px}
+.tsk{margin:auto;width:94%;height:46px;margin-left:3%;position:absolute;}
+.tishi{width:100%;height:46px;position:relative;overflow:hidden}
+.tscon{width:100%;height:46px;position:absolute;z-index:2000;background:#333;opacity:0.7;overflow:hidden;-moz-border-radius: 5px;-khtml-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px}
+.tstext{width:100%;height:46px;line-height:50px;position:absolute;z-index:2100;color:#fff;font-size:16px;text-align:center}
+
+.nav{background:url(../../images/huaxwap/huaxlinenew.gif) repeat-x;line-height:24px;clear:both;width:100%;overflow:auto}
+.nav a{display:block;float:left;line-height:26px;color:#fff;word-break:keep-all;overflow:hidden; margin:0; width:25%; text-align:center; font-size:14px}
+a.nextp {display: block;width: 100%;line-height: 30px;padding: 5px 0;text-align: center;color: #2C6A9D;background-color: #D7DFE5;margin: auto;font-size: 16px;border-bottom: 1px solid #C0C9D0;background: -webkit-gradient(linear, left top, left bottom, from(#E9F0F5), to(#CDD8E0));border-top: 1px solid #FFF;}
+.srk {margin: 10px 6px 10px 8px;width: 200px;height: 30px;}

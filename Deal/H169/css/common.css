@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+/*                            layout                                 */
+#container{width:960px; margin: 0 auto;font-size: 1.2em;line-height:1.8;  }
+
+#bg{ background:url(../images/header_bg.jpg) left top repeat-x; font-size:12px; max-width:1440px; min-width:998px; width:100%; overflow:hidden;_width:1440px;}
+
+#wrap{ background:#FFF;}
+
+#main{ overflow: hidden; zoom:1;}
+
+#header{ width:960px; height:141px; position:relative; margin: 0 auto;}
+#header p.logo{ position:absolute; left:10px; top:15px;}
+#header ul.menu{ width:130px; position:absolute; right:0; top:50px; overflow: hidden;zoom:1;}
+#header ul.menu li{ float:left; margin-right:8px; line-height:1.0;border-right:1px solid #999; padding-right:8px; padding-top:2px;}
+#header ul.menu li a{color:#999;}
+#header ul.menu li.rt{ border-right:none; margin-right:0;}
+#header ul.navi{ width:960px; position:absolute; left:0; top:81px; overflow: hidden;zoom:1; font-family:"微软雅黑";}
+#header ul.navi li{ float:left;border-right:2px solid #81b2dd;}
+#header ul.navi li.navi01{border-left:2px solid #81b2dd;}
+#header ul.navi li a{ color:#3f3f3f; font-size:14px; width:134px; text-align:center; padding:5px 0;_padding:5px 0 3px 0; display:block; color:#FFF;}
+#header ul.navi li a:hover,#header ul.navi li.one a{ color:#FFF; background:url(../images/btn01.jpg) left top no-repeat; padding:5px 0;_padding:5px 0 3px 0;}
+#header ul.navi li.rt{ margin-right:0;}
+
+#side{ width:200px; float:left;}
+#side ul li{ margin-bottom:7px; _display:inline; }
+#side ul li a{ background: url(../images/side_bg01.jpg) 17px center no-repeat; display:block; padding:5px 0 4px 35px; border:2px solid #fff;}
+#side ul li a:hover,#side ul li.one a{ background: url(../images/side_bg02.jpg) left center no-repeat; padding:5px 0 4px 35px; color:#FFF;}
+
+#content{ width:720px; float:right;}
+
+#footer{ margin-top:20px; background:#f4f4f4; border-top:1px solid #d2d2d2; padding-bottom:15px; max-width:1440px; min-width:998px; width:100%; overflow:hidden;_width:1440px;}
+#footer .footer{ width:960px; margin: 0 auto; font-size:12px; color:#555; padding-top:18px;}
+#footer .footer dl{ width:700px; overflow: hidden;zoom:1;}
+#footer .footer dl dt{ float:left; margin-right:10px;}
+#footer .footer dl dd p{ text-align:center; line-height:22px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

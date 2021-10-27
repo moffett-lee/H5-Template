@@ -1,0 +1,134 @@
+/* Getting the new tags to behave */
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {display:block}
+mark, rp, rt, ruby, summary, time {display:inline }
+/* Left & Right alignment */
+.left {float:left}
+.right {float:right}
+.wrapper {width:100%;overflow:hidden}
+/* Global properties */
+body {background:#eee;border:0;font:12px Arial, Helvetica, sans-serif;color:#bababa;line-height:20px}
+.ic, .ic a {border:0;float:right;background:#fff;color:#f00;width:50%;line-height:10px;font-size:10px;margin:-220% 0 0 0;overflow:hidden;padding:0}
+.css3{border-radius:8px;-moz-border-radius:8px;-webkit-border-radius:8px;box-shadow:0 0 4px rgba(0, 0, 0, .4);-moz-box-shadow:0 0 4px rgba(0, 0, 0, .4);-webkit-box-shadow:0 0 4px rgba(0, 0, 0, .4);position:relative}
+/* Global Structure */
+.main {	margin:0 auto;width:960px}
+.body1 {background:url(../images/bg_top.gif) top repeat-x}
+.body2 {background:#2e2e2e}
+.body3 {background:#191919}
+.body4 {background:url(../images/bg_footer.gif) top repeat-x}
+/* main layout */
+a {color:#87a310;text-decoration:underline;outline:none}
+a:hover {text-decoration:none}
+h1 {margin-left:-7px;position:absolute;z-index:2;background:url(../images/logo_img.png) 0 0 no-repeat;height:95px;padding-left:191px;padding-top:28px}
+h2 {font-size:37px;color:#87a310;line-height:1.2em;padding:28px 0 27px 0;letter-spacing:-1px}
+h2.pad_bot1 {padding-bottom:17px}
+h2.pad_top1 {padding-top:18px}
+h3 {font-size:24px;color:#fff;line-height:1.2em;padding:42px 0 19px 0}
+h3.pad_top1 {padding-top:22px}
+h4 { font-size:27px;color:#fff;line-height:1.2em;padding:10px 0 23px 70px;letter-spacing:-1px}
+h4.img1 {background:url(../images/page1_img1.jpg) 0 0 no-repeat}
+h4.img2 {background:url(../images/page1_img2.jpg) 0 0 no-repeat}
+h4.img3 {background:url(../images/page1_img3.jpg) 0 0 no-repeat}
+p {padding-bottom:20px}
+/* header */
+header {position:relative;height:177px}
+#logo {display:block;background:url(../images/logo.gif) 0 0 no-repeat;width:213px;height:38px;text-indent:-9999px}
+#icons {float:right;padding:34px 29px 0 0}
+#icons li {float:left;padding-left:10px}
+#menu {padding:33px 0 0}
+#menu li {padding:26px 37px 23px 30px;float:left;background:url(../images/menu_line.gif) right 0 no-repeat}
+#menu .end {background:none;padding-right:0}
+#menu li a {display:inline-block;overflow:hidden;font-size:21px;color:#191919;line-height:1.2em;text-decoration:none;letter-spacing:-1px}
+#menu li a:hover, #menu #menu_active a {color:#87a310}
+/* Tooltips */
+.aToolTip {	border:1px solid #fff;background:#87a310;color:#fff;margin:0;padding:2px 10px;font-size:11px}
+.aToolTip .aToolTipContent {position:relative;margin:0;padding:0}
+a.aToolTipCloseBtn {display:block;height:20px;width:20px;overflow:hidden;background:url(../images/loading/close.gif) no-repeat;text-indent:-9999px;outline:none;position:absolute;top:-15px;right:-20px}
+/* The Nivo Slider styles */
+#slider {position:relative;width:683px;height:376px;z-index:88;overflow:hidden}
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {position:absolute;top:0px;left:0px;width:100%;height:100%;border:0;padding:0;margin:0;z-index:60;display:none}
+/* The slices in the Slider */
+.nivo-slice {display:block;position:absolute;z-index:50;height:100%}
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav {position:absolute;z-index:99;right:26px;bottom:13px;background:url(../images/buttons_bg.png) 0 0 no-repeat;padding:5px;padding-right:2px}
+.nivo-controlNav a {position:relative;z-index:99;cursor:pointer;text-indent:-5000px;width:12px;height:12px;float:left;margin-right:3px;background:url(../images/buttons.png) right 0 no-repeat}
+.nivo-controlNav a.active {background-position:left}
+/* Caption styles */
+.nivo-caption {height:103px;width:653px;padding-left:30px;position:absolute;bottom:-20px;left:0;background:url(../images/caption_bg.png) repeat;z-index:98}
+.nivo-caption strong {display:block;font-size:27px;color:#fff;line-height:1.2em;font-weight:normal;padding:11px 0 5px 0;letter-spacing:-1px}
+.nivo-caption span {font-weight:bold}
+.nivo-html-caption {}
+/* content */
+#content {padding-top:20px;padding-bottom:32px}
+#content2 {padding-bottom:40px}
+.pad1 {padding:0 30px 0 33px}
+.pad2 {padding:0 28px 0 30px}
+.pad_left1 {padding-left:30px}
+.pad_bot1 {padding-bottom:5px}
+.pad_bot2 {padding-bottom:14px}
+.pad_bot3 {padding-bottom:40px}
+.marg_right1 {margin-right:39px}
+.pad_top1 {padding-top:14px}
+.button {display:inline-block;width:89px;line-height:26px;height:26px;color:#fff;text-decoration:none;background:url(../images/button_bg.png) 0 0 no-repeat;text-align:center}
+.button:hover {background-position:bottom;color:#191919}
+.color1 {color:#87a310} 
+.color2 {color:#fff}
+.list1 {margin-top:-5px}
+.list1 li {line-height:29px}
+.list1 li a, .list2 li a {padding-left:14px;background:url(../images/marker_1.gif) 0 5px no-repeat}
+.list1 li a:hover, .list2 li a:hover {background-position:0 -24px}
+.list2 {margin-top:-2px;margin-bottom:-2px}
+.list2 {line-height:27px}
+.date {float:left;width:66px;padding-bottom:20px}
+.date strong {font-size:50px;line-height:1.2em;color:#87a310;display:block;margin-top:-10px;margin-left:-3px;letter-spacing:-3px}
+.date span {font-size:24px;color:#fff;line-height:1.2em;display:block;margin-top:-13px;margin-left:2px;letter-spacing:-1px}
+.address span {float:left;width:81px}
+/* footer */
+footer {height:1000px;color:#191919;padding:45px 30px 20px 30px;height:66px;font-size:13px}
+footer a{}
+footer a:hover{}
+.call {float:right;font-size:32px;color:#87a310;line-height:1.2em;letter-spacing:-1px;padding-top:2px}
+.call span {font-size:31px;color:#191919}
+/* forms */
+#ContactForm {}
+#ContactForm span {float:left;width:100px}
+#ContactForm .wrapper {min-height:30px}
+#ContactForm .textarea_box {min-height:200px;width:100%;overflow:hidden;padding-bottom:10px}
+#ContactForm a {margin-right:10px;float:left}
+#ContactForm .input {width:254px;background:#fff;padding:3px 10px;color:#191919;font:12px Arial, Helvetica, sans-serif;height:14px}
+#ContactForm textarea {overflow:auto;width:504px;background:#fff;padding:3px 10px;color:#191919;font:12px Arial, Helvetica, sans-serif;height:177px;margin:0}
+#form_1 {background:#191919;height:360px;padding-bottom:16px;color:#bababa}
+#form_1 h3 {padding:23px 0 4px 0;border-bottom:1px solid #8c8c8c;margin-bottom:15px}
+#form_1 .input {background:#fff; font:12px Arial, Helvetica, sans-serif;color:#191919;float:left;padding:3px 10px;height:14px;width:191px !important}
+#form_1 .row {min-height:46px;width:100%;overflow:hidden}
+#form_1 .row_select {min-height:46px;width:100%}
+#form_1 .jqTransformSelectWrapper {float:left;width:213px !important}
+#form_1 .jqTransformSelectWrapper span{float:left;width:201px !important}
+#form_1 .cols {width:94px}
+#form_1 .cols .jqTransformSelectWrapper {float:left;width:96px !important}
+#form_1 .cols .jqTransformSelectWrapper span{float:left;width:84px !important}
+#form_1 .pad_left1 {padding-left:23px}
+#form_1 .button {margin-top:17px;background-image:url(../images/button_bg_form.png);width:94px}
+#form_1 .pad_bot1 {padding-bottom:9px}
+#form_1 .pad1 {padding:0 33px}
+/* -------------
+ * Input
+ * ------------- */
+.jqTransformInputWrapper {float:left;width:auto !important}
+.jqTransformInputWrapper div {float:left}
+/* -------------
+ * Selects
+ * ------------- */
+.jqTransformSelectWrapper {position:relative}
+.jqTransformSelectWrapper div {float:left;font:12px Arial, Helvetica, sans-serif;color:#191919;display:block;position:relative;white-space:nowrap;height:20px;line-height:20px;overflow:hidden;cursor:pointer;background:#fff}
+.jqTransformSelectWrapper div span{padding:0 0 0 10px;display:block}
+a.jqTransformSelectOpen {display:block;position:absolute;top:1px;right:1px;width:18px;height:18px;background:url(../images/select.gif) 0 0 no-repeat}
+.jqTransformSelectWrapper ul {position:absolute;top:21px;left:0px;background:#fff;font:12px Arial, Helvetica, sans-serif;display:none;z-index:10; padding:5px 0 5px 0;height:50px;overflow:auto;min-height:20px} 
+.jqTransformSelectWrapper ul a {display:block;padding:0 10px;text-decoration:none;color:#191919}
+.jqTransformSelectWrapper ul a.selected {color:#87a310}
+.jqTransformSelectWrapper ul a:hover, .jqTransformSelectWrapper ul a.selected:hover {color:#fff;background:#87a310; }
+
+/* -------------
+ * Hidden - used to hide the original form elements
+ * ------------- */
+.jqTransformHidden {display:none}

@@ -1,0 +1,113 @@
+/* ===================================================================================
+
+Theme Name: Moderna Responsive Site Template
+Theme URI: http//pixel-industry.com/moderna/Boxed/
+Description: Moderna is Responsive and Creative Site Template 
+Author: pixel-industry
+Author URI: http//pixel-industry.com
+Version: 1.0
+
+Description: Accordion and Toggle Styles
+
+======================================================================================*/
+
+/*=====================================================================================
+        TOGGLE
+======================================================================================*/
+
+.vertical-toggle{
+    position: relative;
+}
+
+.vertical-toggle .set{ 
+    float: left; 
+    margin-bottom: 3px;
+    width: 100%;
+}
+
+.vertical-toggle div.title:last-of-type{
+    margin-bottom: 0 !important;
+}
+
+.vertical-toggle .content{
+    display:none;
+    float: left;
+    overflow: hidden;
+    padding: 10px;
+    margin-top: 3px;
+    border: 1px solid #ECECEC;
+}
+
+.vertical-toggle div.title .text{
+    color: #8F8F8F;
+    display: block;
+    cursor:pointer;
+    color: #797979;
+    font: 12px 'Droid Sans',sans-serif;
+    border: 1px solid #e9e9e9;
+    padding: 8px 10px;
+    background: #F8F8F8 url(../img/toggle-open.png) no-repeat right center;
+}
+
+.vertical-toggle .active .text{
+    background: #F8F8F8 url(../img/toggle-close.png) no-repeat right center !important;
+}
+
+.vertical-toggle div.title .text:hover{
+    color: #61D5D1;
+}
+
+.vertical-toggle div.title a{
+    
+}
+
+/*=====================================================================================
+        ACCORDION
+======================================================================================*/
+
+.accordion{
+    position: relative;
+}
+
+.accordion .title{ 
+    float: left; 
+    margin-bottom: 3px;
+    width: 100%;
+}
+
+.accordion .title:last-of-type{
+    margin-bottom: 0 !important;
+}
+
+.accordion .content{
+    display:none;
+    float: left;
+    overflow: hidden;
+    padding: 10px;
+    margin-bottom: 3px;
+    border: 1px solid #ECECEC;
+}
+
+.accordion .title a{
+    color: #8F8F8F;
+    display: block;
+    cursor:pointer;
+    color: #797979;
+    font: 12px 'Droid Sans',sans-serif;
+    border: 1px solid #e9e9e9;
+    padding: 8px 10px;
+    background: #F8F8F8 url(../img/toggle-open.png) no-repeat right center;
+}
+
+.accordion .active a{
+    background: #F8F8F8 url(../img/toggle-close.png) no-repeat right center !important;
+}
+
+.accordion .title a:hover{
+    color: #61D5D1;
+}
+
+.accordion .title a{
+    
+}
+

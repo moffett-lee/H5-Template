@@ -1,0 +1,36 @@
+
+/*=========================================================================
+ Carousel
+========================================================================= */
+
+#carousel-1 { position:relative; }
+
+.es-carousel { width:100%; overflow:hidden; }
+
+#carousel-1 ul li { width: 300px !important; }
+
+#carousel-1 li { float:left; position:relative; }
+
+#carousel-1 .es-nav { position: absolute; top: -52px; width: 100%; }
+
+#carousel-1 .es-nav-prev, #carousel-1 .es-nav-next { display:inline-block !important; width:19px; height:19px; overflow:hidden; text-indent: 100%; white-space: nowrap; cursor:pointer; z-index:999; margin-bottom:6px; }
+
+#carousel-1 .es-nav-prev { background:url(../images/icons/carousel-next-prev.png) 0px 0px no-repeat; position: absolute; right: 30px; }
+
+#carousel-1 .es-nav-next { background:url(../images/icons/carousel-next-prev.png) -19px 0px no-repeat; position: absolute; right: 0; }
+
+#carousel-1 .es-nav-prev:hover { background-position: 0 -19px; }
+
+#carousel-1 .es-nav-next:hover { background-position: -19px -19px; }
+ @media only screen and (min-width: 768px) and (max-width: 959px) {
+ #carousel-1 ul li {
+width: 236px !important
+}
+}
+ @media only screen and (max-width: 767px) {
+ #carousel-1 ul li {
+width: 420px !important;
+}
+}
+ @media only screen and (min-width: 480px) and (max-width: 767px) {
+}

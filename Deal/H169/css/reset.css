@@ -1,0 +1,189 @@
+@charset "utf-8";
+
+/*
+
+Last Update 2009-11-20
+
+*/
+
+/* margin,padding
+--------------------------------------------------------------------*/
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+div,
+p,
+pre,
+address,
+blockquote,
+ul,
+ol,
+dl,
+dt,
+dd,
+form,
+fieldset {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+/* heading
+--------------------------------------------------------------------*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+}
+/*边距*/
+.ma_1 {margin:1px;}.ma_2 {margin:2px;}.ma_3 {margin:3px;}.ma_4 {margin:4px;}.ma_5 {margin:5px;}.ma_10 {margin:10px;}
+.ma_l1{margin-left:1px;}.ma_l2{margin-left:2px;}.ma_l3{margin-left:3px;}.ma_l4{margin-left:4px;}.ma_l5{margin-left:5px;}.ma_l10{margin-left:10px;}
+.ma_r1{margin-right:1px;}.ma_r2{margin-right:2px;}.ma_r3{margin-right:3px;}.ma_r4{margin-right:4px;}.ma_r1{margin-right:5px;}.ma_r10{margin-right:10px;}
+.ma_t1{margin-top:1px;}.ma_t2{margin-top:2px;}.ma_t3{margin-top:3px;}.ma_t4{margin-top:4px;}.ma_t5{margin-top:5px;}.ma_t10{margin-top:10px;}
+.ma_b1{margin-bottom:1px;}.ma_b2{margin-bottom:2px;}.ma_b3{margin-bottom:3px;}.ma_b4{margin-bottom:4px;}.ma_b5{margin-bottom:5px;}.ma_b10{margin-bottom:10px;}
+.pa_1 {padding:1px;}.pa_2 {pargin:2px;}.pa_3 {pargin:3px;}.pa_4 {pargin:4px;}.pa_5 {padding:5px;}.pa_10 {padding:10px;}
+.pa_l1{padding-left:1px;}.pa_l2{padding-left:2px;}.pa_l3{padding-left:3px;}.pa_l4{padding-left:4px;}.pa_l5{padding-left:5px;}.pa_l10{padding-left:10px;}
+.pa_r1{padding-right:1px;}.pa_r2{padding-right:2px;}.pa_r3{padding-right:3px;}.pa_r4{padding-right:4px;}.pa_r1{padding-right:5px;}.pa_r10{padding-right:10px;}
+.pa_t1{padding-top:1px;}.pa_t2{padding-top:2px;}.pa_t3{padding-top:3px;}.pa_t4{padding-top:4px;}.pa_t5{padding-top:5px;}.pa_t10{padding-top:10px;}
+.pa_b1{padding-bottom:1px;}.pa_b2{padding-bottom:2px;}.pa_b3{padding-bottom:3px;}.pa_b4{padding-bottom:4px;}.pa_b5{padding-bottom:5px;}.pa_b10{padding-bottom:10px;}
+/*常规字体颜色*/
+.c1{color:#FFF;}.c2{color:#ccc;}.c3{color:#999;}.c4{color:666;}.c5{color:#333;}.c6{color:#000;}
+.c1 a{color:#FFF;}.c2 a{color:#ccc;}.c3 a{color:#999;}.c4 a{color:666;}.c5 a{color:#333;}.c6 a{color:#000;}
+/*浮动*/
+.left{float:left;display:inline;} .right{float:right;display:inline;} .clear{clear:both;}
+/*字*/
+.fz12{font-size:12px;}.fz14{font-size:14px;}
+/*边框*/
+.bor_1{border:1px solid #ccc;}.bor_2{border:1px solid #000;}.bor_3{border:1px solid #ddd;}
+.bor_l1{border-left:1px solid #ccc;}.bor_l2{border-left:1px solid #000;}.bor_13{border-left:1px solid #ddd;}
+.bor_r1{border-right:1px solid #ccc;}.bor_r2{border-right:1px solid #000;}.bor_r3{border-right:1px solid #ddd;}
+.bor_b1{border-bottom:1px solid #ccc;}.bor_b2{border-bottom:1px solid #000;}.bor_b3{border-bottom:1px solid #ddd;}
+.bor_t1{border-top:1px solid #ccc;}.bor_t2{border-top:1px solid #000;}.bor_t3{border-top:1px solid #ddd;}
+/* font 
+--------------------------------------------------------------------*/
+
+body {
+font-family: "宋体","新宋体",Arial,Helvetica,sans-serif;	font-size: 62.5%;
+	_font-size: 62.5%;
+	*font-size: 62.5%;
+	font-size: 62.5%\9;
+}
+
+address,
+em {
+	font-style: normal;
+}
+
+/* list 
+--------------------------------------------------------------------*/
+
+ol,
+ul {
+	list-style-type: none;
+}
+
+/* img 
+--------------------------------------------------------------------*/
+
+img {
+	border: none;
+	vertical-align: bottom;
+}
+
+/* form
+--------------------------------------------------------------------*/
+
+input,
+select,
+textarea,
+button {
+	font-size: inherit;
+	line-height: inherit;
+}
+
+button {
+	cursor: pointer;
+}
+
+/* table
+--------------------------------------------------------------------*/
+
+table,
+thead,
+tbody,
+tfoot,
+tr,
+th,
+td,
+caption,
+col,
+colgroup {
+	text-align: inherit;
+	line-height: inherit;
+	font-size: 100%;
+}
+
+table {
+	display: table;
+}
+
+thead {
+	display: table-header-group;
+}
+
+tbody {
+	display: table-row-group;
+}
+
+tfoot {
+	display: table-footer-group;
+}
+
+tr {
+	display: table-row;
+}
+
+th,
+td {
+	display: table-cell;
+}
+
+caption {
+	display: table-caption;
+}
+
+col {
+	display: table-column;
+}
+
+colgroup {
+	display: table-column-group;
+}
+
+/* clearfix
+--------------------------------------------------------------------*/
+
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+.clearfix {display: inline-block;}/*IE7用*/
+
+/* Hides from IE-mac \*/
+* html .clearfix { height:1%;}
+.clearfix { display:block;}
+/* End hide from IE-mac */

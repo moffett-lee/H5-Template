@@ -1,0 +1,42 @@
+/* ===================================================================================
+
+Theme Name: Moderna Responsive Site Template
+Theme URI: http//pixel-industry.com/moderna/Boxed/
+Description: Moderna is Responsive and Creative Site Template 
+Author: pixel-industry
+Author URI: http//pixel-industry.com
+Version: 1.0
+
+====================================================================================== */
+
+nav li ul{
+    background: #fff;
+    border-top: 1px solid #ececec;
+}
+
+.btn-big{
+    width: auto;
+}
+
+.btn-medium{
+    width: 105px;
+}
+
+.note.grid_12 .text{
+    width: auto;
+    padding-right: 15px;
+}
+
+.tabs li.active{
+    border-left: 1px solid #ececec;
+}
+
+.comment-form .name, .comment-form .email{
+    padding-top: 10px;
+    height: 20px;
+}
+
+.contact-form .name, .contact-form .email{
+    padding-top: 10px;
+    height: 20px;
+}

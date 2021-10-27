@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+@import url(reset.css);
+@import url(base.css);
+
+#Login{width:660px; height:220px; margin:0 auto;font-size: 1.2em;line-height:1.8; margin-top:250px;}
+.box{  position:relative; width:660px; height:220px;}
+.box p.a01{ position:absolute; left:110px; top:20px;}
+.box .a02{ position:absolute; left:10px; top:110px; width:630px;}
+.box .a02 td{ font-size:14px; font-family:Arial, Helvetica, sans-serif; padding:8px 0;}
+.box .a02 td .a03{ width:200px; height:24px; line-height:24px; border:1px solid #DBDBDB; color:#999; font-size:12px; padding-left:5px;}
+body {
+	background-image: url(../images/login_bg.jpg);
+	background-repeat:repeat-x;
+	background-position: top;
+	background-attachment:fixed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

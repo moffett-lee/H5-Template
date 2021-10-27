@@ -1,0 +1,454 @@
+/*-----------------------------------------------------------------------------------*/
+/*	MEDIA QUERIES
+/*-----------------------------------------------------------------------------------*/
+/* iPad Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) { 
+	.top-wrapper .inner,
+	.wrapper,
+	footer,
+	.subfooter,
+	.inner {
+	    width: 960px
+	}
+	.portfoliowide-bannercontainer,
+	.portfoliowide-banner {
+	    width: 860px
+	}
+	.items li {
+	    width: 198px
+	}
+	.items.col3 li {
+	    margin: 0 24px 26px 0;
+	    width: 270px;
+	}
+	.content,
+	.project .image {
+	    width: 590px
+	}
+	.sidebar,
+	.project .details,
+	.item-details {
+	    width: 230px
+	}
+	.portfoliohalf-bannercontainer,
+	.portfoliohalf-banner,
+	.project-bannercontainer,
+	.project-banner {
+	    width: 590px
+	}
+	.single .related .post {
+	    width: 184px;
+	    margin-right: 19px;
+	}
+	.tab a {
+	    padding: 7px 15px
+	}
+}
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) { 
+	.top-wrapper .inner,
+	.wrapper,
+	footer,
+	.subfooter {
+	    width: 100%
+	}
+	.portfoliowide-bannercontainer,
+	.portfoliowide-banner {
+	    width: 688px
+	}
+	.inner,
+	.top-wrapper .inner,
+	footer .inner,
+	.subfooter .inner {
+	    padding-left: 40px;
+	    padding-right: 40px;
+	}
+	.inner {
+	    width: 768px
+	}
+	.subfooter {
+	    margin-bottom: 0
+	}
+	header .logo {
+	    text-align: center;
+	    float: none;
+	}
+	header .logo img {
+	    display: inline
+	}
+	header .menu {
+	    float: none
+	}
+	.menu ul {
+	    text-align: center
+	}
+	.menu ul ul {
+	    text-align: left
+	}
+	.menu ul li {
+	    margin-left: 10px;
+	    margin-right: 10px;
+	}
+	.intro p {
+	    text-align: center
+	}
+	.items li {
+	    margin: 0 18px 20px 0;
+	    width: 153px;
+	}
+	#portfolio .items li {
+	    margin: 0 22px 24px 0;
+	    width: 214px;
+	}
+	.content,
+	.project .image {
+	    width: 438px
+	}
+	.sidebar,
+	.project .details,
+	.item-details {
+	    width: 210px
+	}
+	.portfoliohalf-bannercontainer,
+	.portfoliohalf-banner,
+	.project-bannercontainer,
+	.project-banner {
+	    width: 438px
+	}
+	.single .related .post {
+	    width: 134px;
+	    margin-right: 18px;
+	}
+	.tab a {
+	    padding: 7px 15px
+	}
+} /* END Smaller than standard 960 (devices and browsers) */
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+	.wrapper,
+	footer,
+	.subfooter {
+	    width: 100%
+	}
+	.portfoliowide-bannercontainer,
+	.portfoliowide-banner {
+	    width: 400px
+	}
+	.inner,
+	.top-wrapper .inner,
+	footer .inner,
+	.subfooter .inner {
+	    padding-left: 40px;
+	    padding-right: 40px;
+	}
+	.top-wrapper .inner,
+	.inner {
+	    width: 480px
+	}
+	.subfooter {
+	    margin-bottom: 0
+	}
+	header .logo {
+	    text-align: center;
+	    float: none;
+	    margin-bottom: 40px;
+	}
+	header .logo img {
+	    display: inline
+	}
+	header .menu {
+	    float: none
+	}
+	.menu ul {
+	    text-align: center
+	}
+	.menu ul ul {
+	    text-align: left
+	}
+	.menu ul li {
+	    margin-left: 10px;
+	    margin-right: 10px;
+	}
+	.intro p {
+	    text-align: center
+	}
+	.items li,
+	#portfolio .items li {
+	    margin: 0 18px 20px 0;
+	    width: 190px;
+	}
+	.content,
+	.project .image,
+	.sidebar,
+	.project .details,
+	.item-details {
+	    width: 100%
+	}
+	.sidebar {
+	    margin-top: 30px;
+	    border-top: 1px solid rgba(0,0,0,0.15);
+	    padding-top: 40px;
+	}
+	.portfoliohalf-bannercontainer,
+	.portfoliohalf-banner,
+	.project-bannercontainer,
+	.project-banner {
+	    width: 400px
+	}
+	.single .related .post {
+	    width: 122px;
+	    margin-right: 17px;
+	}
+	#comments .user {
+	    display: none
+	}
+	#comments ul.children {
+	    padding: 0 0 0 20px
+	}
+	.tab a {
+	    padding: 7px 15px
+	}
+	img.right,
+	.alignright,
+	img.left,
+	.alignleft {
+	    float: none;
+	    margin: 0 0 20px 0;
+	}
+	.overlay.alignleft {
+	    float: left
+	}
+	.one-half,
+	.one-third,
+	.two-third,
+	.three-fourth,
+	.one-fourth,
+	.one-fifth,
+	.one-sixth {
+	    margin: 0;
+	    width: 100%;
+	    margin-bottom: 20px;
+	    float: none;
+	}
+	footer .one-half,
+	footer .one-third,
+	footer .two-third,
+	footer .three-fourth,
+	footer .one-fourth,
+	footer .one-fifth,
+	footer .one-sixth {
+	    margin-bottom: 40px
+	}
+	footer .last {
+	    margin-bottom: 0
+	}
+	.menu ul#tiny {
+	    display: none
+	}
+	.selectnav {
+	    width: 480px;
+	    display: block;
+	}
+	.pricing.three .plan,
+	.pricing.four .plan {
+	    width: 47%;
+	    float: left;
+	    margin-left: 2%;
+	    margin-bottom: 10px;
+	}
+	ul.retina-icons {
+	    width: 110%;
+	    margin-right: -4%;
+	}
+	ul.retina-icons li {
+	    width: 44%;
+	    margin-right: 4%;
+	}
+	.forms fieldset .text-input-row,
+	.comment-form div.name-field,
+	.comment-form div.email-field,
+	.comment-form div.website-field {
+	    width: 100%;
+	    float: none;
+	    margin-right: 0;
+	    margin-bottom: 15px;
+	}
+	.subfooter p,
+	.subfooter .social {
+	    float: none
+	}
+	.subfooter p {
+	    padding-bottom: 20px
+	}
+	.subfooter .social li {
+	    margin-left: 0px;
+	    margin-right: 3px;
+	}
+} /* END Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) { 
+	.wrapper,
+	footer,
+	.subfooter {
+	    width: 100%
+	}
+	.portfoliowide-bannercontainer,
+	.portfoliowide-banner {
+	    width: 270px
+	}
+	.inner,
+	.top-wrapper .inner,
+	footer .inner,
+	.subfooter .inner {
+	    padding-left: 25px;
+	    padding-right: 25px;
+	}
+	.top-wrapper .inner,
+	.inner {
+	    width: 320px
+	}
+	.subfooter {
+	    margin-bottom: 0
+	}
+	header .logo {
+	    text-align: center;
+	    float: none;
+	    margin-bottom: 40px;
+	}
+	header .logo img {
+	    display: inline
+	}
+	header .menu {
+	    float: none
+	}
+	.menu ul {
+	    text-align: center
+	}
+	.menu ul ul {
+	    text-align: left
+	}
+	.menu ul li {
+	    margin-left: 10px;
+	    margin-right: 10px;
+	}
+	.intro p {
+	    text-align: center
+	}
+	.items li,
+	#portfolio .items li {
+	    margin: 0 0 20px 0;
+	    width: 268px;
+	}
+	.content,
+	.project .image,
+	.sidebar,
+	.project .details,
+	.item-details,
+	.content .post img {
+	    width: 100%
+	}
+	.sidebar {
+	    margin-top: 30px;
+	    border-top: 1px solid rgba(0,0,0,0.15);
+	    padding-top: 40px;
+	}
+	.portfoliohalf-bannercontainer,
+	.portfoliohalf-banner,
+	.project-bannercontainer,
+	.project-banner {
+	    width: 270px
+	}
+	.single .related .post {
+	    width: 270px;
+	    margin-right: 0;
+	}
+	#comments .user {
+	    display: none
+	}
+	#comments ul.children {
+	    padding: 0 0 0 20px
+	}
+	.tab a {
+	    padding: 7px 15px
+	}
+	img.right,
+	.alignright,
+	img.left,
+	.alignleft {
+	    float: none;
+	    margin: 0 0 20px 0;
+	}
+	overlay.alignleft {
+	    float: left
+	}
+	.one-half,
+	.one-third,
+	.two-third,
+	.three-fourth,
+	.one-fourth,
+	.one-fifth,
+	.one-sixth {
+	    margin: 0;
+	    width: 100%;
+	    margin-bottom: 20px;
+	    float: none;
+	}
+	footer .one-half,
+	footer .one-third,
+	footer .two-third,
+	footer .three-fourth,
+	footer .one-fourth,
+	footer .one-fifth,
+	footer .one-sixth {
+	    margin-bottom: 40px
+	}
+	footer .last {
+	    margin-bottom: 0
+	}
+	.menu ul#tiny {
+	    display: none
+	}
+	.selectnav {
+	    width: 320px;
+	    display: block;
+	}
+	ul.retina-icons {
+	    width: 100%;
+	    margin-right: 0;
+	}
+	ul.retina-icons li {
+	    width: 100%;
+	    margin-right: 0;
+	}
+	.pricing.three .plan,
+	.pricing.four .plan {
+	    width: 100%;
+	    float: none;
+	    margin-left: 0;
+	    margin-bottom: 20px;
+	}
+	.content .post .post-content {
+	    margin-left: 0px;
+	    overflow: hidden;
+	}
+	.forms fieldset .text-input-row,
+	.comment-form div.name-field,
+	.comment-form div.email-field,
+	.comment-form div.website-field {
+	    width: 100%;
+	    float: none;
+	    margin-right: 0;
+	    margin-bottom: 15px;
+	}
+	.subfooter p,
+	.subfooter .social {
+	    float: none
+	}
+	.subfooter p {
+	    padding-bottom: 20px
+	}
+	.subfooter .social li {
+	    margin-left: 0px;
+	    margin-right: 3px;
+	}
+} /* END Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */

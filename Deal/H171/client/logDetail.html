@@ -1,0 +1,209 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http//www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http//www.w3.org/1999/xhtml" >
+<head>
+<title>无标题页</title>
+<link rel="stylesheet" type="text/css" href="../css/index.css" />
+</head>
+<body class="mian_bj">
+<div class="mian_top_02">
+ <div class="mian_top_r1"></div>
+  <div class="mian_top_l1"></div>
+  <img src="../images/bnt_03.jpg" style="float:left;" id="leftbtn" />
+  <div class="mian_top_c1" id="container">
+            <ul>
+                 <li><a href="ClientClass.html">
+                    <p>
+                      客户分类管理</p>
+                </a></li>
+                <li><a href="myclient.html">
+                    <p>
+                       我的客户信息</p>
+                </a></li>
+                <li><a href="CompanyClient.html">
+                    <p>
+                        公司客户信息</p>
+                </a></li>
+                <li><a href="ReturnVisit.html">
+                    <p>
+                        客户回访</p>
+                </a></li>
+                    <li><a href="ClientIdea.html">
+                    <p>
+                        客户意见</p>
+                </a></li>
+                <li><a href="#">
+                    <p>
+                        客户委托</p>
+                </a></li>
+                   <li><a href="ClientReceipt.html">
+                    <p>
+                        客户收款记录</p>
+                </a></li>
+                 <li><a href="ClientAudit.html">
+                    <p>
+                        客户信息改删审核</p>
+                </a></li>
+                <li><a href="ClientManager.html">
+                    <p>
+                        客户信息改删管理</p>
+                </a></li>
+                 <li><a href="ClientLog.html">
+                    <p>
+                        客户信息改删日志</p>
+                </a></li>
+                
+            </ul>
+        </div>
+        <img src="../images/bnt_05.jpg" style="float:right;"  id="rightbtn"/>
+<div class="mian_b">
+  
+  <table width="100%" border="0" cellpadding="0" cellspacing="0" class="mian_b_bg_xz">
+  <tr>
+    <td width="5%" class="mian_b_bg_lm">&nbsp;</td>
+    <td colspan="3" class="mian_b_bg_lm">操作信息详细</td>
+    </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td width="10%" valign="top">客户编号：</td>
+    <td width="60%">
+       TD2562         </td>
+    <td width="30%">&nbsp;</td>
+    </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td valign="top">客户名称：</td>
+    <td>
+      上海XX有限公司</td>
+    <td>&nbsp;</td>
+    </tr>
+     
+     <tr>
+    <td>&nbsp;</td>
+    <td valign="top">操作人：</td>
+    <td>
+     总经理</td>
+    <td>&nbsp;</td>
+    </tr>
+         <tr>
+    <td>&nbsp;</td>
+    <td valign="top">操作内容：</td>
+    <td>
+     吴菲菲把XXX客户的手机改了</td>
+    <td>&nbsp;</td>
+    </tr>
+    <tr>
+    <td>&nbsp;</td>
+    <td valign="top">操作时间：</td>
+    <td>
+     2012-3-16</td>
+    <td>&nbsp;</td>
+    </tr>
+    
+ <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>
+      <div align="center"><img src="../images/bnt_05.gif" alt="" width="80" height="22" onclick="javascript:window.history.go(-1);" /></div></td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+
+
+</div>
+</div>
+<script type="text/javascript">
+function $(id){
+    return document.getElementById(id);
+}
+
+//定义滚动对象
+var zhennScroll = {
+    //容器
+    container: $("container"),
+    //左按钮
+    leftbtn: $("leftbtn"),
+    //右按钮
+    rightbtn: $("rightbtn"),
+    //是否自动滚动
+    autoScroll: false,
+	childElem1: null,
+	childElem2: null,
+    //定时器
+    timer: null,
+    //速度，值越大，滚动越慢
+    speed: 20,
+    //移动的单位距离，值越小，滚动越快
+    space: 5,
+	//翻页宽度
+	pageWidth: 150, 
+    //初始化
+	num: 0,
+    init: function(){
+        this.container.innerHTML = "<div style=\"width:9999px;\" >" + this.container.innerHTML + "</div>";
+        this.childElem1 = this.container.getElementsByTagName("ul")[0];
+        this.childElem2 = document.createElement("ul");
+        var infinityDiv = this.container.getElementsByTagName("div")[0];
+        infinityDiv.appendChild(this.childElem2);
+		
+		
+        if(this.childElem1.offsetWidth>=this.container.offsetWidth){
+			this.childElem2.innerHTML = this.childElem1.innerHTML;
+			//当自动滚动时
+			if(this.autoScroll==true){
+				this.timer = setInterval(this.scrollleft,this.speed);
+				this.container.onmouseover = function(){
+					clearInterval(zhennScroll.timer);
+				}
+				this.container.onmouseout = function(){
+					zhennScroll.timer = setInterval(zhennScroll.scrollleft,zhennScroll.speed);
+				}
+			}else{   //点击按钮才可以滚动
+				//增加鼠标监听
+				//点击左边按钮，则向左滚动
+				this.leftbtn.onclick = function(){
+					if(zhennScroll.container.scrollLeft%zhennScroll.pageWidth==0){ //防止设置多个timer
+						zhennScroll.timer = setInterval(zhennScroll.scrollleft,zhennScroll.speed);
+					}
+				}
+				//点击右边按钮，则向右滚动
+				this.rightbtn.onclick = function(){
+					if(zhennScroll.container.scrollLeft%zhennScroll.pageWidth==0){ //防止设置多个timer
+						zhennScroll.timer = setInterval(zhennScroll.scrollright,zhennScroll.speed)
+					}
+				}
+			}
+			//初始化操作，强制回到初始位置
+			this.container.scrollLeft = 0;
+        }
+    },
+	//左滚动方法
+	scrollleft: function(){
+		if(zhennScroll.container.scrollLeft>=zhennScroll.childElem1.offsetWidth){
+			zhennScroll.container.scrollLeft -= zhennScroll.childElem1.offsetWidth;
+		}else{
+			zhennScroll.container.scrollLeft += zhennScroll.space;
+		}
+		if(!zhennScroll.autoScroll&&zhennScroll.container.scrollLeft%zhennScroll.pageWidth==0&&zhennScroll.container.scrollLeft>0){
+			clearInterval(zhennScroll.timer);
+		}
+	},
+	//右滚动方法
+	scrollright: function(){
+		if(zhennScroll.container.scrollLeft<=0){
+			zhennScroll.container.scrollLeft += zhennScroll.childElem1.offsetWidth;
+		}else{
+			zhennScroll.container.scrollLeft -= zhennScroll.space;
+		}
+		if(!zhennScroll.autoScroll&&zhennScroll.container.scrollLeft%zhennScroll.pageWidth==0&&zhennScroll.container.scrollLeft<zhennScroll.childElem1.offsetWidth){
+			clearInterval(zhennScroll.timer);
+		}
+	}
+	
+}
+
+window.onload = function(){
+	zhennScroll.init();
+};
+</script>
+</body>
+</html>

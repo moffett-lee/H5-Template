@@ -1,0 +1,101 @@
+/* Getting the new tags to behave */
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {display:block}
+mark, rp, rt, ruby, summary, time {display:inline }
+/* Left & Right alignment */
+.left {float:left}
+.right {float:right}
+.wrapper {width:100%;overflow:hidden}
+/* Global properties */
+body {background:#000;border:0;font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#a09d99;line-height:22px}
+.ic, .ic a {border:0;float:right;background:#fff;color:#f00;width:50%;line-height:10px;font-size:10px;margin:-220% 0 0 0;overflow:hidden;padding:0}
+.css3{border-radius:8px;-moz-border-radius:8px;-webkit-border-radius:8px;box-shadow:0 0 4px rgba(0, 0, 0, .4);-moz-box-shadow:0 0 4px rgba(0, 0, 0, .4);-webkit-box-shadow:0 0 4px rgba(0, 0, 0, .4);position:relative}
+/* Global Structure */
+.main {margin:0 auto;}
+.body1 {background:url(../images/bg_top2.gif) top repeat-x #0e0b06;}
+.body2 {background:#1c160d;}
+/* main layout */
+a {color:#fff;text-decoration:underline;outline:none}
+a:hover {text-decoration:none}
+h1 {float:left;padding:33px 0 0 16px}
+h2 {font-size:35px;color:#fff;line-height:1.2em;padding:28px 0 16px 0;font-weight:normal;letter-spacing:-2px}
+h2 span {display:block;margin-top:-7px}
+h3 {font-size:25px;color:#fff;font-weight:normal;line-height:1.2em;padding:34px 0 8px 0;letter-spacing:-1px}
+p {padding-bottom:22px}
+/* header */
+header {height:169px;}
+#logo {display:block;background:url(../images/logo.png) 0 0 no-repeat;width:298px;height:79px;text-indent:-9999px}
+#menu {float:right;padding:71px 16px 0 0}
+#menu li {float:left;padding-left:1px}
+#menu li a {display:block;font-size:19px;color:#130c04;text-decoration:none;line-height:42px;height:43px;padding:0 19px;border-radius:8px;-moz-border-radius:8px;-webkit-border-radius:8px;position:relative;background:url(../images/spacer.gif) repeat}
+#menu li a:hover, #menu .active a {background:url(../images/menu_bg.gif) bottom repeat-x #92d30f;color:#fff}
+.slideshow {position:relative;margin-top:17px; border: 5px solid #ffffff;-webkit-border-radius: 10px;-moz-border-radius: 10px;-khtml-border-radius: 10px;	border-radius: 10px;}
+/* content */
+#content {padding:0 0 34px 23px}
+#content2 {padding:3px 0 15px 23px;}
+.pad_left1 {padding-left:35px}
+.pad_left2 {padding-left:50px}
+.pad_bot1 {padding-bottom:11px}
+.pad_bot2 {padding-bottom:15px}
+.marg_right1 {margin-right:20px}
+.pad_top1 {padding-top:5px}
+.dropcap1 {float:left;background:url(../images/dropcap.png) 0 0 no-repeat;width:50px;height:54px;margin-right:20px;font-size:45px;line-height:1.2em;text-align:center;color:#e11204;margin-top:6px}
+.dropcap1 span {display:block;margin-top:-6px}
+.dropcap1 .color1 {color:#f69e00}
+.dropcap1 .color2 {color:#4f9608}
+.dropcap1 .color3 {color:#089495}
+.color1 {color:#fff}
+.color2 {color:#62a80a}
+.font1 {font-size:16px}
+.link1 {display:inline-block;font-style:italic;padding-right:13px;background:url(../images/marker_2.gif) right 8px no-repeat;text-decoration:none}
+.link1:hover {text-decoration:underline}
+.link2 {color:#a09d99;text-decoration:none}
+.link2:hover {text-decoration:underline}
+.testimonials {background:url(../images/testimonials_bg.gif) 0 4px no-repeat;padding-left:50px}
+.quot {background:url(../images/quot1.png) 0 0 no-repeat;padding-left:20px;font-style:italic}
+.quot img {display:inline-block;margin-top:1px;padding-left:4px}
+.list1{}
+.list1 li {font-size:16px;line-height:27px}
+.list1 a {color:#62a80a;padding-left:23px;background:url(../images/marker_1.png) 0 4px no-repeat;text-decoration:none}
+.list1 a:hover {color:#fff}
+.quality {width:100%;overflow:hidden}
+.quality .cols {width:290px}
+.quality .pad_left1 {padding-left:30px}
+.quality .arrow {background:url(../images/arrow.png) right 4px no-repeat}
+.quality .dropcap1 {height:50px;background:url(../images/dropcap2.png) 0 0 no-repeat;margin-top:1px}
+.quality h3 {padding:0 0 17px 0}
+.quality h3 span {display:block;margin-top:-6px}
+.price{}
+.price li {width:100%;overflow:hidden;background:url(../images/bg_price.gif) 0 -5px repeat-x}
+.price span {float:right;background:#1c160d}
+.price a {color:#a09d99;text-decoration:none;float:left;background:#1c160d}
+.price a:hover {color:#fff}
+.address {margin-top:-3px;padding-bottom:25px}
+.address li {line-height:27px;padding-left:23px;background:url(../images/marker_1.png) 0 6px no-repeat;overflow:hidden}
+.address a {color:#62a80a;text-decoration:none} 
+.address a:hover {text-decoration:underline}
+pre{font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#a09d99;line-height:27px}
+/* footer */
+footer {padding:0 0 40px 23px}
+footer a{}
+footer a:hover{}
+#icons li {line-height:1.9em}
+#icons a {color:#a09d99;text-decoration:none}
+#icons a span {display:inline-block;vertical-align:top;cursor:pointer}
+#icons a:hover {color:#fff}
+#icons img {margin:5px 10px 0 0}
+#why_us{}
+#why_us li {line-height:27px}
+#why_us a {color:#a09d99;text-decoration:none;padding-left:23px;background:url(../images/marker_3.png) 0 2px no-repeat}
+#why_us a:hover {color:#fff}
+#footer_link {margin-top:17px;border-top:1px solid #1a1a1a;padding-top:19px}
+/* forms */
+#ContactForm {padding-top:2px}
+#ContactForm span {float:left;width:111px;line-height:24px}
+#ContactForm .bg {border:1px solid #fff;background:url(../images/bg_input.gif) top repeat-x #e7e7e7;position:relative;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;float:left;height:20px;overflow:hidden}
+#ContactForm .bg2 {border:1px solid #fff;background:url(../images/bg_textarea.gif) top repeat-x #e7e7e7;position:relative;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;float:left;height:98px;overflow:hidden}
+#ContactForm .wrapper {min-height:27px}
+#ContactForm .textarea_box {height:105px;width:100%;overflow:hidden}
+#ContactForm a {float:right;width:94px;height:43px;font-size:18px;color:#fff;text-decoration:none;line-height:42px;text-align:center;background:url(../images/button_bg.gif) top repeat-x #327d05;border-radius:8px;-moz-border-radius:8px;-webkit-border-radius:8px;position:relative; margin-right: 20px; margin-top: 10px;}
+#ContactForm a:hover {background:#8dcf0f}
+#ContactForm .input {width:307px;height:18px;background:none;padding:0 5px;color:#6b6051;font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;margin:0}
+#ContactForm textarea {overflow:auto;width:307px;height:98px;background:none;padding:0 5px;color:#6b6051;font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;margin:0}

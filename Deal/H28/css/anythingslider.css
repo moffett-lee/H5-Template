@@ -1,0 +1,596 @@
+/*
+AnythingSlider v1.8+ Default theme
+By Chris Coyier: http//css-tricks.com
+with major improvements by Doug Neiner: http//pixelgraphics.us/
+based on work by Remy Sharp: http//jqueryfordesigners.com/
+*/
+
+/*****************************
+  SET DEFAULT DIMENSIONS HERE
+ *****************************/
+/* change the ID & dimensions to match your slider */
+#anything-slider {
+    background: url("../img/patt.png") repeat;
+    padding: 30px 0 0;
+    height: 340px;
+    list-style: none;
+    /* Prevent FOUC (see FAQ page) and keep things readable if javascript is disabled */
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin: 0 auto 30px;
+    position: relative;
+}
+
+#slider-container{
+    width: 940px;
+    margin: 0 auto;
+    height: 340px;
+}
+
+#slides { 
+    width: 600px; 
+    height: 340px; 
+    list-style: none; 
+}
+
+.slide-img-container{
+    position: relative;
+    width: 459px;
+    height: 340px;
+    float: left;
+    margin: 0 40px 0 0;
+}
+
+.slider-img-shadow{
+    background: url(../img/slider/slider-shadow.png) 0 -35px no-repeat;
+    width: 449px;
+    height: 40px;
+    opacity: 0.4;
+    float: left;
+    padding: 0 5px;
+}
+
+.slider-img-shadow-full{
+    background: url(../img/slider/slider-shadow-full.png) 0 -35px no-repeat;
+    width: 900px;
+    height: 40px;
+    opacity: 0.4;
+    float: left;
+    padding: 0 5px;
+}
+
+
+/******************
+  SET STYLING HERE
+ ******************
+ =================================
+ Default state (no keyboard focus)
+ ==================================*/
+/* Overall Wrapper */
+.anythingSlider-default {
+    margin: 0 auto;
+    /* 45px right & left padding for the arrows, 28px @ bottom for navigation */
+}
+/* slider window - top & bottom borders, default state */
+.anythingSlider-default .anythingWindow {
+
+}
+/* Navigation buttons + start/stop button, default state */
+.anythingSlider-default .anythingControls a {
+    /* top shadow */
+    background: #777 url(../images/default.png) center -288px repeat-x;
+    color: #000;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+/* Make sure navigation text is visible */
+.anythingSlider-default .anythingControls a span {
+    visibility: visible;
+}
+/* Navigation current button, default state */
+.anythingSlider-default .anythingControls a.cur {
+    background: #888;
+    color: #000;
+}
+
+/* start-stop button, stopped, default state */
+.anythingSlider-default .anythingControls a.start-stop {
+    background-color: #040;
+    color: #ddd;
+}
+/* start-stop button, playing, default state */
+.anythingSlider-default .anythingControls a.start-stop.playing {
+    background-color: #800;
+}
+
+/* start-stop button, default hovered text color (when visible) */
+/* hide nav/start-stop background image shadow on hover - makes the button appear to come forward */
+.anythingSlider-default .anythingControls a.start-stop:hover,
+.anythingSlider-default .anythingControls a.start-stop.hover,
+.anythingSlider-default .anythingControls a.start-stop .anythingControls ul a:hover {
+    background-image: none;
+    color: #ddd;
+}
+
+/*
+ =================================
+ Active State (has keyboard focus)
+ =================================
+*/
+/* slider window - top & bottom borders, active state */
+.anythingSlider-default.activeSlider .anythingWindow {
+    border-color: #7C9127;
+    width: 940px;
+}
+/* Navigation buttons, active state */
+.anythingSlider-default.activeSlider .anythingControls a {
+    /* background image = top shadow */
+    background-color: #fff;
+}
+/* Navigation current & hovered button, active state */
+.anythingSlider-default.activeSlider .anythingControls a.cur,
+.anythingSlider-default.activeSlider .anythingControls a:hover {
+    /* background image removed */
+    background: #8F8F8F;
+}
+
+/* start-stop button, stopped, active state */
+.anythingSlider-default.activeSlider .anythingControls a.start-stop {
+    background-color: #080;
+    color: #fff;
+}
+/* start-stop button, playing, active state */
+.anythingSlider-default.activeSlider .anythingControls a.start-stop.playing {
+    background-color: #d00;
+    color: #fff;
+}
+/* start-stop button, active slider hovered text color (when visible) */
+.anythingSlider-default.activeSlider .start-stop:hover,
+.anythingSlider-default.activeSlider .start-stop.hover {
+    color: #fff;
+}
+
+/************************
+  NAVIGATION POSITIONING
+ ************************/
+/* Navigation Arrows */
+.anythingSlider-default .arrow {
+    top: 50%;
+    position: absolute;
+    display: block;
+}
+
+/* Navigation Links */
+.anythingSlider-default .anythingControls { outline: 0; position: relative; margin-top: -10px; display: none !important; }
+.anythingSlider-default .anythingControls ul { margin: 0; padding: 0; text-align: center; }
+.anythingSlider-default .anythingControls ul li { display: inline; }
+.anythingSlider-default .anythingControls ul a {
+    font: 11px/18px Georgia, Serif;
+    display: inline-block;
+    text-indent: -9999px;
+    text-decoration: none;
+    height: 10px;
+    margin: 0 5px 0 0;
+    text-align: center;
+    outline: 0;
+    width: 10px;
+}
+
+/* navigationSize window */
+.anythingSlider-default .anythingControls .anythingNavWindow {
+    overflow: hidden;
+    float: left;
+}
+
+/* Autoplay Start/Stop button */
+.anythingSlider-default .anythingControls .start-stop {
+    padding: 2px 5px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+    z-index: 100;
+    outline: 0;
+}
+
+/***********************
+  IE8 AND OLDER STYLING
+ ***********************/
+
+/* Navigation Arrows */
+.as-oldie .anythingSlider-default .arrow {
+    top: 30%;
+}
+.as-oldie .anythingSlider-default .arrow a {
+    margin: 0;
+}
+
+/* margin between nav buttons just looks better */
+.as-oldie .anythingSlider-default .anythingControls li {
+    margin-left: 3px;
+}
+
+/* When using the navigationSize option, the side margins need to be zero
+        None of the navigation panels look good in IE7 now =( */
+.as-oldie .anythingSlider-default .anythingControls a {
+    margin: 0;
+}
+.as-oldie .anythingSlider-default .anythingNavWindow {
+    margin: 0 2px;
+}
+.as-oldie .anythingSlider-default .anythingNavWindow li {
+    padding: 3px 0 0 0;
+}
+
+/***********************
+  COMMON SLIDER STYLING
+ ***********************/
+/* Overall Wrapper */
+.anythingSlider {
+    display: block;
+    overflow: visible !important;
+    position: relative;
+}
+/* anythingSlider viewport window */
+.anythingSlider .anythingWindow {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+/* anythingSlider base (original element) */
+.anythingSlider .anythingBase {
+    background: transparent;
+    list-style: none;
+    position: absolute;
+    overflow: visible !important;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation arrow text; indent moved to span inside "a", for IE7;
+  apparently, a negative text-indent on an "a" link moves the link as well as the text */
+.anythingSlider .arrow span {
+    display: block;
+    visibility: hidden;
+}
+/* disabled arrows, hide or reduce opacity: opacity: .5; filter: alpha(opacity=50); */
+.anythingSlider .arrow.disabled {
+    display: none;
+}
+/* all panels inside the slider; horizontal mode */
+.anythingSlider .panel {
+    background: transparent;
+    display: block;
+    overflow: hidden;
+    float: left;
+    padding: 0;
+    margin: 0;
+
+}
+/* vertical mode */
+.anythingSlider .vertical .panel {
+    float: none;
+}
+/* fade mode */
+.anythingSlider .fade .panel {
+    float: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+/* fade mode active page - visible & on top */
+.anythingSlider .fade .activePage {
+    z-index: 0;
+}
+
+/***********************
+  RTL STYLING
+ ***********************/
+/* slider autoplay right-to-left, reverse order of nav links to look better */
+.anythingSlider.rtl .anythingWindow {
+    direction: ltr;
+    unicode-bidi: bidi-override;
+}
+.anythingSlider.rtl .anythingControls ul { float: left; } /* move nav link group to left */
+.anythingSlider.rtl .anythingControls ul a { float: right; } /* reverse order of nav links */
+.anythingSlider.rtl .start-stop { /* float: right; */ } /* move start/stop button - in case you want to switch sides */
+
+/* probably not necessary, but added just in case */
+.anythingSlider,
+.anythingSlider .anythingWindow,
+.anythingSlider .anythingControls ul a,
+.anythingSlider .arrow a,
+.anythingSlider .start-stop {
+    transition-duration: 0;
+    -o-transition-duration: 0;
+    -moz-transition-duration: 0;
+    -webkit-transition-duration: 0;
+}
+
+/***********************
+  SLIDES STYLING
+ ***********************/
+
+.slide-elements h3, .slide-elements h3 span{
+    font: 30px 'Advent Pro', 'Dotum', sans-serif;
+    font-weight: 200;
+    text-transform: none;
+    padding: 20px 0;
+    text-shadow: 1px 1px #fff;
+}
+
+.slide-elements h3 span{
+    color: #61D5D1;
+    font-size: 40px;
+}
+
+.slide-elements p{
+    line-height: 29px;
+    text-shadow: 1px 1px #fff;
+}
+
+.slide-elements img{
+    border: 5px solid #fff;
+}
+
+.slide-elements blockquote{
+    width: 400px;
+    margin-top: 65px;
+}
+
+#anything-slider .shadow-top{
+    width: 100%;
+    height: 12px;
+    background: url('../img/shadow-top.png') repeat-x;
+    position: absolute;
+    top: 0;
+}
+
+#anything-slider .shadow-bottom{
+    width: 100%;
+    height: 12px;
+    background: url('../img/shadow-bottom.png') repeat-x;
+    position: absolute;
+    bottom: 0;
+}
+
+#anything-slider img{
+    height: auto !important;
+    width: auto !important;
+}
+
+.img-float-right{
+    float: right;
+    margin-left: 40px;
+    margin-right: 0;
+}
+
+/***********************
+  MEDIA QUERIES
+ ***********************/
+/* DEVICES BETWEEN 768PX AND 959px */
+@media only screen and (min-width: 960px) and (max-width: 1023px){
+    #anything-slider{
+        height: 370px;
+    }
+
+    #slider-container{
+        height: 350px;
+    }
+    
+    .anythingSlider-default .arrow{
+        display: none !important;
+    }
+
+    .anythingSlider-default .anythingControls{
+        display: block !important;
+        margin: 0 !important;
+        bottom: 15px;
+    }
+
+    .anythingSlider-default .anythingControls ul a{
+        width: 15px;
+        height: 15px;
+        margin-right: 15px;
+        border-radius: 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px){
+    #anything-slider{
+        height: 310px;
+    }
+
+    #slider-container{
+        width: 724px !important;
+        height: 290px;
+    }
+
+    .slide-img-container{
+        width: 363px !important;
+        height: 256px !important;
+        margin-right: 20px;
+    }
+
+    .slider-img-shadow{
+        width: 353px;
+        background-size: 353px 70px;
+    }
+    
+    .slider-img-shadow-full{
+        width: 724px;
+        background-size: 724px 70px;
+    }
+
+    .anythingSlider-default .arrow{
+        display: none !important;
+    }
+
+    .anythingSlider-default .anythingControls{
+        display: block !important;
+        margin: 0 !important;
+        bottom: 15px;
+    }
+
+    .anythingSlider-default .anythingControls ul a{
+        width: 15px;
+        height: 15px;
+        margin-right: 15px;
+        border-radius: 10px;
+    }
+
+    #anything-slider img{
+        width: 353px !important;
+    }
+
+    #anything-slider .slider-img-full .slide-img-container{
+        width: 724px !important;
+    }
+
+    #anything-slider .slider-img-full img{
+        width: 714px !important;
+    }
+
+    .slide-elements h3, .slide-elements h3 span{
+        padding: 0 !important;
+    }
+
+    .slide-elements .btn-big{
+        display: none;
+    }
+
+    .slide-elements blockquote{
+        width: 281px;
+        margin-top: 10px;
+    }
+
+}
+
+/* ALL MOBILE SIZES */
+@media only screen and (min-width: 480px) and (max-width: 767px){
+    #anything-slider{
+        height: 360px;
+    }
+
+    #slider-container{
+        width: 440px !important;
+        height: 340px;
+    }
+
+    .slide-img-container{
+        width: 440px !important;
+        height: 256px !important;
+    }
+
+    .slider-img-shadow-full{
+        width: 440px;
+        background-size: 440px 70px;
+    }
+
+    .slider-img-shadow{
+        width: 440px;
+        background-size: 440px 70px;
+    }
+
+    .anythingSlider-default .arrow{
+        display: none !important;
+    }
+
+    .anythingSlider-default .anythingControls{
+        display: block !important;
+        margin: 0 !important;
+        bottom: 15px;
+    }
+
+    .anythingSlider-default .anythingControls ul a{
+        width: 15px;
+        height: 15px;
+        margin-right: 15px;
+        border-radius: 10px;
+    }
+
+    #anything-slider img{
+        width: 430px !important;
+    }
+
+    #anything-slider .slider-img-full .slide-img-container{
+        width: 440px !important;
+        margin-top: 75px;
+    }
+
+    #anything-slider .slider-img-full img{
+        width: 430px !important;
+    }
+
+    .slide-elements h3, .slide-elements p, .slide-elements a, .slide-elements blockquote{
+        display: none;
+    }
+}
+
+/* SMARTPHONES */
+@media only screen and (min-width: 320px) and (max-width: 479px){
+    #anything-slider{
+        height: 250px;
+    }
+
+    #slider-container{
+        width: 280px !important;
+        height: 230px;
+    }
+
+    .slide-img-container{
+        width: 280px !important;
+        height: 190px !important;
+    }
+
+    .slider-img-shadow-full{
+        width: 280px;
+        background-size: 280px 70px;
+    }
+
+    .slider-img-shadow{
+        width: 280px;
+        background-size: 280px 70px;
+    }
+
+    .anythingSlider-default .arrow{
+        display: none !important;
+    }
+
+    .anythingSlider-default .anythingControls{
+        display: block !important;
+        margin: 0 !important;
+        bottom: 15px;
+    }
+
+    .anythingSlider-default .anythingControls ul a{
+        width: 15px;
+        height: 15px;
+        margin-right: 15px;
+        border-radius: 10px;
+    }
+
+    #anything-slider img{
+        width: 270px !important;
+    }
+
+    #anything-slider .slider-img-full .slide-img-container{
+        width: 280px !important;
+        margin-top: 50px;
+    }
+
+    #anything-slider .slider-img-full img{
+        width: 270px !important;
+    }
+
+    .slide-elements h3, .slide-elements p, .slide-elements a, .slide-elements blockquote{
+        display: none;
+    }
+
+
+}

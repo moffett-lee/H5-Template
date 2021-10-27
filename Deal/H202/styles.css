@@ -1,0 +1,306 @@
+/* Created by http//freehtml5templates.com */
+
+/* reset */
+* {
+margin: 0;
+padding: 0;
+}
+
+/* render html5 elements as block */
+header, footer, section, aside, nav, article {
+display: block;
+}
+
+body {
+line-height: 1;
+background: #e0e0e0 url(images/bg.jpg) repeat;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+color: #666;
+font-size: 14px;
+line-height: 18px;
+}
+	
+/* layout */
+
+#wrapper {
+width: 940px;
+margin: 0 auto;
+margin-top: 10px;
+margin-bottom: 10px;
+background: #fff;
+}
+
+nav {
+width: 940px;
+height: 30px;
+margin: 0 auto;
+background: #b0b0b0;
+}
+
+header {
+width: 850px;
+margin-left: 40px;
+padding-bottom: 20px;
+background: #fff;
+border-bottom: 1px solid #ddd; 
+overflow: auto;
+}
+
+#main {
+width: 940px;
+margin: 0 auto;
+background: #FFF;
+
+}
+
+footer {
+width: 940px;
+margin: 0 auto;
+clear: both;
+}
+
+/* basics */
+
+@font-face {
+	font-family: 'MedioRegular';
+	src: url('Medio-webfont.eot');
+	src: local('MedioRegular'), url('Medio-webfont.woff') format('woff'), url('Medio-webfont.ttf') format('truetype'), url('Medio-webfont.svg#webfontdCIsLX7n') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+h2,h3,h4,h5,h6 {
+display: block;
+font-variant: small-caps;
+line-height: 1.5em;
+padding: 10px 0;
+font-weight: bold;
+color: #000;
+}
+
+a:link, a:visited {
+color: #000;
+text-decoration: none;
+}
+
+a:hover, a:active {
+color: #A32626;
+}
+
+p {
+margin-bottom: 18px;
+}
+
+li {
+padding-left: 5px;
+}
+
+/* site title */
+
+h1 {
+font-weight: bold;
+font-family: 'MedioRegular', Verdana, Arial, Helvetica, sans-serif;
+font-size: 40px;
+padding: 30px 0 10px 30px;
+}
+
+h1 a:link, a:visited {
+color: #A32626;
+}
+
+h1 a:hover, a:active {
+color: #000;
+}
+
+/* nav */
+
+nav .menu {
+font-weight: bold;
+}
+
+nav .menu ul {
+margin: 0;
+padding: 8px 0 0 20px;
+list-style: none;
+line-height: normal;
+}
+
+nav .menu li {
+display: block;
+float: left;
+}
+
+nav .menu a {
+display: block;
+float: left;
+margin-right: 5px;
+padding: 0px 5px;
+text-decoration: none;
+font-size: 12px;
+color: #fff;
+}
+
+nav .menu a:hover {
+text-decoration: underline;
+color: #A32626;
+}
+
+/** HEADER */
+
+header .headlineimage img {
+float: left;
+padding: 20px 10px 10px 0;
+width: 300px;
+}
+
+header .headline {
+margin-left: 40px;
+float: left;
+width: 500px;
+}
+
+header .headline h2 {
+font-size: 38px;
+font-variant: small-caps;
+line-height: normal;
+text-shadow: 0px 3px 4px #777;
+}
+
+/** ARTICLES **/
+
+article {
+margin-bottom: 10px;
+}
+
+article img {
+border: none;
+}
+
+.alignleft, img.alignleft {
+display: inline;
+float: left;
+margin-right: 5px;
+}
+
+.alignright, img.alignright {
+display: inline;
+float: right;
+margin-left: 5px;
+}
+
+.aligncenter, img.aligncenter {
+clear: both;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.triplecols {
+width: 850px;
+margin-left: 40px;
+margin-top: 20px;
+border-bottom: 1px solid #ddd;
+}
+
+/* triple blocks of images and captions */
+
+.tripleblocks {
+	display: inline-block;
+	vertical-align: top;
+	width: 250px;
+	text-align: left;
+}
+
+.tripleleftblock {
+	margin-right: 40px;
+}
+
+.triplemiddleblock {
+	margin-right: 40px;
+}
+
+.triplerightblock {
+	margin-right: 1px;
+}
+
+.tripleblocks .thumbnail {
+	border: none;
+}
+
+.tripleblocks .caption {
+	display: block;
+	font-size: 20px;
+	font-variant: small-caps;
+}
+
+.tripleblocks .byline {
+  font-variant: small-caps;
+  color: #b0b0b0;
+}
+
+.tripleblocks p {
+margin-top: 5px;
+text-align: justify;
+}
+
+/* footer widget blocks */
+
+aside h3 {
+font-size: 18px;
+}
+
+aside ul {
+list-style: none;
+margin-bottom: 20px;
+margin-top: -15px;
+}
+
+aside li a {
+display: block;
+text-decoration: none;
+}
+
+aside li a:hover {
+text-decoration: underline;
+}
+
+#footer-area {
+background: #b0b0b0;
+color: #efefef;
+font-size: 90%;
+padding: 18px 0;
+overflow: hidden;
+}
+
+.footer-segment {
+float: left;
+width: 190px;
+}
+
+.first {
+margin-right: 20px;
+margin-left: 40px;
+}
+
+.second {
+margin-right: 30px;
+}
+
+.third {
+margin-right: 30px;
+}
+
+.last {
+margin-right: 20px;
+}
+
+footer aside h3 {
+color: #000;
+}
+
+footer p {
+margin-top: -15px;
+color: #333;
+}
+
+

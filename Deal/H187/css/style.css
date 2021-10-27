@@ -1,0 +1,69 @@
+@charset "utf-8";
+body,ul,li,p,h1,h2,h3,h4,from,input,a,div{ margin:0px; padding:0px;}
+body{ font-family:"宋体"; font-size:12px; line-height:18px;  color:#000000; background-color:#FFFFFF;}
+a{ text-decoration:none; color:#a5a5a5;}
+img{ vertical-align:top; border:none;}
+ul{ list-style:none;}
+.fl_left{ float:left;}
+.fl_right{ float:right;}
+.hui{ color:#838383;}
+.hui1{ color:#737373;}
+.wirte{ color:#FFFFFF;}
+.orange{ color:#eb7304;}
+.font_14{ font-size:14px;}
+.clear{ clear:both; line-height:0px; height:0px; font-size:0px; overflow:hidden;}
+.box{ width:100%; background:url(../images/index_img_01.gif) repeat-x left bottom; background-color:#FFFFFF; margin:auto;}
+.top{ width:960px; margin:auto; background:url(../images/banner.jpg) no-repeat top center; height:430px;}
+.pad_7{ padding-top:7px;}
+.top_box{ width:820px; margin:auto; }
+.logo{ width:157px;}
+.nv_box{ width:663px;}
+.web{ width:130px; height:17px; line-height:17px; border:1px double #cecece; font-size:12px;}
+.nv li{ float:left; margin-left:50px; display:inline; line-height:27px;}
+.nv a:hover{ color:#ff8400;}
+.w_935{ width:935px;}
+.dy{ width:942px; background:url(../images/index_img_04.gif) repeat-x left top; margin:auto;}
+.dy_left{ width:24px; background:url(../images/index_img_02.gif) no-repeat top left; height:18px;  overflow:hidden;}
+.dy_right{ width:27px; background:url(../images/index_img_03.gif) no-repeat top left; height:18px;  overflow:hidden;}
+.news_bg{ background:url(../images/index_img_06.gif) repeat-x bottom left; background-color:#FFFFFF;}
+.news_title{ margin-left:15px;}
+.border_xu{ border-bottom:1px dashed #4b4b4b;}
+.products img{ padding:3px; border:1px double #e1e1e1;}
+.arial{ font-family:Arial, Helvetica, sans-serif;}
+.foot{ width:960px; margin:auto; background:url(../images/index_img_11.gif) repeat-x top left; line-height:35px; height:35px;}
+
+.products_box{ width:100%; margin:auto; background:url(../images/prdoucts_bg.gif) repeat-x top left; height:299px;}
+.pr_banner{ background:url(../images/products_banner.jpg) no-repeat top center; height:299px; margin:auto; width:960px; }
+.w_960{ width:960px; margin:auto;}
+.pr_border,.pr_pic img{ border:1px double #d7d7d7;}
+.pr_border1{ border:1px double #eaeaea;}
+.wz{ background:url(../images/products_img_01.gif)  repeat-x top left; width:943px; margin:auto; line-height:24px;  padding-left:15px; margin-top:4px; margin-bottom:7px;}
+.pr_left{ width:194px; background:url(../images/products_img_08.gif) no-repeat top left; height:305px;}
+.pr_right{ width:764px; background:url(../images/products_img_09.gif) repeat-x top left;}
+.lf_list{ width:151px; display:block; margin-left:28px; margin-top:28px;}
+.lf_list li{ width:151px; line-height:27px; height:27px;}
+.lf_list a{ color:#565656; padding-left:48px;}
+.lf_list a:hover{ background:url(../images/products_img_03.gif) no-repeat left center; display:block; height:27px; color:#FFFFFF;}
+.pr_title h2{ font-size:22px; margin-left:20px; line-height:52px; float:left; display:inline;}
+.pr_nr{ background:url(../images/products_img_02.gif) repeat-x top left;}
+.xq_but{ background:url(../images/products_img_07.gif) no-repeat top left; width:65px; height:18px; line-height:18px; text-align:center; display:block; }
+.mrgin_25{ margin-top:25px;}
+.contacts_bg{ background:url(../images/contacts_img_01.gif) no-repeat top left;}
+
+.border_xu{ border-bottom:1px dashed #cdcdcd;}
+.xia_hua{ text-decoration:underline;}
+.sq{ background:url(../images/rc_img_01.gif) no-repeat top left; text-align:center; width:105px; line-height:21px; display:block;}
+.news_xu{ border-bottom:1px  dashed #ebebeb;}
+.red{ color:#d95e00;}
+.news_line{ background:url(../images/news_img_05.gif) no-repeat center bottom ;}
+.border_bottom{ border-bottom:1px double #e5e5e5;}
+.qylj{ width:690px; margin:auto;}
+.qylj img{ margin-right:12px; margin-bottom:12px;float:left;}
+.zx_box p{ width:700px; display:block; line-height:24px; margin:0px 20px;}
+.zx_web{ width:267px; height:17px; border:1px double #b7b7b7; line-height:17px;}
+.zx_web1{ width:90px; height:17px; border:1px double #b7b7b7; line-height:17px;}
+.zx_web2{ width:140px; height:17px; border:1px double #b7b7b7; line-height:17px;}
+.zx_web3{ width:650px; height:135px; border:1px double #b7b7b7; line-height:17px;}
+.tj_but{ background:url(../images/zxzx_img_01.gif) no-repeat top left; width:55px; height:21px; line-height:21px; text-align:center; margin-right:13px;}
+#divCpjj1{ width:165px; float:left; margin-left:32px;display:inline;}
+.pr_pic img{ padding:4px;}

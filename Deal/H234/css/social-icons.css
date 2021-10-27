@@ -1,0 +1,34 @@
+/* 
+*  Social icons CSS
+*/
+
+
+#social-bar{
+	display: block;
+	overflow: hidden;
+	margin-top: 10px;
+
+}
+
+#social-bar li{
+	display: block;
+	float: left;
+	width: 20px;
+	height: 20px;
+	margin-right: 5px;
+}
+
+#social-bar li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	
+}
+
+#social-bar .digg{ background: url(../img/social-icons/digg.png); }
+#social-bar .dribbble{ background: url(../img/social-icons/dribbble.png); }
+#social-bar .facebook{ background: url(../img/social-icons/facebook.png); }
+#social-bar .lastfm{ background: url(../img/social-icons/lastfm.png); }
+#social-bar .rss{ background: url(../img/social-icons/rss.png); }
+#social-bar .tumbler{ background: url(../img/social-icons/tumbler.png); }
+#social-bar .twitter{ background: url(../img/social-icons/twitter.png); }

@@ -1,0 +1,12 @@
+.tabs{width:984px;  }
+.tabs>div { position:relative; overflow:hidden;}
+.tabs .tab-content { background:url(../images/bg.jpg) 0 0 repeat; width:744px;}
+.tabs ul.nav {list-style-image:none; display:inline-block; overflow:hidden; }
+.tabs ul.nav li {padding:0px 0 8px 14px; line-height:18px; background:url(../images/marker-1.gif) 0 8px no-repeat; }
+.tabs ul.nav li a {font-size:14px; color:#fff; line-height:18px; font-weight:bold; text-decoration:underline; display:inline-block;}
+.tabs ul.nav li.selected, .tabs ul.nav li:hover {}
+.tabs ul.nav li.selected a, .tabs ul.nav li:hover a{ color:#6f6f6f; text-decoration:none;}
+
+.tabs-2{ margin:35px 0 0 0 !important; width:580px !important;  }
+.tabs-2 ul.nav {padding:0 0 0 85px !important;}
+.tabs-2 .tab-content { padding:61px 0 0 0  !important;}

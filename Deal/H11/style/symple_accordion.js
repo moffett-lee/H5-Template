@@ -1,0 +1,1 @@
+jQuery(function($){$(document).ready(function(){$(".symple-accordion").accordion({heightStyle: "content"});});});

@@ -1,0 +1,159 @@
+/*
+ * jQuery Nivo Slider v2.7.1
+ * http//nivo.dev7studios.com
+ *
+ * Copyright 2011, Gilbert Pellegrom
+ * Free to use and abuse under the MIT license.
+ * http//www.opensource.org/licenses/mit-license.php
+ * 
+ * March 2010
+ */
+ 
+/* The Nivo Slider styles */
+.nivoSlider {
+  position: relative;
+  width: 648px;
+  height: 360px;
+  margin-bottom: 40px;
+  background: #fff url('../images/nivo/loading.gif') no-repeat 50% 50%;
+}
+.nivoSlider img {
+  position: absolute;
+  top: 0;	left: 0;
+}
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+  position: absolute;
+  top: 0;	left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  z-index: 6;
+  display: none;
+}
+/* The slices and boxes in the Slider */
+.nivo-slice {
+  display: block;
+  position: absolute;
+  z-index: 5;
+  height: 100%;
+}
+
+.nivo-box {
+  display: block;
+  position: absolute;
+  z-index: 5;
+}
+
+/* Caption styles */
+.nivo-caption {
+  position: absolute;
+  left: 0; bottom: 0;
+  color:#fff;
+  background: url('../images/slider_text_bg_r.png');
+  width: 100%;
+  z-index: 8;
+  padding: 20px 20px 10px;
+  width: 608px;
+}
+
+#slider2 .nivo-caption {
+  padding: 10px 10px 0;
+  width: 275px;
+  left: 20px;
+  bottom: 20px;
+}
+
+.nivo-caption p { margin: 0 !important;}
+.nivo-caption .slider-heading p {	margin: 0 0 10px !important;}
+.nivo-caption .slider-heading h5 { text-transform: uppercase; font-family: 'OpenSans_SB'; font-weight: bold;}
+.nivo-caption a {	display:inline !important;}
+.nivo-html-caption { display:none;}
+
+.nivo-meta { 
+  position: absolute;
+  top: -32px; left: 0;
+}
+
+.nivo-meta .date {
+  float: left;
+  padding: 7px 15px;
+  background: #2e2e2e url('../images/nivo/date_bg.png') no-repeat right 50%;
+}
+
+.nivo-meta .commets { float: left; padding: 7px 15px; background-color: #6c6c6c; text-decoration: none; color: #fff;}
+
+/* Direction nav styles (e.g. Next & Prev) */
+.nivoSlider .nivo-directionNav {
+  position: absolute;
+  right: -50px;
+  bottom: 30px;
+  height: 80px;
+  width: 35px;
+  z-index: 50;
+}
+
+.nivoSlider .nivo-directionNav a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  text-indent: -9999px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50% 50% 50% 50%;
+  -moz-border-radius: 50% 50% 50% 50%;
+  -webkit-border-radius: 50% 50% 50% 50%;
+  background-color: #7f7b79;
+}
+
+.nivoSlider .nivo-directionNav a:hover { background-color: #413f3d;}
+
+.nivoSlider .nivo-prevNav {
+  background-image: url('../images/carousel/h_prev.png');
+  background-repeat: no-repeat;
+  background-position: 45% 50%;
+
+}
+.nivoSlider .nivo-nextNav {
+  background-image: url('../images/carousel/h_next.png');
+  background-repeat: no-repeat;
+  background-position: 55% 50%;
+}
+
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  z-index: 9;
+}
+
+.nivo-controlNav a {
+  position: relative;
+  float: left;
+  margin-left: 5px;
+  width: 19px;
+  height: 19px;
+  text-indent: -9999px;
+  cursor: pointer;
+  background: url('../images/nivo/nav_control_bg.gif') no-repeat 0 0;
+}
+
+.nivo-controlNav a.active { background-position: 0 -19px;}
+
+.Boulder #nav_side, .Boulder .nivoSlider .nivo-directionNav a:hover { background-color: #7f7b79;}
+.Santa_Fe #nav_side, .Santa_Fe .nivoSlider .nivo-directionNav a:hover { background-color: #b47555;}
+.Hillary #nav_side, .Hillary .nivoSlider .nivo-directionNav a:hover { background-color: #afa38a;}
+.Green_Smoke #nav_side, .Green_Smoke .nivoSlider .nivo-directionNav a:hover { background-color: #97ac7b;}
+.Husk #nav_side, .Husk .nivoSlider .nivo-directionNav a:hover { background-color: #b6a44d;}
+.Cinnabar #nav_side, .Cinnabar .nivoSlider .nivo-directionNav a:hover { background-color: #e34e48;}
+.Di_Serria #nav_side, .Di_Serria .nivoSlider .nivo-directionNav a:hover { background-color: #dda268;}
+.East_Side #nav_side, .East_Side .nivoSlider .nivo-directionNav a:hover { background-color: #bc8acc;}
+.Mauvelous #nav_side, .Mauvelous .nivoSlider .nivo-directionNav a:hover { background-color: #f386a1;}
+.Viking #nav_side, .Viking .nivoSlider .nivo-directionNav a:hover{ background-color: #63cae1;}
+.Gulf_Stream #nav_side, .Gulf_Stream .nivoSlider .nivo-directionNav a:hover{ background-color: #85adae;}
+.Manatee #nav_side, .Manatee .nivoSlider .nivo-directionNav a:hover{ background-color: #83849f;}

@@ -1,0 +1,246 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http//www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http//www.w3.org/1999/xhtml">
+<head>
+    <title>无标题页</title>
+    <link rel="stylesheet" type="text/css" href="../css/index.css" />
+
+    <script language="javascript" type="text/javascript">
+function click1(num){
+
+if(document.getElementById(num).style.display=="block")
+{
+ document.getElementById(num).style.display="none";
+}
+else
+{
+ document.getElementById(num).style.display="block";
+
+}
+
+}
+    </script>
+
+</head>
+<body class="mian_bj">
+    <div class="mian_top_01">
+  <div class="mian_top_r"></div>
+  <div class="mian_top_l"></div>
+  <div class="mian_top_c">
+            <ul>
+                <li><a href="Employlee.html">
+                    <p>
+                        人员信息</p>
+                </a></li>
+                <li><a href="RSEventApply.html">
+                    <p>
+                        招聘申请</p>
+                </a></li>
+                <li><a href="RSEventApply.html">
+                    <p>
+                        职位调整申请</p>
+                </a></li>
+                <li><a href="RSEventApply.html">
+                    <p>
+                        离职申请</p>
+                </a></li>
+                <li><a href="RSEventApply.html">
+                    <p>
+                        培训申请</p>
+                </a></li>
+                <li><a href="ExaAppdocument.html">
+                    <p>
+                        公文审批</p>
+                </a></li>
+                <!--<li><a href="RecruiterApply.html">
+                    <p>
+                        事假申请</p>
+                </a></li>
+                <li><a href="RecruiterApply.html">
+                    <p>
+                        报销申请</p>
+                </a></li>
+                <li><a href="RecruiterApply.html">
+                    <p>
+                        用车申请</p>
+                </a></li>
+                <li><a href="RecruiterApply.html">
+                    <p>
+                        办公用品采购申请</p>
+                </a></li>
+                <li><a href="RecruiterApply.html">
+                    <p>
+                        会议室申请</p>
+                </a></li>
+                <li><a href="RecruiterApply.html">
+                    <p>
+                        因公外出申请</p>
+                </a></li>
+                <li><a href="RecruiterApply.html">
+                    <p>
+                        考勤补签申请</p>
+                </a></li>-->
+            </ul>
+        </div>
+        <div class="mian_b">
+            <div class="mian_b1">
+                <a href="AddEmploylee.html" title="添加">
+                    <p class="mian_b1_a1">
+                    </p>
+                </a><a href="#" title="删除">
+                    <p class="mian_b1_a2">
+                    </p>
+                </a>
+                <p class="mian_b1_sousuo">
+                    <input name="" type="text" /></p>
+                <a href="#" title="搜索">
+                    <p class="mian_b1_a3">
+                    </p>
+                </a>
+                <p class="mian_b1_a9">
+                    <a href="#" onclick="click1('search')">高级搜索>></a></p>
+                <a href="#" title="最后">
+                    <p class="mian_b1_a4">
+                    </p>
+                </a><a href="#" title="下一页">
+                    <p class="mian_b1_a5">
+                    </p>
+                </a>
+                <p class="mian_b1_list">
+                    1 2 3 4……</p>
+                <a href="#" title="上一页">
+                    <p class="mian_b1_a6">
+                    </p>
+                </a><a href="#" title="最前">
+                    <p class="mian_b1_a7">
+                    </p>
+                </a>
+            </div>
+            <table width="100%" border="0" cellpadding="0" cellspacing="0" class="mian_b_bg">
+                <tr id="search" style="display: none;">                    
+                    <td colspan="8" style="height: 35px; background-color: #DBDBDB;margin-left:20px">
+                        <select>
+                            <option>性别</option>
+                            <option>男</option>
+                            <option>女</option>
+                        </select>&nbsp;<select><option>所属部门</option>
+                            <option>软装部</option>
+                            <option>人事部</option>
+                        </select>&nbsp;<select><option>状态</option>
+                            <option>在职</option>
+                            <option>离职</option>
+                        </select>&nbsp;
+                        <input name="" type="text" value="工号、姓名、职位、手机" class="input_03"/>&nbsp;<input name="" type="text" value="起始日期" class="input_03"/>&nbsp;-&nbsp;<input name="" type="text" value="结束日期" class="input_03"/>
+                    </td>
+                    <td colspan="3" style="height: 35px; background-color: #DBDBDB;">
+                        <a href="#" title="高级搜索">
+                            <p class="mian_b1_a8" onclick="click('search');">
+                            </p>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="3%" class="mian_b_bg_lm">
+                        <input name="" type="checkbox" value="" />&nbsp;
+                    </td>
+                    <td width="10%" class="mian_b_bg_lm">
+                        <span></span>工号
+                    </td>
+                    <td width="10%" class="mian_b_bg_lm">
+                        <span></span>员工姓名
+                    </td>
+                    <td width="5%" class="mian_b_bg_lm">
+                        <span></span>性别
+                    </td>
+                    <td width="10%" class="mian_b_bg_lm">
+                        <span></span>员工职位
+                    </td>
+                    <td width="10%" class="mian_b_bg_lm">
+                        <span></span>手机
+                    </td>
+                    <td width="10%" class="mian_b_bg_lm">
+                        <span></span>所属部门
+                    </td>
+                    <td width="10%" class="mian_b_bg_lm">
+                        <span></span>入职时间
+                    </td>
+                    <td width="10%" class="mian_b_bg_lm">
+                        <span></span>状态
+                    </td>
+                    <td colspan="2" class="mian_b_bg_lm">
+                        <span></span>操作
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input name="" type="checkbox" value="" />&nbsp;
+                    </td>
+                    <td>
+                        1001
+                    </td>
+                    <td>
+                        吴菲菲
+                    </td>
+                    <td>
+                        男
+                    </td>
+                    <td>
+                        经理
+                    </td>
+                    <td>
+                        15236988554
+                    </td>
+                    <td>
+                        软装部
+                    </td>
+                    <td>
+                        2010-5-1
+                    </td>
+                    <td>
+                        在职
+                    </td>
+                    <td width="5%" class="mian_b_icon_01">
+                        <a href="AddEmploylee.html">编辑</a>
+                    </td>
+                    <td width="5%" class="mian_b_icon_02">
+                        <a href="EmployeeDetail.html">查看</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="3%" class="mian_b_bg_lm">
+                        &nbsp;
+                    </td>
+                    <td width="10%" class="mian_b_bg_lm">
+                        <span></span>工号
+                    </td>
+                    <td width="5%" class="mian_b_bg_lm">
+                        <span></span>员工名称
+                    </td>
+                    <td width="10%" class="mian_b_bg_lm">
+                        <span></span>性别
+                    </td>
+                    <td width="10%" class="mian_b_bg_lm">
+                        <span></span>员工职位
+                    </td>
+                    <td width="10%" class="mian_b_bg_lm">
+                        <span></span>手机
+                    </td>
+                    <td width="10%" class="mian_b_bg_lm">
+                        <span></span>所属部门
+                    </td>
+                    <td width="10%" class="mian_b_bg_lm">
+                        <span></span>入职时间
+                    </td>
+                    <td width="10%" class="mian_b_bg_lm">
+                        <span></span>状态
+                    </td>
+                    <td colspan="2" class="mian_b_bg_lm">
+                        <span></span>操作
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+  
+</body>
+</html>

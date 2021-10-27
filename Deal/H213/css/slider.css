@@ -1,0 +1,96 @@
+
+
+/*Slider*/
+.slider-relative {
+	position:relative;
+	overflow:hidden;
+	margin: 0 auto;
+}
+
+
+.items {
+	display: none;	
+}
+
+.slider-block {
+	position:relative;
+	overflow:hidden;
+	height: 562px;
+	margin: 0 auto;
+	margin-bottom: 45px;
+	
+}
+.slider {
+	z-index:2;
+	height: 560px;
+	position: absolute;
+	left: 50%;
+	border: 1px solid #6e747a;
+	margin-left: -658.5px;
+	width: 1315px;
+}
+
+
+.slider .banner{
+	top: 162px;
+	left: 747px;
+	position: absolute;
+	font: normal 24px/28px Georgia, "Times New Roman", Times, serif;
+	color: #fff;	
+	padding-top: 43px;
+	text-transform: uppercase;
+	width: 377px;
+	text-align: center;
+	height: 101px;
+	background: #000;
+	border: 1px solid #a8a2a0;
+}
+
+
+.banner h2 {
+	color: #fff;
+	font-size: 21px;
+	line-height: 38px;
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+	padding-bottom: 26px;
+	text-align: center;
+	padding: 11px 60px 10px ;
+}
+
+.banner h2 span {
+	color: #e5ad2a;	
+}
+
+
+.pagination {
+bottom: 13px;
+position: absolute;
+left: 50%;
+margin-left: -36px;
+z-index: 999;
+}
+
+.pagination li {
+	float: left;
+}
+
+.pagination li+li {
+	margin-left: 7px;
+}
+
+
+.pagination  li a{
+	width: 13px;
+	display: block;
+		transition: 0s ease;
+	-o-transition: 0s ease;
+	-webkit-transition: 0s ease;
+	height: 13px;
+	background: url(../images/pagination.png) right 0 no-repeat;
+}
+
+.pagination li a:hover, .pagination li.current a {
+	background-position: 0 0;
+}

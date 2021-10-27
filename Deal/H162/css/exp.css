@@ -1,0 +1,258 @@
+/* Distributed by http//freehtml5templates.com */
+@charset "utf-8";
+body {
+	background-image: url(../images/abie.png);
+	background-repeat: no-repeat;
+	background-color: #1D4008;
+	background-position: center center;
+	margin-top: 0px;
+}
+#container #slogan {
+	width: 960px;
+	height: 25px;
+	margin: auto;
+	font-family: "trebuchet MS";
+	font-size: 24px;
+	font-style: italic;
+	font-weight: bold;
+	color: #FF3300;
+	text-shadow: 1px 1px #000000;
+}
+
+
+a:hover img.imagedropshadow {
+	-moz-box-shadow: 1px 1px 5px #999;
+	-webkit-box-shadow: 1px 1px 5px #999;
+	box-shadow: 1px 1px 5px #999;
+	-moz-border-radius: 10px;
+	opacity: 0.6;
+
+}
+
+section
+ {
+	float: left;
+	width: 300px;
+	line-height: 15px;
+	color: #FFCC66;
+	font-family: "Trebuchet MS";
+	font-size: 14px;
+	font-style: normal;
+	text-align: justify;
+	text-shadow: 2px 1px 2px #000000;
+	padding-top: 60px;
+	padding-left: 40px;
+	height: auto;
+}
+.ecopy {
+	height: 20px;
+	width: 960px;
+	font-family: "Trebuchet MS";
+	font-size: 14px;
+	color: #000000;
+	text-align: justify;
+	text-shadow: 1px #000000;
+	margin: auto;
+	font-weight: bold;
+}
+.ecopy a {
+	color: #000000;
+	text-decoration: none;
+	font-family: "trebuchet MS";
+	font-size: 14px;
+	font-weight: bold;
+	font-style: italic;
+	text-shadow: 1px 1px #000000;
+}
+.ecopy a:hover {
+	color: #FF6600;
+}
+.social {
+	float: right;
+	height: 25px;
+	width: 200px;
+	padding: 3px;
+	margin: 3px;
+}
+.social img {
+	float: right;
+	padding: 2px;
+}
+
+
+#content {
+	-moz-box-shadow:0px 0px 200px #fff;
+	-webkit-box-shadow:0px 0px 200px #fff;
+	box-shadow:0px 0px 200px #fff;
+	margin-top: 110px;
+	-moz-border-radius-bottomleft: 200px;
+	-moz-border-radius-topleft: 200px;
+	-moz-border-radius-topright: 5px;
+	-moz-border-radius-bottomright: 5px;
+}
+nav {
+	margin: auto;
+	width: 800px;
+	height: 55px;
+	float: right;
+}
+footer {
+	margin: auto;
+	padding: 0px;
+	height: 20px;
+	width: 960px;
+	clear: both;
+}
+#content {
+	height: 450px;
+	width: 960px;
+	clear: both;
+	position: relative;
+	border-top-width: 5px;
+	border-bottom-width: 5px;
+	border-left-width: 5px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #fff;
+	border-bottom-color: #fff;
+	border-left-color: #fff;
+	background-repeat: repeat-y;
+	background-position: center;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 50px;
+	margin: auto;
+	background-image: url(images/abie.png);
+
+}
+.btn a {
+	color: #000000;
+	text-decoration: none;
+}
+.btn a:hover {
+	color: #CC0000;
+}
+
+.btn {
+	border-top: 1px solid #96d1f8;
+	background: #65a9d7;
+	background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+	background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+	background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+	background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+	background: -o-linear-gradient(top, #3e779d, #65a9d7);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	-moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	box-shadow: rgba(0,0,0,1) 0 1px 0;
+	text-shadow: rgba(0,0,0,.4) 0 1px 0;
+	color: white;
+	font-size: 14px;
+	font-family: Georgia, serif;
+	text-decoration: none;
+	vertical-align: middle;
+	float: left;
+	height: 30px;
+	width: 120px;
+	padding-top: 14.5px;
+	padding-bottom: 14.5px;
+	padding-left: 0px;
+	line-height: 30px;
+	text-align: center;
+	margin-top: 25px;
+   }
+.btn:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+   }
+.btn:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }
+header {
+	width: 1000px;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+
+	
+
+}
+.btn, input[type="submit"], button {
+	background: none repeat scroll 0 0%, -moz-linear-gradient(#CCCCCC, #B3B3B3) repeat scroll 0 0 transparent;
+	border: 1px solid rgba(45, 45, 45, 0.5);
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 0 rgba(255, 255, 255, 0.4) inset;
+	color: #444444;
+	display: inline-block;
+	font-weight: 300;
+	line-height: 20px;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+	margin-top: 3px;
+	margin-right: 0;
+	margin-bottom: 3px;
+	margin-left: 0;
+	padding-top: 9px;
+	padding-bottom: 9px;
+	padding-right: 9px;
+	text-align: center;
+}
+.btn:hover, input[type="submit"]:hover, button:hover {
+	background: none repeat scroll 0 0%, -moz-linear-gradient(#B3B3B3, #CCCCCC) repeat scroll 0 0 transparent;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4), 0 2px 1px rgba(32, 32, 32, 0.2) inset;
+	color: #444444;
+	text-decoration: none;
+}
+.sbtn {
+    border-radius: 3px 3px 3px 3px;
+    font-size: 11px !important;
+    font-weight: bold;
+    padding: 2px 0 0;
+    text-transform: uppercase;
+}
+h1 a.btn, h2 a.btn, h3 a.btn {
+	font-weight: normal;
+	padding-top: 25px;
+	padding-right: 0px;
+	padding-bottom: 20px;
+	padding-left: 0px;
+}
+.btn img {
+	float: left;
+}
+.logo {
+	float: left;
+	height: 70px;
+	width: 200px;
+	text-shadow: -1px 2px 2px #fff;
+	font-family: "trebuchet MS";
+	font-size: 16px;
+	font-weight: bold;
+	font-variant: small-caps;
+	color: #000000;
+	font-style: italic;
+	line-height: 10px;
+}
+#content a {
+	text-decoration: none;
+	color: #CC3300;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 16px;
+	font-family: "trebuchet MS";
+}
+#content a:hover {
+	color: #FF3300;
+}
+.logo a {
+	color: #000000;
+	text-decoration: none;
+}
+.logo a:hover {
+	color: #FF6600;
+}

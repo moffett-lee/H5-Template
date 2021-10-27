@@ -1,0 +1,2 @@
+/* 调用：<!--[if IE 6]><link href="/components/ie6.css" rel="stylesheet" type="text/css" /><![endif]--> */
+body {behavior: url("csshover3.htc");}

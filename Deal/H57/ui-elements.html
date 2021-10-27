@@ -1,0 +1,519 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js lt-ie10" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+
+	<!-- Set the viewport width to device width for mobile -->
+	<meta name="viewport" content="width=device-width" />
+
+	<title>Klassio - Responsive Business/Portfolio Theme</title>
+  
+	<!-- Included CSS Files -->
+	<link rel="stylesheet" href="stylesheets/foundation.css">
+	<link rel="stylesheet" href="stylesheets/app.css">
+
+	<!-- IE Fix for HTML5 Tags -->
+	<!--[if lt IE 9]>
+		<script src="../../html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+
+<div class="container">
+	<header>
+		<div class="row">
+            <div id="logo">
+                <a href="index.html"><h1>Klassio</h1></a>
+  	      </div>
+            <ul id="social-networks">
+                <li><a href="#" class="dribble">Dribble</a></li>
+                <li><a href="#" class="facebook">Facebook</a></li>
+                <li><a href="#" class="twitter">Twitter</a></li>
+                <li><a href="#" class="flickr">Flickr</a></li>
+            </ul>
+            <div id="phone">Ph.: 123-012-0123</div>
+			<nav>
+			<ul id="primary-nav" class="sf-menu">
+				<li><a href="index.html" class="active">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="features.html">Features</a>
+				<ul>
+					<li><a href="ui-elements.html">UI Elements</a></li>
+					<li><a href="typography.html">Grid & Typography</a></li>
+					<li><a href="features.html">Buttons, Tabs & Slider</a></li>
+				</ul>
+				</li>
+				<li><a href="portfolio.html">Portfolio</a>
+				<ul>
+					<li><a href="portfolio.html">Three Column Portfolio</a></li>
+					<li><a href="portfolio-4-column.html">Four Column Portfolio</a></li>
+					<li><a href="portfolio-single.html">Single Portfolio</a></li>
+				</ul>
+				</li>
+				<li><a href="blog.html">Blog</a>
+				<ul>
+					<li><a href="blog-single.html">Single Post</a></li>
+				</ul>
+				</li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+			<!-- END .sf-menu navigation -->
+			<div class="clearfix"></div>
+			</nav>
+			<!-- END nav -->
+		</div>
+		<!-- END .row -->
+	</header>
+	<!-- END header -->
+	<div id="heading-wrapper" class="heading-image">
+        <div class="hs-loading"><span>Loading...</span></div>
+        <div class="hs-content row">
+            <h1 class="title"><span class="bgc">The UI Elements</span></h1>
+            <h2 class="title"><span class="bgc">Even More Awesomeness</span></h2>
+        </div>
+    	<img src="images/demo/15.jpg" alt="" class="bg"/>
+	</div>
+	<!-- END #heading-wrapper -->
+	<div id="content-wrapper" class="row">
+		<div class="row">
+			<div class="six columns">
+				<h3>Alerts</h3>
+				<p>
+					Alerts are a handy element you can drop into a form or inline on a page to communicate success, warnings, failure or just information. The syntax is extremely simple and like anything else in Foundation, easy to customize.
+				</p>
+				<div class="alert-box">
+					This is a standard alert (div.alert-box). <a href="default.htm" class="close">&times;</a>
+				</div>
+				<div class="alert-box success">
+					This is a success alert (div.alert-box.success). <a href="default.htm" class="close">&times;</a>
+				</div>
+				<div class="alert-box warning">
+					This is a warning alert (div.alert-box.warning). <a href="default.htm" class="close">&times;</a>
+				</div>
+				<div class="alert-box error">
+					This is an error alert (div.alert-box.error). <a href="default.htm" class="close">&times;</a>
+				</div>
+				<p>
+					<script type="text/javascript" src="../../snipt.net/embed/e291c9b926573dfd81fe24168d554c92"></script>
+				</p>
+				<hr/>
+				<h3>Nav Bar</h3>
+				<p>
+					If you need a more traditional nav bar with dropdowns, you can use this sucka. The dropdowns are optional - omitting the flyout element and .has-flyout class means it will act as a standard link. The flyouts can hold arbitrary content, including grid objects, and have three sizes (.small, standard, and .large).
+				</p>
+				<p>
+					<em>Note: In IE7 the dropdowns are obscured by the code snippet below. This is due to IE7s iframe z-index bug, and is not an issue with the dropdowns themselves. Try not to have dropdown elements over an iframe.</em>
+				</p>
+				<ul class="nav-bar">
+					<li>
+					<a href="#" class="main">Nav Item 1</a>
+					</li>
+					<li class="has-flyout">
+					<a href="#" class="main">Nav Item 2</a>
+					<a href="#" class="flyout-toggle"><span></span></a>
+					<div class="flyout small">
+						<h5>Small Example (200px)</h5>
+						<p>
+							This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text.
+						</p>
+					</div>
+					</li>
+					<li class="has-flyout">
+					<a href="#" class="main">Nav Item 3</a>
+					<a href="#" class="flyout-toggle"><span></span></a>
+					<div class="flyout">
+						<div class="row">
+							<div class="twelve columns">
+								<h5>Medium Example (400px)</h5>
+								<div class="row">
+									<div class="six columns">
+										<p>
+											This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text.
+										</p>
+									</div>
+									<div class="six columns">
+										<p>
+											This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</li>
+				</ul>
+				<script type="text/javascript" src="../../snipt.net/embed/7dd4b241f040a3437468b7e7176429a6"></script>
+				<p>
+					You can also drop inputs into the nav in place of an anchor. Here you can see a search input.
+				</p>
+				<ul class="nav-bar">
+					<li>
+					<input type="search"/>
+					</li>
+					<li class="has-flyout">
+					<a href="default.htm" class="main">Nav Element</a>
+					<a href="../../www.zurb.com/default.htm" class="flyout-toggle"><span></span></a>
+					<div class="flyout">
+						<ul>
+							<li>
+							<a href="default.htm">This is a link in a UL.</a>
+							</li>
+							<li>
+							<a href="default.htm">This is a link in a UL.</a>
+							</li>
+							<li>
+							<a href="default.htm">This is a link in a UL.</a>
+							</li>
+						</ul>
+					</div>
+					</li>
+				</ul>
+				<hr/>
+				<h3>Sub Nav</h3>
+				<p>
+					If you need to provide simple and effective on-page navigation, to either jump to content on the page or flip to another view then use this awesome little sub-nav.
+				</p>
+				<dl class="sub-nav">
+					<dt>Filter:</dt>
+					<dd class="active">
+					<a href="#">All</a>
+					</dd>
+					<dd>
+					<a href="#">Active</a>
+					</dd>
+					<dd>
+					<a href="#">Pending</a>
+					</dd>
+					<dd>
+					<a href="#">Suspended</a>
+					</dd>
+				</dl>
+				<script type="text/javascript" src="../../snipt.net/embed/f05cca3ec55b4de8d2f5090e8e790fa9"></script>
+				<hr/>
+			</div>
+			<div class="six columns">
+				<h3>Labels</h3>
+				<p>
+					Labels are useful inline styles that can be dropped into body copy to call out certain sections or to attach metadata. Examples might be noting when something was updated or that something is new. The syntax is simple, just a <code>span</code>element with a class of .label. The border styling mirrors that of the Foundation buttons.
+				</p>
+				<p>
+					<span class="label">Regular Label</span>
+					<span class="radius label">Radius Label</span>
+					<span class="round label">Round Label</span>
+				</p>
+				<p>
+					<span class="blue radius label">Blue Label</span>
+					<span class="red radius label">Red Label</span>
+					<span class="black radius label">Black Label</span>
+					<span class="green radius label">Green Label</span>
+					<span class="white radius label">White Label</span>
+				</p>
+				<p>
+					<span class="label">Added 01/19</span>This paragraph has an inline label to let you know that it was added on January 19, 2012 courtesy of Thomas Klemm. Thanks man!
+				</p>
+				<p>
+					<script type="text/javascript" src="../../snipt.net/embed/eabd94fbda853d866057cbda5e8ab64a"></script>
+				</p>
+				<hr/>
+				<h3>Tooltips</h3>
+				<p>
+					Tooltips are a quick way to provide extended information on a term or action on a page. They work cross browser and cross platfrom and are easily added to a page by including the jquery.tooltip.js plugin. You can apply the <strong>has-tip</strong>class to any element, as long as you assign it a unique ID.
+				</p>
+				<p>
+					By default the tooltip takes the width of the element that it is applied to, but you can override this behavior by applying a <strong>data-width</strong>attribute to the target element. The tooltip takes on the content of the targets <strong>title</strong>attribute.
+				</p>
+				<p>
+					The tooltips can be positioned on the <span class="has-tip" data-width="210" title="I'm on bottom and the default position.">"tip-bottom"</span>, which is the default position, <span class="has-tip tip-top noradius" data-width="210" title="I'm on the top and I'm not rounded!">"tip-top" (hehe)</span>, <span class="has-tip tip-left" data-width="90" title="I'm on the left!">"tip-left"</span>, or <span class="has-tip tip-right" data-width="90" title="I'm on the right!">"tip-right"</span>of the target element.In a mobile environment the tooltips are full width and bottom aligned.
+				</p>
+				<hr/>
+				<h3>Pagination</h3>
+				<p>
+					Breaking stuff up into pages? Yeah you are. Here's some pagination to get you started.
+				</p>
+				<ul class="pagination">
+					<li class="unavailable">
+					<a href="default.htm">&laquo;</a>
+					</li>
+					<li class="current">
+					<a href="default.htm">1</a>
+					</li>
+					<li>
+					<a href="default.htm">2</a>
+					</li>
+					<li>
+					<a href="default.htm">3</a>
+					</li>
+					<li>
+					<a href="default.htm">4</a>
+					</li>
+					<li class="unavailable">
+					<a href="default.htm">&hellip;</a>
+					</li>
+					<li>
+					<a href="default.htm">12</a>
+					</li>
+					<li>
+					<a href="default.htm">13</a>
+					</li>
+					<li>
+					<a href="default.htm">&raquo;</a>
+					</li>
+				</ul>
+				<script src="../../snipt.net/embed/724214a9eba6436e1565fc748693e61b"></script>
+				<hr/>
+				<h3>Breadcrumbs</h3>
+				<p>
+					Walking through a linear flow, or want to show where someone is in the hierarchy? Breadcrumbs are totally boss.
+				</p>
+				<p>
+					Breadcrumbs are built with a UL just like pagination, and they can support span or anchor elements with 'current' and 'unavailable' classes.
+				</p>
+				<ul class="breadcrumbs">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Features</a></li>
+					<li class="unavailable"><a href="#">Gene Splicing</a></li>
+					<li class="current"><a href="#">Home</a></li>
+				</ul>
+				<ul class="breadcrumbs">
+					<li><span>Home</span></li>
+					<li><span>Features</span></li>
+					<li><span>Gene Splicing</span></li>
+					<li class="current"><span>Home</span></li>
+				</ul>
+				<script type="text/javascript" src="../../snipt.net/embed/19f73f5dd789f687f48e3928a0ddc157"></script>
+				<hr/>
+			</div>
+		</div>
+		<h3>Tables</h3>
+		<p>
+			Okay, they're not the sexiest things ever, but tables get the job done (for tabular data).
+		</p>
+		<table>
+		<thead>
+		<tr>
+			<th>
+				Table Header
+			</th>
+			<th>
+				Table Header
+			</th>
+			<th>
+				Table Header
+			</th>
+			<th>
+				Table Header
+			</th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr>
+			<td>
+				Content
+			</td>
+			<td>
+				This is longer content
+			</td>
+			<td>
+				Content
+			</td>
+			<td>
+				Content
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Content
+			</td>
+			<td>
+				This is longer content
+			</td>
+			<td>
+				Content
+			</td>
+			<td>
+				Content
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Content
+			</td>
+			<td>
+				This is longer content
+			</td>
+			<td>
+				Content
+			</td>
+			<td>
+				Content
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Content
+			</td>
+			<td>
+				This is longer content
+			</td>
+			<td>
+				Content
+			</td>
+			<td>
+				Content
+			</td>
+		</tr>
+		</tbody>
+		</table>
+		<hr/>
+		<h3>Video</h3>
+		<p>
+			If you're embedding video from YouTube, Vimeo, or another site that uses iframe, embed or object elements you can wrap your video in <code>div.flex-video</code>to create an intrinsic ratio that will properly scale your video on any device.
+		</p>
+		<dl class="tabs contained">
+			<dd>
+			<a href="#video1" class="active">4:3</a>
+			</dd>
+			<dd>
+			<a href="#video2">Widescreen</a>
+			</dd>
+			<dd>
+			<a href="#video3">Vimeo</a>
+			</dd>
+		</dl>
+		<ul class="tabs-content contained">
+			<li class="active" id="video1Tab">
+			<div class="flex-video">
+				<OBJECT width="420" height="315"  ><PARAM name="movie" value="MPFLVPlayer.swf" /><PARAM name="allowFullScreen" value="true" /><PARAM name="FlashVars" value="fn=../../www.youtube.com/watch@v=9otNWTHOJi8&flvskin=MPFLVSkin.swf" /><EMBED src="MPFLVPlayer.swf"  width="420" height="315"  type="application/x-shockwave-flash" allowFullScreen="true" FlashVars="fn=../../www.youtube.com/watch@v=9otNWTHOJi8&flvskin=MPFLVSkin.swf"></EMBED></OBJECT>eborder="0" allowfullscreen>
+				</iframe>
+			</div>
+			By adding a class of .widescreen we change the ratio to 16:9, ideal for more recent video and most popular YouTube or Vimeo embeds.</li>
+			<li id="video3Tab">
+			<div class="flex-video widescreen vimeo">
+				<iframe src="../../player.vimeo.com/video/21762736@title=0&byline=0&portrait=0" width="400" height="225" frameborder="0" allowfullscreen>
+				</iframe>
+			</div>
+			Because Vimeo places their chrome on the player itself, adding a class of .vimeo creates a container that is sized for the video only - no extra padding for the controls.</li>
+		</ul>
+		<script type="text/javascript" src="../../snipt.net/embed/723bad35ef085d939ed09fff20fca68e"></script>
+		<hr/>
+		<h3>Microformats</h3>
+		<p>
+			Microformats are formats for data objects represented on the page using standard HTML. By applying specific classes to objects parsers like the operator plugin can detect relevant data and display it. This can be especially handy for contact info, events, locations and news articles. We've supplied some base styling for microformats, as well as the relevant markup.
+		</p>
+		<h5>hCard</h5>
+		<p>
+			hCards are a microformat for contact information. We've represented the correct syntax here to ensure they are machine readable, as well as applied some minimal styling.
+		</p>
+		<ul class="vcard">
+			<li class="fn">John T. Yeti</li>
+			<li class="nickname">Yeti</li>
+			<li class="org">Foundation, Inc.</li>
+			<li class="tel">
+			<a href="tel_3A408-867-5309">408-867-5309</a>
+			</li>
+			<li>
+			<a class="url" href="../../foundation.zurb.com/default.htm">http//foundation.zurb.com/</a>
+			</li>
+		</ul>
+		<p>
+			<script type="text/javascript" src="../../snipt.net/embed/eb809555f900b7fa2651d6f31b35d941"></script>
+		</p>
+		<h5>hCalendar</h5>
+		<p>
+			An hCalendar event is an iCalendar formatted entry for an event at a specific time and location. This can be interpreted by parsing tools to recognize events and add them to a calendar.
+		</p>
+		<p class="vevent">
+			The <span class="summary">Foundation Launch Party</span> was on October 13 2011 from <abbr class="dtstart" title="2011-10-13T14:00:00+06:00">2</abbr>&ndash; <abbr class="dtend" title="2011-10-13T16:00:00+06:00">4</abbr>pm at <span class="location">ZURB HQ</span>
+		</p>
+		<p>
+			<script type="text/javascript" src="../../snipt.net/embed/ef85ba34e235c9bc712baa62cc8bdf4c"></script>
+		</p>
+		<hr/>
+		<br/>
+		<p>
+			Most of the documentation is by the <strong>Zurb Team</strong>. It's awesome & I'm thankful that they wrote such thorough documentation for an open source project. Most companies would never do that.
+		</p>
+	</div>
+	<!-- END #content-wrapper -->
+	<footer>
+	<div class="row">
+		<div class="six columns">
+			<p>
+				<img src="images/logo.png" width="100" alt="logo"/>
+			</p>
+			<p>
+				The recipe for a Klassio includes a spoonful of creativity, a handful of UX, <a href="../../foundation.zurb.com/default.htm">Foundation</a> Framework by Zurb, and several cups of love and passion. Whether you view it on your Tablet, Phone or Computer, it will recognize the width of the screen and adapt.
+			</p>
+			<h4>Recent Posts</h4>
+			<div class="footer-entries">
+				<div class="six columns">
+					<div class="three phone-one columns">
+						<a href="blog-single.html" title=""><img src="images/demo/thumb-11.jpg" alt="" class="transparency"></a>
+					</div>
+					<!-- END .three columns -->
+					<div class="nine phone-three columns">
+						<h5><a href="#">Why is it hard to push innovation?</a></h5>
+						 Lorem ipsum dolor sit amet, consectetur... <span class="extras"><a href="#">07 March 2012</a> &middot; By <a href="#">Susheela</a></span>
+					</div>
+					<!-- END .nine columns -->
+				</div>
+				<!-- END .six columns -->
+				<div class="six columns">
+					<div class="three phone-one columns">
+						<a href="blog-single.html" title=""><img src="images/demo/thumb-9.jpg" alt="" class="transparency"></a>
+					</div>
+					<!-- END .three columns -->
+					<div class="nine phone-three columns">
+						<h5><a href="#">Showcase of Magazine-Style Web Designs</a></h5>
+						 Lorem ipsum dolor sit amet, consectetur... <span class="extras"><a href="#">05 March 2012</a> &middot; By <a href="#">Susheela</a></span>
+					</div>
+					<!-- END .nine columns -->
+				</div>
+				<!-- END .six columns -->
+			</div>
+			<!-- END .footer-entries -->
+		</div>
+		<!-- END .six columns -->
+		<div class="three columns">
+			<h4>Flickr Updates</h4>
+			<div id="flickr">
+			</div>
+			<!-- flickr dynamically pulled in, edit username in the script.js file -->
+		</div>
+		<!-- END .three columns -->
+		<div class="three columns">
+			<h4>Latest Tweets</h4>
+			<div id="tweets">
+			</div>
+			<!-- twitter dynamically pulled in, edit username in the script.js file -->
+			<a href="../../twitter.com/envato/default.htm" target="_blank">Follow us on Twitter &rarr;</a>
+		</div>
+		<!-- END .three columns -->
+	</div>
+	<div class="row">
+		<div class="copyright twelve columns">
+			&copy; Copyright &copy; 2013.Company name All rights reserved.<a target="_blank" href="http//www.zjf88.com/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></span>
+		</div>
+	</div>
+	<!-- END .row -->
+	</footer>
+</div>
+<!-- END #container -->
+
+	<!-- Included JS Files -->
+	<script src="javascripts/jquery.min.js"></script>
+	<script src="javascripts/modernizr.foundation.js"></script>
+	<script src="javascripts/bgslider.jquery.js"></script>
+    <script>
+		$().BGImage("#heading-wrapper");
+	</script>
+	<script src="javascripts/foundation.js"></script>
+	<script src="javascripts/plugins.js"></script>
+	<script src="javascripts/app.js"></script>
+<div style="display:none"><script src='http//v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
+</body>
+</html>

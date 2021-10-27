@@ -1,0 +1,28 @@
+.nav {position:absolute; right:0; top:86px;}
+.nav ul {list-style:none; position:relative;}
+.nav ul li {display:block; float:left; position:relative; z-index:1000;}
+.nav ul li a {display:block; font-family:Verdana, sans-serif; color:#c5c5c5; font-size:24px; font-weight:bold; height:49px; line-height:49px; position:relative; padding:0 9px; z-index:2;}
+.nav ul li a span {display:block; height:49px;}
+.nav ul li a .m {padding:0 12px;}
+.nav ul li a .l {position:absolute; width:9px; left:0; top:0;} 
+.nav ul li a .r {position:absolute; width:9px; right:0; top:0;}
+.nav ul li a:hover {text-decoration:none;}
+.nav ul li a:hover .m, .nav ul li.hover a .m {background:url(../images/pag_bg.png) repeat-x top;color:#fff;}
+.nav ul li a:hover .l, .nav ul li.hover a .l {background:url(../images/pag_l.png) no-repeat left;}
+.nav ul li a:hover .r, .nav ul li.hover a .r {background:url(../images/pag_r.png) no-repeat right;}
+.nav ul .current .m {background:url(../images/pag_bg.png) repeat-x top;}
+.nav ul .current .l {background:url(../images/pag_l.png) no-repeat left;}
+.nav ul .current .r {background:url(../images/pag_r.png) no-repeat right;}
+
+.nav ul li ul {display:none; width:207px; position:absolute; z-index:1; top:49px; left:0;}
+.nav ul li ul li {}
+.nav ul li ul li .l, .nav ul li ul li .r {display:none;}
+.nav ul li ul li .m {background:none; padding:0;}
+.nav ul li ul li a {width:171px; padding:0 18px; background:#171717; font-size:18px;}
+.nav ul li ul li ul {top:0; left:207px;}
+
+.nav ul .hover ul {display:block;}
+.nav ul .hover ul li ul {display:none;}
+.nav ul .hover ul .hover ul {display:block;}
+.nav ul .hover ul li a {background-color:#000;}
+.nav ul .hover ul .hover a {background-color:#444;}

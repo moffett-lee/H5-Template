@@ -1,0 +1,220 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http//www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http//www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta name="apple-touch-fullscreen" content="YES" />
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+<meta name="description" content="成都新东方烹饪学校是经四川省成都市劳动和社会保障局批准的以川菜教育为主的大型烹饪专业学校,是培养国家高级烹调师、技师和烹饪管理人才的国际餐饮教育基地 （IFBA——EPNT）。">
+<meta name="keywords" content="成都新东方烹饪学校手机网，学校概况，厨师学校，西点学校，学厨师">
+<title>仿成都新东方烹饪学校手机wap学校网站模板学校简介页-3v3手机模板资源【www.zjf88.com】</title>
+<link href="../css/sj_index.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="wapwidth">
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "../../hm.baidu.com/hm.js@cd35e5dc02dea99adf9b7eb16bff5aaf";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+  <!-----logo--------------------->
+<div id="logo"><a href="../sitemap/index.shtml"><img src="../images/xdf_index_header.gif" alt="成都新东方烹饪学校" usemap="#Map" title="成都新东方烹饪学校" border="0">
+    <map name="Map" id="Map">
+      <area shape="rect" coords="234,4,321,31" href="../../weibo.com/scxdf" />
+      <area shape="rect" coords="233,33,321,56" href="../../t.qq.com/sccdxdf" />
+    </map>
+</a></div>
+<!-----------daohang------------>
+<div id="daohang">
+   <div id="daohang_top">
+     <ul>
+       <li  class="lin"><a href="../default.htm">首&nbsp;&nbsp;&nbsp;&nbsp;页</a></li>
+       <li><a href="xxjj.shtml">学校简介</a></li>
+       <li><a href="../xxxw/index.shtml">学校新闻</a></li>
+       <li><a href="../news/xxhj/default.htm">校园环境</a></li>
+     </ul>
+   </div>
+   <div id="daohang_top">
+     <ul>
+       <li  class="lin"><a href="../zysz/zysz.shtml">专业介绍</a></li>
+       <li><a href="../news/msfc/default.htm">名师风采</a></li>
+       <li><a href="../jybz/jybz.shtml">就业保障</a></li>
+       <li><a href="../news/jyxx/default.htm">就业信息</a></li>
+     </ul>
+   </div>
+      <div id="daohang_top">
+     <ul>
+       <li  class="lin"><a href="../news/rxxz/default.htm">入学须知</a></li>
+       <li><a href="../news/cgxz/default.htm">成功学子</a></li>
+       <li><a href="../news/xszp/default.htm">学生作品</a></li>
+       <li><a href="../zxlx/zxbm.shtml">咨询报名</a></li>
+     </ul>
+   </div>
+ </div>
+
+<!-----------学校简介----------->
+<div id="zysz_rm"><span style="color:#585858; font-size:14px; width:46%; font-weight:bold; padding:5px 28% 0px 28%; line-height:32px; height:32px;">新东方烹饪学校简介</span></div>
+<div id="xxjj_news">
+<span><img src="../images/xxjj01.jpg" alt="办中国最好的职业教育学校"  width="276" height="106"/></span>
+<p>1988年，全国首所新东方烹饪学校成立；</p>
+<p>1990年至今，在全国13个省市建立直属院校；</p>
+<p>1991年至1993年，连续三年被教育主管部门评为“示范窗口学校”</p>
+</div>
+ <div id="xxjj_news">
+<span><img src="../images/xxjj02.jpg" alt="办中国最好的职业教育学校"  width="276" height="106"/></span>
+<p>1994年，被国家劳动部正式批准为省级高级烹调师定点培训和考核单位;</p>
+<p>1996年，新东方烹饪教育作为中国唯一一家烹饪教育机构，成功协办全国第六届厨师节；</p>
+<p>1998年，拍摄《跟我学烹饪》专题片，荣获国家社科类电教片二等奖；</p>
+<p>1999年，与中央电视台联合拍摄《华视厨艺》栏目，卫星覆盖，全国播放；</p>
+<p>2000年，荣获首届中国美食节名菜名点大赛金奖;</p>
+<p>2002年，应邀参加中央电视台“满汉全席—全国烹饪擂台赛”，勇夺擂主并荣获最高奖 “金勺奖”；</p>
+</div> 
+ <div id="xxjj_news">
+<span><img src="../images/xxjj03.jpg" alt="办中国最好的职业教育学校" width="276" height="106" /></span>
+<p>2002年，应邀参加中国（烟台）国际美食节，荣获果蔬雕刻金奖；</p>
+<p>2003年，应邀参加第十三届中国厨师节，荣获“展台金奖”、“中华金厨奖”；</p>
+<p>2003年，经成都市劳动和社会保障局批准认定为“国家职业技能鉴定所”；</p>
+<p>2003年，被国际餐饮协会评定为“国际餐饮教育基地”</p>
+<p>2004年，被国家劳动和社会保障部评为“全国先进办学单位”;</p>
+</div>
+<ul class="ulone">
+<li class="li_li"><a href='xxjj_3.shtml'>prev</a></li>
+<li class="ulone_li" id="hover">1</li>
+<li class="ulone_li"><a href='xxjj_1.shtml'>2</a></li>
+<li class="ulone_li"><a href='xxjj_2.shtml'>3</a></li>
+<li class="ulone_li"><a href='xxjj_3.shtml'>4</a></li>
+<li class="li_li"><a href='xxjj_1.shtml'>Next</a></li>
+</ul>
+
+<script type="text/javascript">
+function showLocale(objD)
+{
+	var str,colorhead,colorfoot;
+	var yy = objD.getYear();
+	if(yy<1900) yy = yy+1900;
+	var MM = objD.getMonth()+1;
+	if(MM<10) MM = '0' + MM;
+	var dd = objD.getDate();
+	if(dd<10) dd = '0' + dd;
+	var hh = objD.getHours();
+	if(hh<10) hh = '0' + hh;
+	var mm = objD.getMinutes();
+	if(mm<10) mm = '0' + mm;
+	var ss = objD.getSeconds();
+	if(ss<10) ss = '0' + ss;
+	str = yy + "年" + MM + "月" + dd +"日"+ hh + "时" + mm+"分" ;
+	return(str);
+}
+function tick()
+{
+	var today;
+	today = new Date();
+	document.getElementById("timeer").value = showLocale(today);
+	
+}
+</script>
+<base target="_blank">
+<!----------foot--------------->
+<div id="f"><!-----------在线报名----------->
+<div id="zysz_rm">
+   <div id="zysz_rm_left"><a href="../zxlx/zxbm.shtml"><img src="../images/xdf_index_dhlico.png" alt="在线报名" width="12" height="12">&nbsp;在线报名</a></div>
+</div>
+<div class="Fform">
+         <form action="http//www.scxdf.com/plus/diy2.php" enctype="multipart/form-data" id="zxbmform" name="zxbmform" method="post">
+         <input type="hidden" name="action" value="post" />
+          <input type="hidden" name="diyid" value="2" />
+          <input type="hidden" name="do" value="2" /> 
+<table width="100%" border="0" class="ad" cellpadding="0" cellspacing="1" id="testTable">
+	<tr>
+		<td align="right" width="30%" style="padding-left: 5px; padding-top: 4px; padding-bottom: 4px; padding-right: 18px;">
+		我的姓名
+		</td>
+		<td width="70%" align="left" style="padding-top: 4px; padding-bottom: 4px; padding-right: 18px;">
+		<input type='text' name='name' id='name' reg="^[\u4e00-\u9fa5]+$" tip="只允许中文字符"/>
+		</td>
+	</tr>
+	<tr>
+		<td align="right" width="30%" style="padding-left: 5px; padding-top: 4px; padding-bottom: 4px; padding-right: 18px;">
+		我的电话
+		</td>
+		<td align="left" width="70%" style="padding-top: 4px; padding-bottom: 4px; padding-right: 18px;">
+		<input type='text' name='tel' id='tel' reg="^\d{3}-\d{8}$|^\d{4}-\d{7}$|^\d{11}$" tip="国内电话号码，格式: 028-86112666、0832-4405222 或 13282634503"/>
+		</td>
+	</tr>
+	<tr>
+		<td align="right"  width="30%" style=" padding-top: 4px; padding-bottom: 4px; padding-right: 18px;">
+		我的QQ
+		</td>
+		<td align="left" width="70%" style="padding-top: 4px; padding-bottom: 4px; padding-right: 18px;">
+		<input type='text' name='qqmsn' id='qqmsn' tip="QQ号，六位至11位，如：14578932" />
+		</td>
+	</tr>
+	<tr>
+		<td align="right"  width="30%" style="padding-top: 4px; padding-bottom: 4px; padding-right: 18px;">我要报读
+		</td>
+		<td align="left" width="70%" style="padding-left: 5px; padding-top: 4px; padding-bottom: 4px; padding-right: 18px;">
+        <select id="specialty" name="specialty" reg="[^0]" tip="一定要选择哟" style=" width:150px;">
+            <option value='川菜金牌大厨专业'>川菜金牌大厨专业</option>    
+            <option value='川菜大厨专业'>川菜大厨专业</option>   
+            <option value='西点全能专业'>西点全能专业</option>    
+            <option value='川菜精英专业'>川菜精英专业</option>    
+            <option value='川菜专修班'>川菜专修班</option>   
+            <option value='川菜强化班'>川菜强化班</option>         
+            <option value='中式面点特色班'>中式面点特色班</option>           
+            <option value='食品雕刻特色班'>食品雕刻特色班</option>          
+            <option value='精品火锅特色班'>精品火锅特色班</option>                   
+            <option value='考证辅导班'>考证辅导班</option>        
+            </select> 
+        <span name="easyTip"></span>
+		</td>
+	</tr>
+    <tr>
+		<td align="right"  width="30%" style=" padding-top: 4px; padding-bottom: 4px; padding-right: 18px;">
+		报名时间
+		</td>
+		<td align="left" width="70%" style="padding-top: 4px; padding-bottom: 4px; padding-right: 18px;">
+		<input type='text' name='timeer' id='timeer' class='intxt' value='' onclick="tick()" />
+		</td>
+	</tr>
+	<tr>
+	<td colspan="2" align="center" style="padding-top: 4px; padding-bottom: 4px;">
+    <input type="submit" name="submit" value="提 交" class='coolbg' />&nbsp;<input type="reset" name="reset" value="重 置" class='coolbg' /> 
+	</td>
+	</tr>
+</table>
+<input type="hidden" name="dede_fields" value="name,text;sex,radio;age,select;deg,select;adde,text;tel,text;qqmsn,int;specialty,select;bz,multitext;timeer,text" />
+    
+    <input type="hidden" name="dede_fieldshash" value="812d776617c420d45d20757358f75cb0" />
+</form>
+</div>
+
+
+<div id="foot">
+    <a href="../zxlx/tel.shtml#qyqq"><img src="../images/xdf_index_foot01.png" alt="企业QQ 添加即可咨询"></a>
+    <a href="../zxlx/tel.shtml"><img src="../images/xdf_index_foot02.png" alt="电话咨询"></a>
+</div>
+<section class="reTop">
+			<a href="javascript:window.scrollTo(0,0);" class="btn btn1">返回顶部▲</a>
+</section> 
+<footer class="site">
+		<nav class="foo">
+		<a href="../default.htm">网站首页</a>
+		<a href="../news/rxxz/default.htm">入学须知</a>
+		<a href="../sitemap/index.shtml#rmzt">热门专题</a>
+		<a href="../sitemap/index.shtml">网站地图</a>
+		</nav>
+			<p class="cop">温馨提示：本信息仅供提供演示方便链接，与原网站无关！ <a href="index.html">首页</a>  <a href="/xxjj/xxjj.shtml">学校简介页</a>  <a href="/xxxw/index.shtml">新闻页列表</a>  <a href="/xxxw/14023.html">正文页</a>  <a href="/zxlx/zxbm.shtml">咨询报名页</a>  <a href="/zysz/zysz.shtml">专业介绍页</a>
+			</p>
+
+</footer>
+<script type="text/javascript" src="../css/jquery-1.4.2.min.js"></script>
+
+
+</div>
+</body>
+</html>

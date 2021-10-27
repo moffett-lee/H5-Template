@@ -1,0 +1,138 @@
+/* ===================================================================================
+
+Theme Name: Moderna Responsive Site Template
+Theme URI: http//pixel-industry.com/moderna/Boxed/
+Description: Moderna is Responsive and Creative Site Template 
+Author: pixel-industry
+Author URI: http//pixel-industry.com
+Version: 1.0
+
+====================================================================================== */
+
+.btn-big{
+    width: auto;
+}
+
+.btn-big span{
+    width: auto;
+    display: block;
+}
+
+.btn-medium{
+    filter:chroma(color=#000000);
+    width: 105px;
+    border: 1px solid #8e8e8e !important;
+}
+
+#search-submit{
+    text-transform:capitalize
+}
+
+.note.grid_12 .text{
+    width: auto;
+    padding-right: 15px;
+}
+
+#nav > ul{
+    z-index: 300;
+    position: relative;
+}
+
+nav li ul{
+    background: #fff;
+    border-top: 1px solid #ececec;
+}
+
+#anything-slider {
+    height: 340px;
+    overflow-y: hidden;
+}
+
+.anythingControls{
+    left: 430px;
+}
+
+.anythingControls ul li{
+    width: 10px;
+    height: 10px;
+    display: block !important;
+    background: #fff;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+}
+
+.ruler{
+    color: #ececec;
+}
+
+.img-hover .title{
+    padding: 0 0 10px 0;
+}
+
+.bottom.showcase-nav{
+    margin-bottom: 0;
+    padding-bottom: 15px;
+}
+
+.single.showcase-wrapper .showcase-item{
+    padding-bottom: 40px;
+}
+
+.tabs li.active{
+    border-left: 1px solid #ececec;
+}
+
+.aside-widgets .categories, .aside-widgets .archives{
+    overflow: hidden;
+    display: block;   
+}
+
+.comment-form .name, .comment-form .email{
+    padding-top: 10px;
+    height: 20px;
+}
+
+.contact-form .name, .contact-form .email{
+    padding-top: 10px;
+    height: 20px;
+}
+
+.accordion .content{
+    float: none;
+}
+
+.services-presentation ul li{
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin: 0 2px 2px 0;
+}
+
+.tweets-list-container{
+    position: relative;
+}
+
+.grid_12.section-title{
+  float: none;
+  display: block;
+}
+
+.grid_12.note{
+    float: none;
+  display: block;
+  margin-bottom: 0px !important;
+}
+
+.pagination{
+    margin-top: 40px !important;
+    margin-bottom: 0 !important;
+}
+
+#footer{
+    margin-top: 40px;
+}
+
+.map-short{
+    margin-bottom: 30px;
+}
